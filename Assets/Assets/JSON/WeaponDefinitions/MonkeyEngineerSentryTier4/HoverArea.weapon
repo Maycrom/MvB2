@@ -1,0 +1,140 @@
+{	
+    "Type":             "HoverArea",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [2,3],
+	// TripleDarts ----> Juggernaut
+    "Tasks" :
+    [
+		{
+			"Type" : "TowerModifier",
+			"Area" : [ 30, 30 ],
+			"PriorityLevel": 5,
+			"ApplyToUserTower": false,
+			"TerminateOnUserUpgrade" : false,
+			"ModifyMovingTowers": true,
+			"Duration": 0.01,
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "WizardLord" ]
+				}
+			},
+			"Modifier" : 
+			{
+			},
+			"Tasks":
+			[
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 1,
+					"Amount" : 1
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Position": [ 322, 250 ], 
+					"Scale": 0,
+					"Duration": 0.00001,
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1000,
+								"CutOffDistance": 12
+							},
+							"Tasks":
+							[
+								{
+									"Type":             "Projectile",
+									"SpriteFile":      "DGParticle.json",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"SpinRate": 360,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 1.95,
+									
+									"Movement":
+									{
+										"Type": "MotionCurve",
+										"Curves":
+										[
+											[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
+										],
+										"Speed": 10,
+										"CutOffDistance": 20,
+										"AngleOffset" : -0.7853981634,
+										"TerminateAtEndOfCurve": true,
+										"ScaleCurvesByDirection": false
+									}
+								}
+							]
+						}	
+					]
+				}	
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "DGArrow",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"TerminateOnTowerRemoved": true,
+			"CollisionType": "None",
+			"HasFixedAngle": true,
+			"DrawLayer": "FullScreen",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 0.000001,
+				"CutOffDistance": 0.000000034
+			}
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "DGArrow_Off",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"TerminateOnTowerRemoved": true,
+			"CollisionType": "None",
+			"HasFixedAngle": true,
+			"DrawLayer": "FullScreen",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 0.000001,
+				"CutOffDistance": 0.000000034
+			}
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "DGArrow_Standby",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"TerminateOnTowerRemoved": true,
+			"CollisionType": "None",
+			"HasFixedAngle": true,
+			"DrawLayer": "FullScreen",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 0.000001,
+				"CutOffDistance": 0.000000034
+			}
+		}		
+	]
+}

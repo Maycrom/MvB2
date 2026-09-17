@@ -1,0 +1,31 @@
+{
+	"Type" : "Golden",
+    "DrawLayer": "Air",
+    "InitialHealth" : 100,
+	"SpriteFilesAtDamageLevels": [
+		[ "Golden01.json", 90 ],
+		[ "Golden02.json", 80 ],
+		[ "Golden03.json", 70 ],
+		[ "Golden04.json", 60 ],
+        [ "Golden05.json", 50 ],
+        [ "Golden06.json", 40 ],
+        [ "Golden07.json", 30 ],
+        [ "Golden08.json", 20 ],
+        [ "Golden09.json", 10 ],
+        [ "Golden10.json", 1 ]
+	],
+    "BaseSpeed" : 70,
+    "SpeedMultiplier" : 3.5,
+    "RBE" : 300,
+    "ChildBloons" : [],
+    "StatusImmunity" : ["CrippleMOAB", "BeeSting", "MoveToPath"],
+    "DamageImmunity" : [ "Piercing", "Fire", "MOABMauler", "Foam" ],
+    "ApplyStatus" : [ "Camo" ],
+    "CanGoUnderground" : false,
+	"RotateToPathDirection" : false,
+    "Radius" : 10,
+    "Scale" : 1.0,
+    "ChildEffectScale" : 1.26
+
+}
+

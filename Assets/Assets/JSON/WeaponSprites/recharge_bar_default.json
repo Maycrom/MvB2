@@ -1,0 +1,191 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 3,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_outline",
+         "type" : 1,
+         "uid" : 23
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 2,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_outline",
+         "type" : 1,
+         "uid" : 22
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_outline",
+         "type" : 1,
+         "uid" : 21
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_outline",
+         "type" : 1,
+         "uid" : 20
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 3,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "tower_recharge_inside_red",
+         "type" : 1,
+         "uid" : 11
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 2,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "tower_recharge_inside_red",
+         "type" : 1,
+         "uid" : 12
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "tower_recharge_inside_red",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_inside_green",
+         "type" : 1,
+         "uid" : 3
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 180.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_inside_green",
+         "type" : 1,
+         "uid" : 5
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 270.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_inside_green",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "tower_recharge_inside_red",
+         "type" : 1,
+         "uid" : 10
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_inside_green",
+         "type" : 1,
+         "uid" : 4
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "tower_recharge_outline",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "tower_recharge_inside_red",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "tower_recharge_inside_green",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 99999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 5,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 6,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 4,
+         "stage" : [
+		 ] 
+	  }	 
+   ]
+}

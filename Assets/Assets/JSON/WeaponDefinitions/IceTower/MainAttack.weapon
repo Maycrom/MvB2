@@ -1,0 +1,301 @@
+{	
+    "Type":             "MainAttack",    
+    "TargetRange":      60.0,
+	"CooldownTime":     3.9,
+    "FireDelayTime":    2.1,
+	"RequiresTargetToFire"	: false,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ 0, -3 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "fire_orb.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					"HasFixedAngle": true,
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "MotionCurve",
+						"Curves": 
+						[
+							[ [0, 20], [70, -40], [140, 20], [210, 0] ],
+							[ [210, 0], [280, -20], [350, 20], [420, 0] ],
+							[ [420, 0], [490, -20], [560, 20], [630, 0] ]
+						],
+						"Speed": 200.0,
+						"TerminateAtEndOfCurve": true
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "None",
+							
+							"Radius": 3,
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 0.01,
+							"SpreadAngle": 360,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1.0,
+								"CutOffDistance": 1
+							},
+							"TasksToProcessOnTerminate": [0],
+							"Tasks":
+							[
+								{
+									"Type": "MultiFire",
+									"InitialOffset": 0.0,
+									"AngleIncrement": 60.0,
+									"FireCount": 6,
+									"Tasks":
+									[
+										{ 
+											"Type": "Effect", 
+											"SpriteFile": "fire_orb_particle.json",
+											"UseDirection": true
+										}
+									]	
+								}							
+							]
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 4
+						},	
+						{
+							"Type": "StatusEffect",
+							"Status": "",
+							"DamageRate" : 2,
+							"Duration" : 6
+						},
+						{  
+							"Type" : "TimerFire", 
+							"TimeDelay" : 1.4, 
+							"InitialTime" : 0, 
+							"Loops" : true, 
+							"NumLoops" : 8,
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      5,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Radius": 25,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.01,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.0,
+										"CutOffDistance": 1
+									},
+									"TasksToProcessOnCollision": [0,1],
+									"Tasks":
+									[
+										{
+											"Type": "Damage",
+											"DamageType": "Piercing",
+											"Amount": 1
+										},
+										{
+											"Type": "StatusEffect",
+											"Status": "",
+											"DamageRate" : 2,
+											"Duration" : 6
+										}								
+									]
+								}
+							]
+						},	
+						{  
+							"Type" : "TimerFire", 
+							"TimeDelay" : 0.33, 
+							"InitialTime" : 0.5, 
+							"Loops" : true, 
+							"NumLoops" : 30,
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "None",
+									
+									"Radius": 3,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.01,
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 1.0,
+										"CutOffDistance": 1
+									},
+									"TasksToProcessOnTerminate": [0],
+									"Tasks":
+									[
+										{
+											"Type": "RandomFire",
+											"Range": 40,
+											"MinimumRange" : 10,
+											"OnlyTargetPathLocations": false,
+											"FireFullRange": false,
+											"TerminateOnZeroPersists": true,
+											"TargetIsWeaponTaskOrigin" : true,
+											"FollowTarget": false,
+											
+											"Tasks":
+											[
+												{ 
+													"Type": "Effect", 
+													"SpriteFile": "hotzone_particle.json",
+													"Scale": 0.5
+												}
+											]	
+										}
+									]
+								}	
+							]
+						},
+						{  
+							"Type" : "TimerFire", 
+							"TimeDelay" : 0.47, 
+							"InitialTime" : 1, 
+							"Loops" : true, 
+							"NumLoops" : 25,
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "None",
+									
+									"Radius": 3,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.01,
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 1.0,
+										"CutOffDistance": 1
+									},
+									"TasksToProcessOnTerminate": [0],
+									"Tasks":
+									[
+										{
+											"Type": "RandomFire",
+											"Range": 40,
+											"MinimumRange" : 10,
+											"OnlyTargetPathLocations": false,
+											"FireFullRange": false,
+											"TerminateOnZeroPersists": true,
+											"TargetIsWeaponTaskOrigin" : true,
+											"FollowTarget": false,
+											
+											"Tasks":
+											[
+												{ 
+													"Type": "Effect", 
+													"SpriteFile": "hotzone_particle.json",
+													"Scale": 0.5
+												}
+											]	
+										}
+									]
+								}	
+							]
+						},
+						{  
+							"Type" : "TimerFire", 
+							"TimeDelay" : 0.4, 
+							"InitialTime" : 0.75, 
+							"Loops" : true, 
+							"NumLoops" : 25,
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "None",
+									
+									"Radius": 3,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.01,
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 1.0,
+										"CutOffDistance": 1
+									},
+									"TasksToProcessOnTerminate": [0],
+									"Tasks":
+									[
+										{
+											"Type": "RandomFire",
+											"Range": 40,
+											"MinimumRange" : 10,
+											"OnlyTargetPathLocations": false,
+											"FireFullRange": false,
+											"TerminateOnZeroPersists": true,
+											"TargetIsWeaponTaskOrigin" : true,
+											"FollowTarget": false,
+											
+											"Tasks":
+											[
+												{ 
+													"Type": "Effect", 
+													"SpriteFile": "hotzone_particle.json",
+													"Scale": 0.5
+												}
+											]	
+										}
+									]
+								}	
+							]
+						}						
+					]
+				}
+			]
+		}
+	]
+}

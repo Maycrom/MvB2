@@ -1,0 +1,55 @@
+{
+    "nk_description": "LOC_MIS_35_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "NinjaMonkey", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "MaxNumberOfTotalTowers": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "MaxNumberOfEachTower": -1, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 4000, 
+        "Health": 50, 
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "BloonsdayDevice"
+            }
+        ]
+    }, 
+    "nk_title": "LOC_MIS_35", 
+    "nk_track": "crop_circles", 
+    "nk_rank_required": 0, 
+    "nk_id": "38", 
+    "nk_mode": 5, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

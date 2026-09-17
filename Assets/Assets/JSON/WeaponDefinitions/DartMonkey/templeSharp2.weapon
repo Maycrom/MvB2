@@ -1,0 +1,50 @@
+{	
+    "Type":             "templeSharp2",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     1.62,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 12,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 1000,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"Proxied" : true,
+							"Amount" : 1,
+							"RoundRobin" : true
+						}
+					]
+				}
+			]
+		}		
+    ]
+}

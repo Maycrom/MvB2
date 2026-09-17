@@ -1,0 +1,10 @@
+{
+	"Music" : "electro.mp3",
+	
+	"entryMarkers" : [
+		[ [ 90, 0 ], 70 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 105, 320 ], -65 ]
+	]
+}

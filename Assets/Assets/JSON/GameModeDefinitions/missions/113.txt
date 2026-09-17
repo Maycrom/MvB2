@@ -1,0 +1,61 @@
+{
+    "nk_description": "LOC_MIS_113_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 65, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "BombTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 65, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 10000, 
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "SuperMonkeyStorm"
+            }
+        ], 
+        "StartRound": 40
+    }, 
+    "nk_title": "LOC_MIS_113", 
+    "nk_track": "monkey_lane", 
+    "nk_rank_required": 0, 
+    "nk_id": "137", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

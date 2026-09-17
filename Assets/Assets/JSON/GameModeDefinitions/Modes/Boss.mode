@@ -1,0 +1,25 @@
+{
+	"Rules" : {
+        "CanSave" : false,
+		"PauseBetweenRounds" : false,
+        "BonusTokenRound"  :  -1,
+		"TargetRound" : -1,
+        "DisableHints" : true,
+        "DisableEveryplay" : false,
+        "BossDamageCash" :  1,
+        "AllowContinueOnGameOver" : false,
+        "AllowRetryOnGameOver" : true,
+        "MoneyPerRound": 0,
+        "Reward": {
+            "XP": 0,
+            "XPMultiplier": 0,
+            "MonkeyMoney": 0,
+            "MonkeyMoneyMultiplier": 0,
+            "TokensEasy": 0,
+            "TokensMedium": 0,
+            "TokensHard": 0,
+            "TokensImpoppable": 0,
+            "Tokens": 0
+        }
+    }
+}

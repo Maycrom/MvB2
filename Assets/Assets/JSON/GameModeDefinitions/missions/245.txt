@@ -1,0 +1,68 @@
+{
+    "nk_description": "LOC_MIS_245_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 65, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "SniperMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0, 
+            1, 
+            0, 
+            2, 
+            1, 
+            0, 
+            0, 
+            0,
+            0,
+            0, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 4500, 
+        "Inventory": [], 
+        "StartRound": 25
+    }, 
+    "nk_title": "LOC_MIS_245", 
+    "nk_track": "canyon", 
+    "nk_rank_required": 0, 
+    "nk_id": "279", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

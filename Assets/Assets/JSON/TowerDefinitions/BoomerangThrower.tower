@@ -1,0 +1,94 @@
+{
+    "AircraftList" : [],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : 
+	[ 
+		"",
+		"templeWind2.weapon",
+		"BoomerangThrower.weapon", 
+		"GlaiveLord.weapon",
+		"TonicModifier.weapon"
+	],
+	"ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+		false,
+		false
+    ],
+    "Icon" : "ice_avatar_small",
+    "RankToUnlock" : 4,
+    "RotatesToTarget" : false,    
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+	"InitialAngle" : 90,
+    "TypeName" : "BoomerangThrower",
+	
+    "Upgrades" : [
+        [
+            "Multi-Target",
+            "Glaive Thrower",
+            "Glaive Riccochet",
+            "Glaive Lord"
+        ],
+        [
+            "Sonic Boom",
+            "Red Hot Rangs",
+            "Bionic Boomer",
+            "Turbo Charge"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 8, "XP" : 0 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 225, 99999, 1500, 9000 ],
+        [ 999999, 150, 1600, 3000 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "ice_avatar_small",
+            "ice_avatar_small",
+            "ice_avatar_small",
+            "ice_avatar_small"
+        ],
+        [
+            "ice_avatar_small",
+            "ice_avatar_small",
+            "ice_avatar_small",
+            "ice_avatar_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "arctic_monkey",
+            "boomerang_glaive_thrower_icon",
+            "boomerang_glaive_riccochet_icon",
+            "boomerang_glaive_lord_icon"
+        ],
+        [
+            "boomerang_sonic_boom_icon",
+            "boomerang_red_hot_icon",
+            "boomerang_bionic_boomer_icon",
+            "boomerang_turbo_charge_icon"
+        ]
+    ],
+    
+    "UseRadiusPlacement"    : false,
+    "PlacementRadius"       : 0.0,
+    "PlacementH"            : 25.0,
+    "PlacementW"            : 25.0,
+    "SpriteUpgradeDefinition" : "BoomerangTower.json",
+	"DefaultSprite"         : "mvb_ice_monkey.json",
+	"PlacementFiringSequence" : [ 1 ]
+}

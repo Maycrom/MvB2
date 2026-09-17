@@ -1,0 +1,1661 @@
+{	
+    "Type":             "MMDropRandomizer",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 1 ],
+                    "ToDisable": [ 0 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 2 ],
+                    "ToDisable": [ 1 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 3 ],
+                    "ToDisable": [ 2 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 4 ],
+                    "ToDisable": [ 3 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 5 ],
+                    "ToDisable": [ 4 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 6 ],
+                    "ToDisable": [ 5 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 7 ],
+                    "ToDisable": [ 6 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 8 ],
+                    "ToDisable": [ 7 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 9 ],
+                    "ToDisable": [ 8 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 10 ],
+                    "ToDisable": [ 9 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 11 ],
+                    "ToDisable": [ 10 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 12 ],
+                    "ToDisable": [ 11 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 13 ],
+                    "ToDisable": [ 12 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 14 ],
+                    "ToDisable": [ 13 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 15 ],
+                    "ToDisable": [ 14 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 16 ],
+                    "ToDisable": [ 15 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 1 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 17 ],
+                    "ToDisable": [ 16 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 18 ],
+                    "ToDisable": [ 17 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 19 ],
+                    "ToDisable": [ 18 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 20 ],
+                    "ToDisable": [ 19 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 21 ],
+                    "ToDisable": [ 20 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 22 ],
+                    "ToDisable": [ 21 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 23 ],
+                    "ToDisable": [ 22 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 24 ],
+                    "ToDisable": [ 23 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 1 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 25 ],
+                    "ToDisable": [ 24 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 26 ],
+                    "ToDisable": [ 25 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 27 ],
+                    "ToDisable": [ 26 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 28 ],
+                    "ToDisable": [ 27 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 29 ],
+                    "ToDisable": [ 28 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 30 ],
+                    "ToDisable": [ 29 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 31 ],
+                    "ToDisable": [ 30 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 1 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 32 ],
+                    "ToDisable": [ 31 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 33 ],
+                    "ToDisable": [ 32 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 34 ],
+                    "ToDisable": [ 33 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 35 ],
+                    "ToDisable": [ 34 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 36 ],
+                    "ToDisable": [ 35 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 37 ],
+                    "ToDisable": [ 36 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 38 ],
+                    "ToDisable": [ 37 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 39 ],
+                    "ToDisable": [ 38 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 40 ],
+                    "ToDisable": [ 39 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 41 ],
+                    "ToDisable": [ 40 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 1 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 42 ],
+                    "ToDisable": [ 41 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 43 ],
+                    "ToDisable": [ 42 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 44 ],
+                    "ToDisable": [ 43 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 45 ],
+                    "ToDisable": [ 44 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 46 ],
+                    "ToDisable": [ 45 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 1 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 47 ],
+                    "ToDisable": [ 46 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 48 ],
+                    "ToDisable": [ 47 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 49 ],
+                    "ToDisable": [ 48 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], true ]
+						]
+					}	
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 0 ],
+                    "ToDisable": [ 49 ]
+                },
+				{
+					"Type": "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 2 ], true ]
+						]
+					}	
+				}
+			]
+		}
+    ]
+}

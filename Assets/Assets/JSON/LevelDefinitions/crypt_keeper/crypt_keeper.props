@@ -1,0 +1,126 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "crypt_keeper_bg",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -70.0, 50.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "crypt_01",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 73.0, 50.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "crypt_01",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -135.0, -150.0 ],
+         "Scale" : [ 1.049999952316284, 1.049999952316284 ],
+         "Shown" : true,
+         "sprite" : "crypt_02",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 146.0, -150.0 ],
+         "Scale" : [ 1.049999952316284, 1.049999952316284 ],
+         "Shown" : true,
+         "sprite" : "crypt_02",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : [
+       {
+	       "VariableName" : "Layers",
+	       "ValueType"    : 5,
+	       "Value"        : 
+		   [
+		       1, 1,
+			   2, 4,
+			   3, 4,
+			   4, 4,
+			   5, 4
+		   ]
+	   }
+   ],
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "crypt_keeper_bg",
+            "Texture" : "crypt_keeper"
+         },
+         {
+            "SpriteInfo" : "crypt_01",
+            "Texture" : "crypt_keeper"
+         },
+         {
+            "SpriteInfo" : "crypt_02",
+            "Texture" : "crypt_keeper"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

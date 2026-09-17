@@ -1,0 +1,64 @@
+{
+    "nk_description": "LOC_MIS_108_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 3, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 3000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_108", 
+    "nk_track": "monkey_lane", 
+    "nk_rank_required": 0, 
+    "nk_id": "132", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

@@ -1,0 +1,121 @@
+{	
+    "Type":             "GameStart",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 4, 348 ], 
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							// Tonic cancellation dummy tower, yes this NEEDS to be a vanilla tower.
+							"Type" : "CreateTower",
+							"TowerType" : "MonkeyEngineerSentry",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 0,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 6000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "MMDropController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 0,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 7000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "TowerSlotController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Position": [ 325, 250 ], 
+					"Scale": 0,
+					"Duration": 0.00001,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "MonkeyEngineerSentryTier4",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": true
+						}
+					]
+				}
+			]
+		}	
+	]
+}

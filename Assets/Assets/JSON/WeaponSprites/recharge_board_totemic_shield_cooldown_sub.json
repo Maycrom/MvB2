@@ -1,0 +1,57 @@
+{
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 50.0 ],
+         "Scale" : [ 0.33, 0.33 ],
+         "Shown" : true,
+         "sprite" : "recharge_board_grey",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+		 "Alignment" : [ 0, 0 ],
+		 "Alpha" : 1.0,
+		 "Angle" : 0.0,
+		 "Flip" : 0,
+		 "Position" : [ 0.0, 47.0 ],
+		 "Scale" : [ 0.82, 0.82 ],
+		 "Shown" : true,
+		 "sprite" : "totemic_shield_static_grey.json",
+		 "type" : 2,
+		 "uid" : 2
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "recharge_board_grey",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "ice_tower_viral_frost_monkey_grey",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 30,
+         "stage" : [
+         ]
+      }
+   ]
+}

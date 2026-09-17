@@ -1,0 +1,32 @@
+{	
+    "Type":             "SentryLegs",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+    "MaxShots" :        1,
+	
+	// Enable Dialogue
+	
+    "Tasks" :
+    [
+        {
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 285, 135 ], 
+			"Scale": 0,
+			"Duration": 0.00001,
+			"Tasks":
+			[
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "MonkeyEngineerSentryTier4",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 999999,
+					"HasParentTower" : true,
+					"UseParentTowerUpgradeLevel": true
+				}
+			]
+		}
+	]
+}

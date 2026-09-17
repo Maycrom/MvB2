@@ -1,0 +1,93 @@
+{	
+    "Type":             "BA_BombExplosion",    
+    "TargetRange":      99999999.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"ForceTargetWeaponOrigin": true,
+	
+	"TargetingFilter":
+	{
+		"Include":
+		{
+			"StatusEffect": [ 
+				"Permafrost" 
+			],
+			"BloonType": [
+				"Red"
+			]
+		}
+	},
+	
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"AcquireTarget": true,
+			"InitialOffset": -0,
+			"AngleIncrement": 0,
+			"FireCount": 100,
+
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+					"CollidesOnlyWithTarget" : true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.04,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1.0,
+						"CutOffDistance": 1
+					},
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 100
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion.json",
+							"Scale": 0.6
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 6,
+							"AimAtTarget" : false,
+							"Offsets" : [
+								[ 0, 4 ],
+								[ 0, 0 ],
+								[ 0, -4 ],
+								[0,-1000000],
+								[0,-1000004],
+								[0,-999996]
+							],
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "TestTower",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 0.1,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}	
+					]
+				}
+			]
+		}
+	]
+}

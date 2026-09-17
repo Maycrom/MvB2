@@ -1,0 +1,153 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Suckier",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"3" : ""
+                }
+            },
+			"WeaponUpgrades" :
+            [
+				{
+					"SlotIndices" : [ 2 ],
+					"Adjust" :
+					{
+						"CooldownTime": -0.4,
+						"TargetRange" : 30
+					}
+                },
+				{
+					"SlotIndices" : [ 3,4,0,1 ],
+					"Adjust" :
+					{
+						"TargetRange" : 30
+					}
+                },
+				{
+					"SlotIndices" : [ 4 ],
+					"Adjust" :
+					{
+						"CooldownTime" : 0.75
+					}
+                },
+				{
+					"SlotIndices": [ 5 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				},
+				{
+					"SlotIndices": [ 4 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1,0,1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Scale" : 0.6
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 3,0,1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Scale" : 0.6
+						}
+					]
+				},
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"NumPersists" : 1,
+							"Movement" :
+							{
+								"Type": "Forward",
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+            ]	
+        },
+        
+        {
+            "Name" : "Heavy Duty Suction"
+        },
+        
+        {
+            "Name" : "Dual Layer Blades"
+        },
+        
+        {
+            "Name" : "Super Wide Funnel"
+        },
+        
+        {
+            "Name" : "Long Range Suck"
+        },
+        
+        {
+            "Name" : "Faster Shred"
+        },
+    
+        {
+            "Name" : "Triple Barrel"
+        },
+        
+        {
+            "Name" : "Supa-Vac",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

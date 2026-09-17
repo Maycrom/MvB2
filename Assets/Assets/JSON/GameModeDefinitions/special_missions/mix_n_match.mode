@@ -1,0 +1,51 @@
+{
+  "Setup": {
+    "Health" : 150,
+    "Money": 650,
+    "StartRound" : 1
+  },
+  "Rules": {
+    "LockedTowers": [
+    ],
+    "LockedUpgrades": [
+      
+    ],
+    "BloonsForcedCamo": [
+      
+    ],
+    "BlockedPremiumUpgrades": [
+      
+    ],
+    "BlockedSpecialties": [
+      
+    ],
+    "TargetRound": 50,
+    "MaxNumberOfEachTower": 1,
+    "MoneyPerRound": 75,
+    "FreeTowersSecondRound": true,
+    "CashPerPopModifier": 0.25,
+    "BloonLevelOffsets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "nk_mode": 0,
+  "nk_description": "LOC_MIS_mix_n_match_DESC",
+  "nk_title": "LOC_MIX_N_MATCH",
+  "nk_rank_required": 999,
+  "nk_id": "999",
+  "nk_track": "campfire"
+}

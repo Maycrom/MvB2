@@ -1,0 +1,65 @@
+{	
+    "Type":             "CharacterDisplay",    
+    "TargetRange":      100.0,
+	"CooldownTime":     2.578541746139526,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"Position": [ 222, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 1,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "speech_bubble.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"TerminateOnTowerRemoved": true,
+					"CollisionType": "None",
+					"HasFixedAngle": true,
+					"DrawLayer": "UnderTowers",
+					
+					"Movement" :
+					{
+						"Type": "Forward",
+						"Speed": 0.000001,
+						"CutOffDistance": 0.000002588541746
+					}
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 252, 175 ],
+			"SpriteFile": "rick.json",
+			"Scale": 0,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "rick.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"TerminateOnTowerRemoved": true,
+					"CollisionType": "None",
+					"HasFixedAngle": true,
+					"DrawLayer": "FullScreen",
+					
+					"Movement" :
+					{
+						"Type": "Forward",
+						"Speed": 0.000001,
+						"CutOffDistance": 0.000002588541746
+					}
+				}
+			]	
+		}
+	]
+}

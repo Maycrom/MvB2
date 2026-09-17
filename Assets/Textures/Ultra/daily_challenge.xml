@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><SpriteInformation>
+<FrameInformation name="daily_challenge" texh="1952" texw="2472" type="jpng">
+<Cell ah="528" aw="211" ax="2" ay="2" h="526" name="daily_challenge_arrow" w="207" x="1816" y="444"/>
+<Cell ah="260" aw="151" ax="0" ay="0" h="260" name="daily_challenge_bg" w="151" x="775" y="1624"/>
+<Cell ah="142" aw="790" ax="7" ay="0" h="142" name="daily_challenge_button" w="778" x="1" y="1237"/>
+<Cell ah="359" aw="117" ax="0" ay="0" h="359" name="daily_challenge_cog" w="117" x="2233" y="455"/>
+<Cell ah="359" aw="117" ax="0" ay="0" h="359" name="daily_challenge_cog_02" w="117" x="2352" y="455"/>
+<Cell ah="429" aw="299" ax="0" ay="0" h="429" name="daily_challenge_unkown" w="299" x="1553" y="1043"/>
+<Cell ah="32" aw="32" ax="0" ay="0" h="32" name="daily_challenge_wall" w="32" x="1" y="1804"/>
+<Cell ah="32" aw="64" ax="0" ay="0" h="32" name="daily_challenge_wall_bottom" w="64" x="1" y="1770"/>
+<Cell ah="1039" aw="108" ax="1" ay="0" h="1039" name="daily_challenge_wall_side" w="107" x="2025" y="909"/>
+<Cell ah="192" aw="1136" ax="0" ay="0" h="192" name="daily_challenge_wall_top" w="1136" x="1" y="1043"/>
+<Cell ah="1040" aw="1813" ax="0" ay="0" h="1040" name="daily_challenge_wheel" w="1813" x="1" y="1"/>
+<Cell ah="441" aw="221" ax="0" ay="0" h="441" name="daily_challenge_wheel_centre" w="221" x="1816" y="1"/>
+<Cell ah="387" aw="386" ax="2" ay="2" h="385" name="daily_challenge_wheel_easy" w="384" x="389" y="1381"/>
+<Cell ah="387" aw="386" ax="0" ay="0" h="387" name="daily_challenge_wheel_hard" w="386" x="1" y="1381"/>
+<Cell ah="387" aw="386" ax="2" ay="2" h="385" name="daily_challenge_wheel_impoppable" w="384" x="781" y="1237"/>
+<Cell ah="387" aw="386" ax="2" ay="2" h="385" name="daily_challenge_wheel_medium" w="384" x="1167" y="1043"/>
+<Cell ah="452" aw="206" ax="0" ay="0" h="452" name="door_easy" w="206" x="1769" y="1474"/>
+<Cell ah="452" aw="206" ax="0" ay="0" h="452" name="door_hard" w="206" x="2039" y="1"/>
+<Cell ah="452" aw="206" ax="0" ay="0" h="452" name="door_impoppable" w="206" x="2247" y="1"/>
+<Cell ah="452" aw="206" ax="0" ay="0" h="452" name="door_medium" w="206" x="2025" y="455"/>
+<Cell ah="429" aw="299" ax="0" ay="0" h="429" name="spin_01" w="299" x="1167" y="1430"/>
+<Cell ah="429" aw="299" ax="0" ay="0" h="429" name="spin_02" w="299" x="1468" y="1474"/>
+</FrameInformation>
+</SpriteInformation>

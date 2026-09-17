@@ -1,0 +1,95 @@
+{
+    "nk_description": "LOC_MIS_225_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 75, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    1, 
+                    1
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MortarTower", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    2, 
+                    1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 4000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_225", 
+    "nk_track": "space_truckin", 
+    "nk_rank_required": 0, 
+    "nk_id": "259", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

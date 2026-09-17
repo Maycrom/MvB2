@@ -1,0 +1,63 @@
+{
+    "nk_description": "LOC_MIS_218_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 85, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 18000, 
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "PortableLake"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "PortableLake"
+            }
+        ], 
+        "StartRound": 46
+    }, 
+    "nk_title": "LOC_MIS_218", 
+    "nk_track": "lightning_scar", 
+    "nk_rank_required": 0, 
+    "nk_id": "247", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

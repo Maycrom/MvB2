@@ -1,0 +1,163 @@
+{	
+    "Type":             "templeSharp2",    
+    "TargetRange":      9999999,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    23.5,
+   	"RequiresTargetToFire"	: false,
+	"TargetingFilter":
+	{
+		"Include":
+		{
+			"BloonType": [
+                "ZOMG"
+			]
+		}
+	},
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"HasFixedAngle": true,
+			
+			"CollisionType": "None",
+			
+			"Radius": 3,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 1,
+				"CutOffDistance": 0.0000006,
+				"Direction": [1, 1]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"HasFixedAngle": true,
+					
+					"CollisionType": "None",
+					"SpreadAngle": 90,
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1,
+						"CutOffDistance": 0.0000006
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type":             "Collectable",
+							"SpriteFile":      "bananas_ground.json",
+							"Duration":	10,
+							"MoneyRange": [ 25, 25 ],
+							"MoneyMultiplier": 1.0,
+							"CollectionRadius": 10,
+							"ClickOnly": true,
+							"AllowMagnetCollection":false,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 150,
+								"KeepOnScreen": true,
+								"SpeedDecay": 0.875
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "bananas_collect.json",
+									"Scale": 1,
+									"Audio": "ANGRY_SQUIRREL"
+								}					
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"HasFixedAngle": true,
+			
+			"CollisionType": "None",
+			
+			"Radius": 3,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 1,
+				"CutOffDistance": 0.0000006,
+				"Direction": [-1, 1]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"HasFixedAngle": true,
+					
+					"CollisionType": "None",
+					"SpreadAngle": 90,
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1,
+						"CutOffDistance": 0.0000006
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type":             "Collectable",
+							"SpriteFile":      "bananas_ground.json",
+							"Duration":	10,
+							"MoneyRange": [ 25, 25 ],
+							"MoneyMultiplier": 1.0,
+							"CollectionRadius": 10,
+							"ClickOnly": true,
+							"AllowMagnetCollection":false,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 150,
+								"KeepOnScreen": true,
+								"SpeedDecay": 0.875
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "bananas_collect.json",
+									"Scale": 1,
+									"Audio": "ANGRY_SQUIRREL"
+								}					
+							]
+						}
+					]
+				}
+			]
+		}		
+	]
+}

@@ -1,0 +1,492 @@
+{ 
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0.6, 0.6 ],
+         "Shown" : true,
+         "sprite" : "level_progress_bg",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 51.0, 0.0 ],
+         "Scale" : [ 0, 0.6 ],
+         "Shown" : true,
+         "sprite" : "level_progress_bar",
+         "type" : 1,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0.6, 0.6 ],
+         "Shown" : true,
+         "sprite" : "level_progress_fg",
+         "type" : 1,
+         "uid" : 3
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 4.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "level_progress_plate",
+         "type" : 1,
+         "uid" : 4
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -47.0, -3 ],
+         "Scale" : [ 0.45, 0.45 ],
+         "Shown" : true,
+         "sprite" : "level_progress_bloon",
+         "type" : 1,
+         "uid" : 5
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -47.0, -3 ],
+         "Scale" : [ 0.45, 0.45 ],
+         "Shown" : true,
+         "sprite" : "level_progress_bloon",
+         "type" : 1,
+         "uid" : 6
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -47.0, -3 ],
+         "Scale" : [ 0.45, 0.45 ],
+         "Shown" : true,
+         "sprite" : "level_progress_bloon",
+         "type" : 1,
+         "uid" : 7
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "level_progress_fg",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "level_progress_bg",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "level_progress_bar",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "level_progress_bloon",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "level_progress_plate",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 999999,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+			   "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 1.8
+            }
+		 ]
+      },
+	  {
+         "spriteuid" : 3,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+			   "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 1.8
+            }
+		 ]
+      },
+	  {
+         "spriteuid" : 4,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 4.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 4.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 1.8
+            }
+		 ]
+      },
+	  {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0, 0.6 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0, 0.6 ],
+               "Shown" : true,
+               "Time" : 1.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0, 0.6 ],
+               "Shown" : true,
+               "Time" : 16 // 3 seconds after first bloon spawns
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.245, 0.6 ],
+               "Shown" : true,
+               "Time" : 122 // 3 seconds before big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.245, 0.6 ],
+               "Shown" : true,
+               "Time" : 125 // wait until exact time of big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.27, 0.6 ],
+               "Shown" : true,
+               "Time" : 126 // keep moving 1 second after big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.41, 0.6 ],
+               "Shown" : true,
+               "Time" : 200 // 3 seconds before big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.41, 0.6 ],
+               "Shown" : true,
+               "Time" : 203 // wait until exact time of big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.435, 0.6 ],
+               "Shown" : true,
+               "Time" : 204 // keep moving 1 second after big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.575, 0.6 ],
+               "Shown" : true,
+               "Time" : 269 // 3 seconds before big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.575, 0.6 ],
+               "Shown" : true,
+               "Time" : 272 // wait until exact time of big wave
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 51.0, 0.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 273 // keep moving 1 second after big wave
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 5,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 7.5, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 7.5, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true,
+               "Time" : 1.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 7.5, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true,
+               "Time" : 125 // exact time of big wave
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 7.5, -8.0 ],
+               "Scale" : [ 0.55, 0.55 ],
+               "Shown" : true,
+               "Time" : 126 // 1 second after big wave
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 6,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -20, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -20, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true,
+               "Time" : 1.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -20, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true, 
+               "Time" : 203 // exact time of big wave
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -20, -8.0 ],
+               "Scale" : [ 0.55, 0.55 ],
+               "Shown" : true,
+               "Time" : 204 // 1 second after big wave
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 7,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -47, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : false,
+               "Time" : 0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -47, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true,
+               "Time" : 1.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -47, -4.0 ],
+               "Scale" : [ 0.45, 0.45 ],
+               "Shown" : true, 
+               "Time" : 272 // exact time of big wave
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -47, -8.0 ],
+               "Scale" : [ 0.55, 0.55 ],
+               "Shown" : true,
+               "Time" : 273 // 1 second after big wave
+            }
+         ]
+      }
+   ]
+}

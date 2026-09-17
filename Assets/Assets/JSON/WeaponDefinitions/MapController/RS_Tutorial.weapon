@@ -1,0 +1,114 @@
+{	
+    "Type":             "RS_Tutorial",    
+    "TargetRange":      5000,
+	"CooldownTime":     1,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+	"StartsOnCooldown": true,
+    "DisabledTasks": [1],
+    "Tasks" :
+    [
+		{
+			// Map progress effect, Round start effect, Huge waves
+            "Type" : "TimerFire",
+            "TimeDelay" : 0,
+            "Tasks" :
+            [
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 380, 310 ],
+					"Scale": 1
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 13,
+					"Tasks" :
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "level_progress_tutorial.json",
+							"Position": [ 380, 310 ],
+							"Scale": 0,
+							"Audio": "FIRST"
+						}
+					]
+				},
+				{
+					// Handles a dumb edge case
+					"Type" : "TowerModifier",
+					"Range" : 100,
+					"PriorityLevel" : 4,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 1, [ 40,11,0 ], true ]
+						]
+					}
+				}
+			]	
+		},
+		{	
+			// Tutorial Deflation
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"SpriteFile":      "bananas_ground.json",
+					"Duration":	10,
+					"MoneyRange": [ 75, 75 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 10,
+					"ClickOnly": false,
+					"AllowMagnetCollection": true,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"SpeedDecay": 0.875
+					},
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "level_progress_tutorial.json",
+							"Position": [ 240, 75 ],
+							"Scale": 0,
+							"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type": "TextEffect",
+									"Text": "Deflation Budget: $150",
+									"Font": "oetztype_24_black_stroke",
+									"Colour": [ 0.369, 0.839, 0.0 ],
+									
+									"Fade": true,
+									"FadeTime": 0.4,
+									"FadeEase": true,
+									"FadeDelay": 4,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Direction": [0, -1],
+										"Speed": 1,
+										"CutOffDistance": 6
+									}
+								}
+							]
+						}
+					]	
+				}
+			]
+		}
+	]
+}

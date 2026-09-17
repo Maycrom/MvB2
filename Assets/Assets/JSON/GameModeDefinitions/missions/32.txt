@@ -1,0 +1,73 @@
+{
+    "nk_description": "LOC_MIS_32_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 50, 
+        "LockedTowers": [
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "TribalTurtle", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "TribalTurtlePro", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    0, 
+                    0
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "MaxNumberOfTotalTowers": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 80, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "MaxNumberOfEachTower": -1, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 2000, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_32", 
+    "nk_track": "frozen_lake", 
+    "nk_rank_required": 20, 
+    "nk_id": "35", 
+    "nk_mode": 0, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

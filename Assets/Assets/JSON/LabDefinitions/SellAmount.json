@@ -1,0 +1,232 @@
+{
+	"Name" : "LOC_LAB_BLOONCRIPPLE",
+	"Description" : "LOC_LAB_DESC_BloonCripple",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_BloonCripple",
+    "Icon" : "bloon_cripple",
+	"LevelGateway" : [ 2, 10, 25, 47, 85, 149, 245, 385, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "2",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 1, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 2, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 3, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "4",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 1 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 2 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 3 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BloonCripple", 
+							"Position": [ 436, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		}
+	]
+}

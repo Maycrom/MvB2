@@ -1,0 +1,47 @@
+{
+    "nk_description": "LOC_MIS_206_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 80, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_206", 
+    "nk_track": "go_with_the_flow", 
+    "nk_rank_required": 0, 
+    "nk_id": "235", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

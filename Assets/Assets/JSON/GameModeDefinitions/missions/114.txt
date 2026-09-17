@@ -1,0 +1,90 @@
+{
+    "nk_description": "LOC_MIS_114_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 42, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "SuperMonkeyStorm", 
+            "BloonberryBush", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "SuperMonkeyStormPro", 
+            "BloonberryBushPro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 1200, 
+        "Health": 100, 
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "MeerkatSpy"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "BeeKeeper"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "AngrySquirrel"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "TribalTurtle"
+            }
+        ], 
+        "StartRound": 25
+    }, 
+    "nk_title": "LOC_MIS_114", 
+    "nk_track": "maze", 
+    "nk_rank_required": 0, 
+    "nk_id": "139", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

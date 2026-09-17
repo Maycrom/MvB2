@@ -1,0 +1,58 @@
+{
+    "nk_description": "LOC_MIS_133_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 50, 
+        "LockedTowers": [
+            "SuperMonkey", 
+            "BananaFarm", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 2, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            3,
+            3,
+            0,
+            2, 
+            1, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 1100, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_133", 
+    "nk_track": "frozen_lake", 
+    "nk_rank_required": 0, 
+    "nk_id": "160", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

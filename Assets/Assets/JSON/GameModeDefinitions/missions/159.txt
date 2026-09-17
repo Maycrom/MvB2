@@ -1,0 +1,75 @@
+{
+    "nk_description": "LOC_MIS_159_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    2, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    2, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MortarTower", 
+                "Upgrades": [
+                    2, 
+                    3
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 2, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 70, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_159", 
+    "nk_track": "archipelago", 
+    "nk_rank_required": 0, 
+    "nk_id": "186", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

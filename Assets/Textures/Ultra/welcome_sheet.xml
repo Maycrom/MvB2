@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FrameInformation name="welcome_sheet" texw="700" texh="700" type="png">
+    <Cell name="welcome_graphic" x="2" y="2" w="663" h="342" ax="0" ay="-700" aw="697" ah="336" />
+    <Cell name="welcome_graphic_release" x="2" y="348" w="663" h="342" ax="0" ay="-800" aw="697" ah="336" />
+  </FrameInformation>
+</SpriteInformation>

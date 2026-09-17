@@ -1,0 +1,78 @@
+{
+    "nk_description": "LOC_MIS_241_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 65, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    -1, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    -1, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MortarTower", 
+                "Upgrades": [
+                    -1, 
+                    3
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 7, 
+        "MaxNumberOfEachTower": 3, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 2000, 
+        "Inventory": [], 
+        "StartRound": 20
+    }, 
+    "nk_title": "LOC_MIS_241", 
+    "nk_track": "space_truckin", 
+    "nk_rank_required": 0, 
+    "nk_id": "275", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

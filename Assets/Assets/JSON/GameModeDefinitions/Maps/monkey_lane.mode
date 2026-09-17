@@ -1,0 +1,186 @@
+{
+	"Setup" : {
+		"Towers":
+		[
+			{ 
+				"Type": "TestTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 2, 0 ] 
+			},
+			{ 
+				"Type": "MMDropController", 
+				"Position": [ -5000, -5000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "TonicController", 
+				"Position": [ -7500, -7500 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "MonkeyEngineerSentry", // Actual bruh moment
+				"Position": [ 4, 348 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "DartMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BananaFarm", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BombTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "Bloonchipper", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BoomerangThrower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "DartlingGun", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "HeliPilotDummy", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyAceDummy", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "GlueGunner", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "IceTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyApprentice", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyBuccaneer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyEngineer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeySub", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyVillage", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MortarTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "NinjaMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SniperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SpikeFactory", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SuperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "TackTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			}
+		],
+		"RoundFiles" : [
+			"Maps/monkey_lane.mode"
+		]
+	},
+	
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 100,
+			"XP" : 1,
+            "TokensEasy": 0,
+            "TokensMedium": 0,
+            "TokensHard": 0,
+			"TokensImpoppable": 0
+		}
+	},
+	
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		{
+			"Hint" : "Round 3",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		{
+			"Hint" : "Round 4",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 5",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

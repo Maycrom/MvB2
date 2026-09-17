@@ -1,0 +1,36 @@
+{
+    "Type": "CrucibleBoost",
+    "TargetRange": 10.0,
+    "CooldownTime": 0.1,
+    "FireDelayTime": 0.0,
+    "TargetsIndependently": true,
+    "CostToFire": 10,
+    "SelfTargetMode": "None",
+    "ManuallyFired": true,
+    "RequiresTargetToFire": false,
+    "Tasks": [
+        {
+            "Type": "TowerModifier",
+            "Range": 10,
+            "PriorityLevel": 7,
+            "ReplacesPriorityLevel" : true,
+            "TerminateOnUserUpgrade": false,
+            "TargetIsWeaponTaskOrigin": true,
+            "ModifyNewlySpawnedTowers": true,
+            "ModifyMovingTowers": false,
+            "Duration": 30000,
+            "Modifier": {
+                "Cooldown": [
+                    0.2,
+                    0
+                ],
+                "FireDelay": [
+                    0.2,
+                    0
+                ],
+                "TargetRange": [ 1.15, 0 ],
+                "CanTargetCamo": [ true, true ]
+            }
+        }
+    ]
+}

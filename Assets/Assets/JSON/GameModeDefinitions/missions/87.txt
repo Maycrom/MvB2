@@ -1,0 +1,74 @@
+{
+    "nk_description": "LOC_MIS_87_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "MeerkatSpy"
+            }
+        ]
+    }, 
+    "nk_title": "LOC_MIS_87", 
+    "nk_track": "go_with_the_flow", 
+    "nk_rank_required": 0, 
+    "nk_id": "98", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

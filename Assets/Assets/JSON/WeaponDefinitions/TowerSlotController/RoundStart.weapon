@@ -1,0 +1,71 @@
+{	
+    "Type":             "RoundStart",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+	"StartsOnCooldown": true,
+    "Tasks" :
+    [
+		{ 
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 240, 30 ],
+			"Scale": 0,
+			"Duration": 0.00001,
+			"Tasks":
+			[
+				{
+					"Type" : "ChangeTerrain",
+					"Area" : [ 600, 70 ],
+					"Mask" : [ "BlockTower" ]
+				}
+			]	
+		},
+		{	
+			// Clean this shit up for performance
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 8,
+			"Offsets" : [
+				[ 207, -7010 ],
+				[ 237, -7010 ],
+				[ 267, -7010 ],
+				[ 297, -7010 ],
+				[ 327, -7010 ],
+				[ 177, -7010 ],
+				[ 147, -7010 ],
+				[ 117, -7010 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "TestTower",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 0.0334,
+					"HasParentTower" : false,
+					"UseParentTowerUpgradeLevel": false
+				}
+			]
+		},
+		{
+			"Type" : "TowerModifier",
+			"Range" : 10,
+			"PriorityLevel" : 3,
+			"ApplyToUserTower": true,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+				
+			"Modifier" : 
+			{
+				"EnabledSubtasks" :
+				[
+					[ 0, [ 0, 0 ], true ]
+				]
+			}
+		}
+	]
+}

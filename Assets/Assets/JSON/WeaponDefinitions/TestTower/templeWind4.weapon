@@ -1,0 +1,10 @@
+{	
+    "Type":             "templeWind4",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"TotalAmmo": 1,
+    "Tasks" :
+    [
+	]
+}

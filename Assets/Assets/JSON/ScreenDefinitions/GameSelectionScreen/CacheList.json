@@ -1,0 +1,64 @@
+{
+    "files": [
+        {
+            "file": "game_select_challenges_door.json"
+        }, 
+        {
+            "file": "game_select_challenges_door_compoundsprite.json"
+        }, 
+        {
+            "file": "game_select_ground.json"
+        }, 
+        {
+            "file": "game_select_ground_assets.json"
+        }, 
+        {
+            "file": "game_select_leaves.json"
+        }, 
+        {
+            "file": "game_select_new_game_door.json"
+        }, 
+        {
+            "file": "game_select_new_game_door_compoundsprite.json"
+        }, 
+        {
+            "file": "game_select_resume_game_door.json"
+        }, 
+        {
+            "file": "game_select_resume_game_door_compoundsprite.json"
+        }, 
+        {
+            "file": "game_select_special_mission_door.json"
+        }, 
+        {
+            "file": "game_select_special_mission_door_compoundsprite.json"
+        }, 
+        {
+            "file": "game_select_temple_door_compoundsprite.json"
+        }, 
+        {
+            "file": "game_select_wall_layer.json"
+        }, 
+        {
+            "file": "intermediate_door_compoundsprite.json"
+        }, 
+        {
+            "file": "pack_select_advanced_door.json"
+        }, 
+        {
+            "file": "pack_select_beginner_door.json"
+        }, 
+        {
+            "file": "pack_select_expert_door.json"
+        }, 
+        {
+            "file": "pack_select_extreme_door.json"
+        }, 
+        {
+            "file": "pack_select_intermediate_door.json"
+        }, 
+        {
+            "file": "pack_select_wall_layer.json"
+        }
+    ]
+}

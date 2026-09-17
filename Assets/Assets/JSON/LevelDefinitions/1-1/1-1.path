@@ -1,0 +1,191 @@
+{
+    "Nodes" : [
+		// Default Path
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+        {
+            "Points" : [
+				[485,110],
+				[-15,110]
+            ],
+            "Flags" : 2,
+			"SpeedMult": 1
+        },
+		{
+            "Points" : [
+				[485,160],
+				[-15,160]
+            ],
+            "Flags" : 2,
+			"SpeedMult": 1
+        },
+		{
+            "Points" : [
+				[485,210],
+				[-15,210]
+            ],
+            "Flags" : 2,
+			"SpeedMult": 1
+        },
+		// Faster alt path
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+        {
+            "Points" : [
+				[485,110],
+				[-15,110]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 1.05
+        },
+		{
+            "Points" : [
+				[485,160],
+				[-15,160]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 1.05
+        },
+		{
+            "Points" : [
+				[485,210],
+				[-15,210]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 1.05
+        },
+		// Slower alt path
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+                [600,-20],
+				[605,-20]
+            ],
+            "Flags" : 1
+        },
+        {
+            "Points" : [
+				[485,110],
+				[-15,110]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.95
+        },
+		{
+            "Points" : [
+				[485,160],
+				[-15,160]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.95
+        },
+		{
+            "Points" : [
+				[485,210],
+				[-15,210]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.95
+        }
+    ],
+    "Links" : [
+		{
+            "Start" : 0,
+            "End" : 3,
+            "Flags" : 5
+        },
+		{
+            "Start" : 1,
+            "End" : 4,
+            "Flags" : 5
+        },
+		{
+            "Start" : 2,
+            "End" : 5,
+            "Flags" : 5
+        },
+		
+		{
+            "Start" : 6,
+            "End" : 9,
+            "Flags" : 5
+        },
+		{
+            "Start" : 7,
+            "End" : 10,
+            "Flags" : 5
+        },
+		{
+            "Start" : 8,
+            "End" : 11,
+            "Flags" : 5
+        },
+		
+		{
+            "Start" : 12,
+            "End" : 15,
+            "Flags" : 5
+        },
+		{
+            "Start" : 13,
+            "End" : 16,
+            "Flags" : 5
+        },
+		{
+            "Start" : 14,
+            "End" : 17,
+            "Flags" : 5
+        }
+    ]
+}

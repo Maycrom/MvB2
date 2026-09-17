@@ -1,0 +1,226 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Level 1",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 2",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 3",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 4",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ],
+								[ 0, [ 1,6 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 5",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ],
+								[ 0, [ 1,6 ], true  ],
+								[ 0, [ 1,9 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 6",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ],
+								[ 0, [ 1,6 ], true  ],
+								[ 0, [ 1,9 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 7",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ],
+								[ 0, [ 1,6 ], true  ],
+								[ 0, [ 1,9 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 8",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : 
+						{ 
+							"EnabledSubtasks" :
+							[
+								[ 0, [ 1,7 ], true  ],
+								[ 0, [ 1,5 ], true  ],
+								[ 0, [ 1,8 ], true  ],
+								[ 0, [ 1,6 ], true  ],
+								[ 0, [ 1,9 ], true  ]
+							]	
+						}
+                    }
+                ]
+            }
+        }
+    ]
+}

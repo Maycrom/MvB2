@@ -1,0 +1,75 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 18.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "upgrade_xp_box_bg_mid",
+         "type" : 1,
+         "uid" : 11
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -40.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "upgrade_xp_box_bg_end",
+         "type" : 1,
+         "uid" : 12
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 40.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "upgrade_xp_box_bg_end",
+         "type" : 1,
+         "uid" : 13
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "upgrade_xp_box_bg_mid",
+            "Texture" : "in_game_hud_panels"
+         },
+         {
+            "SpriteInfo" : "upgrade_xp_box_bg_end",
+            "Texture" : "in_game_hud_panels"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 11,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 12,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 13,
+         "stage" : null
+      }
+   ]
+}

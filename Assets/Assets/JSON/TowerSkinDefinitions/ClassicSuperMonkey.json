@@ -1,0 +1,77 @@
+{
+    "ID": "ClassicSuperMonkey",
+    "DisplayName": "Super Monkey Skin",
+    "DisplayDescription": "<classic desc>",
+    "DisplayIcon": "super_monkey_btd1_skin_store_icon.json",
+    "SmallIcon": "btd1_super_icon_small",
+    "Type": "TowerSkin",
+    "Group": "SuperMonkeySkin",
+    "RequiresTower": "SuperMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "SuperMonkeyTemple.json": {
+            "Name" : "BTD1_SuperMonkeyTemple.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyRoboMonkeyLeftArm.json": {
+            "Name" : "BTD1_SuperMonkeyRoboMonkeyLeftArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyRoboMonkeyRightArm.json": {
+            "Name" : "BTD1_SuperMonkeyRoboMonkeyRightArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTechTerrorLeftArm.json": {
+            "Name" : "BTD1_SuperMonkeyTechTerrorLeftArm.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyTechTerrorRightArm.json": {
+            "Name" : "BTD1_SuperMonkeyTechTerrorRightArm.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyTempleSpawn.json": {
+            "Name" : "BTD1_SuperMonkeyTempleSpawn.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    },
+    
+    "TowerMap": {
+        "SuperMonkey.json": {
+            "Name" : "BTD1_SuperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyLaserVision.json": {
+            "Name" : "BTD1_SuperMonkeyLaserVision.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SupermonkeyPlasmaVision.json": {
+            "Name" : "BTD1_SupermonkeyPlasmaVision.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SunGod.json": {
+            "Name" : "BTD1_SunGod.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTempleHead.json": {
+            "Name" : "BTD1_SuperMonkeyTempleHead.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyGreenCapeGoggles.json": {
+            "Name" : "BTD1_SuperMonkeyGreenCapeGoggles.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyRoboMonkey.json": {
+            "Name" : "BTD1_SuperMonkeyRoboMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTechTerror.json": {
+            "Name" : "BTD1_SuperMonkeyTechTerror.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTemple.json": {
+            "Name" : "BTD1_SuperMonkeyTemple.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    }
+}

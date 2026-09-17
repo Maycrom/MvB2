@@ -1,0 +1,93 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.7215686440467835,
+         "Angle" : 0.0,
+         "Colour" : 3103784959,
+         "Flip" : 1,
+         "Position" : [ 23.0, 21.0 ],
+         "Scale" : [ 0.3000000119209290, 0.3000000119209290 ],
+         "Shown" : true,
+         "sprite" : "loading_rotating_cog_shadow.json",
+         "type" : 2,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.7294117808341980,
+         "Angle" : 0.0,
+         "Colour" : 3137339391,
+         "Flip" : 0,
+         "Position" : [ -20.0, -8.0 ],
+         "Scale" : [ 0.3000000119209290, 0.3000000119209290 ],
+         "Shown" : true,
+         "sprite" : "loading_rotating_cog_shadow.json",
+         "type" : 2,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -21.0, -10.0 ],
+         "Scale" : [ 0.3000000119209290, 0.3000000119209290 ],
+         "Shown" : true,
+         "sprite" : "loading_rotating_cog.json",
+         "type" : 2,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 22.0, 19.0 ],
+         "Scale" : [ 0.3000000119209290, 0.3000000119209290 ],
+         "Shown" : true,
+         "sprite" : "loading_rotating_cog.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "loading_rotating_cog_shadow.json",
+            "Texture" : "loading_screen"
+         },
+         {
+            "SpriteInfo" : "loading_rotating_cog.json",
+            "Texture" : "loading_screen"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      }
+   ]
+}

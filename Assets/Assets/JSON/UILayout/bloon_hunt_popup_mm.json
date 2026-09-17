@@ -1,0 +1,88 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 55.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -28.0, -16.0 ],
+         "Scale" : [ 0.5500000119209290, 0.5500000119209290 ],
+         "Shown" : true,
+         "sprite" : "mm_bundle",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 25.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -33.0, -10.0 ],
+         "Scale" : [ 0.6499999761581421, 0.6499999761581421 ],
+         "Shown" : true,
+         "sprite" : "mm_bundle",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -39.0, 0.0 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "mm_bundle",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -20.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -39.0, 13.0 ],
+         "Scale" : [ 0.8999999761581421, 0.8999999761581421 ],
+         "Shown" : true,
+         "sprite" : "mm_bundle",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "mm_bundle",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      }
+   ]
+}

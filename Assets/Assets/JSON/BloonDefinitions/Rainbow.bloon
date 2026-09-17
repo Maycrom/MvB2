@@ -1,0 +1,13 @@
+{
+	"Type" : "Rainbow",
+	"InitialHealth" : 1,
+	"SpriteFile" : "rainbow_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 2.2,
+	"RBE" : 47,
+    "ChildBloons" : [ "Zebra.bloon", "Zebra.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+	"ApplyStatus" : [ "Napalm" ],
+    "DamageImmunity" : [ "Juggernaut", "MOABMauler", "Foam" ],
+    "Radius" : 13
+}

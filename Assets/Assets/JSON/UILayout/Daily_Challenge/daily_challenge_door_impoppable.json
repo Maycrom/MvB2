@@ -1,0 +1,54 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 106.0, 2.0 ],
+         "Scale" : [ 1.50, 1.50 ],
+         "Shown" : true,
+         "sprite" : "daily_challenge_door_impoppable_compound.json",
+         "type" : 2,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 106.0, 2.0 ],
+         "Scale" : [ 1.50, 1.50 ],
+         "Shown" : true,
+         "sprite" : "daily_challenge_door_impoppable_compound.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "daily_challenge_door_impoppable_compound.json",
+            "Texture" : "daily_challenge"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

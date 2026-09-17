@@ -1,0 +1,5 @@
+{
+	"Items" : [
+		{ "Icon" : "glue_gunner_icon", "FactoryName" : "GlueGunner", "ObjectType" : 1, "KeyboardShortcut" : "f" }
+	]
+}

@@ -1,0 +1,122 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+     {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 15.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_red_full",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_green",
+         "type" : 1,
+         "uid" : 3
+      },
+	 {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 2,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_green",
+         "type" : 1,
+         "uid" : 5
+      },
+	{
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 3,
+         "Position" : [ -30, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_green",
+         "type" : 1,
+         "uid" : 6
+      },
+	  {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 45.0,
+         "Colour" : 4294967295,
+         "Flip" : 2,
+         "Position" : [ -4.4, 10.6 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_green",
+         "type" : 1,
+         "uid" : 4
+      },
+	{
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 135.0,
+         "Colour" : 4294967295,
+         "Flip" : 2,
+         "Position" : [ -25.6, 10.6 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_green",
+         "type" : 1,
+         "uid" : 4
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "tower_recharge_overlay_green",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "tower_recharge_overlay_green_first",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "tower_recharge_overlay_red_full",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 2,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+			{
+			   "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      }
+   ]
+}

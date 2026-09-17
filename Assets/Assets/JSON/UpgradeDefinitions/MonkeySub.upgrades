@@ -1,0 +1,45 @@
+{
+    "Upgrades": [
+        {
+            "Name": "Barbed Darts"
+        },
+        {
+            "Name": "Advanced Intel"
+        },
+        {
+            "Name": "Submerge and Support"
+        },
+        {
+            "Name": "Bloontonium Reactor"
+        },
+        {
+            "Name": "Twin Guns"
+        },
+        {
+            "Name": "Airburst Darts"
+        },
+        {
+            "Name": "Ballistic Missile"
+        },
+        {
+            "Name": "First Strike Capability",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

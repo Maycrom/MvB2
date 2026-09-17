@@ -1,0 +1,15 @@
+{
+    "ID": "CandyBananaFarm",
+    "DisplayName": "Classic Health Display",
+    "DisplayDescription": "Don't like health orbs? Swap back to the original health bars with this skin!",
+    "DisplayIcon": "heli_skin_store_icon.json",
+    "SmallIcon": "heli_pilot_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "HealthSkin",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+    },
+	"TowerMap": {
+    }
+}

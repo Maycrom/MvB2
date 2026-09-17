@@ -1,0 +1,77 @@
+{
+    "nk_description": "LOC_MIS_124_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 55, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "IceTower", 
+                "Upgrades": [
+                    0, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    0, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 55, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 8250, 
+        "Inventory": [], 
+        "StartRound": 35
+    }, 
+    "nk_title": "LOC_MIS_124", 
+    "nk_track": "crop_circles", 
+    "nk_rank_required": 0, 
+    "nk_id": "151", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

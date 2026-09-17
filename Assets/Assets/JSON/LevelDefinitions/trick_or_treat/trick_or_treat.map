@@ -1,0 +1,10 @@
+{
+	"Music" : "volcano.mp3",
+	
+	"entryMarkers" : [
+		[ [ 445, 0 ], 90 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 345, 0 ], 90 ]
+	]
+}

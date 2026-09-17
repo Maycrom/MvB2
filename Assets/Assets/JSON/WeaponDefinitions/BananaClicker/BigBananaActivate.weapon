@@ -1,0 +1,22 @@
+{	
+    "Type":             "BigBananaActivate",    
+    "TargetRange":      0,
+	"CooldownTime":     2,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+	"StartsOnCooldown": true,
+    "Tasks" :
+    [
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 0,
+			"Amount" : 1
+		},
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 1,
+			"Amount" : 1
+		}
+	]
+}

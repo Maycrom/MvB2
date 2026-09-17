@@ -1,0 +1,488 @@
+{	
+    "Type":             "SpikeOPult",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+	"RequiresTargetToFire":	false,
+	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+	"DisabledTasks": [4,5,6],
+    "Tasks" :
+    [
+		{ // 0
+			// Location for the Selection Box Tower (MonkeyEngineerSentry)
+			// Position is offset from the other tasks to prevent temple sacrifice from eating the Box Dummy Tower...
+			// Display is offset in the SpriteFile to make it appear lower then it is
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 237, 0 ],
+			"Scale": 0,
+			"Duration": 0.00001,
+			"Tasks":
+			[
+				{
+					// Disable this chain of tasks to prevent tower buildup
+					// I need this weapon to keep on firing otherwise the modifiers break
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 99 ],
+                    "ToDisable": [ 0 ]
+                },
+				{
+					// Create the Selection Box Dummy Tower
+					"Type" : "CreateTower",
+					"TowerType" : "MonkeyEngineerSentry",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 999999,
+					"HasParentTower" : true,
+					"UseParentTowerUpgradeLevel": false
+				},
+				{
+					// Apply a sprite to it so it looks like a selection box
+					"Type": "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 1,
+					"ApplyToUserTower": false,
+					"TerminateOnUserUpgrade": false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ReplacesPriorityLevel" : true,
+					"RequiresEmptyPriorityLevel" : true,
+
+
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentry" ]
+						}
+					},
+
+					"Modifier":
+					{
+						"Display": "selection_field.json"
+					}
+				}
+			]
+		},
+		{ // 1
+			// Position of the offset display sprite
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 270, 30 ],
+			"Scale": 0,
+			"Duration": 0.00001
+		},	
+		{ // 2
+			// Position of the offset display sprite
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 270, 30 ],
+			"Scale": 0,
+			"Duration": 0.00001
+		},
+		{ // 3
+			// Position of the offset display sprite
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 270, 20 ],
+			"Scale": 0,
+			"Duration": 0.000001,
+			"Tasks":
+			[
+				{
+					// Makes tower placement possible inside the selection box and disables towers recharge cooldown
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 15 ],
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,	
+					
+					"TargetingFilter":
+					{
+						"Exclude" :
+						{
+							"TowerType": [ "TestTower", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ]
+						}
+					},
+						
+					"Modifier" : 
+					{
+						"PlacementRect": [ [0.33, 0], [0.33, 0] ],
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], false ],
+							[ 3, [ 1 ], false ]
+						]
+					}
+				},
+				{
+					// Yes, this does infact disable the recharge cooldown again... No I don't know why it doesn't work without this second modifier lol
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 15 ],
+					"PriorityLevel": 2,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					
+					"TargetingFilter":
+					{
+						"Exclude" :
+						{
+							"TowerType": [ "TestTower", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ]
+						}
+					},
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0 ], false ],
+							[ 3, [ 1 ], false ]
+						],
+						"Cost": [ 0, 0 ]
+					}
+				},
+				{
+					// Scan the selection box and check if [DartMonkey] tower is present inside it
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 15 ],
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "DartMonkey" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							// Position of the Box Dummy Tower
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Position": [ 237, 0 ],
+							"Scale": 50,
+							"Duration": 0.00001,
+							"Tasks":
+							[
+								{
+									// This might honestly be less efficient to do...
+									// Destroys the selection box tower
+									"Type" : "CreateTower",
+									"TowerType" : "TestTower",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999,
+									"HasParentTower" : true,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						},
+						{
+							// Create a recharge display
+							"Type": "Effect",
+							"Position": [ 270, -33 ],
+							"SpriteFile": "recharge_board_dartmonkey_default.json",
+							"Scale": 1
+						},
+						{
+							// Disable this chain of tasks to prevent further towers from being placed inside the box and prepare to enable tower placement
+							"Type": "ChangeSubtaskEnabled",
+							"ToEnable": [ 4 ],
+							"ToDisable": [ 3 ]
+						},
+						{
+							// Destroys the tower present in the selection box
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999,
+							"HasParentTower" : true,
+							"UseParentTowerUpgradeLevel": false
+						}					
+					]
+				},
+				{
+					// Scan the selection box and check if [BananaFarm] tower is present inside it
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 15 ],
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BananaFarm" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							// Position of the Box Dummy Tower
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Position": [ 237, 0 ],
+							"Scale": 50,
+							"Duration": 0.00001,
+							"Tasks":
+							[
+								{
+									// This might honestly be less efficient to do...
+									// Destroys the selection box tower
+									"Type" : "CreateTower",
+									"TowerType" : "TestTower",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999,
+									"HasParentTower" : true,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						},
+						{
+							// Create a recharge display
+							"Type": "Effect",
+							"Position": [ 270, -33 ],
+							"SpriteFile": "recharge_board_bananafarm_default.json",
+							"Scale": 1
+						},
+						{
+							// Disable this chain of tasks to prevent further towers from being placed inside the box and prepare to enable tower placement
+							"Type": "ChangeSubtaskEnabled",
+							"ToEnable": [ 5 ],
+							"ToDisable": [ 3 ]
+						},
+						{
+							// Destroys the tower present in the selection box
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999,
+							"HasParentTower" : true,
+							"UseParentTowerUpgradeLevel": false
+						}					
+					]
+				},
+				{
+					// Scan the selection box and check if [BombTower] tower is present inside it
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 15 ],
+					"PriorityLevel": 1,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BombTower" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							// Position of the Box Dummy Tower
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Position": [ 237, 0 ],
+							"Scale": 50,
+							"Duration": 0.00001,
+							"Tasks":
+							[
+								{
+									// This might honestly be less efficient to do...
+									// Destroys the selection box tower
+									"Type" : "CreateTower",
+									"TowerType" : "TestTower",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999,
+									"HasParentTower" : true,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						},
+						{
+							// Create a recharge display
+							"Type": "Effect",
+							"Position": [ 270, -33 ],
+							"SpriteFile": "recharge_board_totemic_shield_default.json",
+							"Scale": 1
+						},
+						{
+							// Disable this chain of tasks to prevent further towers from being placed inside the box and prepare to enable tower placement
+							"Type": "ChangeSubtaskEnabled",
+							"ToEnable": [ 6 ],
+							"ToDisable": [ 3 ]
+						},
+						{
+							// Destroys the tower present in the selection box
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999,
+							"HasParentTower" : true,
+							"UseParentTowerUpgradeLevel": false
+						}					
+					]
+				}
+			]
+		},
+		{ // 4 // DartMonkey
+			// Position for the middle of the map
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 240, 160 ],
+			"Scale": 0,
+			"Duration": 0.00001,
+			"DisabledTasks": [0,2], // enabled later by DartMonkey.weapon
+			"Tasks":
+			[
+				{
+					// Enable tower placement
+					"Type" : "TowerModifier",
+					"Area" : [ 600, 170 ],
+					"PriorityLevel": 1,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ReplacesPriorityLevel" : true,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "DartMonkey" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"PlacementRect": [ [0.5, 0], [0.5, 0] ],
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0, 5 ], true ]
+						]
+					}
+				},
+				{ 
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Position": [ 240, 30 ],
+					"Scale": 0,
+					"Duration": 0.00001,
+					"Tasks":
+					[
+						{
+							"Type" : "TowerModifier",
+							"Area" : [ 600, 70 ],
+							"PriorityLevel": 3,
+							"TerminateOnUserUpgrade" : false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ReplacesPriorityLevel" : true,
+							"RequiresEmptyPriorityLevel" : true,
+							"Duration": 0.2,
+							
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "DartMonkey" ]
+								}
+							},	
+							
+							"Modifier" : 
+							{
+								"PlacementRect": [ [1000, 0], [1000, 0] ]
+							}
+						}
+					]	
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 3,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"Duration": 0.2,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "TestTower" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 1, [ 2,0 ], false ]
+						]
+					}
+				},
+				{
+					// Set correct position for cooldown display
+					"Type" : "TowerModifier",
+					"Area" : [ 600, 170 ],
+					"PriorityLevel": 3,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ReplacesPriorityLevel" : true,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.2,
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "DartMonkey" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 3, [ 0, 5 ], true ]
+						]
+					}
+				}
+			]
+		}
+	]
+}

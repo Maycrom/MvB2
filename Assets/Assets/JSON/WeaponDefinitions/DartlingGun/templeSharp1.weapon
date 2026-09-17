@@ -1,0 +1,191 @@
+{	
+    "Type":             "templeSharp1",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     4.63,
+    "FireDelayTime":    0.47,
+    "TotalAmmo":            1,
+    "RemainingAmmo":        0,
+    "RequiresTargetToFire":	false,
+	"DisabledTasks": [1,2],
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "glaive.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 175.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+								
+					"Tasks" :
+					[ 
+						{
+							"Type":             "Projectile",
+							"SpriteFile":      "glaive.json",
+							"NumPersists":      4,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "Once",
+							
+							"Movement": {
+								"Type": "Target",
+								"SeekAngle": 360,
+								"TurnSpeed": 99999999,
+								"CutOffDistance": 5000,
+								"TargetRange": 135,
+								"Speed": 250,
+								"TerminateOnNoTarget": true,
+								"TargetMode": "Close"
+							},
+
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage", 
+									"DamageType": "Piercing", 
+									"Amount": 2 
+								}
+							]
+						}
+					]
+				}
+			]	
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "glaive.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 175.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+								
+					"Tasks" :
+					[ 
+						{
+							"Type":             "Projectile",
+							"SpriteFile":      "glaive.json",
+							"NumPersists":      12,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "Once",
+							
+							"Movement": {
+								"Type": "Target",
+								"SeekAngle": 360,
+								"TurnSpeed": 99999999,
+								"CutOffDistance": 5000,
+								"TargetRange": 270,
+								"Speed": 250,
+								"TerminateOnNoTarget": true,
+								"TargetMode": "Close"
+							},
+
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage", 
+									"DamageType": "Piercing", 
+									"Amount": 3 
+								}
+							]
+						}
+					]
+				}
+			]	
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "glaive_red.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 175.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+								
+					"Tasks" :
+					[ 
+						{
+							"Type":             "Projectile",
+							"SpriteFile":      "glaive_red.json",
+							"NumPersists":      18,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "Once",
+							
+							"Movement": {
+								"Type": "Target",
+								"SeekAngle": 360,
+								"TurnSpeed": 99999999,
+								"CutOffDistance": 5000,
+								"TargetRange": 330,
+								"Speed": 250,
+								"TerminateOnNoTarget": true,
+								"TargetMode": "Close"
+							},
+
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage", 
+									"DamageType": "Piercing", 
+									"Amount": 3 
+								}
+							]
+						}
+					]
+				}
+			]	
+		}		
+	]
+}

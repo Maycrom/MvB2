@@ -1,0 +1,232 @@
+{
+	"Name" : "LOC_LAB_FARM_FERTILIZER",
+	"Description" : "LOC_LAB_DESC_FarmFertilizer",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_FarmFertilizer",
+    "Icon" : "farm_fertilizer",
+	"LevelGateway" : [ 2, 10, 25, 47, 85, 149, 245, 385, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "1.25",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 1, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "2.5",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 2, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3.75",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 3, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6.25",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 1 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "7.5",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 2 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8.75",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 3 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_FarmGrowthSpeed", 
+							"Position": [ -1000, -1000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		}
+	]
+}

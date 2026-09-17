@@ -1,0 +1,109 @@
+{
+    "nk_description": "LOC_MIS_48_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "TribalTurtle", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "AngrySquirrel", 
+            "SuperMonkeyStorm", 
+            "BeeKeeper", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "TribalTurtlePro", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "AngrySquirrelPro", 
+            "SuperMonkeyStormPro", 
+            "BeeKeeperPro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "TackTower", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MonkeyApprentice", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "MeerkatSpy"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "BloonberryBush"
+            }
+        ]
+    }, 
+    "nk_title": "LOC_MIS_48", 
+    "nk_track": "go_with_the_flow", 
+    "nk_rank_required": 0, 
+    "nk_id": "55", 
+    "nk_mode": 1, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

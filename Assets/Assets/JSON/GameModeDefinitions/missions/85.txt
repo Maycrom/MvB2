@@ -1,0 +1,94 @@
+{
+    "nk_description": "LOC_MIS_85_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "SpikeFactory", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "MeerkatSpy", 
+            "TribalTurtle", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "AngrySquirrel", 
+            "SuperMonkeyStorm", 
+            "BeeKeeper", 
+            "BloonberryBush", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "MeerkatSpyPro", 
+            "TribalTurtlePro", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "AngrySquirrelPro", 
+            "SuperMonkeyStormPro", 
+            "BeeKeeperPro", 
+            "BloonberryBushPro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    0, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 60, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_85", 
+    "nk_track": "archipelago", 
+    "nk_rank_required": 0, 
+    "nk_id": "96", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

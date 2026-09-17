@@ -1,0 +1,41 @@
+{	
+    "Type":             "BA_IceFreeze",    
+    "TargetRange": 999999999,
+	"CooldownTime": 999999999,
+    "FireDelayTime": 0.0,
+	"RequiresTargetToFire":	false,
+
+    "Tasks" : 
+	[
+		{
+			"Type": "MultiFire",
+			"InitialOffset": -0,
+			"AngleIncrement": 0,
+			"FireCount": 1,
+			"Offsets": [
+				[-1000000,0]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"SpriteFile": "frozen_tower.json",
+					"TerminateOnTowerRemoved": true,
+
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 3.5,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0,
+						"CutOffDistance": 1
+					}
+				}			
+			]
+		}	
+	]
+}

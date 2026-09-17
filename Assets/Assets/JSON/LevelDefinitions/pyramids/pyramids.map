@@ -1,0 +1,18 @@
+{
+	"Modifiers" : [ 
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[ 0, 1]
+			]
+		}
+	],
+	"Music" : "volcano.mp3",
+	
+	"entryMarkers" : [
+		[ [ 5, 110 ], 0 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 475, 260 ], 180 ]
+	]
+}

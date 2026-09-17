@@ -1,0 +1,207 @@
+{
+   "Data":[
+    // Pop Quests
+	  {
+         "_ID":"Bloon Popper",
+         "Type":"PopBloon",
+         "TypeData":{
+            "BloonTypes":[
+            ]
+         },
+         "Target":1250,
+         "Reward":{
+            "MonkeyMoney": 30
+         }
+      },
+	  // Tower Quests
+	  {
+		 "_ID": "Where we droppin?",
+		 "Type": "PopBloon",
+		 "TypeData": {
+			"WithTower": "BombTower"
+		 },
+		 "Target": 10,
+		 "Reward": {
+			"MonkeyMoney": 50
+		 }
+	  },
+	  {
+		 "_ID": "Boom! Haha!",
+		 "Type": "PopBloon",
+		 "TypeData": {
+			"WithTower": "Bloonchipper"
+		 },
+		 "Target": 70,
+		 "Reward": {
+			"MonkeyMoney": 50
+		 }
+	  },
+	  {
+		 "_ID": "Chill Out",
+		 "Type": "PopBloon",
+		 "TypeData": {
+			"WithTower": "BoomerangThrower"
+		 },
+		 "Target": 60,
+		 "Reward": {
+			"MonkeyMoney": 50
+		 }
+	  },		  
+	  
+	  // Collection Quests
+	  {
+         "_ID":"Monkey Farmer",
+         "Type":"CollectCash",
+         "TypeData":{
+            "Type":"BananaFarm"
+         },
+         "Target":10000,
+         "Reward":{
+            "MonkeyMoney": 30
+         }
+      },
+	  {
+         "_ID":"Gather Supplies",
+         "Type":"CollectCash",
+         "TypeData":{
+            "Type":"FallingBananasController"
+         },
+         "Target":2000,
+         "Reward":{
+            "MonkeyMoney": 40
+         }
+      },
+	  
+	  // Map Quests
+	  {
+         "_ID":"Take It Easy",
+         "Type":"TracksCompleted",
+         "TypeData":{
+			"MapDifficulty":"Expert",
+            "GameDifficulty":"Easy",
+            "GameDifficultyAndAbove":true
+         },
+         "Target":3,
+         "Reward":{
+            "MonkeyMoney": 60
+         }
+      },
+	  {
+         "_ID":"Deflator",
+         "Type":"TracksCompleted",
+         "TypeData":{
+			"MapDifficulty":"Expert",
+            "GameDifficulty":"Medium",
+            "GameDifficultyAndAbove":false
+         },
+         "Target":2,
+         "Reward":{
+            "MonkeyMoney": 50
+         }
+      },
+	  {
+         "_ID":"Bloon Conqueror",
+         "Type":"TracksCompleted",
+         "TypeData":{
+			"MapDifficulty":"Expert",
+            "GameDifficulty":"Hard",
+            "GameDifficultyAndAbove": true
+         },
+         "Target":2,
+         "Reward":{
+            "MonkeyMoney": 60
+         }
+      },
+	  {
+         "_ID":"The Impoppable",
+         "Type":"TracksCompleted",
+         "TypeData":{
+			"MapDifficulty":"Expert",
+            "GameDifficulty":"Impoppable",
+            "GameDifficultyAndAbove": false
+         },
+         "Target":1,
+         "Reward":{
+            "MonkeyMoney": 70
+         }
+      },
+	  // Ability Quests 
+	  // Was to be expected but this doesn't quite work with the current implementation, maybe in the future I can figure something out to make this work
+      //{ 
+      //   "_ID":"Tower Empowerer",
+      //   "Type":"SpecialAbility",
+      //   "TypeData":{
+      //      "Ability":"TonicAbility"
+      //   },
+      //   "Target":15,
+      //   "Reward":{
+      //      "MonkeyMoney": 35
+      //   }
+      //},
+	  
+	  // Long Quests
+	  {
+         "_ID":"Crate Collector",
+		 "Long": true,
+         "Type":"CollectCash",
+         "TypeData":{
+            "Type":"FallingBananasController"
+         },
+         "Target":10000,
+         "Reward":{
+			"MonkeyMoney": 125
+         }
+      },
+	  {
+         "_ID":"TooManyPops",
+		 "Long": true,
+         "Type":"PopBloon",
+         "TypeData":{
+            "BloonTypes":[
+            ]
+         },
+         "Target":8000,
+         "Reward":{
+            "MonkeyMoney": 100
+         }
+      },
+	  {
+         "_ID":"Banana Stockpile",
+		 "Long": true,
+         "Type":"CollectCash",
+         "TypeData":{
+            "Type":"BananaFarm"
+         },
+         "Target":60000,
+         "Reward":{
+            "MonkeyMoney": 110
+         }
+      },
+	  {
+         "_ID":"Paper Thief",
+		 "Long": true,
+         "Type":"Earn",
+         "TypeData":{
+            
+         },
+         "Target":1500,
+         "Reward":{
+            "MonkeyMoney": 110
+         }
+      },
+	  {
+         "_ID":"Territorial Defender",
+         "Type":"TracksCompleted",
+		 "Long": true,
+         "TypeData":{
+			"MapDifficulty":"Expert",
+            "GameDifficulty":"Easy",
+            "GameDifficultyAndAbove":true
+         },
+         "Target":20,
+         "Reward":{
+            "MonkeyMoney": 200
+         }
+      }
+   ]
+}

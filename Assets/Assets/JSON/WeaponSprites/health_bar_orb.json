@@ -1,0 +1,83 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4278244413,
+         "Flip" : 0,
+         "Position" : [ 10, 14 ],
+         "Scale" : [ 1.2, 1.2 ],
+         "Shown" : false,
+         "sprite" : "health_orb",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : 
+   [
+   ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "health_orb",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 6,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4278244413,
+               "Flip" : 0,
+               "Position" : [ 10, 14 ],
+               "Scale" : [ 1.2, 1.2 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4278244413,
+               "Flip" : 0,
+               "Position" : [ 10, 14 ],
+               "Scale" : [ 1.2, 1.2 ],
+               "Shown" : true,
+               "Time" : 0.01
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4278249727,
+               "Flip" : 0,
+               "Position" : [ 10, 14 ],
+               "Scale" : [ 1.2, 1.2 ],
+               "Shown" : true,
+               "Time" : 3
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4279900927,
+               "Flip" : 0,
+               "Position" : [ 10, 14 ],
+               "Scale" : [ 1.2, 1.2 ],
+               "Shown" : true,
+               "Time" : 6
+            }
+         ]
+      }
+   ]
+}

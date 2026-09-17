@@ -1,0 +1,127 @@
+{
+   "actors" : [
+     {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.75,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 3,
+         "Position" : [ 0.0, 30.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "pick_your_towers_bg",
+         "type" : 1,
+         "uid" : 2
+     },
+	 {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.75,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 29.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "pick_your_towers_field",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : 
+   [
+   ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "pick_your_towers_field",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "pick_your_towers_bg",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 1.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 0.85, 0.85 ],
+               "Shown" : true,
+               "Time" : 1.33
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 0.75, 0.75 ],
+               "Shown" : true,
+               "Time" : 1.44
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 3,
+               "Position" : [ 0.0, 30.0 ],
+               "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 1.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 3,
+               "Position" : [ 0.0, 30.0 ],
+               "Scale" : [ 1.15, 1.15 ],
+               "Shown" : true,
+               "Time" : 1.33
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 3,
+               "Position" : [ 0.0, 30.0 ],
+               "Scale" : [ 1.05, 1.05 ],
+               "Shown" : true,
+               "Time" : 1.44
+            }
+         ]
+      }
+   ]
+}

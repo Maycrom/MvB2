@@ -1,0 +1,46 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+     {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 16.0 ],
+         "Scale" : [ 0.14, 0.16 ],
+         "Shown" : true,
+         "sprite" : "tower_recharge_overlay_6_sub.json",
+         "type" : 2,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "tower_recharge_overlay_green",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "tower_recharge_overlay_green_first",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "tower_recharge_overlay_red_full",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 2,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      }
+   ]
+}

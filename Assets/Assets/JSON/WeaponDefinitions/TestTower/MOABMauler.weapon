@@ -1,0 +1,128 @@
+{	
+    "Type":             "MOABMauler",    
+    "TargetRange":      999999.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+    "TargetingFilter":
+	{
+		"Include":
+		{
+			"BloonType": [
+                "ZOMG"
+			]
+		}
+	},
+	"DisabledTasks": [1],
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "huge_wave.json",
+			"Position": [ 580, -20 ],
+			"Scale": 1,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1200.0,
+						"CutOffDistance": 1200,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "Ice",
+							"Duration" : 999999,
+							"NumPersists" : 1
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1100.0,
+						"CutOffDistance": 1200,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 999999999
+						}
+					]
+				},
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 1 ],
+                    "ToDisable": [ 0 ]
+                }
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "huge_wave.json",
+			"Position": [ 580, -20 ],
+			"Scale": 1,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1100.0,
+						"CutOffDistance": 1200,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 999999999
+						}
+					]
+				}
+			]
+		}	
+	]
+}

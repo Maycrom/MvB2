@@ -1,0 +1,71 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.6039215922355652,
+         "Angle" : 0.0,
+         "Colour" : 2600468479,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 3.799999952316284, 3.799999952316284 ],
+         "Shown" : true,
+         "sprite" : "odyssey_glow",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "odyssey_glow",
+            "Texture" : "odyssey_assets"
+         }
+      ],
+      "StageLength" : 0.9973958134651184,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.6039215922355652,
+               "Angle" : 0.0,
+               "Colour" : 2600468479,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 3.799999952316284, 3.799999952316284 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.1803921610116959,
+               "Angle" : 0.0,
+               "Colour" : 788529151,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 3.799999952316284, 3.799999952316284 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.6039215922355652,
+               "Angle" : 90.0,
+               "Colour" : 2600468479,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 3.799999952316284, 3.799999952316284 ],
+               "Shown" : true,
+               "Time" : 0.9956597089767456
+            }
+         ]
+      }
+   ]
+}

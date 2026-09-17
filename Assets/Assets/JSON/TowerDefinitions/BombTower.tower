@@ -1,0 +1,91 @@
+{
+    "TypeName"				: "BombTower",
+    "Icon"					: "totem_avatar_small",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 5,
+    "DefaultWeapons"	    :
+    [
+        "templeWind1.weapon",
+		"templeWind2.weapon", 
+		"BombTower.weapon",
+		"TonicModifier.weapon"
+    ],
+    
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+		false
+    ],
+    
+    "TargetingMode"			: "Any",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Extra Range", "Frag Bombs", "Cluster Bombs", "Bloon Impact" ],
+    	[ "Bigger Bombs", "Missile Launcher", "MOAB Mauler", "MOAB Assassin" ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 50, 300, 800, 4000 ],
+        [ 999999, 400, 900, 3200 ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 9, "XP" : 0 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "totem_avatar_small",
+            "totem_avatar_small", 
+            "totem_avatar_small", 
+            "totem_avatar_small"
+        ],
+    	[ 
+            "totem_avatar_small", 
+            "totem_avatar_small", 
+            "totem_avatar_small", 
+            "totem_avatar_small"
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+            "blessed_totem", 
+            "bomb_frag_icon", 
+            "bomb_cluster_icon", 
+            "bomb_impact_icon" 
+        ],
+    	[ 
+            "bomb_bigger_icon", 
+            "bomb_missile_icon", 
+            "bomb_mauler_icon", 
+            "bomb_assassin_icon"
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementH" : 25.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 25.0,
+    "SpriteUpgradeDefinition" : "BombTower.json",
+    "Specialty" : "BombingRange.json",
+	"UseDefaultRangeCircle" : true,
+	"DefaultRangeSize": 65,
+	"PlacementFiringSequence" : [ 1 ]
+}

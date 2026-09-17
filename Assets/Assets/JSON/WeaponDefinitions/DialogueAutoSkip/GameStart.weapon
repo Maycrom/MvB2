@@ -1,0 +1,35 @@
+{	
+    "Type":             "GameStart",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range" : 100000,
+			"PriorityLevel" : 10,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+			"Duration": 10,
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "MonkeyEngineerSentryTier4" ]
+				}
+			},
+			"Modifier" : 
+			{
+				"FireDelay" : [ 9999, 0 ],
+				"EnabledSubtasks" :
+				[
+					[ 12, [ 0 ], true ]
+				]
+			}
+		}
+	]
+}

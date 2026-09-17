@@ -1,0 +1,92 @@
+{
+    "TypeName"				: "BananaFarm",
+    "Icon"					: "banana_farm_avatar_small",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 2,
+	
+    "DefaultWeapons"	    : [
+		"templeWind1.weapon",
+		"templeWind2.weapon",
+		"BananaFarm.weapon", 
+		"templeSharp1.weapon",
+		"TonicModifier.weapon"
+	],
+	
+	"ActiveWeaponSlots" : [
+		true,
+		true,
+		true,
+		true
+	],
+	
+    "TargetingMode"			: "None",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    "CanSpotForTowers" : false,
+	
+    "Upgrades" :
+    [
+    	[ "Twin Banana Farm", "Banana Plantation", "Banana Republic", "Banana Research Facility" ],
+    	[ "Long Life Bananas", "Valuable Bananas", "Monkey Bank", "Banana Investments Advisory" ]
+    ],  
+    "UpgradePrices" : 
+    [
+        [ 75, 1400, 3200, 14000 ],
+        [ 999999, 4000, 4200, 5500 ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small" 
+        ],
+    	[ 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small", 
+        "banana_farm_avatar_small" 
+        ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        "twin_farm", 
+        "banana_farm_plantation_icon", 
+        "banana_farm_republic_icon", 
+        "banana_farm_brf_icon" 
+        ],
+    	[ 
+        "banana_farm_long_life_icon", 
+        "banana_farm_valuable_icon", 
+        "banana_farm_bank_icon", 
+        "banana_farm_investments_icon" 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"		: "BananaFarm.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementH" : 25.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 25.0,
+	"UseDefaultRangeCircle" : true,
+    "SpriteUpgradeDefinition" : "BananaFarm.json",
+	"AnimationWeaponSlotIndex" : 3,
+	"PlacementFiringSequence" : [ 1 ]
+}

@@ -1,0 +1,156 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Level 1",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.987654321, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 2",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9756097561, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 3",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9638554217, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 4",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9523809524, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 5",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9411764706, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 6",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9302325581, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 7",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9237875289, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 8",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "FireDelay" : [ 0.9090909091, 0 ] }
+                    }
+                ]
+            }
+        }
+    ]
+}

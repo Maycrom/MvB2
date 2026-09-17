@@ -1,0 +1,6 @@
+<?xml version="1.0" ?><SpriteInformation>
+<FrameInformation name="1-1" texh="2560" texw="1920" type="png">
+<Cell ah="1280" aw="1920" ax="0" ay="0" h="1280" name="1-1" w="1920" x="0" y="0" />
+<Cell ah="1280" aw="1920" ax="0" ay="0" h="1280" name="1-1_overlay" w="1920" x="0" y="1280" />
+</FrameInformation>
+</SpriteInformation>

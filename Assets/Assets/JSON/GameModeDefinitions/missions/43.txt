@@ -1,0 +1,49 @@
+{
+    "nk_description": "LOC_MIS_43_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "MaxNumberOfTotalTowers": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "MaxNumberOfEachTower": -1, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 5000, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_43", 
+    "nk_track": "castle", 
+    "nk_rank_required": 0, 
+    "nk_id": "46", 
+    "nk_mode": 0, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

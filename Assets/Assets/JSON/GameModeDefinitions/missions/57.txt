@@ -1,0 +1,42 @@
+{
+    "nk_description": "LOC_MIS_57_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 4, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_57", 
+    "nk_track": "mount_magma", 
+    "nk_rank_required": 0, 
+    "nk_id": "64", 
+    "nk_mode": 4, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

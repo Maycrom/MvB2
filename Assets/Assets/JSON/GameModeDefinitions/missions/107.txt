@@ -1,0 +1,78 @@
+{
+    "nk_description": "LOC_MIS_107_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "BananaFarm", 
+                "Upgrades": [
+                    2, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [
+            {
+                "Amount": 2, 
+                "Type": "MeerkatSpy"
+            }, 
+            {
+                "Amount": 2, 
+                "Type": "TribalTurtle"
+            }
+        ]
+    }, 
+    "nk_title": "LOC_MIS_107", 
+    "nk_track": "crop_circles", 
+    "nk_rank_required": 0, 
+    "nk_id": "131", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

@@ -1,0 +1,21 @@
+{	
+    "Type":             "FullScreenOverride",    
+    "TargetRange":      70,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+        {
+			"Type": "LaunchAircraft",
+			"Aircraft": "FullScreenOverride.tower",
+			"Path":
+			[
+				[ [ 240, 160 ], [ 240, 160 ] ],
+				[ [ 245, 165 ], [ 145, 165 ] ]
+			]
+		}
+	]
+}

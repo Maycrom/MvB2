@@ -1,0 +1,185 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, -47.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "box_mid_icloud",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, -84.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "box_top_left",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 63.0, -84.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "box_top_right",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -84.0 ],
+         "Scale" : [ 10.80000019073486, 1.0 ],
+         "Shown" : true,
+         "sprite" : "box_top_mid",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, 64.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "box_bottom_icloud",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, 64.0 ],
+         "Scale" : [ 4.0, 4.0 ],
+         "Shown" : true,
+         "sprite" : "glow_bottom_icloud",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, -47.0 ],
+         "Scale" : [ 4.0, 4.0 ],
+         "Shown" : true,
+         "sprite" : "glow_mid_icloud",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -64.0, -84.0 ],
+         "Scale" : [ 4.0, 4.0 ],
+         "Shown" : true,
+         "sprite" : "glow_top_icloud",
+         "type" : 1,
+         "uid" : 8
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "box_mid_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "box_top_left",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "box_top_right",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "box_top_mid",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "box_bottom_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "glow_bottom_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "glow_mid_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "glow_top_icloud",
+            "Texture" : "icloud_popup"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      }
+   ]
+}

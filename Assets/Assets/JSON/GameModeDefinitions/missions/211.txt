@@ -1,0 +1,78 @@
+{
+    "nk_description": "LOC_MIS_211_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 70, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 68, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            0, 
+            0, 
+            0, 
+            0, 
+            1, 
+            0, 
+            1, 
+            0, 
+            0, 
+            -1, 
+            0,
+            0,
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 3200, 
+        "Inventory": [], 
+        "StartRound": 20
+    }, 
+    "nk_title": "LOC_MIS_211", 
+    "nk_track": "lightning_scar", 
+    "nk_rank_required": 0, 
+    "nk_id": "240", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

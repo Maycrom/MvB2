@@ -1,0 +1,162 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 5,
+					"ApplyToUserTower": true,
+					"ModifyNewlySpawnedTowers": false,
+					"TerminateOnUserUpgrade": false,
+					"ReplacesPriorityLevel" : true,
+
+					"Duration": 0.0334,
+					"NumPersists": 1,
+
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "Bloonchipper" ]
+						}
+					},
+
+					"Modifier":
+					{
+						"Cooldown": [ 0.0, 0 ],
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0 ], false ]
+						]
+					}
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 7,
+					"TerminateOnUserUpgrade" : true,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "Bloonchipper" ]
+						}
+					},
+					
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 4, [ 1 ], true ]
+						]
+					}
+				},
+				{
+					"Type":             "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"TerminateOnTowerRemoved": true,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1
+					},
+					"TasksToProcessOnTerminate": [0,1],
+					"Tasks":
+					[
+						{	
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.00,
+							"Tasks" :
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "Explosion_mine.json",
+									"Scale": 1.2,
+									"Audio": "EXPLOSION"
+								}
+							]
+						},	
+						{
+							"Type": "AreaOfEffect",
+							"Range": 105,
+							"MaxTargets": 100,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 60
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]	
+				}				
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 0,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 5,
+					"ApplyToUserTower": true,
+					"ModifyNewlySpawnedTowers": false,
+					"TerminateOnUserUpgrade": false,
+					"ReplacesPriorityLevel" : true,
+
+					"Duration": 99999999,
+					"NumPersists": 1,
+
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "Bloonchipper" ]
+						}
+					},
+
+					"Modifier":
+					{
+						"Cooldown": [ 0.5714285714, 0 ],
+						"ActiveWeapon": [ [ 4, true ] ],
+						"EnabledSubtasks" :
+						[
+							[ 4, [ 1 ], true ],
+							[ 4, [ 0 ], false ]
+						]
+					}
+				}	
+			]
+		}			
+    ]
+}

@@ -1,0 +1,46 @@
+{	
+    "Type":             "NoAmmo",    
+    "TargetRange":      0.0,
+	"CooldownTime":     999999,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "speech_bubble_small.json",
+			"Position": [ 70, 13 ],
+			"Scale": 1,
+			"Duration": 4.6
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "speech_bubble_small.json",
+			"Position": [ 70, 13 ],
+			"Scale": 0,
+			"Duration": 0.4,
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect",
+					"Text": "I'm out of ammo!",
+					"Font": "oetztype_12_black_stroke",
+					"Colour": [ 1.0, 1.0, 1.0 ],
+					
+					"Fade": true,
+					"FadeTime": 0.4,
+					"FadeEase": true,
+					"FadeDelay": 4,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Direction": [0, -1],
+						"Speed": 0.000001,
+						"CutOffDistance": 0.0000046
+					}
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,26 @@
+{	
+    "Type":             "MonkeyBuccaneer",    
+    "TargetRange":      99999999.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire": false,
+    
+    "Tasks" :
+    [
+        { 
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 240, 160 ],
+			"Scale": 0,
+			"Duration": 0.000001,
+			"Tasks":
+			[
+				{
+					"Type" : "ChangeTerrain",
+					"Area" : [ 50, 50 ],
+					"Mask" : [ ]
+				}
+			]
+		}	
+    ]
+}

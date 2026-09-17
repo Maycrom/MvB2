@@ -1,0 +1,156 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Level 1",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.8988764045, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 2",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.8080808081, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 3",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.7272727273, 0 ] }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Level 4",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.6557377049, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 5",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.5797101449, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 6",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.5128205128, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 7",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.4545454545, 0 ] }
+                    }
+                ]
+            }
+        },
+		
+		{
+            "Name" : "Level 8",
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Modifier" : { "Cooldown" : [ 0.4, 0 ] }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "ID": "ClassicDartMonkey",
+    "DisplayName": "Dart Monkey Skin",
+    "DisplayDescription": "<classic desc>",
+    "DisplayIcon": "dart_monkey_btd1_skin_store_icon.json",
+    "SmallIcon": "btd1_dart_icon_small",
+    "Type": "TowerSkin",
+    "Group": "DartMonkeySkin",
+    "RequiresTower": "DartMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "SuperMonkey.json": {
+            "Name" : "BTD1_SuperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    },
+    
+    "TowerMap": {
+        "DartMonkey.json": {
+            "Name" : "BTD1_DartMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyGreenBandana.json": {
+            "Name" : "BTD1_DartMonkeyGreenBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyJuggernautNew.json": {
+            "Name" : "BTD1_DartMonkeyJuggernautNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyQuiver.json": {
+            "Name" : "BTD1_DartMonkeyQuiver.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyRedBandana.json": {
+            "Name" : "BTD1_DartMonkeyRedBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySpikeopultNew.json": {
+            "Name" : "BTD1_DartMonkeySpikeopultNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySupermonkeyFanclub.json": {
+            "Name" : "BTD1_DartMonkeySupermonkeyFanclub.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

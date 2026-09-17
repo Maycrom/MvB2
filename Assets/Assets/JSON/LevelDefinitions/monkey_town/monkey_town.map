@@ -1,0 +1,22 @@
+{
+	"Modifiers" : [ 
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[ 0, 1 ]
+			]
+		}
+	],
+	
+	"OnNewGame": 
+	{
+		
+	},
+	
+	"entryMarkers" : [
+		[ [ 241, 0 ], 90 ],
+		[ [ 246, 320 ], -90 ]
+	],
+	"reverseEntryMarkers" : [
+	]
+}

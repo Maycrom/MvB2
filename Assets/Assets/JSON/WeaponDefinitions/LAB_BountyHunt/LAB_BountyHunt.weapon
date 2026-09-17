@@ -1,0 +1,29 @@
+{	
+    "Type":             "LAB_BountyHunt",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+ 	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  30,
+            "PriorityLevel" : 0,
+            "RequiresEmptyPriorityLevel" : true,
+            "TerminateOnUserUpgrade" : true,
+			
+			"TargetingFilter":
+			{
+				"Include" : { "TowerType": [ "MMDropController" ] } // This also hits DartMonkeys (scary !)
+			},
+			
+            "Modifier" : 
+			{ 
+				"Cooldown": [ 0.8, 0 ]
+			}
+        }
+    ]
+}

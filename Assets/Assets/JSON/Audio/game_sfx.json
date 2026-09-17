@@ -1,0 +1,171 @@
+{
+    "SFX": [
+		[ "EXPLOSION", 0.1, [
+			"explosion_small.wav"
+		]],
+		[ "FROZEN_HIT", 0.1, [
+			"MvB/World/ready_set_place.wav"
+		]],
+		[ "CERAMIC_HIT", 0.1, [
+			"ceramic_bloon_hit.wav"
+		]],
+		[ "METAL_HIT", 0.1, [
+			"metal_bloon_hit.wav"
+		]],
+		[ "MOAB_HIT", 9999999, [
+			"MvB/World/incoming.wav"
+		]],
+		[ "MOAB_DESTROY", 60, [
+			"MvB/World/incoming.wav"
+		]],
+		[ "TOWER_PLACE", 0.5, [
+            "tower_place.wav"
+        ]],
+        [ "TOWER_SELL", 0.2, [
+            "sell_tower.wav"
+        ]],
+		[ "TOWER_UPGRADE", 0.1, [
+			"upgrade.wav"
+		]],
+		[ "TOWER_UNLOCK", 0.1, [
+			"unlocked_stuff.wav"
+		]],
+        [ "TOWER_LEVEL_UP", 0.1, [
+            "tower_level_up.wav"
+        ]],
+		[ "GAME_OVER", 0.1, [
+			"game_over.wav"
+		]],
+		[ "GAME_WIN", 0.1, [
+			"game_win.wav"
+		]],
+		[ 
+			"ANGRY_SQUIRREL", 
+			0.18, 
+			[ 
+				"MvB/Collection/collect1.wav", 
+				"MvB/Collection/collect2.wav", 
+				"MvB/Collection/collect3.wav", 
+				"MvB/Collection/collect4.wav", 
+				"MvB/Collection/collect5.wav", 
+				"MvB/Collection/collect6.wav", 
+				"MvB/Collection/collect7.wav", 
+				"MvB/Collection/collect8.wav", 
+				"MvB/Collection/collect9.wav", 
+				"MvB/Collection/collect10.wav" 
+			] 
+		],
+		[ 
+			"COLLECTION_QUIET", 
+			0.18, 
+			[ 
+				"MvB/Collection/collect1_quiet.wav", 
+				"MvB/Collection/collect2_quiet.wav", 
+				"MvB/Collection/collect3_quiet.wav", 
+				"MvB/Collection/collect4_quiet.wav", 
+				"MvB/Collection/collect5_quiet.wav", 
+				"MvB/Collection/collect6_quiet.wav", 
+				"MvB/Collection/collect7_quiet.wav", 
+				"MvB/Collection/collect8_quiet.wav", 
+				"MvB/Collection/collect9_quiet.wav", 
+				"MvB/Collection/collect10_quiet.wav" 
+			] 
+		],
+		[ 
+			"HUGE_WAVE", 
+			0.18, 
+			[ 
+				"MvB/World/incoming.wav"
+			] 
+		],
+		[ 
+			"READY", 
+			0.18, 
+			[ 
+				"MvB/World/ready_set_place.wav"
+			] 
+		],
+		[ 
+			"FIRST", 
+			0.18, 
+			[ 
+				"MvB/World/game_start.wav"
+			] 
+		],
+		[ 
+			"QUAKE", 
+			0.18, 
+			[ 
+				"MvB/World/quake.wav"
+			] 
+		],
+		[ 
+			"MMCOLLECT", 
+			0.1, 
+			[ 
+				"MvB/Collection/collectMM1.wav",
+				"MvB/Collection/collectMM2.wav"
+			] 
+		],
+		[ 
+			"MMSPAWN", 
+			0.1, 
+			[ 
+				"MvB/World/MMSpawn.wav"
+			] 
+		],
+		[ 
+			"TONIC", 
+			0.1, 
+			[ 
+				"MvB/World/tonic_use.wav"
+			] 
+		],
+		[ 
+			"BLOON_CRIPPLE", 
+			0.1, 
+			[ 
+				"MvB/Towers/bloon_cripple.wav"
+			] 
+		],
+		[ "TONIC_FAIL", 0.5, [
+            "challenge_door_shut.wav"
+        ]],
+		["BLOON_SCRAMBLER", 0.1, [
+			"Bell3.wav"
+		]],
+		[ "BOSS_DEATH", 0.1, [
+			"BossDeath.wav"
+		]],
+		[ "SWAMP_DEATH", 0.1, [
+			"SwampDeath.wav"
+		]],
+		[ "SWAMP_SPAWN", 0.1, [
+			"SwampSpawn.wav"
+		]],
+		[ "VORTEX_SPAWN", 0.1, [
+			"VortexSpawn.wav"
+		]],
+		["DREADBLOON_SPAWN", 0.1, [
+			"DreadBloonSpawn.wav"
+		]],
+		["DREADBLOON_RECHARGE", 0.1, [
+			"DreadBloonReshield.wav"
+		]],
+		["DREADBLOON_RECHARGE_SHORT", 0.1, [
+			"DreadBloonReshieldShort.wav"
+		]],
+		["DREADBLOON_ROCK_SHATTER", 0.1, [
+			"DreadBloonRockShatter.wav"
+		]],
+		["BLASTAPOPOULOS_ATTACK", 0.1, [
+			"BlastapopulousAttack.wav"
+		]],
+		["BLASTAPOPOULOS_IMPACT", 0.1, [
+			"BlastapopulousImpact.wav"
+		]],
+		["BLASTAPOPOULOS_INTRO", 0.1, [
+			"BlastapopulousIntro.wav"
+		]]
+	]
+}

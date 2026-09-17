@@ -1,0 +1,77 @@
+{	
+    "Type":             "templeSharp1",
+    "TargetRange":      70.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.1,
+	"RequiresTargetToFire" : false,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        1,
+    
+    "Tasks" :
+    [    	
+		{
+			"Type": "Projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"TerminateOnTowerRemoved": true,
+			
+			"Radius": 7,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0,
+				"CutOffDistance": 1,
+				"Direction": [-1,0]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 4,
+					"Amount" : 1
+				},
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.1,
+					
+					"CollisionType": "Once",
+					"TerminateOnTowerRemoved": true,
+					
+					"Radius": 7,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1,
+						"Direction": [-1,0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "Sabotage",
+							"SpeedScale" : 1,
+							"Duration": 0.085,
+							"NumPersists" : -1
+						},
+						{
+							"Type" : "StatusEffect",
+							"Status" : "CrippleMOAB",
+							"NumPersists" : -1,
+							"Duration" : 0.11
+						}
+					]
+				}	
+			]
+		}
+	]
+}

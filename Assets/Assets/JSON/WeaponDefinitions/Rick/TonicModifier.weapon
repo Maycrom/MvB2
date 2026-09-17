@@ -1,0 +1,35 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 20,
+					"PriorityLevel": 5,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"TargetIsWeaponTaskOrigin": true,
+					"CanApplyToUserTower": true,
+					"Duration": 6,
+					"Modifier":
+					{
+						"Cooldown": [ 0.5, 0 ]
+					}
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,67 @@
+{
+  "Setup": {
+    "Inventory": [
+      
+    ],
+	"Towers":
+	[
+		{ "Type": "MonkeyVillage", "Position": [ 240, 150 ], "Upgrades": [ 3, 0 ] }
+	]
+  },
+  "Rules": {
+    "Reward": {
+      "MonkeyMoney": 250,
+	  "MonkeyMoneyMultiplier" : 1,
+      "XP": 0,
+	  "XPMultiplier" : 1.0,
+      "Tokens": 2
+    },
+    "LockedTowers": [
+		"PortableLake",
+		"PortableLakePro",
+		"Pontoon",
+		"PontoonPro"
+    ],
+    "LockedUpgrades": [
+      
+    ],
+    "BloonsForcedCamo": [
+      
+    ],
+    "BlockedPremiumUpgrades": [
+      
+    ],
+    "BlockedSpecialties": [
+      
+    ],
+    "MaxNumberOfTotalTowers": -1,
+    "MaxNumberOfEachTower": -1,
+    "TowerLifespan": -1,
+    "TowersAutoUpgrade": false,
+    "MoneyPerRound": 0,
+    "BloonLevelOffsets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "nk_id": "92",
+  "nk_mode": 1,
+  "nk_track": "monkey_town",
+  "nk_description": "LOC_MIS_protect_monkey_town_DESC",
+  "nk_title": "LOC_MIS_protect_monkey_town",
+  "nk_rank_required": 999,
+  "nk_is_new": false
+}

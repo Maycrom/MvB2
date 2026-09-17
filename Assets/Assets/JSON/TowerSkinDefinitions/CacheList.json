@@ -1,0 +1,26 @@
+{
+	"Files": [
+              "MedievalDartMonkey.json",
+              "HalloweenDartMonkey.json",
+              "MilitaryBombTower.json",
+              "SamuraiNinjaMonkey.json",
+              "SorcererMonkeyApprentice.json",
+              "CandyBananaFarm.json",
+              "HunterSniperMonkey.json",
+              "TopgunMonkeyAce.json",
+              "TribalBoomerangThrower.json",
+              
+              "FireworksMortarTower.json",
+              "NavyMonkeyBuccaneer.json",
+              "SteampunkMonkeySub.json",
+              "UFOHeliPilot.json",
+              
+              "ClassicDartMonkey.json",
+              "ClassicTackTower.json",
+              "ClassicIceTower.json",
+              "ClassicBombTower.json",
+              "ClassicSuperMonkey.json",
+			  
+              "HealthSkin.json"
+            ]
+}

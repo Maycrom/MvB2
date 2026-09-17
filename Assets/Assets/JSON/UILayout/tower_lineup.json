@@ -1,0 +1,205 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -106.0, -6.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "HeliPilot_avatar",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -84.0, -3.0 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "MonkeyApprentice_avatar",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -59.0, 2.0 ],
+         "Scale" : [ 0.6000000238418579, 0.6000000238418579 ],
+         "Shown" : true,
+         "sprite" : "NinjaMonkey_avatar",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -30.0, 5.0 ],
+         "Scale" : [ 0.6000000238418579, 0.6000000238418579 ],
+         "Shown" : true,
+         "sprite" : "TackTower_avatar",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 108.0, 2.0 ],
+         "Scale" : [ 0.6000000238418579, 0.6000000238418579 ],
+         "Shown" : true,
+         "sprite" : "MonkeyAce_avatar",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 82.0, 2.0 ],
+         "Scale" : [ 0.6000000238418579, 0.6000000238418579 ],
+         "Shown" : true,
+         "sprite" : "IceTower_avatar",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 63.0, 1.0 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "GlueGunner_avatar",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 33.0, 0.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "BoomerangThrower_avatar",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -9.0, 2.0 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "SuperMonkey_avatar",
+         "type" : 1,
+         "uid" : 10
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "HeliPilot_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "MonkeyApprentice_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "NinjaMonkey_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "TackTower_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "MonkeyAce_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "IceTower_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "GlueGunner_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "BoomerangThrower_avatar",
+            "Texture" : "basic_avatars"
+         },
+         {
+            "SpriteInfo" : "SuperMonkey_avatar",
+            "Texture" : "basic_avatars"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,23 @@
+{	
+    "Type":             "TonicDebug",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range" : 100,
+			"PriorityLevel" : 2,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+			"Duration": 0.04,
+			"Modifier" : 
+			{
+				"Cooldown" : [ 0.05, 0 ]
+			}
+		}
+	]
+}

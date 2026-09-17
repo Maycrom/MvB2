@@ -1,0 +1,49 @@
+{
+    "nk_description": "LOC_MIS_188_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "GlueGunner", 
+            "MonkeyApprentice", 
+            "MortarTower", 
+            "DartlingGun", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 100, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "PortableLake"
+            }
+        ]
+    }, 
+    "nk_title": "LOC_MIS_188", 
+    "nk_track": "go_with_the_flow", 
+    "nk_rank_required": 0, 
+    "nk_id": "217", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

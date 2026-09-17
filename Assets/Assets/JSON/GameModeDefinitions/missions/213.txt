@@ -1,0 +1,36 @@
+{
+    "nk_description": "LOC_MIS_213_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 15000, 
+        "Inventory": [], 
+        "StartRound": 40
+    }, 
+    "nk_title": "LOC_MIS_213", 
+    "nk_track": "canyon", 
+    "nk_rank_required": 0, 
+    "nk_id": "242", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

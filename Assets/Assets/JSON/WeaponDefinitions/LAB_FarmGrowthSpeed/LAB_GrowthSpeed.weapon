@@ -1,0 +1,29 @@
+{	
+    "Type":             "LAB_GrowthSpeed",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+ 	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  3000,
+            "PriorityLevel" : 0,
+            "RequiresEmptyPriorityLevel" : true,
+            "TerminateOnUserUpgrade" : true,
+			
+			"TargetingFilter":
+			{
+				"Include" : { "TowerType": [ "BananaFarm" ] }
+			},
+			
+            "Modifier" : 
+			{ 
+				"FireDelay": [ 0.987654321, 0 ]
+			}
+        }
+    ]
+}

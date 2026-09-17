@@ -1,0 +1,36 @@
+{	
+    "Type":             "GlaiveRiccochet",    
+    "TargetRange":      130.0,
+	"CooldownTime":     2.25,
+    "FireDelayTime":    0.50,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 135,
+			"MaxTargets": -1,
+            "UseRangeModifier" : true,
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Glue",
+					"NumPersists" : -1,
+					"Duration" : 2.25,
+					"SpeedScale" : 0.5
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ice_shockwave.json",
+			"Scale": 0.4348
+		}
+	]
+}

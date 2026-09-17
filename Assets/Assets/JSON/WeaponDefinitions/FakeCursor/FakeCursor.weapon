@@ -1,0 +1,48 @@
+{	
+    "Type":             "FakeCursor",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+    "Tasks" :
+    [
+		{
+			"Type" : "Projectile",
+			"NumPersists" : -1,
+			"TerminateOnZeroPersists" : false,
+			"CollisionType": "None",
+			
+			"HasLimitedDuration": true,
+			"LimitedDuration": 0.034,
+			
+			"Movement" : 
+			{
+				"Type": "MoveToTouch",
+				"Speed": 99999999
+			},
+			"TasksToProcessOnTerminate": [0],
+			// Genuinely. Why. The. Fuck, can a "MoveToTouch" projectile specifically not spawn towers on terminate???????
+			// ?????????????????????????????????????????????????????????????
+			"Tasks":
+			[
+				{ 
+					// Simple work around but like actually what is that
+					"Type": "Effect", 
+					"SpriteFile": "dart.json", 
+					"Duration": 0.01,
+					"Tasks": 
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "WizardLord",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 0.1,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]	
+				}
+			]
+		}
+	]
+}

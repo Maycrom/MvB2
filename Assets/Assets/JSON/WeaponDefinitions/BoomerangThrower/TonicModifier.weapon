@@ -1,0 +1,168 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"ForwardFiring" : true,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "AbsoluteZeroAbility.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 10000,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0001,
+						"CutOffDistance": 0.0002
+					},
+					"TasksToProcessOnCollision" : [ 0,1,2 ],
+					"Tasks":
+					[
+						{
+							// Sus
+							"TargetingFilter":
+							{
+								"Include":
+								{
+									"BloonType": [
+										"Pink"
+									]
+								}
+							},
+							"Type" : "StatusEffect",
+							"Status" : "BeeSting",
+							"NumPersists" : -1,
+							"DamageRate" : 99999999,
+							"Duration" : 9999999
+						},
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "Glue"
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Glue",
+							"NumPersists" : -1,
+							"Duration" : 999999,
+							"SpeedScale" : 0.5
+						}
+					]
+				},
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "TestTower",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 1,
+					"HasParentTower" : true,
+					"UseParentTowerUpgradeLevel": false
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 4,
+					"TerminateOnUserUpgrade" : false,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 1,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BoomerangThrower" ]
+						}
+					},
+					
+					"Modifier" : 
+					{
+						"Display": "nothing.json"
+					}
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile": "mvb_ice_monkey_awake.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.5,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1
+					}
+				},
+				{	
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.4,
+					"Tasks" :
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "mvb_ice_monkey_smoke.json",
+							"Scale": 1,
+							"DrawLayer": "FullScreen"
+						}
+					]
+				}				
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 0,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 4,
+					"ApplyToUserTower": true,
+					"ModifyNewlySpawnedTowers": false,
+					"TerminateOnUserUpgrade": false,
+					"ReplacesPriorityLevel" : true,
+
+					"Duration": 0.2,
+					"NumPersists": 1,
+
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BoomerangThrower" ]
+						}
+					},
+
+					"Modifier":
+					{
+						"ActiveWeapon": [ [ 3, true ] ]
+					}
+				}	
+			]
+		}	
+    ]
+}

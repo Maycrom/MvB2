@@ -1,0 +1,176 @@
+{	
+    "Type":             "BigBananaGive",    
+    "TargetRange":      5000,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+    "DisabledTasks": [1,2,3,4,5,6],
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 392, 40 ],
+			"DrawLayer": "FullScreen",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"SpriteFile": "bananas_ground_big_click.json",
+					"Duration":	9999999,
+					"MoneyRange": [ 0, 0 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 10,
+					"ClickOnly": true,
+					"AllowMagnetCollection":false,
+					"DrawLayer": "FullScreen",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.925
+					},
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 1,
+							"Amount" : 1
+						},
+						{
+							"Type":             "Collectable",
+							"MoneyRange": [ 3, 3 ],
+							"MoneyMultiplier": 1.0,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 25,
+								"KeepOnScreen": true,
+								"SpeedDecay": 0.95
+							},
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "dart.json",
+									"Scale": 0,
+									"Audio": "COLLECTION_QUIET"
+								}
+							]	
+						}
+					]
+				},
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 1,2 ],
+					"ToDisable": [ 0 ]
+				}			
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ready_set_place.json",
+			"Position": [ 392, 40 ],
+			"DrawLayer": "FullScreen",
+			"Scale": 0,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"SpriteFile": "bananas_ground_big_click.json",
+					"DrawLayer": "FullScreen",
+					"Duration":	9999999,
+					"MoneyRange": [ 0, 0 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 10,
+					"ClickOnly": true,
+					"AllowMagnetCollection":false,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.925
+					},
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 1,
+							"Amount" : 1
+						}
+					]
+				}			
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ready_set_place.json",
+			"Position": [ 392, 40 ],
+			"DrawLayer": "FullScreen",
+			"Scale": 0,
+			"Duration": 0.0001,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"MoneyRange": [ 3, 3 ],
+					"MoneyMultiplier": 1.0,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 25,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+					"Tasks":
+					[	
+						{
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Scale": 0,
+							"Audio": "COLLECTION_QUIET"
+						}
+					]	
+				}
+			]
+		},
+		{
+			// :)
+			"Type": "Effect",
+			"Position": [ 600, -200 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "Destroy",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 0.1,
+					"HasParentTower" : false,
+					"UseParentTowerUpgradeLevel": false
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "GroundZeroAbility.json",
+					"DrawLayer": "FullScreen",
+					"Position": [ 392, 40 ],
+					"Audio": "EXPLOSION",
+					"Scale": 0.5
+				}
+			]
+		}		
+	]
+}

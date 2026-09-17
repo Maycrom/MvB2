@@ -1,0 +1,1519 @@
+{
+    "Type":             "GlaiveLord",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.1,
+    "RequiresTargetToFire":	false,
+	"AnimatesTower" : false,
+	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Continual",
+			
+			"Radius": 100,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0.00001,
+				"CutOffDistance": 0.00016
+			},
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1 ],
+			"Tasks":
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Glue",
+					"NumPersists" : -1,
+					"Duration" : 0.1,
+					"SpeedScale" : 0.5
+				},
+				{
+					"Type" : "RestoreAmmo",
+					"Amount" : 1,
+					"SlotIndex" : 3
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.5,
+			"Loops" : true,
+			"NumLoops" : 11,
+            "Tasks" :
+            [
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 100,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1,
+						"CutOffDistance": 0.0001
+					},
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			]	
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    },
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    },
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.25,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 32,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    },
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.25,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 64,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    },
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 16,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    },
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.25,
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 0,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 180,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 90,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 270,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 315,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile":      "snow_falling.json",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+								
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 225,
+						"TerminateOnCompletedRevolution" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0 ],
+					"TasksToProcessOnTerminate" : [ 1 ],
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 135,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "snow_falling.json",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": false,
+					"TerminateOnTowerRemoved" : false,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 12.8,
+					
+					"Movement":
+					{
+						"Type": "RotateAroundTower",
+						"Speed": 10,
+						"Offset": 96,
+						"InitialAngle": 45,
+						"TerminateOnCompletedRevolution" : true
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1 
+						}
+					]
+				}
+			 ]
+	    }
+	]
+}

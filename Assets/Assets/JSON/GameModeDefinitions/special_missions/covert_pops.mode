@@ -1,0 +1,46 @@
+{
+	"nk_title": "LOC_MIS_covert_pops",
+	"nk_description": "LOC_MIS_covert_pops_DESC",
+	"nk_track": "stream",
+	
+	"Setup" : {
+		"Health" : 1,
+        "Money": 1000
+	},
+	
+	"Rules" : {
+		"TargetRound" : 50,
+		"LockedTowers" : [
+			"MeerkatSpy",
+			"MeerkatSpyPro",
+			"PortableLake",
+			"PortableLakePro",
+			"Pontoon",
+			"PontoonPro"
+		],
+		"BloonsForcedCamo" : [
+			"Red",
+            "Blue",
+            "Green",
+            "Yellow",
+            "Pink",
+            "Black",
+            "White",
+            "Lead",
+            "Zebra",
+            "Rainbow",
+            "Ceramic"
+		],
+		"Reward" : {
+			"MonkeyMoney": 350,
+	  		"MonkeyMoneyMultiplier" : 1,
+			"XP" : 0,
+			"XPMultiplier" : 1.0,
+            "Tokens": 2
+		},
+		"BlockedLabUpgrades" : [
+			"StartingLives"
+		]
+	},
+	"nk_rank_required": 999
+}

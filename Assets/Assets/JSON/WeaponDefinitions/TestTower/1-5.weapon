@@ -1,0 +1,100 @@
+{	
+    "Type":             "1-5",    
+    "TargetRange":      5000,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        1,
+	"StartsOnCooldown": true,
+	"DisabledTasks": [1,2,3],
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Scale": 0,
+			"Duration": 1,
+			"Tasks":
+			[
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 122.0, // 3 seconds before big wave
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "huge_wave.json",
+							"Position": [ 240, 160 ],
+							"DrawLayer": "FullScreen",
+							"Scale": 1,
+							"Audio": "HUGE_WAVE"
+						}
+					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 200.0, // 3 seconds before big wave
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "huge_wave.json",
+							"Position": [ 240, 160 ],
+							"DrawLayer": "FullScreen",
+							"Scale": 1,
+							"Audio": "HUGE_WAVE"
+						}
+					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 269.0, // 3 seconds before big wave
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "huge_wave.json",
+							"Position": [ 240, 160 ],
+							"DrawLayer": "FullScreen",
+							"Scale": 1,
+							"Audio": "HUGE_WAVE"
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "ready_set_place.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen",
+					"Scale": 1,
+					"Audio": "READY"
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_1-5.json",
+					"Position": [ 380, 310 ],
+					"DrawLayer": "FullScreen",
+					"Scale": 1
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Scale": 0,
+					"Duration": 19, // 3 seconds after first bloon spawns
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "level_progress_tutorial.json",
+							"Position": [ 380, 310 ],
+							"Scale": 0,
+							"Audio": "FIRST"
+						}
+					]
+				}
+			]
+		}	
+	]
+}

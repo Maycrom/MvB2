@@ -1,0 +1,57 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, -8.0 ],
+         "Scale" : [ 0.95, 0.95 ],
+         "Shown" : true,
+         "sprite" : "red_bloon.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 6.0, 6.0 ],
+         "Scale" : [ 0.95, 0.95 ],
+         "Shown" : true,
+         "sprite" : "red_bloon.json",
+         "type" : 2,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ -6.0, 6.0 ],
+         "Scale" : [ 0.95, 0.95 ],
+         "Shown" : true,
+         "sprite" : "red_bloon.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "red_bloon.json",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      }
+   ]
+}

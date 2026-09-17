@@ -1,0 +1,17 @@
+{	
+    "Type":             "AutoSkip",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+	"DisabledTasks": [0],
+    
+    "Tasks" :
+    [
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 10,
+			"Amount" : 60
+		}
+	]
+}

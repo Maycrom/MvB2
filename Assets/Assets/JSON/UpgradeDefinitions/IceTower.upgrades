@@ -1,0 +1,113 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Enhanced Freeze",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				},
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0,2 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Status": "Napalm"
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0,1 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"Amount": 2
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0,3,0,1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Status": "Napalm"
+						}
+					]
+				}
+            ]
+        },
+        
+        {
+            "Name" : "Snap Freeze"
+        },
+        
+        {
+            "Name" : "Arctic Wind"
+        },
+        
+        {
+            "Name" : "Viral Frost"
+        },
+        
+        {
+            "Name" : "Permafrost"
+        },
+        
+        {
+            "Name" : "Deep Freeze"
+        },
+    
+        {
+            "Name" : "Ice Shards"
+        },
+        
+        {
+            "Name" : "Absolute Zero",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

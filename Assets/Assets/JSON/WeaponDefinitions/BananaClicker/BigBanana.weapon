@@ -1,0 +1,352 @@
+{	
+    "Type":             "BigBanana",    
+    "TargetRange":      5000,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            2,
+    "RemainingAmmo":        1,
+	"DisabledTasks": [1],
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Position": [ 222, 160 ],
+					"DrawLayer": "FullScreen",
+					"Scale": 0,
+					"Duration": 1.7,
+					"Tasks":
+					[
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.06,
+							"InitialTime" : 0,
+							"Loops" : true,
+							"NumLoops" : 3,
+							
+							"Tasks" : 
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 200,
+										"CutOffDistance": 10
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"NumPersists":      -1,
+											"GraphicName": "funny",
+											"TerminateOnZeroPersists": true,
+											"HasFixedAngle": true,
+											"DrawLayer": "UnderTowers",
+
+											"CollisionType": "None",
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 0.01,
+												"CutOffDistance": 0.001
+											}
+										}	
+									]
+								}	
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.06,
+							"InitialTime" : 0.18,
+							"Loops" : true,
+							"NumLoops" : 3,
+							
+							"Tasks" : 
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 200,
+										"CutOffDistance": 8
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"NumPersists":      -1,
+											"GraphicName": "funny",
+											"TerminateOnZeroPersists": true,
+											"HasFixedAngle": true,
+											"DrawLayer": "UnderTowers",
+
+											"CollisionType": "None",
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 0.01,
+												"CutOffDistance": 0.001
+											}
+										}	
+									]
+								}	
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.06,
+							"InitialTime" : 0.36,
+							"Loops" : true,
+							"NumLoops" : 3,
+							
+							"Tasks" : 
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 200,
+										"CutOffDistance": 6
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"NumPersists":      -1,
+											"GraphicName": "funny",
+											"TerminateOnZeroPersists": true,
+											"HasFixedAngle": true,
+											"DrawLayer": "UnderTowers",
+
+											"CollisionType": "None",
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 0.01,
+												"CutOffDistance": 0.001
+											}
+										}	
+									]
+								}	
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.06,
+							"InitialTime" : 0.54,
+							"Loops" : true,
+							"NumLoops" : 3,
+							
+							"Tasks" : 
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 200,
+										"CutOffDistance": 4
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"NumPersists":      -1,
+											"GraphicName": "funny",
+											"TerminateOnZeroPersists": true,
+											"HasFixedAngle": true,
+											"DrawLayer": "UnderTowers",
+
+											"CollisionType": "None",
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 0.01,
+												"CutOffDistance": 0.001
+											}
+										}	
+									]
+								}	
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.06,
+							"InitialTime" : 0.72,
+							"Loops" : true,
+							"NumLoops" : 3,
+							
+							"Tasks" : 
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 200,
+										"CutOffDistance": 2
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"NumPersists":      -1,
+											"GraphicName": "funny",
+											"TerminateOnZeroPersists": true,
+											"HasFixedAngle": true,
+											"DrawLayer": "UnderTowers",
+
+											"CollisionType": "None",
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 0.01,
+												"CutOffDistance": 0.001
+											}
+										}	
+									]
+								}	
+							]
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Scale": 0,
+							"Audio": "QUAKE"
+						}
+					]	
+				},	
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Scale": 0,
+					"Duration": 0.5,
+					"Position": [ 392, 67 ],
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      -1,
+							"SpriteFile": "bananas_ground_big.json",
+							"TerminateOnZeroPersists": true,
+							"DrawLayer": "FullScreen",
+
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 0.0,
+								"CutOffDistance": 1
+							}
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "dart.json",
+							"Scale": 0,
+							"Duration": 1.69,
+							"Position": [ 392, 40 ],
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"SpriteFile": "bananas_ground_big_secret.json",
+									"TerminateOnZeroPersists": true,
+									"TerminateOnTowerRemoved": true,
+
+									"CollisionType": "None",
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.0,
+										"CutOffDistance": 1
+									}
+								}
+							]
+						}	
+					]
+				},
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 1 ],
+					"ToDisable": [ 0 ]
+				}					
+			]	
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Position": [ 392, 40 ],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"SpriteFile": "bananas_ground_big_glow.json",
+					"TerminateOnZeroPersists": true,
+					"TerminateOnTowerRemoved": true,
+
+					"CollisionType": "None",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0,
+						"CutOffDistance": 1
+					}
+				}
+			]
+		}
+	]
+}

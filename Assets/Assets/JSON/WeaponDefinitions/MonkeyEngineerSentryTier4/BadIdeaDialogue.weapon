@@ -1,0 +1,35 @@
+{	
+    "Type":             "BadIdeaDialogue",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [0],
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"Position": [ 222, 220 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.001,
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect",
+					"Text": "Bad idea.",
+					"Font": "oetztype_22_black_stroke",
+					"Colour": [ 1.0, 1.0, 1.0 ],
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Direction": [0, -1],
+						"Speed": 0.000001,
+						"CutOffDistance": 0.00000003
+					}
+				}
+			]
+		}			
+	]
+}

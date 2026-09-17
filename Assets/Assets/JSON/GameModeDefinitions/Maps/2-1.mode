@@ -1,0 +1,51 @@
+{
+	"Setup" : {
+		"RoundFiles" : [
+			"Maps/2-1.mode"
+		]
+	},
+	
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 25,
+			"XP" : 1000000,
+            "TokensEasy": 3,
+            "TokensMedium": 2,
+            "TokensHard": 2,
+			"TokensImpoppable": 3
+		}
+	},
+	
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 33, "Duration" : 0, "Count" : 10 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 50, "Duration" : 132, "Count" : 17 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 75, "Duration" : 64, "Count" : 8 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 110, "Duration" : 1, "Count" : 5 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 128, "Duration" : 52, "Count" : 8 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 134, "Duration" : 3, "Count" : 9 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 148, "Duration" : 32, "Count" : 7 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 158, "Duration" : 22, "Count" : 8 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 162, "Duration" : 3, "Count" : 6 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 168, "Duration" : 12, "Count" : 9 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 3, "Count" : 12 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 0, "Count" : 5 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

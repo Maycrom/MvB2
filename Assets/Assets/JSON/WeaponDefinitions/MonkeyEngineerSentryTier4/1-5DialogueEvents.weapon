@@ -1,0 +1,146 @@
+{	
+    "Type":             "1-5DialogueEvents",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Effect", "Position": [ 222, 160 ], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },
+				{
+					"Type": "Effect",
+					"Position": [ 600, -200 ],
+					"SpriteFile": "speech_bubble.json",
+					"Scale": 0,
+					"Duration": 0.5,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "BananaClicker",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"Position": [ 600, -200 ],
+					"SpriteFile": "speech_bubble.json",
+					"Scale": 0,
+					"Duration": 1.7,
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo", "SlotIndex" : 3, "Amount" : 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 222, 160 ], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] },
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 99999, 99999 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{	
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 0.1,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 325, 250 ], 
+					"Scale": 0,
+					"Duration": 3,
+					"Tasks":
+					[
+						{	
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 0.1,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 7000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "TowerSlotController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 222, 160 ], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 325, 250 ], 
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{	
+							"Type" : "CreateTower",
+							"TowerType" : "TestTower",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 0.1,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

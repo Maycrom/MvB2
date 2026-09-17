@@ -1,0 +1,27 @@
+{	
+    "Type":             "templeSharp1",
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RotatesToTarget": false,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	// This is fucking stupid I hope no one else ever has to do something like this
+    
+    "Tasks" :
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 2,
+			"TerminateOnUserUpgrade" : false,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"Duration": 0.06,
+			
+			"Modifier" : 
+			{
+				"PlacementRect": [ [1, 1.5], [1, 1.5] ]
+			}
+		}
+	]
+}

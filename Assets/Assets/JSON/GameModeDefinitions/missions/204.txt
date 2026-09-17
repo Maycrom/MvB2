@@ -1,0 +1,46 @@
+{
+    "nk_description": "LOC_MIS_204_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 2, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 65, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 1000, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_204", 
+    "nk_track": "maze", 
+    "nk_rank_required": 0, 
+    "nk_id": "233", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

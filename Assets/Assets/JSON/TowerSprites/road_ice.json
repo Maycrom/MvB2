@@ -1,0 +1,36 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "road_ice_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+    "customvariables" : [
+   ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "road_ice",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 10
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

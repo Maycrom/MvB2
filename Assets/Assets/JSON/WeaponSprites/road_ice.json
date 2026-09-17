@@ -1,0 +1,141 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "road_ice",
+         "type" : 1,
+         "uid" : 1
+      },
+	{
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "road_ice",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+    "customvariables" : [
+   ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "road_ice",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 10
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+			   "Scale" : [ 0.2, 0.2 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.5,
+               "Angle" : 90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 9.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.2,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 10
+            }
+         ]
+      },
+	 {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+			   "Scale" : [ 0.2, 0.2 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.75,
+               "Angle" : -90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.5,
+               "Angle" : -90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 9.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.2,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0 ],
+			   "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 10
+            }
+         ]
+      }
+   ]
+}

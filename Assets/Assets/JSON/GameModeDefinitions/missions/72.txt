@@ -1,0 +1,58 @@
+{
+    "nk_description": "LOC_MIS_72_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 74, 
+        "LockedTowers": [
+            "MeerkatSpy", 
+            "TribalTurtle", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "AngrySquirrel", 
+            "SuperMonkeyStorm", 
+            "BeeKeeper", 
+            "BloonberryBush", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "MeerkatSpyPro", 
+            "TribalTurtlePro", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "AngrySquirrelPro", 
+            "SuperMonkeyStormPro", 
+            "BeeKeeperPro", 
+            "BloonberryBushPro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 25000, 
+        "Inventory": [], 
+        "StartRound": 74
+    }, 
+    "nk_title": "LOC_MIS_72", 
+    "nk_track": "frozen_lake", 
+    "nk_rank_required": 0, 
+    "nk_id": "81", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

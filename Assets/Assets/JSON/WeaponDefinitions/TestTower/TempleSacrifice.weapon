@@ -1,0 +1,15 @@
+{	
+    "Type":             "TempleSacrifice",    
+    "TargetRange":      25.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+    "MaxShots" :        1,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Sacrifice"
+		}	
+	]
+}

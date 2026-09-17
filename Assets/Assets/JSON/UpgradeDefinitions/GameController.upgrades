@@ -1,0 +1,129 @@
+{	
+    "Upgrades":
+    [
+        {
+            "Name" : "1-1",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "", 										// "GS_SpawnDialogueTower.weapon"
+					"6": "GS_SpawnTowerSlotController.weapon" 		// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "1-2",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "", 										// "GS_SpawnDialogueTower.weapon"
+					"6": "GS_SpawnTowerSlotController.weapon" 		// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+		{
+            "Name" : "1-3",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "", 										// "GS_SpawnDialogueTower.weapon"
+					"6": "GS_SpawnTowerSlotController.weapon" 		// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "1-4",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "", 										// "GS_SpawnDialogueTower.weapon"
+					"6": "GS_SpawnTowerSlotController.weapon" 		// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+		{
+            "Name" : "1-5",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "", 										// "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "GS_SpawnDialogueTower.weapon", 			// "GS_SpawnDialogueTower.weapon"
+					"6": "" 										// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+		{
+            "Name" : "1-6",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "GS_SpawnDialogueTower.weapon", 			// "GS_SpawnDialogueTower.weapon"
+					"6": "" 										// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+		{
+            "Name" : "1-7",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "", 										// "GS_SpawnDialogueTower.weapon"
+					"6": "GS_SpawnTowerSlotController.weapon" 		// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+		{
+            "Name" : "1-8",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
+					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
+					"5": "GS_SpawnDialogueTower.weapon", 			// "GS_SpawnDialogueTower.weapon"
+					"6": "" 										// "GS_SpawnTowerSlotController.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Super Range"
+        },
+        {
+            "Name" : "Epic Range"
+        },
+        {
+            "Name" : "Robo Monkey"
+        },
+        {
+            "Name" : "Technological Terror"
+        }
+    ]
+}

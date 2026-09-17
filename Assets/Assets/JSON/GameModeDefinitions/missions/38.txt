@@ -1,0 +1,60 @@
+{
+    "nk_description": "LOC_MIS_38_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "MaxNumberOfTotalTowers": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "MaxNumberOfEachTower": -1, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 20000, 
+        "Inventory": [
+            {
+                "Amount": 1, 
+                "Type": "MeerkatSpy"
+            }
+        ], 
+        "StartRound": 40
+    }, 
+    "nk_title": "LOC_MIS_38", 
+    "nk_track": "crop_circles", 
+    "nk_rank_required": 0, 
+    "nk_id": "41", 
+    "nk_mode": 1, 
+    "Rounds": [], 
+    "nk_is_new": true
+}

@@ -1,0 +1,2248 @@
+{	
+    "Type":             "HoverInc",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+	
+	// Juggernaut ----> SpikeOPult
+    
+    "Tasks" :
+    [
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 1 ],
+					"ToDisable": [ 0 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 1,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 2 ],
+					"ToDisable": [ 1 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 2,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 3 ],
+					"ToDisable": [ 2 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 3,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 4 ],
+					"ToDisable": [ 3 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 4,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 5 ],
+					"ToDisable": [ 4 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 5,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 6 ],
+					"ToDisable": [ 5 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 6,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 7 ],
+					"ToDisable": [ 6 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 7,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 8 ],
+					"ToDisable": [ 7 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 8,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 9 ],
+					"ToDisable": [ 8 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 9,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 10 ],
+					"ToDisable": [ 9 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 10,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 11 ],
+					"ToDisable": [ 10 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 11,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 12 ],
+					"ToDisable": [ 11 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 12,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 13 ],
+					"ToDisable": [ 12 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 13,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 14 ],
+					"ToDisable": [ 13 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 14,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 15 ],
+					"ToDisable": [ 14 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 15,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 16 ],
+					"ToDisable": [ 15 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 16,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 17 ],
+					"ToDisable": [ 16 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 17,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 18 ],
+					"ToDisable": [ 17 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 18,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 19 ],
+					"ToDisable": [ 18 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 19,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 20 ],
+					"ToDisable": [ 19 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 20,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 21 ],
+					"ToDisable": [ 20 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 21,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 22 ],
+					"ToDisable": [ 21 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 22,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 23 ],
+					"ToDisable": [ 22 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 23,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 24 ],
+					"ToDisable": [ 23 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 24,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 25 ],
+					"ToDisable": [ 24 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 25,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 26 ],
+					"ToDisable": [ 25 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 26,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 27 ],
+					"ToDisable": [ 26 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 27,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 28 ],
+					"ToDisable": [ 27 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 28,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 29 ],
+					"ToDisable": [ 28 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 29,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 30 ],
+					"ToDisable": [ 29 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 30,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 31 ],
+					"ToDisable": [ 30 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 31,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 32 ],
+					"ToDisable": [ 31 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 32,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 33 ],
+					"ToDisable": [ 32 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 33,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 34 ],
+					"ToDisable": [ 33 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 34,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 35 ],
+					"ToDisable": [ 34 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 35,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 36 ],
+					"ToDisable": [ 35 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 36,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 37 ],
+					"ToDisable": [ 36 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 37,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 38 ],
+					"ToDisable": [ 37 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 38,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 39 ],
+					"ToDisable": [ 38 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 39,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 40 ],
+					"ToDisable": [ 39 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 40,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 41 ],
+					"ToDisable": [ 40 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 41,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 42 ],
+					"ToDisable": [ 41 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 42,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 43 ],
+					"ToDisable": [ 42 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 43,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 44 ],
+					"ToDisable": [ 43 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 44,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 45 ],
+					"ToDisable": [ 44 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 45,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 46 ],
+					"ToDisable": [ 45 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 46,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 47 ],
+					"ToDisable": [ 46 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 47,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 48 ],
+					"ToDisable": [ 47 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 48,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 49 ],
+					"ToDisable": [ 48 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 49,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 50 ],
+					"ToDisable": [ 49 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 50,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 51 ],
+					"ToDisable": [ 50 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 51,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 52 ],
+					"ToDisable": [ 51 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 52,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 53 ],
+					"ToDisable": [ 52 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 53,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 54 ],
+					"ToDisable": [ 53 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 54,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 55 ],
+					"ToDisable": [ 54 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 55,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 56 ],
+					"ToDisable": [ 55 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 56,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 57 ],
+					"ToDisable": [ 56 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 57,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 58 ],
+					"ToDisable": [ 57 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 58,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 59 ],
+					"ToDisable": [ 58 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], false ],
+							[ 2, [ 59,0 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.0,
+            "Tasks" :
+            [
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 0 ],
+					"ToDisable": [ 59 ]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Range" : 10,
+					"PriorityLevel" : 2,
+					"ApplyToUserTower": true,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentryTier4" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0,0 ], true ]
+						]
+					}
+				},
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 3,
+					"Amount" : 1
+				}
+			]
+		}
+	]
+}

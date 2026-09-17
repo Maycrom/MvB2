@@ -1,0 +1,89 @@
+{
+    "TypeName"				: "IceTower",
+    "Icon"					: "apprentice_avatar_dragon_breath_small",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+	"InitialAngle" : 90,
+	"AnimationWeaponSlotIndex" : 2,
+    "DefaultWeapons"	    :
+    [
+        "TowerHealth.weapon",
+        "TowerIni.weapon",
+        "MainAttack.weapon",
+        "TonicModifier.weapon",
+        "LaneCheck.weapon"
+    ],
+    "ActiveWeaponSlots" :
+    [
+        true
+    ],
+    
+    "TargetingMode"			: "AnyInRange",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+	"PlayAllAnimationsOnFire" : true,
+ 
+    "Upgrades" :
+    [
+    	[ "Enhanced Freeze", "Snap Freeze", "Arctic Wind", "Viral Frost" ],
+    	[ "Permafrost", "Deep Freeze", "Ice Shards", "Absolute Zero" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 0, 400, 6500, 6000 ],
+        [ 100, 350, 2000, 2000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "apprentice_avatar_phoenix_small", 
+        "ice_avatar_snap_freeze_small", 
+        "ice_avatar_arctic_wind_small", 
+        "ice_avatar_viral_frost_small" 
+        ],
+    	[ 
+        "ice_avatar_permafrost_small", 
+        "ice_avatar_deep_freeze_small", 
+        "ice_avatar_ice_shards_small", 
+        "ice_avatar_absolute_zero_small" 
+        ]
+    ],
+ 
+    "UpgradeIcons" :
+    [
+    	[ 
+        "apprentice_avatar_phoenix_small", 
+        "ice_snap_freeze_icon", 
+        "ice_arctic_wind_icon", 
+        "ice_viral_frost_icon" 
+        ],
+    	[ 
+        "ice_permafrost_icon", 
+        "ice_deep_freeze_icon", 
+        "ice_shards_icon", 
+        "ice_absolute_zero_icon" 
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,    
+    "PlacementH" : 25.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 25.0,
+	"UseDefaultRangeCircle" : true,
+    "SpriteUpgradeDefinition" : "IceTower.json",
+	"PlacementFiringSequence" : [ 1 ]
+}

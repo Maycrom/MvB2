@@ -1,0 +1,94 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ -4.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "dart_monkey_arm_01",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ -4.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "dart_monkey_arm_02",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ -4.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : false,
+         "sprite" : "dart_monkey_arm_03",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 1,
+         "Position" : [ -4.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "dart_monkey_body",
+         "type" : 1,
+         "uid" : 4
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "dart_monkey_arm_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_arm_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_arm_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_body",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 10
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : [
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

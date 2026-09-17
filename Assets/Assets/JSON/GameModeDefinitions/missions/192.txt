@@ -1,0 +1,77 @@
+{
+    "nk_description": "LOC_MIS_192_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "NinjaMonkey", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 16, 
+        "MaxNumberOfEachTower": 4, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 7000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_192", 
+    "nk_track": "against_the_clock", 
+    "nk_rank_required": 0, 
+    "nk_id": "221", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

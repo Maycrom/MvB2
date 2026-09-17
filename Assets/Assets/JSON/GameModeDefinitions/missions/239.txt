@@ -1,0 +1,63 @@
+{
+    "nk_description": "LOC_MIS_239_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 8, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 100, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 0, 
+        "Inventory": [
+            {
+                "Amount": 2, 
+                "Type": "MeerkatSpy"
+            }, 
+            {
+                "Amount": 2, 
+                "Type": "BeeKeeper"
+            }, 
+            {
+                "Amount": 2, 
+                "Type": "AngrySquirrel"
+            }, 
+            {
+                "Amount": 1, 
+                "Type": "BloonsdayDevice"
+            }, 
+            {
+                "Amount": 2, 
+                "Type": "TribalTurtle"
+            }
+        ], 
+        "StartRound": 35
+    }, 
+    "nk_title": "LOC_MIS_239", 
+    "nk_track": "monkey_lane", 
+    "nk_rank_required": 0, 
+    "nk_id": "273", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

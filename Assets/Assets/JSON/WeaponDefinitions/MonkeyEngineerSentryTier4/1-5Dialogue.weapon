@@ -1,0 +1,206 @@
+{	
+    "Type":             "1-5Dialogue",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.02,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+    // This is unoptimised garbage but it should be fine and gets cleaned up anyways, legit just ain't worth the time investment
+    "Tasks" :
+    [
+		{   
+			// Dialogue 1
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001,
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Look..."
+				}	
+			]
+		},
+		{   
+			// Dialogue 2
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "How do I explain this."
+				}	
+			]
+		},
+		{   
+			// Dialogue 3
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Dr. Monkey wants us to test\none of his new inventions."
+				}	
+			]
+		},
+		{   
+			// Dialogue 4
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "I-"
+				}	
+			]
+		},
+		{   
+			// Dialogue 5
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Just see for yourself."
+				}	
+			]
+		},
+		{   
+			// Dialogue 6
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": ""
+				}	
+			]
+		},
+		{   
+			// Dialogue 7
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "WHAT IS THAT?!"
+				}	
+			]
+		},
+		{   
+			// Dialogue 8
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "I have many questions\nfor Dr. Monkey."
+				}	
+			]
+		},
+		{   
+			// Dialogue 9
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Like how exactly this is\nsupposed practical in any\nsort of way."
+				}	
+			]
+		},
+		{   
+			// Dialogue 10
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Whatever, he did leave\nsome instruction for\nTHAT THING."
+				}	
+			]
+		},
+		{   
+			// Dialogue 11
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "So... you're supposed to\nclick it, and whenever you\ndo it will create a smaller\nclone of itself."
+				}	
+			]
+		},
+		{   
+			// Dialogue 12
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "However, the clones are imperfect\nand won't be worth nearly\nas much as normal bananas."
+				}	
+			]
+		},
+		{   
+			// Dialogue 13
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "So this is kinda like\na banana generator."
+				}	
+			]
+		},
+		{   
+			// Dialogue 14
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Also there won't be any supply\ndrops for this experiment.\nDr. Monkey said to leave\nthose out, sorry."
+				}	
+			]
+		},
+		{   
+			// Dialogue 15
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Well, get to clicking, we\ndon't have all day."
+				}	
+			]
+		}
+	]
+}

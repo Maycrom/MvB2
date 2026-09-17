@@ -1,0 +1,672 @@
+{	
+    "Type":             "AvengerBoost",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            31,
+    "RemainingAmmo":        0,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+    "Tasks"	:
+    [
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 0 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 1, 0 ], "Cost": [ 0, 0 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "1"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 1 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.8695652174, 0 ], "Cost": [ 0, 15 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "2"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 2 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.7692307692, 0 ], "Cost": [ 0, 30 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "3"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 3 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.6896551724, 0 ], "Cost": [ 0, 45 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "4"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 4 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.625, 0 ], "Cost": [ 0, 60 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "5"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 5 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.5714285714, 0 ], "Cost": [ 0, 75 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "6"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 6 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.5263157895, 0 ], "Cost": [ 0, 90 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "7"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 7 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.487804878, 0 ], "Cost": [ 0, 105 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "8"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 8 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.4545454545, 0 ], "Cost": [ 0, 120 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "9"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 9 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.4255319149, 0 ], "Cost": [ 0, 135 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "10"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 10 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.4, 0 ], "Cost": [ 0, 150 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "11"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 11 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.3773584906, 0 ], "Cost": [ 0, 165 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "12"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 12 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.3571428571, 0 ], "Cost": [ 0, 180 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "13"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 13 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.3389830508, 0 ], "Cost": [ 0, 195 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "14"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 14 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.3225806452, 0 ], "Cost": [ 0, 210 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "15"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 15 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 15 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.3076923077, 0 ], "Cost": [ 0, 225 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "16"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 16 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 16 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2941176471, 0 ], "Cost": [ 0, 240 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "17"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 17 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2816901408, 0 ], "Cost": [ 0, 255 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "18"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 19 ], "ToDisable": [ 18 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 18 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2702702703, 0 ], "Cost": [ 0, 270 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "19"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 20 ], "ToDisable": [ 19 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 19 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2597402597, 0 ], "Cost": [ 0, 285 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "20"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 21 ], "ToDisable": [ 20 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 20 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.25, 0 ], "Cost": [ 0, 300 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "21"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 22 ], "ToDisable": [ 21 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 21 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2409638554, 0 ], "Cost": [ 0, 315 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "22"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 23 ], "ToDisable": [ 22 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 22 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2325581395, 0 ], "Cost": [ 0, 330 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "23"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 24 ], "ToDisable": [ 23 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 23 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2247191011, 0 ], "Cost": [ 0, 345 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "24"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 25 ], "ToDisable": [ 24 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 24 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2173913043, 0 ], "Cost": [ 0, 360 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "25"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 26 ], "ToDisable": [ 25 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 25 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2105263158, 0 ], "Cost": [ 0, 375 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "26"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 27 ], "ToDisable": [ 26 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 26 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.2040816327, 0 ], "Cost": [ 0, 390 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "27"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 28 ], "ToDisable": [ 27 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 27 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.198019802, 0 ], "Cost": [ 0, 405 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "28"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 29 ], "ToDisable": [ 28 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 28 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.1923076923, 0 ], "Cost": [ 0, 420 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "29"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 30 ], "ToDisable": [ 29 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 29 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.1869158879, 0 ], "Cost": [ 0, 435 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "30"
+				}
+			]
+		},
+		{
+    		"Type": "MultiFire", "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false,
+			"DisabledTasks": [0,1,2,3], // Runs after counting
+    		"Tasks":
+    		[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 31 ], "ToDisable": [ 30 ] }, // Increment
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 30 ] }, // Reset 
+				{
+					"Type" : "TowerModifier", // Attack Speed Boost
+					"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+					"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+					"Modifier" : { "Cooldown": [ 0.1818181818, 0 ], "Cost": [ 0, 450 ] }
+				},
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 0.05},
+					
+					"Text": "31"
+				}
+			]
+		}		
+    ]
+}

@@ -1,0 +1,55 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "airstrike_signal",
+         "type" : 1,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, -10.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "monkey_apprentice_red_staff_glow",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+		 {
+            "SpriteInfo" : "airstrike_signal",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "monkey_apprentice_red_staff_glow",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 6,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      }
+   ]
+}

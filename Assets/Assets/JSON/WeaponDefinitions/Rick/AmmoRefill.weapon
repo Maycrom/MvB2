@@ -1,0 +1,21 @@
+{
+	"Type":             	"AmmoRefill",
+	"TargetRange":      	0.0,
+	"CooldownTime":     	9999999.0,
+	"FireDelayTime":    	0.0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+
+	"Tasks" :
+	[
+		{
+			"Type" : "EnableWeaponSlot",
+			"SlotIndex" : 0
+		},
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 0,
+			"Amount" : 99999999
+		}
+	]
+}

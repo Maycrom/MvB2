@@ -1,0 +1,41 @@
+{
+    "nk_description": "LOC_MIS_41_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 50, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    1, 
+                    1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_41", 
+    "nk_track": "against_the_clock", 
+    "nk_rank_required": 0, 
+    "nk_id": "44", 
+    "nk_mode": 4, 
+    "nk_is_new": true
+}

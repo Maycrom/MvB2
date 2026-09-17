@@ -1,0 +1,82 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 180.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -10.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "totemic_shield_wind_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+    "customvariables" : [
+     ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "totemic_shield",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 4,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0,
+               "Angle" : 180.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.0 ],
+			   "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.7,
+               "Angle" : 180.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.0 ],
+			   "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.8
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.7,
+               "Angle" : 180.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.0 ],
+			   "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 3.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0,
+               "Angle" : 180.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.0 ],
+			   "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 4
+            }
+         ]
+      }
+   ]
+}

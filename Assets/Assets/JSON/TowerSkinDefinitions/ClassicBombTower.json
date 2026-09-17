@@ -1,0 +1,121 @@
+{
+    "ID": "ClassicBombTower",
+    "DisplayName": "Bomb Tower Skin",
+    "DisplayDescription": "<classic desc>",
+    "DisplayIcon": "bomb_tower_btd1_skin_store_icon.json",
+    "SmallIcon": "btd1_bomb_icon_small",
+    "Type": "TowerSkin",
+    "Group": "BombTowerSkin",
+    "RequiresTower": "BombTower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "BombTowerAssassinAnimated.json": {
+            "Name" : "BTD1_BombTowerAssassinAimated.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "BombTowerAssassinProjectile.json": {
+            "Name" : "BTD1_BombTowerAssassinProjectile.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "BombTowerGreenAssassin.json": {
+            "Name" : "BTD1_BombTowerGreenAssassin.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "BombTowerGreenAssassinAnimated.json": {
+            "Name" : "BTD1_BombTowerGreenAssassinAnimated.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "BombTowerMissile.json": {
+            "Name" : "BTD1_BombTowerMissile.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "BombTowerMaulerProjectile.json": {
+            "Name" : "BTD1_BombTowerMaulerProjectile.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    },
+
+    "TowerMap": {
+        "Gold_BombTowerAssassin.json": {
+            "Name" : "Gold_Military_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMauler.json": {
+            "Name" : "Gold_Military_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileBlackBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileGreenBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileGreyBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTower.json": {
+            "Name" : "BTD1_BombTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerAssassin.json": {
+            "Name" : "BTD1_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerBloonImpact.json": {
+            "Name" : "BTD1_BombTowerBloonImpact.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerClusterBomb.json": {
+            "Name" : "BTD1_BombTowerClusterBomb.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMauler.json": {
+            "Name" : "BTD1_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileBlackBase.json": {
+            "Name" : "BTD1_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileGreenBase.json": {
+            "Name" : "BTD1_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileGreyBase.json": {
+            "Name" : "BTD1_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerRedCircle.json": {
+            "Name" : "BTD1_BombTowerRedCircle.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerRedStar.json": {
+            "Name" : "BTD1_BombTowerRedStar.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerAssassin.json": {
+            "Name" : "Silver_Military_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMauler.json": {
+            "Name" : "Silver_Military_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileBlackBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileGreenBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileGreyBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

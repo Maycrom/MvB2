@@ -1,0 +1,45 @@
+{
+    "ID": "ClassicIceTower",
+    "DisplayName": "Ice Tower Skin",
+    "DisplayDescription": "<classic desc>",
+    "DisplayIcon": "ice_monkey_btd1_skin_store_icon.json",
+    "SmallIcon": "btd1_ice_icon_small",
+    "Type": "TowerSkin",
+    "Group": "IceTowerSkin",
+    "RequiresTower": "IceTower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+    },
+    
+    "TowerMap": {
+        "IceTower.json": {
+            "Name" : "BTD1_IceTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerAbsoluteZero.json": {
+            "Name" : "BTD1_IceTowerAbsoluteZero.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerArcticWind.json": {
+            "Name" : "BTD1_IceTowerArcticWind.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerBlueBase.json": {
+            "Name" : "BTD1_IceTowerBlueBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerBlueBaseStar.json": {
+            "Name" : "BTD1_IceTowerBlueBaseStar.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerIceShards.json": {
+            "Name" : "BTD1_IceTowerIceShards.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "IceTowerViralFreeze.json": {
+            "Name" : "BTD1_IceTowerViralFreeze.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

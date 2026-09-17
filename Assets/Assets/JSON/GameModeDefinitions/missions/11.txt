@@ -1,0 +1,34 @@
+{
+    "nk_description": "LOC_MIS_11_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 95, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 20, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 200000, 
+        "Inventory": [], 
+        "StartRound": 85
+    }, 
+    "nk_title": "LOC_MIS_11", 
+    "nk_track": "maze", 
+    "nk_rank_required": -1, 
+    "nk_id": "12", 
+    "nk_mode": 1, 
+    "nk_is_new": false
+}

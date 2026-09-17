@@ -1,0 +1,147 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 64.0, -2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_oar",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 72.0, -4.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_oar",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 64.0, 2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_oar",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 72.0, 4.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_oar",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 72.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 77.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_sail",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 90.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 77.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship_sail",
+         "type" : 1,
+         "uid" : 9
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "odyssey_ship_oar",
+            "Texture" : "odyssey_assets"
+         },
+         {
+            "SpriteInfo" : "odyssey_ship",
+            "Texture" : "odyssey_assets"
+         },
+         {
+            "SpriteInfo" : "odyssey_ship_sail",
+            "Texture" : "odyssey_assets"
+         }
+      ],
+      "StageLength" : 2.989583253860474,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      }
+   ]
+}

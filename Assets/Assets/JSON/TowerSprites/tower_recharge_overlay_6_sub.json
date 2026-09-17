@@ -1,0 +1,52 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0, 0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_cooldown_bar",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ -79.7, 0 ],
+         "Scale" : [ 136.2, 1 ],
+         "Shown" : true,
+         "sprite" : "tower_cooldown_bar_fill",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "tower_cooldown_bar",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "tower_cooldown_bar_fill",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 6
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      }
+   ]
+}

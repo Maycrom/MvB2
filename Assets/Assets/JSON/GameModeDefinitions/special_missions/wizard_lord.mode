@@ -1,0 +1,908 @@
+{
+	"nk_title": "LOC_MIS_wizard_lord",
+	"nk_description": "LOC_MIS_wizard_lord_DESC",
+	"nk_track": "lightning_scar",
+
+	"Setup" : {
+		"Money" : 650.0,
+		
+		"Towers":
+		[
+			{ "Type": "WizardLord", "Position": [ 245, 185 ], "Upgrades": [ 0, 0 ] }
+		],
+		
+		"RoundFiles" : [
+			"special_missions/wizard_lord.mode"
+		]
+	},
+	
+	"Rules" : {
+		"ConsumeMostExpensiveTowerRounds" : 2,
+		"TargetRound" : 30,
+		"Reward" : {
+			"MonkeyMoney": 500,
+	  		"MonkeyMoneyMultiplier" : 1,
+			"XP" : 0,
+	  		"XPMultiplier" : 1.0,
+            "Tokens": 3
+		},
+		"LockedTowers": [
+			"PortableLake",
+			"PortableLakePro",
+			"Pontoon",
+			"PontoonPro"
+		]
+	},
+	
+	"Rounds" : [
+	  {
+		"Round": 1,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "White",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 17.13,
+			"Count": 31,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 2,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 8.7,
+			"Count": 23,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.426,
+			"Count": 4,
+			"StartTime": 11.083333333333
+		  }
+		]
+	  },
+	  {
+		"Round": 3,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "White",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.725,
+			"Count": 45,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Black",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.3458333333333,
+			"Count": 45,
+			"StartTime": 9.4166666666667
+		  },
+		  {
+			"Bloon": "Pink",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.5291666666667,
+			"Count": 55,
+			"StartTime": 19
+		  },
+		  {
+			"Bloon": "Yellow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6.4375,
+			"Count": 120,
+			"StartTime": 24.583333333333
+		  }
+		]
+	  },
+	  {
+		"Round": 4,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 4.0083333333333,
+			"Count": 4,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 5,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "White",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 9.0333333333333,
+			"Count": 25,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 2.1125,
+			"Count": 12,
+			"StartTime": 13.5
+		  }
+		]
+	  },
+	  {
+		"Round": 6,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 13.070098039216,
+			"Count": 9,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 7,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.0852941176471,
+			"Count": 8,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 1.713,
+			"Count": 2,
+			"StartTime": 5.9166666666667
+		  }
+		]
+	  },
+	  {
+		"Round": 8,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Zebra",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 13.704,
+			"Count": 25,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 16.559,
+			"Count": 28,
+			"StartTime": 14.275
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.997,
+			"Count": 8,
+			"StartTime": 31.405
+		  }
+		]
+	  },
+	  {
+		"Round": 9,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "White",
+			"IsCamo": true,
+			"IsRegen": false,
+			"Duration": 25.541666666667,
+			"Count": 20,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 10,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 18.083333333333,
+			"Count": 5,
+			"StartTime": 7.5
+		  },
+		  {
+			"Bloon": "White",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 34.112916666667,
+			"Count": 140,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 11,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10.033333333333,
+			"Count": 25,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2.284,
+			"Count": 5,
+			"StartTime": 14.354166666667
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6.9958333333333,
+			"Count": 35,
+			"StartTime": 19.2125
+		  }
+		]
+	  },
+	  {
+		"Round": 12,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 1.5125,
+			"Count": 20,
+			"StartTime": 3.5
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 1.3458333333333,
+			"Count": 20,
+			"StartTime": 11.916666666667
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2.8333333333333,
+			"Count": 41,
+			"StartTime": 20.416666666667
+		  }
+		]
+	  },
+	  {
+		"Round": 13,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Zebra",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10.849,
+			"Count": 20,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10.849,
+			"Count": 20,
+			"StartTime": 11.42
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.994,
+			"Count": 15,
+			"StartTime": 22.84
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 31.405
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": false,
+			"Duration": 1.5916666666667,
+			"Count": 7,
+			"StartTime": 41.916666666667
+		  }
+		]
+	  },
+	  {
+		"Round": 14,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.5958333333333,
+			"Count": 17,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 8.565,
+			"Count": 14,
+			"StartTime": 4.8333333333333
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6.281,
+			"Count": 10,
+			"StartTime": 12.0875
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2.855,
+			"Count": 4,
+			"StartTime": 25.725
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 23.411,
+			"Count": 42,
+			"StartTime": 2
+		  }
+		]
+	  },
+	  {
+		"Round": 15,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Zebra",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 5.71
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.2625,
+			"Count": 20,
+			"StartTime": 11.42
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10.849,
+			"Count": 20,
+			"StartTime": 22.84
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 9.707,
+			"Count": 18,
+			"StartTime": 34.26
+		  }
+		]
+	  },
+	  {
+		"Round": 16,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 1.713,
+			"Count": 4,
+			"StartTime": 7.9625
+		  }
+		]
+	  },
+	  {
+		"Round": 17,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Zebra",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 18.770833333333,
+			"Count": 60,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 27.358333333333,
+			"Count": 60,
+			"StartTime": 18.845833333333
+		  }
+		]
+	  },
+	  {
+		"Round": 18,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 5,
+			"Count": 6,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": true,
+			"IsRegen": false,
+			"Duration": 5,
+			"Count": 6,
+			"StartTime": 6
+		  }
+		]
+	  },
+	  {
+		"Round": 19,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.5541666666667,
+			"Count": 7,
+			"StartTime": 5.71
+		  }
+		]
+	  },
+	  {
+		"Round": 20,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10,
+			"Count": 10,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7,
+			"Count": 10,
+			"StartTime": 9.9166666666667
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 4,
+			"Count": 10,
+			"StartTime": 16.833333333333
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2,
+			"Count": 10,
+			"StartTime": 20.75
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 1,
+			"Count": 10,
+			"StartTime": 22.666666666667
+		  }
+		]
+	  },
+	  {
+		"Round": 21,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 13.704,
+			"Count": 25,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 60.729166666667,
+			"Count": 200,
+			"StartTime": 14.275
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.997,
+			"Count": 8,
+			"StartTime": 75
+		  }
+		]
+	  },
+	  {
+		"Round": 22,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 23,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6.281,
+			"Count": 12,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Lead",
+			"IsCamo": true,
+			"IsRegen": false,
+			"Duration": 18.145833333333,
+			"Count": 70,
+			"StartTime": 6.5
+		  }
+		]
+	  },
+	  {
+		"Round": 24,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Lead",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 39.695833333333,
+			"Count": 120,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 23.391666666667,
+			"Count": 50,
+			"StartTime": 39.683333333333
+		  }
+		]
+	  },
+	  {
+		"Round": 25,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 4
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 43.033333333333
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 43.033333333333
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6.5375,
+			"Count": 18,
+			"StartTime": 15.5
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.5125,
+			"Count": 20,
+			"StartTime": 29.275
+		  },
+		  {
+			"Bloon": "Black",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 55.343918918919,
+			"Count": 343,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 26,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 27.979
+		  },
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3.997,
+			"Count": 8,
+			"StartTime": 0.571
+		  },
+		  {
+			"Bloon": "Yellow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 1.3458333333333,
+			"Count": 20,
+			"StartTime": 9.8875
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10.849,
+			"Count": 20,
+			"StartTime": 16.559
+		  }
+		]
+	  },
+	  {
+		"Round": 27,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 15.417,
+			"Count": 28,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": true,
+			"Duration": 5.139,
+			"Count": 10,
+			"StartTime": 15.988
+		  }
+		]
+	  },
+	  {
+		"Round": 28,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 13.704,
+			"Count": 25,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 14.275
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 17.701
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2.284,
+			"Count": 5,
+			"StartTime": 14.846
+		  },
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2.284,
+			"Count": 5,
+			"StartTime": 18.272
+		  }
+		]
+	  },
+	  {
+		"Round": 29,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Lead",
+			"IsCamo": true,
+			"IsRegen": false,
+			"Duration": 45.109,
+			"Count": 80,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 27.9625
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 31.976
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 35.733333333333
+		  }
+		]
+	  },
+	  {
+		"Round": 30,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 19.414,
+			"Count": 35,
+			"StartTime": 0
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 6.2291666666667
+		  },
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 0,
+			"Count": 1,
+			"StartTime": 11.991
+		  }
+		]
+	  }
+	],
+	"nk_rank_required": 999
+}

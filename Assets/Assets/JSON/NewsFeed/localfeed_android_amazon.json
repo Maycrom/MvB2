@@ -1,0 +1,32 @@
+{
+	"error":0,
+	"count":3,
+	"hash":"not required",
+	"items":[
+        {
+			 "title":"LOC_LOCAL_FEED_MOREGAMES",
+			 "content":"LOC_LOCAL_FEED_AMAZON_MoreGames_DESC",
+			 "link":"amzn://apps/android?s=ninja%20kiwi",
+			 "image":"newslocal_01",
+			 "id":-1,
+			 "version":999999
+        },
+        {
+			 "title":"",
+			 "content":"",
+			 "image-content":"battles_advert",
+			 "link":"amzn://apps/android?p=com.ninjakiwi.bloonstdbattles",
+			 "image":"newslocal_battles",
+			 "id":-2,
+			 "version":999999
+        },
+        {
+             "title":"LOC_LOCAL_FEED_UPDATES",
+             "content":"LOC_LOCAL_FEED_Update_40600_DESC",
+             "link":"",
+             "image":"newslocal_btd5_update",
+             "id":-3,
+             "version":40600
+        }
+    ]
+}

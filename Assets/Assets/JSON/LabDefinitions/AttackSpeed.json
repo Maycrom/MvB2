@@ -1,0 +1,231 @@
+{
+	"Name" : "LOC_LAB_MONKEYTONIC",
+	"Description" : "LOC_LAB_DESC_MonkeyTonic",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_MonkeyTonic",
+    "Icon" : "monkey_tonic",
+	"LevelGateway" : [ 2, 10, 25, 47, 85, 149, 245, 385, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" : [
+		{
+            "DisplayValueString" : "0",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 1, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 2, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 3, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "15",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 1 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "15",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 2 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "20",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 3 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_MonkeyTonic", 
+							"Position": [ 0, 4000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,116 @@
+[
+	// Towers
+	"LaneCheck",
+	"MainAttack",
+	"TowerHealth",
+	"TowerIni",
+	"AvengerCounter",
+	"AvengerBoost",
+	"AvengerDisplayFix",
+
+	// TestTower
+	"CooldownControllerTutorial",
+	"CooldownController",
+	"RNGManipulator",
+
+	// TestTower Map Customisation
+    "GS_Tutorial",
+    "RS_Tutorial",
+    "GS_1-1",
+    "RS_1-1",
+    "GS_1-2",
+    "RS_1-2",
+    "GS_1-3",
+    "RS_1-3",
+    "GS_1-4",
+    "RS_1-4",
+    "GS_1-5",
+    "RS_1-5",
+    "GS_1-6",
+    "RS_1-6",
+    "GS_1-7",
+    "RS_1-7",
+    "GS_1-8",
+    "RS_1-8",
+	
+	// GameControllers
+	"MMDropRandomizer",
+	"TonicDisplay",
+	"TonicLogic",
+	"TonicAbility",
+	"TonicAbilityDummy",
+	"TonicDisplay_Lv1",
+	"TonicDisplay_Lv2",
+	"TonicDisplay_Lv3",
+	"DeflationMode",
+	"DeflationModeGameStart",
+	"DeflationModeCollect",
+	"DeflationModeMoney1",
+	"DeflationModeMoney2",
+	"FallingBananas",
+	"TowerSlots",
+	"RoundStart",
+	"GameStart",
+	"TowerLobotomy",
+	"GS_MapSetup",
+	"RS_MapSetup",
+	"GS_SpawnMMDropController",
+	"GS_SpawnTowerSlotController",
+	"GS_SpawnDialogueTower",
+	"RS_SpawnFallingBananasController",
+	"RS_SpawnCooldownController",
+	"MMDropRateBoost",
+	"BloonButton",
+	"BloonDisplay",
+	"TowerBlock",
+	
+	// Bloon Abilities
+	"BA_PinkDash",
+	"BA_BombExplosion",
+	"BA_IceFreeze",
+	
+	// Gimmicks
+    "BigBanana",
+    "BigBananaGive",
+	"BigBananaActivate",
+	"NoAmmo",
+	"AmmoRefill",
+	
+	// Dialogue
+	"1-5Dialogue",
+    "1-5DialogueAdvance",
+    "1-5DialogueEvents",
+    "1-6Dialogue",
+    "1-6DialogueAdvance",
+    "1-6DialogueEvents",
+	"1-8Dialogue",
+    "1-8DialogueAdvance",
+    "1-8DialogueEvents",
+    "1-TutorialDialogue",
+    "1-TutorialDialogueAdvance",
+    "1-TutorialDialogueEvents",
+    "SkipButton",
+    "HoverArea",
+    "HoverInc",
+    "BarDisplay",
+    "CharacterDisplay",
+    "BadIdea",
+    "BadIdeaDialogue",
+    "FakeCursor",
+    "TutorialTowerCheck",
+	"AutoSkip",
+	
+	// Lab Upgrades
+	"LAB_GrowthSpeed",
+	"LAB_TowerHealth",
+	"LAB_BloonCripple",
+	"LAB_BountyHunt",
+	"LAB_TowerSlots",
+	"LAB_MonkeyTonic",
+	
+	// Tonic Weapons
+	"TonicModifier",
+	
+	// Debug
+	"TonicDebug"
+]

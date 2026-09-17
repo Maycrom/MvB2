@@ -1,0 +1,231 @@
+{
+	"Name" : "LOC_LAB_BOUNTYHUNT",
+	"Description" : "LOC_LAB_DESC_BountyHunt",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_BountyHunt",
+    "Icon" : "bounty_hunt",
+	"LevelGateway" : [ 2, 6, 16, 32, 59, 97, 148, 217, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" : [
+		{
+            "DisplayValueString" : "11.25",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 1, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "23.75",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 2, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "37.5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 3, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "52.5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "72.5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 1 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "95",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 2 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "120",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 3 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_BountyHunt", 
+							"Position": [ 0, 6000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,225 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -126.0 ],
+         "Scale" : [ 1.0, 13.89999961853027 ],
+         "Shown" : true,
+         "sprite" : "panel_mid_icloud",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -176.0, -126.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_left_icloud",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 177.0, -126.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_right_icloud",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.0, -119.0 ],
+         "Scale" : [ 27.79999923706055, 1.0 ],
+         "Shown" : true,
+         "sprite" : "header_mid_icloud",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -147.0, -119.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "header_left_icloud",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 2, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 148.0, -119.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "header_right_icloud",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -84.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "icloud_box_compound.json",
+         "type" : 2,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 85.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "icloud_box_compound.json",
+         "type" : 2,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -147.0, -119.0 ],
+         "Scale" : [ 4.0, 4.0 ],
+         "Shown" : true,
+         "sprite" : "glow_header_icloud",
+         "type" : 1,
+         "uid" : 9
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "panel_mid_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "panel_left_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "panel_right_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "header_mid_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "header_left_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "header_right_icloud",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "icloud_box_compound.json",
+            "Texture" : "icloud_popup"
+         },
+         {
+            "SpriteInfo" : "glow_header_icloud",
+            "Texture" : "icloud_popup"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, -119.0 ],
+               "Scale" : [ 27.79999923706055, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, -119.0 ],
+               "Scale" : [ 27.64999961853027, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,115 @@
+{
+	"Alignment": null,
+	"Point": null,
+	"actors": [
+		{
+			"Alignment": [
+				5,
+				5
+			],
+			"Alpha": 1,
+			"Angle": 0,
+			"Colour": 4294967295,
+			"Flip": 0,
+			"Position": [
+				-3.75,
+				4.5
+			],
+			"Scale": [
+				1,
+				1
+			],
+			"Shown": true,
+			"sprite": "fill_bar_grass",
+			"type": 1,
+			"uid": 3,
+			"Point": [
+				0,
+				0
+			]
+		},
+		{
+			"Alignment": [
+				5,
+				5
+			],
+			"Alpha": 1,
+			"Angle": 0,
+			"Colour": 4294967295,
+			"Flip": 0,
+			"Position": [
+				-7.25,
+				8.5
+			],
+			"Scale": [
+				-1,
+				1
+			],
+			"Shown": true,
+			"sprite": "fill_bar_grass",
+			"type": 1,
+			"uid": 2,
+			"Point": [
+				0,
+				0
+			]
+		},
+		{
+			"Alignment": [
+				5,
+				5
+			],
+			"Alpha": 1,
+			"Angle": 0,
+			"Colour": 4294967295,
+			"Flip": 0,
+			"Position": [
+				9,
+				1
+			],
+			"Scale": [
+				1,
+				1
+			],
+			"Shown": true,
+			"sprite": "egg_button_icon",
+			"type": 1,
+			"uid": 1,
+			"Point": [
+				0,
+				0
+			]
+		}
+	],
+	"customvariables": null,
+	"events": null,
+	"labels": null,
+	"stageOptions": {
+		"SpriteInfo": [
+			{
+				"SpriteInfo": "egg_button_icon",
+				"Texture": "easter_sheet"
+			},
+			{
+				"SpriteInfo": "fill_bar_grass",
+				"Texture": "easter_sheet"
+			}
+		],
+		"StageLength": 0,
+		"Version": 1
+	},
+	"timelines": [
+		{
+			"spriteuid": 3,
+			"stage": null
+		},
+		{
+			"spriteuid": 2,
+			"stage": null
+		},
+		{
+			"spriteuid": 1,
+			"stage": null
+		}
+	]
+}

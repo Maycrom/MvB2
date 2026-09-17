@@ -1,0 +1,85 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Intense Magic",
+			"TowerUpgrade" :
+			{
+				"Weapons" :
+				{
+					"5" : "AvengerCounter.weapon",
+					"6" : "AvengerBoost.weapon",
+					"7" : "AvengerDisplayFix.weapon"
+				},
+				"Replace" :
+				{
+					"PlacementFiringSequence" : [ 7 ]
+				}
+			},
+			"WeaponUpgrades" :
+            [
+				{
+					"SlotIndices" : [ 2 ],
+					"Adjust" :
+					{
+						"FireDelayTime": -0.1,
+						"Cooldown" : 0.1
+					}
+                },
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0,0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"Amount": 2
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "Lightning Bolt"
+        },
+        {
+            "Name" : "Summon Whirlwind"
+        },
+        {
+            "Name" : "Tempest Tornado"
+        },
+        {
+            "Name" : "Fireball"
+        },
+        {
+            "Name" : "Monkey Sense"
+        },
+        {
+            "Name" : "Dragon's Breath"
+        },
+        {
+            "Name" : "Summon Phoenix",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

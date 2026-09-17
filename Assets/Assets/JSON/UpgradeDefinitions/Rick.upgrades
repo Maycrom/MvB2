@@ -1,0 +1,46 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Ammo Stockpile",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3": "AmmoRefill.weapon"
+                },
+				"Replace" :
+                {
+                    "FiringSequence" : [ [0], [3] ]
+                }
+            }
+        },
+        {
+            "Name" : "1-1"
+        },
+		{
+            "Name" : "1-2"
+        },
+        {
+            "Name" : "1-3"
+        },
+		{
+            "Name" : "1-4"
+        },
+		{
+            "Name" : "1-5"
+        },
+        {
+            "Name" : "Super Range"
+        },
+        {
+            "Name" : "Epic Range"
+        },
+        {
+            "Name" : "Robo Monkey"
+        },
+        {
+            "Name" : "Technological Terror"
+        }
+    ]
+}

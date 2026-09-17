@@ -1,0 +1,134 @@
+{
+    "TypeName"				: "Destroy",
+    "Icon"					: "supermonkey_avatar_small",
+    "BaseCost"				: 3500,
+    "RankToUnlock"			: 999,
+    "DefaultWeapons"	    : [
+		"SuperMonkey.weapon",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"Temple.weapon",
+		"EvilTemple.weapon",
+		"TempleSacrifice.weapon",
+		"templeExplosion1.weapon",
+		"templeExplosion2.weapon",
+		"templeExplosion3.weapon",
+		"templeExplosion4.weapon",
+		"templeExplosion5.weapon",
+		"templeFreeze1.weapon",
+		"templeFreeze2.weapon",
+		"templeFreeze3.weapon",
+		"templeFreeze4.weapon",
+		"templeFreeze5.weapon",
+		"templeGlue1.weapon",
+		"templeGlue2.weapon",
+		"templeGlue3.weapon",
+		"templeGlue4.weapon",
+		"templeGlue5.weapon",
+		"templeSharp1.weapon",
+		"templeSharp2.weapon",
+		"templeSharp3.weapon",
+		"templeSharp4.weapon",
+		"templeSharp5.weapon",
+		"templeWind1.weapon",
+		"templeWind2.weapon",
+		"templeWind3.weapon",
+		"templeWind4.weapon",
+		"templeWind5.weapon"
+	],
+	"ActiveWeaponSlots": [
+		true,
+        true,
+		true,
+		false,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true, // 2
+		true, // 4
+		true, // 1
+		true, // 3
+		true  // 5
+	],
+
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ "Tutorial", "1-1", "1-2", "1-3", "1-4", "1-5" ],
+    	[ "Falling Bananas", "Epic Range", "Robo Monkey", "Technological Terror" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 600 }, { "Rank" : 0, "XP" : 7560 }, { "Rank" : 0, "XP" : 28620 }, { "Rank" : 0, "XP" : 144600 }, { "Rank" : 0, "XP" : 144600 }, { "Rank" : 0, "XP" : 144600 } ],
+		[ { "Rank" : 0, "XP" : 2820 }, { "Rank" : 0, "XP" : 12600 }, { "Rank" : 0, "XP" : 53640 }, { "Rank" : 0, "XP" : 248400 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 1, 1, 1, 1, 1, 1 ],
+        [ 1000, 1500, 9000, 25000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "supermonkey_avatar_laser_vision_small", 
+        "supermonkey_avatar_plasma_vision_small", 
+        "supermonkey_avatar_sun_god_small", 
+        "supermonkey_avatar_monkey_temple_small" 
+        ],
+    	[ 
+        "supermonkey_avatar_super_range_small", 
+        "supermonkey_avatar_epic_range_small", 
+        "supermonkey_avatar_robomonkey_small", 
+        "supermonkey_avatar_tech_terror_small" 
+        ]
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+        "supermonkey_laser_vision_icon", 
+        "supermonkey_plasma_vision_icon", 
+        "supermonkey_sun_god_icon", 
+        "supermonkey_temple_icon" 
+        ],
+    	[ 
+        "supermonkey_super_range_icon", 
+        "supermonkey_epic_range_icon", 
+        "supermonkey_robomonkey_icon", 
+        "supermonkey_tech_terror_icon" 
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+	"CanBeOverlapped"		: true,
+	"FireWeaponAndDestroy" : true,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 12.0,
+    "PlacementW"			: -100000.0,
+    "PlacementH"			: -100000.0,
+    
+    "SpriteUpgradeDefinition" : "Test.json",
+    "SkipFirstFrameWhenFiring" : true,
+    "ConfirmLevel4FirstUpgrade" : true,
+	"PlacementFiringSequence" : [ 9 ]
+}

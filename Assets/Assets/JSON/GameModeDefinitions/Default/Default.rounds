@@ -1,0 +1,29 @@
+{
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 15, "Duration" : 0, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 27, "Duration" : 9, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 43, "Duration" : 7, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 60, "Duration" : 0, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 61.4, "Duration" : 0, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 63.0, "Duration" : 0, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 63.8, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

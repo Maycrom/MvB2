@@ -1,0 +1,221 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -189.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "newshared_panel",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 189.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "newshared_panel",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 49.250, 1.0 ],
+         "Shown" : true,
+         "sprite" : "card_back_fill",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 90.0,
+         "Colour" : 4245100064,
+         "Flip" : 0,
+         "Position" : [ 186.0, -1.0 ],
+         "Scale" : [ 219.750, 3.400000095367432 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : -90.0,
+         "Colour" : 4245100064,
+         "Flip" : 0,
+         "Position" : [ -186.0, -1.0 ],
+         "Scale" : [ 219.750, 3.400000095367432 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 0.9882352948188782,
+         "Angle" : -90.0,
+         "Colour" : 4231029892,
+         "Flip" : 0,
+         "Position" : [ 110.0, -1.0 ],
+         "Scale" : [ 216.5500030517578, 3.400000095367432 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 11
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4261459199,
+         "Flip" : 0,
+         "Position" : [ 0.0, -109.0 ],
+         "Scale" : [ 362.0499877929688, 3.450000047683716 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4261459199,
+         "Flip" : 2,
+         "Position" : [ 0.0, 108.0 ],
+         "Scale" : [ 367.7999877929688, 3.450000047683716 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : -90.0,
+         "Colour" : 4261459199,
+         "Flip" : 0,
+         "Position" : [ -184.0, -1.0 ],
+         "Scale" : [ 215.8999938964844, 3.450000047683716 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 90.0,
+         "Colour" : 4261459199,
+         "Flip" : 0,
+         "Position" : [ 184.0, -1.0 ],
+         "Scale" : [ 215.8999938964844, 3.450000047683716 ],
+         "Shown" : true,
+         "sprite" : "fill_4x4",
+         "type" : 1,
+         "uid" : 8
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "newshared_panel",
+            "Texture" : "newshared"
+         },
+         {
+            "SpriteInfo" : "card_back_fill",
+            "Texture" : "newshared"
+         },
+         {
+            "SpriteInfo" : "fill_4x4",
+            "Texture" : "newshared"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 11,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 0.9882352948188782,
+               "Angle" : -90.0,
+               "Colour" : 4231029892,
+               "Flip" : 0,
+               "Position" : [ 110.0, -1.0 ],
+               "Scale" : [ 216.5500030517578, 3.400000095367432 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 0.9921568632125855,
+               "Angle" : -90.0,
+               "Colour" : 4245100064,
+               "Flip" : 0,
+               "Position" : [ -186.0, -1.0 ],
+               "Scale" : [ 219.750, 3.400000095367432 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,31 @@
+Important:
+When generating the selection box weapons add
+"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+to SeekingBolt, MonkeyApprentice, Whirlwind, WLChainLightning and FireBall
+at location 0 and 2
+
+
+TestTower Priorities
+
+2 - Tower Selection lock in
+3 - Tower Selection building block remover + Set cooldown display
+4 - Tower Selection building block remover + Set cooldown display
+5 - Tower Selection building block remover + Set cooldown display
+6 - Tower Selection building block remover + Set cooldown display
+7 - Tower Selection building block remover + Set cooldown display
+8 - Tower Selection building block remover + Set cooldown display
+9 - Tower Selection building block remover + Set cooldown display
+10 - Tower Selection building block remover + Set cooldown display
+11 - Dialogue event
+12 - Level prepper
+
+Engineer Sentry Priorities
+
+1 - Display
+
+Global Priorities
+
+2 - Tower Selection, Pricing
+3 - Cooldown
+4 - Other
+5 - Tonic Abilities

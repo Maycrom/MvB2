@@ -1,0 +1,142 @@
+{
+    "nk_description": "LOC_MIS_135_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 60, 
+        "LockedTowers": [
+            "BombTower", 
+            "MonkeyApprentice", 
+            "MortarTower", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    3, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "TackTower", 
+                "Upgrades": [
+                    3, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    0, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    3, 
+                    1
+                ]
+            }, 
+            {
+                "Type": "NinjaMonkey", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "IceTower", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "GlueGunner", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "MonkeyBuccaneer", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    3, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    1, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyVillage", 
+                "Upgrades": [
+                    3, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    3, 
+                    1
+                ]
+            }, 
+            {
+                "Type": "SpikeFactory", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "HeliPilot", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 4200, 
+        "Inventory": [], 
+        "StartRound": 28
+    }, 
+    "nk_title": "LOC_MIS_135", 
+    "nk_track": "monkey_lane", 
+    "nk_rank_required": 0, 
+    "nk_id": "162", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

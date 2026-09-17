@@ -1,0 +1,764 @@
+{	
+    "Type":             "CooldownControllerTutorial",    
+    "TargetRange":      130.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+    
+	// Global Tower Cooldown Controller
+	"DisabledTasks": [],
+    "Tasks" :
+	[
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 0.0,
+    		"FireCount": 9,
+            "AimAtTarget" : false,
+            "Offsets" : [
+                [ 1172, -123 ],
+				[ 1172, -83 ],
+				[ 1172, -43 ],
+				[ 1172, -3 ],
+				[ 1172, 35 ],
+				[ 1172, 75 ],
+				[ 1172, 115 ],
+				[ 1172, 155 ],
+				[ 1172, 195 ]
+            ],
+    		"Tasks":
+    		[
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 20, 300 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "DartMonkey" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type": "TowerModifier",
+							"Range": 9999999,
+							"PriorityLevel": 3,
+							"ReplacesPriorityLevel": true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": true,
+							"Duration": 5.9,
+							
+							"TargetingFilter":
+							{
+								"Include" : { "TowerType": [ "DartMonkey" ] }
+							},
+							
+							"Modifier":
+							{
+								"Cost": [ 1000, 0 ]
+							}	
+						},	
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 5.9,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 9999999,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "DartMonkey" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ]
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}					
+					]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 480, 300 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BananaFarm" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type": "TowerModifier",
+							"Range": 9999999,
+							"PriorityLevel": 3,
+							"ReplacesPriorityLevel": true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": true,
+							"Duration": 5.9,
+							
+							"TargetingFilter":
+							{
+								"Include" : { "TowerType": [ "BananaFarm" ] }
+							},
+							
+							"Modifier":
+							{
+								"Cost": [ 1000, 0 ]
+							}
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 5.9,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 9999999,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "BananaFarm" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ]
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}					
+					]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 480, 300 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BombTower" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type": "TowerModifier",
+							"Range": 9999999,
+							"PriorityLevel": 3,
+							"ReplacesPriorityLevel": true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": true,
+							"Duration": 22.4,
+							
+							"TargetingFilter":
+							{
+								"Include" : { "TowerType": [ "BombTower" ] }
+							},
+							
+							"Modifier":
+							{
+								"Cost": [ 1000, 0 ]
+							}
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 22.4,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 9999999,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "BombTower" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ]
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_bar_22.5s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}					
+					]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 480, 300 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "Bloonchipper" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type": "TowerModifier",
+							"Range": 9999999,
+							"PriorityLevel": 3,
+							"ReplacesPriorityLevel": true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": true,
+							"Duration": 11.9,
+							
+							"TargetingFilter":
+							{
+								"Include" : { "TowerType": [ "Bloonchipper" ] }
+							},
+							
+							"Modifier":
+							{
+								"Cost": [ 1000, 0 ]
+							}
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 11.9,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 9999999,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "Bloonchipper" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ]
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}					
+					]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 480, 300 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BoomerangThrower" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type": "TowerModifier",
+							"Range": 9999999,
+							"PriorityLevel": 3,
+							"ReplacesPriorityLevel": true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": true,
+							"Duration": 29.9,
+							
+							"TargetingFilter":
+							{
+								"Include" : { "TowerType": [ "BoomerangThrower" ] }
+							},
+							
+							"Modifier":
+							{
+								"Cost": [ 1000, 0 ]
+							}
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 29.9,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 9999999,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "BoomerangThrower" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ]
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_6s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_bar_30s.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}				
+					]
+				}
+			]
+		}
+	]
+}

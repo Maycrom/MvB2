@@ -1,0 +1,1159 @@
+{	
+    "Type":             "BloonDisplay",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+    "Tasks" :
+    [
+		{
+			"Type": "Effect", "Position": [ 387.5, 350 ], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [  ], "ToDisable": [  ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+				{
+			"Type": "Effect", "Position": [ 387.5, 349], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 1 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 348], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 2 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 347], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 3 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 346], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 4 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 345], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 5 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 344], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 6 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 343], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 7 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 342], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 8 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 341], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 9 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 340], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 10 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 339], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 11 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 338], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 12 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 337], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 13 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 336], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 14 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 335], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 15 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 15 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 334], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 16 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 16 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 333], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 17 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 332], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 19 ], "ToDisable": [ 18 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 18 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 331], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 20 ], "ToDisable": [ 19 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 19 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 330], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 21 ], "ToDisable": [ 20 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 19 ], "ToDisable": [ 20 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 329], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 22 ], "ToDisable": [ 21 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 20 ], "ToDisable": [ 21 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 328], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 23 ], "ToDisable": [ 22 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 21 ], "ToDisable": [ 22 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 327], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 24 ], "ToDisable": [ 23 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 22 ], "ToDisable": [ 23 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 326], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 25 ], "ToDisable": [ 24 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 23 ], "ToDisable": [ 24 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 325], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 26 ], "ToDisable": [ 25 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 24 ], "ToDisable": [ 25 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 324], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 27 ], "ToDisable": [ 26 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 25 ], "ToDisable": [ 26 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 323], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 28 ], "ToDisable": [ 27 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 26 ], "ToDisable": [ 27 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 322], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 29 ], "ToDisable": [ 28 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 27 ], "ToDisable": [ 28 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 321], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 30 ], "ToDisable": [ 29 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 28 ], "ToDisable": [ 29 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 320], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 31 ], "ToDisable": [ 30 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 29 ], "ToDisable": [ 30 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 319], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 32 ], "ToDisable": [ 31 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 30 ], "ToDisable": [ 31 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 318], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 33 ], "ToDisable": [ 32 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 31 ], "ToDisable": [ 32 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 317], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 34 ], "ToDisable": [ 33 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 32 ], "ToDisable": [ 33 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 316], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 35 ], "ToDisable": [ 34 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 33 ], "ToDisable": [ 34 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 315], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 36 ], "ToDisable": [ 35 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 34 ], "ToDisable": [ 35 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 314], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 37 ], "ToDisable": [ 36 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 35 ], "ToDisable": [ 36 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 313], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 38 ], "ToDisable": [ 37 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 36 ], "ToDisable": [ 37 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 312], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 39 ], "ToDisable": [ 38 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 37 ], "ToDisable": [ 38 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 311], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 40 ], "ToDisable": [ 39 ] },
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 38 ], "ToDisable": [ 39 ] },
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.15,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks" :
+							[
+								{
+									"Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								}
+							]
+						}
+					]
+				},	
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				}
+			]
+		},
+		{
+			"Type": "Effect", "Position": [ 387.5, 310 ], "SpriteFile": "speech_bubble.json", "Scale": 0, "Duration": 0.01,
+			"DisabledTasks": [0,1],
+			"Tasks":
+			[ 
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [  ], "ToDisable": [  ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 39 ], "ToDisable": [ 40 ] },
+				{ 
+				  "Type": "Projectile", "SpriteFile": "bloon_display.json", "NumPersists":      1, "TerminateOnZeroPersists": true, "HasLimitedDuration" : true, "LimitedDuration" : 0.0334, "DrawLayer": "FullScreen", "CollisionType": "None",
+				  "Movement":{"Type": "Forward", "Speed": 0.0, "CutOffDistance": 1}
+				},
+				{
+					// Display Slot 1
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 1 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 1 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 2
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 2 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 2 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 3
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 3 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 3 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 4
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 4 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 4 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 5
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 5 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 5 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 6
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 6 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 6 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 7
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 7 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 7 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					// Display Slot 8
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"Tasks" :
+					[
+						{
+							// Slot 8 Visual Group 1
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_red_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_blue_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_green_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_yellow_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_pink_bloon.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_red_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_blue_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_green_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_yellow_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_pink_bloon_cluster.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_10.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_11.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_12.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_13.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_14.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_15.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_16.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_17.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_18.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_19.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						},
+						{
+							// Slot 8 Visual Group 2
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+							"Tasks" :
+							[
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_20.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_21.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_22.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_23.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_24.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_25.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_26.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_27.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_28.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_29.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_30.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_31.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_32.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_33.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_34.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_35.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_36.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_37.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_38.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" },				
+								{ "Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "BD_place_39.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen" }	
+							]
+						}
+					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.0,
+					"DisabledTasks": [0],
+					"Tasks" :
+					[
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.18,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks" :
+							[
+								{
+									"Type": "Effect", "Position": [ 250, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 275, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 300, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 325, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 350, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 375, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 400, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								},
+								{
+									"Type": "Effect", "Position": [ 425, 305 ], "SpriteFile": "pop_effect.json", "Scale": 1, "Duration": 0.1, "DrawLayer": "FullScreen"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

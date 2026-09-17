@@ -1,0 +1,15 @@
+{	
+    "Type":             "templeSharp1",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+    "Tasks" :
+    [
+		{
+			"Type" : "ChangeTerrain",
+			"Area" : [ 9999, 9999 ],
+			"Mask" : [ "BlockTower" ]
+		}
+	]
+}

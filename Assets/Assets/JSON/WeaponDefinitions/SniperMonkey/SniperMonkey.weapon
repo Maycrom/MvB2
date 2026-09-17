@@ -1,0 +1,38 @@
+{	
+    "Type":             "SniperMonkey",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks" :
+    [
+        {
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Offsets" : [
+				[ 125, 0 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 100, 100 ],
+					"PriorityLevel": 8,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ReplacesPriorityLevel" : true,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.1,
+					
+					"Modifier" : 
+					{
+						"Display": "MeerkatBase.json"
+					}
+				}
+			]
+		}	
+    ]
+}

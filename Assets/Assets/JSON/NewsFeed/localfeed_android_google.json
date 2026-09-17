@@ -1,0 +1,43 @@
+{
+	"error":0,
+	"count":3,
+	"hash":"not required",
+	"items":[
+        {
+			 "title":"LOC_LOCAL_FEED_MOREGAMES",
+			 "content":"LOC_LOCAL_FEED_GOOGLE_MoreGames_DESC",
+			 "link":"https://ninja.kiwi/bmc",
+			 "image":"newslocal_01",
+			 "id":-1,
+			 "version":999999
+        },
+        {
+             "title":"",
+             "content":"",
+             "image-content":"battles2_advert",
+             "link":"https://ninja.kiwi/battles2_btd5xpromo",
+             "app_id":17,
+             "image":"newslocal_btdb2",
+             "id":-2,
+             "version":999999
+        },
+        {
+             "title":"LOC_LOCAL_FEED_UPDATES",
+             "content":"LOC_LOCAL_FEED_Update_40600_DESC",
+             "link":"",
+             "image":"newslocal_btd5_update",
+             "id":-3,
+             "version":40600
+        },
+        {
+			 "title":"",
+			 "content":"",
+			 "image-content":"btd6_advert",
+			 "link":"https://ninja.kiwi/btd6",
+			 "app_id":11,
+			 "image":"newslocal_btd6",
+			 "id":-4,
+			 "version":999999
+        }
+    ]
+}

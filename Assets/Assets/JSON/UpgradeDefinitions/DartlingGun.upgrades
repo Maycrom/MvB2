@@ -1,0 +1,108 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Focused Firing",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Movement": {
+								"Type": "Target",
+								"SeekAngle": 360,
+								"TurnSpeed": 99999999,
+								"CutOffDistance": 5000,
+								"TargetRange": 165,
+								"Speed": 250,
+								"TerminateOnNoTarget": true,
+								"TargetMode": "Close"
+							},
+							"NumPersists":      6,
+							"SpriteFile": "glaive_red.json"
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"SpriteFile": "glaive_red.json"
+						}
+					]
+				},
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "Faster Barrel Spin"
+        },
+        {
+            "Name" : "Laser Cannon"
+        },
+        {
+            "Name" : "Ray Of Doom"
+        },
+        {
+            "Name" : "Powerful Darts"
+        },
+        {
+            "Name" : "Depleted Bloontonium"
+        },
+        {
+            "Name" : "Hydra Rocket Pods"
+        },
+        {
+            "Name" : "Bloon Area Denial System",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

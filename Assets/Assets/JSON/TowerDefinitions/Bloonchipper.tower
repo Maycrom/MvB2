@@ -1,0 +1,98 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+	"InitialAngle" : 90,
+	"AnimationWeaponSlotIndex" : 2,
+    "DefaultWeapons" : [
+		"templeWind1.weapon",
+		"templeWind2.weapon",
+		"Bloonchipper.weapon",
+		"BloonchipperLead.weapon",
+		"BloonchipperMoab.weapon",
+		"TonicModifier.weapon"
+    ],
+	"ActiveWeaponSlots": [
+        true,
+		true,
+		true,
+		true,
+		false,
+		false
+	],
+	"WeaponOffsets" : [
+		[ 0, 0 ],
+		[ 0, 0 ],
+		[ 0, 0 ],
+		[ 0, 0 ],
+		[ 2.0, -1.0 ] // this literally doesn't even work lol
+	],
+    "Icon" : "monkey_engineer_sentry_avatar_small",
+    "PlacementH" : 25.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 25.0,
+    "RankToUnlock" : 3,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "Bloonchipper",
+    "Upgrades" : [
+        [
+            "Suckier",
+            "Heavy Duty Suction",
+            "Dual Layer Blades",
+            "Super Wide Funnel"
+        ],
+        [
+            "Long Range Suck",
+            "Faster Shred",
+            "Triple Barrel",
+            "Supa-Vac"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 50, 450, 800, 4500 ],
+        [ 999999, 600, 4500, 6000 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "super_sentry",
+            "bloonchipper_heavy_duty_suck_icon",
+            "bloonchipper_dual_layer_blades_icon",
+            "bloonchipper_super_wide_funnel_icon"
+        ],
+        [
+            "bloonchipper_long_range_suck_icon",
+            "bloonchipper_faster_shred_icon",
+            "bloonchipper_triple_barrel_icon",
+            "bloonchipper_super_vac_icon"
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small"
+        ],
+        [
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small"
+        ]
+    ],
+    "UseRadiusPlacement" : false,
+    "SpriteUpgradeDefinition" : "Bloonchipper.json",
+	"PlacementFiringSequence" : [ 1 ]
+}

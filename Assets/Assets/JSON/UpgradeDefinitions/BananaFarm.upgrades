@@ -1,0 +1,92 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Twin Banana Farm",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"3" : "templeSharp2.weapon"
+                }
+            },
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 4 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1,0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 8
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 2 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Modifier":
+							{
+								"Display": "banana_tree_twin_tonic.json"
+							}
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "Banana Plantation"
+        },
+        {
+            "Name" : "Banana Republic"
+        },
+        {
+            "Name" : "Banana Research Facility"
+        },
+        {
+            "Name" : "Long Life Bananas"
+        },
+        {
+            "Name" : "Valuable Bananas"
+        },
+        {
+            "Name" : "Monkey Bank"
+        },
+        {
+            "Name" : "Banana Investments Advisory",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

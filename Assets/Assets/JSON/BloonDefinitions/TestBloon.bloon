@@ -1,0 +1,11 @@
+{
+	"Type" : "TestBloon",
+	"InitialHealth" : 999999999,
+	"SpriteFile" : "red_bloon",
+	"BaseSpeed" : 9999999,
+	"SpeedMultiplier" : 81,
+	"RBE" : 99999,
+    "ChildBloons" : [ ],
+    "StatusImmunity" : [ "Ice" ],
+    "DamageImmunity" : [ "Explosive" ]
+}

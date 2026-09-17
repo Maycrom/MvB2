@@ -1,0 +1,51 @@
+{	
+    "Type":             "TutorialTowerCheck",    
+    "TargetRange":      0,
+	"CooldownTime":     0.1,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [0],
+	// Actually stupid that I need an entire weapon file for this one off
+    "Tasks" :
+    [
+		{	
+			"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 240, 25 ], "Scale": 0, "Duration": 0.00001,
+			"Tasks":
+			[
+				{
+					"Type" : "TowerModifier",
+					"Area" : [440,160],
+					"PriorityLevel": 2,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.15,
+					
+					"TargetingFilter":
+					{
+						"Exclude" :
+						{
+							"TowerType": [ "WizardLord", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4", "TestTower" ]
+						}
+					},	
+					"Modifier" : {},
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 3,
+							"Amount" : 1
+						},
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 10,
+							"Amount" : 1
+						},
+						{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] }
+					]
+				}
+			]
+		}	
+	]
+}

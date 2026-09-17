@@ -1,0 +1,86 @@
+{
+    "nk_description": "LOC_MIS_173_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "BloonLevelOffsets": [
+            7, 
+            6, 
+            5, 
+            4, 
+            3, 
+            2, 
+            1, 
+            0, 
+            0, 
+            0, 
+            0,
+            0,
+            0, 
+            0, 
+            0
+        ], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "GlueGunner", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 16, 
+        "MaxNumberOfEachTower": 4, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 85, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 7000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_173", 
+    "nk_track": "stream", 
+    "nk_rank_required": 0, 
+    "nk_id": "200", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

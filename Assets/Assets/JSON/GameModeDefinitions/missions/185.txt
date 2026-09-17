@@ -1,0 +1,52 @@
+{
+    "nk_description": "LOC_MIS_185_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 1, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            10, 
+            11,
+            11,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            0,
+            2, 
+            1, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 10000, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_185", 
+    "nk_track": "archipelago", 
+    "nk_rank_required": 0, 
+    "nk_id": "214", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

@@ -1,0 +1,29 @@
+{
+	"Type" : "White",
+	"InitialHealth" : 14,
+	"SpriteFilesAtDamageLevels": [
+		[ "white_bloon.json", 14 ],
+		[ "white_bloony.json", 13 ],
+		[ "white_bloon.json", 12 ],
+		[ "white_bloony.json", 11 ],
+		[ "white_bloon.json", 10 ],
+		[ "white_bloony.json", 9 ],
+		[ "white_bloon.json", 8 ],
+		[ "white_bloony.json", 7 ],
+		[ "white_bloon.json", 6 ],
+		[ "white_bloony.json", 5 ],
+		[ "white_bloon.json", 4 ],
+		[ "white_bloony.json", 3 ],
+		[ "white_bloon.json", 2 ],
+		[ "white_bloony.json", 1 ],
+		[ "white_bloon.json", 0 ]
+	],
+	"BaseSpeed" : 16,
+	"SpeedMultiplier" : 1.5,
+	"RBE" : 11,
+    "ChildBloons" : [  ],
+    "StatusImmunity" : [  ],
+    "DamageImmunity" : [ ],
+	"Scale" : 0.975,
+    "Radius" : 11
+}

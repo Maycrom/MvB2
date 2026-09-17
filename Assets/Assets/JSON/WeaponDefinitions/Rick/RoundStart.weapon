@@ -1,0 +1,167 @@
+{	
+    "Type":             "RoundStart",    
+    "TargetRange":      0.0,
+	"CooldownTime":     9999999,
+    "FireDelayTime":    29,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  0.1,
+			"Tasks" :
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "rick_smoke.json",
+					"Position": [ 74, 50 ], 
+					"Scale": 1.65,
+					"LoopCount": 5,
+					"DrawLayer": "FullScreen"
+				}	
+			]
+		},
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  0.15,
+			"Tasks" :
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "rick_smoke.json",
+					"Position": [ 74, 50 ], 
+					"Scale": 1.65,
+					"LoopCount": 5,
+					"DrawLayer": "FullScreen"
+				}	
+			]
+		},
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  0.2,
+			"Tasks" :
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "rick_smoke.json",
+					"Position": [ 74, 50 ], 
+					"Scale": 1.65,
+					"LoopCount": 5,
+					"DrawLayer": "FullScreen"
+				}	
+			]
+		},
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  1,
+			"Tasks" :
+			[
+				{
+					"Type" : "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 10,
+					"TerminateOnUserUpgrade" : false,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"Duration": 5.4,
+					
+					"Modifier" : 
+					{
+						"Display": "DartlingGun.json",
+						"Cooldown": [ 999, 999 ],
+						"Cost": [ 0, 800 ],
+						"BaseDisplay": "nothing.json"
+					}
+				}
+			]
+		},	
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  6.4,
+			"Tasks" :
+			[
+				{
+					"Type" : "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 10,
+					"TerminateOnUserUpgrade" : false,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"Duration": 99999999,
+					
+					"Modifier" : 
+					{
+						"Display": "DartlingGun.json",
+						"Cost": [ 0, 800 ],
+						"BaseDisplay": "nothing.json"
+					}
+				}
+			]
+		},	
+		{	
+			"Type" : "TimerFire", "TimeDelay" :  2,
+			"Tasks" :
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "speech_bubble_small.json",
+					"Position": [ 70, 13 ],
+					"Scale": 1,
+					"Duration": 9.2
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "speech_bubble_small.json",
+					"Position": [ 70, 13 ],
+					"Scale": 0,
+					"Duration": 0.4,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "I don't know about\nyou but...",
+							"Font": "oetztype_12_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Fade": false,
+							"FadeTime": 0.5,
+							"FadeEase": true,
+							"FadeDelay": 3.5,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 0.000001,
+								"CutOffDistance": 0.000004
+							}
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "speech_bubble_small.json",
+					"Position": [ 70, 13 ],
+					"Scale": 0,
+					"Duration": 4.4,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "I'm NOT going down\nwithout a fight!",
+							"Font": "oetztype_12_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Fade": true,
+							"FadeTime": 0.5,
+							"FadeEase": true,
+							"FadeDelay": 4.5,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 0.000001,
+								"CutOffDistance": 0.000005
+							}
+						}
+					]
+				}							
+			]
+		}
+    ]
+}

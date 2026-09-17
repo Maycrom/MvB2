@@ -1,0 +1,63 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -0, 1.0 ],
+         "Scale" : [ 0.96, 0.96 ],
+         "Shown" : true,
+         "sprite" : "FireWizard_SummonPhoenix_sub.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -10.5, 1 ],
+         "Scale" : [ 0.96, 0.96 ],
+         "Shown" : true,
+         "sprite" : "FireWizard_WandCharge.json",
+         "type" : 2,
+         "uid" : 2
+      }
+   ],
+    "customvariables" : [
+    ],
+    "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "monkey_apprentice_dragon_breath_staff",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "monkey_apprentice_arm_red_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "monkey_apprentice_dragon_breath",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "monkey_apprentice_hat_pattern",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

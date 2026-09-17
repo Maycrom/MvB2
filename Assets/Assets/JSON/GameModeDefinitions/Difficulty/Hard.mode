@@ -1,0 +1,62 @@
+{
+	"Setup"	: {
+		"Health" : 1,
+		"Towers":
+		[
+			{ 
+				"Type": "DialogueAutoSkip", 
+				"Position": [ -3000, 0 ], 
+				"Upgrades": [ 0, 0 ] 
+			}
+		]
+	},
+
+	"Rules" : {
+		"TargetRound" : 1,
+		"PriceModifier" : 1,
+        "BonusTokenRound"  :  99,
+		"Reward" : {
+			"MonkeyMoneyMultiplier" : 1.5,
+			"XPMultiplier" : 0
+		},
+		"BloonInitialHealthModifier" : {
+			"Red" : 1.6,
+			"Blue" : 1.6,
+			"Green" : 1.6,
+			"Yellow" : 1.6,
+			"Pink" : 1.6,
+			"White" : 1.6,
+			"Black" : 1.6,
+			"Zebra" : 1.6,
+			"Rainbow" : 1.6,
+			"Ceramic" : 1.6,
+			"MOAB" : 1.6,
+			"BFB" : 1.6,
+			"ZOMG" : 1.6,
+			
+			// Flag Bloons
+			"RedFlagBloon" : 1.6,
+			
+			// Cluster Bloons
+			"RedCluster" : 1.6,
+			"BlueCluster" : 1.6,
+			"GreenCluster" : 1.6
+		}
+	},
+	
+	"_Rounds" : [
+		{
+			"Round" : 0,
+			"Hint" : "Hard.mode intro hint text",
+			"Waves" : [
+			]
+		},
+		{
+			"Round" : 1,
+			"Hint" : "Hard.mode intro hint text",
+			"Waves" : [
+				{ "Bloon" : "Ceramic", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 20, "Count" : 50 }
+			]
+		}
+	]
+}

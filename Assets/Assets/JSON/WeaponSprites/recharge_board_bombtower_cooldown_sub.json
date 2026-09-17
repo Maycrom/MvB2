@@ -1,0 +1,57 @@
+{
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 50.0 ],
+         "Scale" : [ 0.33, 0.33 ],
+         "Shown" : true,
+         "sprite" : "recharge_board_grey",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+		 "Alignment" : [ 0, 0 ],
+		 "Alpha" : 1.0,
+		 "Angle" : 0.0,
+		 "Flip" : 0,
+		 "Position" : [ 0, 51.5 ],
+		 "Scale" : [ 0.65, 0.65 ],
+		 "Shown" : true,
+		 "sprite" : "BombTower_static_grey.json",
+		 "type" : 2,
+		 "uid" : 2
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "recharge_board_grey",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "banana_farm_tree_grey",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 30,
+         "stage" : [
+         ]
+      }
+   ]
+}

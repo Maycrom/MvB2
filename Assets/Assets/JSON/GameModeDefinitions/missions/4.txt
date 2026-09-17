@@ -1,0 +1,45 @@
+{
+    "nk_description": "LOC_MIS_4_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 65, 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple"
+        ], 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Inventory": [], 
+        "StartRound": 26
+    }, 
+    "nk_title": "LOC_MIS_4", 
+    "nk_track": "archipelago", 
+    "nk_id": "5", 
+    "nk_mode": 4
+}

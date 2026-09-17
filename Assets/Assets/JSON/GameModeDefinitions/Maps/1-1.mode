@@ -1,0 +1,161 @@
+{
+	"Setup" : {
+		"Towers":
+		[
+			{ 
+				"Type": "GameController", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 1, 0 ] 
+			},
+			{ 
+				// Needs to be spawned here, ability doesn't show up otherwise
+				"Type": "TonicController", 
+				"Position": [ 0, 4000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			// Dont remove this, looks stupid but fixes an even dumber bug
+			{ 
+				"Type": "DartMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BananaFarm", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BombTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "Bloonchipper", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BoomerangThrower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "DartlingGun", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "GlueGunner", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "IceTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyApprentice", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyBuccaneer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyEngineer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeySub", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyVillage", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MortarTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "NinjaMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SniperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SpikeFactory", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SuperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "TackTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			}
+		],
+		"RoundFiles" : [
+			"Maps/1-1.mode"
+		]
+	},
+	
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 25,
+			"XP" : 1000000,
+            "TokensEasy": 3,
+            "TokensMedium": 2,
+            "TokensHard": 2,
+			"TokensImpoppable": 3
+		}
+	},
+	
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 33, "Duration" : 0, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 50, "Duration" : 132, "Count" : 17 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 75, "Duration" : 64, "Count" : 8 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 110, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 128, "Duration" : 52, "Count" : 4 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 134, "Duration" : 3, "Count" : 5 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 148, "Duration" : 32, "Count" : 3 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 158, "Duration" : 22, "Count" : 3 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 162, "Duration" : 3, "Count" : 6 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 168, "Duration" : 12, "Count" : 3 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 3, "Count" : 12 },
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 0, "Count" : 1 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

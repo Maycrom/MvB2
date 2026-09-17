@@ -1,0 +1,189 @@
+{
+    "Type":             "BloonchipperLead",    
+    "TargetRange":      120.0,
+	"CooldownTime":     12.0,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+	"AnimatesTower" : false,
+    "DisabledTasks": [1],
+	"MaxShots": 2,
+	"ForwardFiring" : true,
+    "Tasks" :
+    [
+		{	
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.0,
+			"Tasks" :
+			[
+				{
+					"Type" : "AddChildSprite",
+					"SpriteName": "engineer_sentry_tripod_compoundsprite.json"
+				},
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 1 ],
+					"ToDisable": [ 0 ]
+				}
+			]
+		},
+		{	
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.0,
+			"DisabledTasks": [2],
+			"Tasks" :
+			[
+				{	
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.1,
+					"DisabledTasks": [1],
+					"Tasks" :
+					[
+						{
+							"Type" : "TowerModifier",
+							"Range": 10,
+							"PriorityLevel": 6,
+							"TerminateOnUserUpgrade" : true,
+							"ReplacesPriorityLevel" : true,
+							"ApplyToUserTower": true,
+							"ModifyMovingTowers": false,
+							
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "Bloonchipper" ]
+								}
+							},
+							
+							"Modifier" : 
+							{
+								"Display": "nothing.json",
+								"ActiveWeapon": [ [ 4, true ], [ 3, false ], [ 2, false ] ],
+								"Cost": [ 1, 999999 ] 
+							}
+						},
+						{
+							"Type" : "TowerModifier",
+							"Range": 10,
+							"PriorityLevel": 6,
+							"TerminateOnUserUpgrade" : true,
+							"ReplacesPriorityLevel" : true,
+							"ApplyToUserTower": true,
+							"ModifyMovingTowers": false,
+							
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "Bloonchipper" ]
+								}
+							},
+							
+							"Modifier" : 
+							{
+								"Display": "nothing.json",
+								"ActiveWeapon": [ [ 4, true ], [ 3, false ], [ 2, false ] ],
+								"Cost": [ 1, 999999 ],
+								"EnabledSubtasks" :
+								[
+									[ 4, [ 1 ], true ]
+								]
+							}
+						}
+					]
+				},	
+				{
+					"Type":             "Projectile",
+					"SpriteFile": "sentry_malfunction.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"TerminateOnTowerRemoved": true,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1
+					},
+					"TasksToProcessOnTerminate": [0,1],
+					"Tasks":
+					[
+						{	
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.04,
+							"Tasks" :
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "Explosion_mine.json",
+									"Scale": 0.8,
+									"Audio": "EXPLOSION"
+								}
+							]
+						},	
+						{
+							"Type": "AreaOfEffect",
+							"Range": 60,
+							"MaxTargets": 6,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 50
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]	
+				},
+				{
+					"Type":             "Projectile",
+					"SpriteFile": "sentry_malfunction.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"TerminateOnTowerRemoved": true,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1
+					},
+					"TasksToProcessOnTerminate": [0,1],
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion_mine.json",
+							"Scale": 1.2,
+							"Audio": "EXPLOSION"
+						},
+						{
+							"Type": "AreaOfEffect",
+							"Range": 105,
+							"MaxTargets": 100,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 60
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]	
+				}				
+			]
+		}
+	]
+}

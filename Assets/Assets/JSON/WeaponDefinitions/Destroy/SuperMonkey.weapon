@@ -1,0 +1,10 @@
+{	
+    "Type":             "SuperMonkey",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.058,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+	]
+}

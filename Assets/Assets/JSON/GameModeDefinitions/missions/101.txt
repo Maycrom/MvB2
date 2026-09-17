@@ -1,0 +1,81 @@
+{
+    "nk_description": "LOC_MIS_101_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 85, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "MeerkatSpy", 
+            "TribalTurtle", 
+            "PortableLake", 
+            "Pontoon", 
+            "BloonsdayDevice", 
+            "AngrySquirrel", 
+            "SuperMonkeyStorm", 
+            "BeeKeeper", 
+            "BloonberryBush", 
+            "Radadactyl", 
+            "BananaFarmer", 
+            "WizardLord", 
+            "MeerkatSpyPro", 
+            "TribalTurtlePro", 
+            "PortableLakePro", 
+            "PontoonPro", 
+            "BloonsdayDevicePro", 
+            "AngrySquirrelPro", 
+            "SuperMonkeyStormPro", 
+            "BeeKeeperPro", 
+            "BloonberryBushPro", 
+            "RadadactylPro", 
+            "BananaFarmerPro"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "MonkeyBuccaneer", 
+                "Upgrades": [
+                    4, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 125, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 8000, 
+        "Health": 50, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_101", 
+    "nk_track": "castle", 
+    "nk_rank_required": 0, 
+    "nk_id": "125", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

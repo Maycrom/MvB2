@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FrameInformation name="monkey_lab" texw="1700" texh="1700" type="png">
+    <Cell name="big_bloon_sabotage" x="477" y="656" w="506" h="276" ax="0" ay="0" aw="506" ah="276" />
+    <Cell name="bloon_cripple" x="1183" y="1064" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="bounty_hunt" x="1183" y="710" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="farm_fertilizer" x="987" y="356" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="faster_cooldown" x="2" y="1297" w="234" h="337" ax="0" ay="0" aw="234" ah="337" />
+    <Cell name="faster_firing" x="2" y="356" w="471" h="305" ax="0" ay="0" aw="471" ah="305" />
+    <Cell name="flask" x="1141" y="1418" w="193" h="227" ax="0" ay="0" aw="193" ah="227" />
+    <Cell name="front_cables" x="2" y="2" w="544" h="350" ax="0" ay="0" aw="544" ah="350" />
+    <Cell name="front_desk" x="477" y="356" w="474" h="296" ax="0" ay="0" aw="474" ah="296" />
+    <Cell name="monkey_tonic" x="955" y="2" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="popping_power" x="2" y="665" w="469" h="274" ax="0" ay="0" aw="469" ah="274" />
+    <Cell name="sell_price" x="550" y="2" w="368" h="289" ax="0" ay="0" aw="368" ah="289" />
+    <Cell name="starting_cash" x="1341" y="356" w="347" h="256" ax="0" ay="0" aw="347" ah="256" />
+    <Cell name="starting_lives" x="685" y="1290" w="452" h="180" ax="0" ay="0" aw="452" ah="180" />
+    <Cell name="test_tubes" x="356" y="1290" w="325" h="257" ax="0" ay="0" aw="325" ah="257" />
+    <Cell name="tower_health" x="829" y="936" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="tower_slot" x="475" y="936" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="unknown" x="2" y="943" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+    <Cell name="wip" x="1341" y="2" w="350" h="350" ax="0" ay="0" aw="350" ah="350" />
+  </FrameInformation>
+</SpriteInformation>

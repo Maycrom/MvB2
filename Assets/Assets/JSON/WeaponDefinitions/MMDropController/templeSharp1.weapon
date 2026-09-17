@@ -1,0 +1,260 @@
+{	
+    "Type":             "templeSharp1",
+    "TargetRange":      70.0,
+	"CooldownTime":     9.75,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+    
+    "Tasks" :
+    [    	
+		{
+			"Type": "Effect",
+			"Position": [ 480, 160 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"DisabledTasks": [], 
+			"Tasks":
+			[
+				{
+					"Type": "RandomFire",
+					"Range": 120,
+					"OnlyTargetPathLocations": true,
+					"FireFullRange": true,
+					"TerminateOnZeroPersists": true,
+					"FollowTarget": false,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      5,
+							"TerminateOnZeroPersists": true,
+							"RemoveOnRoundEnd" : true,
+							"OnlyCollidePastCutOff" : true,
+
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 70,
+							"HasRandomOrientation" : true,
+							
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "MotionCurve",
+								"Curves": 
+								[
+									[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+								],
+								"Speed": 115.0,
+								"TerminateAtEndOfCurve": true
+							},
+						
+							"Tasks" :
+							[ 
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Radius": 8,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.1,
+										"CutOffDistance": 0.01
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type" : "StatusEffect",
+											"Status" : "IceShards",
+											"NumPersists" : 1,
+											"Duration" : 99999999,
+											"ApplyDelay" : 0
+										}
+									]
+								}
+							]
+						}	
+					]
+				},
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 1 ],
+                    "ToDisable": [ 0 ]
+                }				
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 480, 80 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"DisabledTasks": [], 
+			"Tasks":
+			[
+				{
+					"Type": "RandomFire",
+					"Range": 120,
+					"OnlyTargetPathLocations": true,
+					"FireFullRange": true,
+					"TerminateOnZeroPersists": true,
+					"FollowTarget": false,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      5,
+							"TerminateOnZeroPersists": true,
+							"RemoveOnRoundEnd" : true,
+							"OnlyCollidePastCutOff" : true,
+
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 70,
+							"HasRandomOrientation" : true,
+							
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "MotionCurve",
+								"Curves": 
+								[
+									[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+								],
+								"Speed": 115.0,
+								"TerminateAtEndOfCurve": true
+							},
+						
+							"Tasks" :
+							[ 
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Radius": 8,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.1,
+										"CutOffDistance": 0.01
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type" : "StatusEffect",
+											"Status" : "IceShards",
+											"NumPersists" : 1,
+											"Duration" : 99999999,
+											"ApplyDelay" : 0
+										}
+									]
+								}
+							]
+						}	
+					]
+				},
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 2 ],
+                    "ToDisable": [ 1 ]
+                }				
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 480, 240 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"DisabledTasks": [], 
+			"Tasks":
+			[
+				{
+					"Type": "RandomFire",
+					"Range": 120,
+					"OnlyTargetPathLocations": true,
+					"FireFullRange": true,
+					"TerminateOnZeroPersists": true,
+					"FollowTarget": false,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      5,
+							"TerminateOnZeroPersists": true,
+							"RemoveOnRoundEnd" : true,
+							"OnlyCollidePastCutOff" : true,
+
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 70,
+							"HasRandomOrientation" : true,
+							
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "MotionCurve",
+								"Curves": 
+								[
+									[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+								],
+								"Speed": 115.0,
+								"TerminateAtEndOfCurve": true
+							},
+						
+							"Tasks" :
+							[ 
+								{
+									"Type": "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Radius": 8,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.1,
+										"CutOffDistance": 0.01
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type" : "StatusEffect",
+											"Status" : "IceShards",
+											"NumPersists" : 1,
+											"Duration" : 99999999,
+											"ApplyDelay" : 0
+										}
+									]
+								}
+							]
+						}	
+					]
+				},
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 0 ],
+                    "ToDisable": [ 2 ]
+                }				
+			]
+		}
+	]
+}

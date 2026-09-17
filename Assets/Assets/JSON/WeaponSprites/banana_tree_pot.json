@@ -1,0 +1,33 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0.525, 0.525 ],
+         "Shown" : true,
+         "sprite" : "farm_pot",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+		 {
+            "SpriteInfo" : "farm_pot",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 1.5,
+      "Version" : 1
+   },
+   "timelines" : [
+   ]
+}

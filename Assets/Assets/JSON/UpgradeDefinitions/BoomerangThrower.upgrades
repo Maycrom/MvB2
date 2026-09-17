@@ -1,0 +1,89 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Multi-Target",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "templeWind1.weapon",
+					"2" : "",
+					"5" : "GlaiveRiccochet.weapon"
+                }
+            },
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 4 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        
+        {
+            "Name" : "Glaive Thrower"
+        },
+        
+        {
+            "Name" : "Glaive Riccochet"
+        },
+        
+        {
+            "Name" : "Glaive Lord"
+        },
+        
+        {
+            "Name" : "Sonic Boom"
+        },
+        
+        {
+            "Name" : "Red Hot Rangs"
+        },
+        
+        {
+            "Name" : "Bionic Boomer"
+        },
+        
+        {
+            "Name" : "Turbo Charge",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

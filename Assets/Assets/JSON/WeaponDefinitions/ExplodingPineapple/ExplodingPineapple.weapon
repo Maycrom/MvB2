@@ -1,0 +1,18 @@
+{	
+    "Type":             "ExplodingPineapple",    
+    "TargetRange":      30,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+        
+    "Tasks" :
+    [
+		{
+			"Type" : "CreateTower",
+			"TowerType" : "Destroy",
+			"TowerColour" : [ 255, 255, 255, 255 ],
+			"TowerLifetime" : 0.0334,
+			"HasParentTower" : false,
+			"UseParentTowerUpgradeLevel": false
+		}	
+	]  
+}

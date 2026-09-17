@@ -1,0 +1,12 @@
+{
+	"Music" : "dance.mp3",
+	
+	"entryMarkers" : [
+		[ [ 0, 41 ], 0 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 440, 320 ], -140 ]
+	],
+	"Effects" : [
+	]
+}

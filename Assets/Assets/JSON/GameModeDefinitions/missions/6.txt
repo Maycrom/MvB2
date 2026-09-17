@@ -1,0 +1,45 @@
+{
+    "nk_description": "LOC_MIS_6_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 65, 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple"
+        ], 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 800, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_6", 
+    "nk_track": "monkey_lane", 
+    "nk_id": "7", 
+    "nk_mode": 5
+}

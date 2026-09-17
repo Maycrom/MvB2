@@ -1,0 +1,60 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.435294121503830,
+         "Angle" : 0.0,
+         "Colour" : 1879048191,
+         "Flip" : 0,
+         "Position" : [ 0.0, -1.0 ],
+         "Scale" : [ 1.50, 1.50 ],
+         "Shown" : true,
+         "sprite" : "dancefloor_mirrorball.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "dancefloor_mirrorball.json",
+            "Texture" : "dancefloor"
+         }
+      ],
+      "StageLength" : 6.982638835906982,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.435294121503830,
+               "Angle" : 0.0,
+               "Colour" : 1879048191,
+               "Flip" : 0,
+               "Position" : [ 0.0, -1.0 ],
+               "Scale" : [ 1.50, 1.50 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.435294121503830,
+               "Angle" : 360.0,
+               "Colour" : 1879048191,
+               "Flip" : 0,
+               "Position" : [ 0.0, -1.0 ],
+               "Scale" : [ 1.549999952316284, 1.549999952316284 ],
+               "Shown" : true,
+               "Time" : 6.989583492279053
+            }
+         ]
+      }
+   ]
+}

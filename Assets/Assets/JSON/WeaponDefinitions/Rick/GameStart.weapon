@@ -1,0 +1,28 @@
+{	
+    "Type":             "GameStart",    
+    "TargetRange":      0.0,
+	"CooldownTime":     9999999,
+    "FireDelayTime":    1,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 10,
+			"TerminateOnUserUpgrade" : false,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"Duration": 99999999,
+			
+			"Modifier" : 
+			{
+				"Display": "nothing.json",
+				"Cooldown": [ 999, 999 ],
+				"Cost": [ 0, 800 ],
+				"BaseDisplay": "nothing.json"
+			}
+		}
+    ]
+}

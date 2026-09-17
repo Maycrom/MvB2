@@ -1,0 +1,42 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0.85, 0.85 ],
+         "Shown" : true,
+         "sprite" : "fire_wizard",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+		 {
+            "SpriteInfo" : "fire_wizard",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "monkey_apprentice_red_staff_glow",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 6,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      }
+   ]
+}

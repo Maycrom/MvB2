@@ -1,0 +1,226 @@
+{
+	"Setup" : {
+		"Towers":
+		[
+			{ 
+				"Type": "GameController", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 8, 0 ] 
+			},
+			{ 
+				// Needs to be spawned here, ability doesn't show up otherwise
+				"Type": "TonicController", 
+				"Position": [ 0, 4000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "Rick", 
+				"Position": [ 100, 56 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			// Dont remove this, looks stupid but fixes an even dumber bug
+			{ 
+				"Type": "DartMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BananaFarm", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BombTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "Bloonchipper", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BoomerangThrower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "DartlingGun", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "GlueGunner", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "IceTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyApprentice", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyBuccaneer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyEngineer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeySub", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyVillage", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MortarTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "NinjaMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SniperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SpikeFactory", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SuperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "TackTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			}
+		],
+		"RoundFiles" : [
+			"Maps/1-8.mode"
+		]
+	},
+	
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 50,
+			"XP" : 1000000,
+            "TokensEasy": 5,
+            "TokensMedium": 3,
+            "TokensHard": 3,
+			"TokensImpoppable": 5
+		}
+	},
+	
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 15, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 28, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 28, "Duration" : 3, "Count" : 13 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 46, "Duration" : 1.5, "Count" : 7 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 58, "Duration" : 1.5, "Count" : 9 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 70, "Duration" : 1.5, "Count" : 4 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 82, "Duration" : 1.5, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 82, "Duration" : 1.5, "Count" : 3 },
+				
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 94, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 94, "Duration" : 1.5, "Count" : 3 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 108, "Duration" : 1, "Count" : 7 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 120, "Duration" : 1, "Count" : 9 },
+				
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 132, "Duration" : 1, "Count" : 2 },
+				
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 2.5, "Count" : 8 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 2.5, "Count" : 6 },
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 2.5, "Count" : 1 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 163, "Duration" : 0, "Count" : 4 },
+				{ "Bloon" : "RedCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 163, "Duration" : 0, "Count" : 4 },
+				
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 175, "Duration" : 1.25, "Count" : 4 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 187, "Duration" : 1.5, "Count" : 6 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 187, "Duration" : 1.5, "Count" : 4 },
+				
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 200, "Duration" : 1, "Count" : 1 },
+				
+				{ "Bloon" : "GreenCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 208, "Duration" : 1.25, "Count" : 1 },
+				
+				{ "Bloon" : "RedCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 216, "Duration" : 2, "Count" : 7 },
+				
+				{ "Bloon" : "BlueCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 225, "Duration" : 2, "Count" : 3 },
+				
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 236, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "RedCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 236, "Duration" : 3, "Count" : 8 },
+				{ "Bloon" : "BlueCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 236, "Duration" : 2, "Count" : 3 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 254, "Duration" : 1.5, "Count" : 6 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 254, "Duration" : 1.5, "Count" : 1 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 254, "Duration" : 1.5, "Count" : 2 },
+				
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 266, "Duration" : 1.75, "Count" : 3 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 266, "Duration" : 2, "Count" : 3 },
+				
+				{ "Bloon" : "RedCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 280, "Duration" : 1.75, "Count" : 4 },
+				{ "Bloon" : "BlueCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 280, "Duration" : 1.5, "Count" : 3 },
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 280, "Duration" : 1, "Count" : 5 },
+				
+				{ "Bloon" : "GreenCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 294, "Duration" : 1, "Count" : 4 },
+				
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 315, "Duration" : 3, "Count" : 5 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 313, "Duration" : 4, "Count" : 20 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 313, "Duration" : 4, "Count" : 7 },
+				
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 328, "Duration" : 3, "Count" : 5 },
+				
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 343, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "BlueCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 345, "Duration" : 2, "Count" : 3 },
+				{ "Bloon" : "GreenCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 345, "Duration" : 2, "Count" : 1 },
+				{ "Bloon" : "RedCluster", "IsCamo" : false, "IsRegen" : false, "StartTime" : 345, "Duration" : 2.8, "Count" : 6 },
+				{ "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 343, "Duration" : 1.5, "Count" : 9 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

@@ -1,0 +1,251 @@
+{
+    "Data": 
+	[
+		{
+			"Reward": {
+				 "MonkeyMoney": 40
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 50
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 3
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 60,
+				 "Tokens": 4
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 45
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 55
+			}
+		},
+		{
+			"Reward": {
+				 "MultiplyMonkeyMoney_Hours": 1,
+				 "MultiplyMonkeyMoney_Multiplier": 2,
+				 "Tokens": 2
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 4
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 80,
+				 "Tokens": 5
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 50
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 60
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 2,
+				 "MonkeyMoney": 80
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 5
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 200
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 60
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 2
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 125,
+				 "Tokens": 6
+			}
+		},
+		{
+			"Reward": {
+				 "MultiplyMonkeyMoney_Hours": 1,
+				 "MultiplyMonkeyMoney_Multiplier": 2,
+				 "MonkeyMoney": 80
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 60,
+				 "Tokens": 1
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 80,
+				 "Tokens": 2
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 40,
+				 "Tokens": 4
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 8
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 12
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 60
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 80
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 200
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MultiplyMonkeyMoney_Hours": 1,
+				 "MultiplyMonkeyMoney_Multiplier": 2,
+				 "Tokens": 5
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 125
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 7
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 200
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 250,
+				 "Tokens": 10
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 90
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 120
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 8
+			}
+		},
+		{
+			"Reward": {
+				 "MultiplyMonkeyMoney_Hours": 1,
+				 "MultiplyMonkeyMoney_Multiplier": 2,
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 150,
+				 "Tokens": 8
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 100
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 125,
+				 "Tokens": 8
+			}
+		},
+		{
+			"Reward": {
+				 "Tokens": 20
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 250
+			}
+		},
+		{
+			"Reward": {
+				 "MonkeyMoney": 300,
+				 "Tokens": 10,
+				 "MultiplyMonkeyMoney_Hours": 1,
+				 "MultiplyMonkeyMoney_Multiplier": 2
+			}
+		}
+	]
+}

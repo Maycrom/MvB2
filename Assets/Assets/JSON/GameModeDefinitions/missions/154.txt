@@ -1,0 +1,117 @@
+{
+    "nk_description": "LOC_MIS_154_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "MonkeyApprentice", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    3, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "TackTower", 
+                "Upgrades": [
+                    3, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    0, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    3, 
+                    1
+                ]
+            }, 
+            {
+                "Type": "IceTower", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "GlueGunner", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    1, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "MonkeyVillage", 
+                "Upgrades": [
+                    3, 
+                    2
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    3, 
+                    1
+                ]
+            }, 
+            {
+                "Type": "SpikeFactory", 
+                "Upgrades": [
+                    1, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "HeliPilot", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 5000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_154", 
+    "nk_track": "lightning_scar", 
+    "nk_rank_required": 0, 
+    "nk_id": "181", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

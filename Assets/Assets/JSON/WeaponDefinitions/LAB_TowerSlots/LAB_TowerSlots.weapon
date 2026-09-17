@@ -1,0 +1,27 @@
+{	
+    "Type":             "LAB_TowerSlots",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+ 	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  40,
+            "PriorityLevel" : 1,
+            "RequiresEmptyPriorityLevel" : true,
+            "TerminateOnUserUpgrade" : true,
+
+            "Modifier" : 
+			{ 
+				"EnabledSubtasks" :
+				[
+					[ 0, [ 1,5 ], true  ]
+				]
+			}
+        }
+    ]
+}

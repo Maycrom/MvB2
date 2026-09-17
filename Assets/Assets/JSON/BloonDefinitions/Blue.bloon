@@ -1,0 +1,31 @@
+{
+	"Type" : "Blue",
+	"InitialHealth" : 8,
+	"SpriteFilesAtDamageLevels": [
+		[ "blue_bloon1.json", 16 ],
+		[ "blue_bloon2.json", 15 ],
+		[ "blue_bloon3.json", 14 ],
+		[ "blue_bloon4.json", 13 ],
+		[ "blue_bloon5.json", 12 ],
+		[ "blue_bloon6.json", 11 ],
+		[ "blue_bloon7.json", 10 ],
+		[ "blue_bloon8.json", 9 ],
+		[ "blue_bloon9.json", 8 ],
+		[ "blue_bloon10.json", 7 ],
+		[ "blue_bloon11.json", 6 ],
+		[ "blue_bloon12.json", 5 ],
+		[ "blue_bloon13.json", 4 ],
+		[ "blue_bloon14.json", 3 ],
+		[ "blue_bloon15.json", 2 ],
+		[ "blue_bloon16.json", 1 ],
+		[ "blue_bloon1.json", 0 ]
+	],
+	"BaseSpeed" : 18,
+	"SpeedMultiplier" : 1.0,
+	"RBE" : 2,
+    "ChildBloons" : [ "Red.bloon" ],
+    "StatusImmunity" : ["Permafrost"],
+    "DamageImmunity" : ["Explosive"],
+	"Scale" : 0.85,
+    "Radius" : 10
+}

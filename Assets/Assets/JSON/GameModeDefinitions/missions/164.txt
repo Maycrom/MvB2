@@ -1,0 +1,87 @@
+{
+    "nk_description": "LOC_MIS_164_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 65, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    2, 
+                    -1
+                ]
+            }, 
+            {
+                "Type": "MonkeyBuccaneer", 
+                "Upgrades": [
+                    -1, 
+                    2
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 3, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 90, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            1, 
+            1, 
+            1, 
+            1, 
+            1, 
+            2, 
+            2, 
+            0, 
+            1, 
+            1, 
+            0,
+            0,
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 4200, 
+        "Inventory": [], 
+        "StartRound": 20
+    }, 
+    "nk_title": "LOC_MIS_164", 
+    "nk_track": "archipelago", 
+    "nk_rank_required": 0, 
+    "nk_id": "191", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

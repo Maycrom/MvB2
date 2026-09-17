@@ -1,0 +1,104 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 50.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -158.0, 74.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "odyssey_ship.json",
+         "type" : 2,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "odyssey_ship.json",
+            "Texture" : "odyssey_assets"
+         }
+      ],
+      "StageLength" : 3.012152671813965,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 50.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -158.0, 74.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 60.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 62.0, -8.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 60.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -57.0, 20.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 3.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 64.96527862548828,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -108.0, 47.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 1.489583373069763
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 67.53496551513672,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -133.0, 60.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.750
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 57.43127441406250,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -82.0, 36.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 2.260416746139526
+            }
+         ]
+      }
+   ]
+}

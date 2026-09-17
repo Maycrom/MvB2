@@ -1,0 +1,63 @@
+{	
+    "Type":             "1-6Dialogue",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.02,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+    // This is unoptimised garbage but it should be fine and gets cleaned up anyways, legit just ain't worth the time investment
+    "Tasks" :
+    [
+		{   
+			// Dialogue 1
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001,
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "We're getting close to the\nend of our little expedition."
+				}	
+			]
+		},
+		{   
+			// Dialogue 2
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "After we clear out this area,\nwe should start heading back."
+				}	
+			]
+		},
+		{   
+			// Dialogue 3
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "It's best not to exhaust\nourselves. That leaves us in a\nvulnurable position that the\nbloons would most certainly\ntake advantage of."
+				}	
+			]
+		},
+		{   
+			// Dialogue 4
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "You're doing great by the way.\nKeep it up."
+				}	
+			]
+		}
+	]
+}

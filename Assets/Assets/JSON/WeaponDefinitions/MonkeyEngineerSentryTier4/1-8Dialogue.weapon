@@ -1,0 +1,128 @@
+{	
+    "Type":             "1-8Dialogue",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.02,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+    // This is unoptimised garbage but it should be fine and gets cleaned up anyways, legit just ain't worth the time investment
+    "Tasks" :
+    [
+		{   
+			// Dialogue 1
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001,
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "I'll be honest with you..."
+				}	
+			]
+		},
+		{   
+			// Dialogue 2
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "I have absolutely no idea where\nwe are right now."
+				}	
+			]
+		},
+		{   
+			// Dialogue 3
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Our navigational tools should\nhave brought us back but as\nyou can see...\nThat didn't quite work."
+				}	
+			]
+		},
+		{   
+			// Dialogue 4
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Back when we were testing\nDr. Monkeys invention, the initial\nimpact must've caused a severe\ndisruption with our\nnavigational tools."
+				}	
+			]
+		},
+		{   
+			// Dialogue 5
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "This isn't good, we are far\nout and deep in bloon territory."
+				}	
+			]
+		},
+		{   
+			// Dialogue 6
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Running now would be a\nterrible idea. That would leave\nus wide open for an attack."
+				}	
+			]
+		},
+		{   
+			// Dialogue 7
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Our only realistic option is to\nstand our ground, but I fear it\nmight already be too late..."
+				}	
+			]
+		},
+		{   
+			// Dialogue 8
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "..."
+				}	
+			]
+		},
+		{   
+			// Dialogue 9
+			"Type": "Effect","Position": [ 222, 220 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.001, "DisabledTasks": [0,1,2],
+			"Tasks":
+			[
+				{
+					"Type": "TextEffect", "Font": "oetztype_22_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],
+					"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000003},
+					
+					"Text": "Let's do this."
+				}	
+			]
+		}
+	]
+}

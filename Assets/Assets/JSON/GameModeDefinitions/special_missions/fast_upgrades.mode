@@ -1,0 +1,123 @@
+{
+  "Setup": {
+    "Inventory": [
+      
+    ],
+	"RoundFiles" : [
+		"special_missions/fast_upgrades.mode"
+	]
+  },
+  "Rules": {
+	"TargetRound" : 5,
+    "Reward": {
+      "MonkeyMoney": 500,
+	  "MonkeyMoneyMultiplier" : 1,
+		"XP" : 0,
+		"XPMultiplier" : 1.0,
+      "Tokens": 4
+    },
+    "LockedTowers": [
+		"PortableLake",
+		"PortableLakePro",
+		"Pontoon",
+		"PontoonPro"
+    ],
+    "LockedUpgrades": [
+      
+    ],
+    "BloonsForcedCamo": [
+      
+    ],
+    "BlockedPremiumUpgrades": [
+      
+    ],
+    "BlockedSpecialties": [
+      
+    ],
+    "MaxNumberOfTotalTowers": -1,
+    "MaxNumberOfEachTower": -1,
+    "TowerLifespan": -1,
+    "TowersAutoUpgrade": true,
+    "MoneyPerRound": 700
+  },
+  "nk_id": "52",
+  "nk_mode": 1,
+  "nk_track": "castle",
+  "nk_description": "LOC_MIS_fast_upgrades_DESC",
+  "nk_title": "LOC_MIS_fast_upgrades",
+  "nk_rank_required": 40,
+  "nk_is_new": false,
+  "Rounds": [
+    {
+      "Round": 1,
+      "Hint": "",
+      "Waves": [
+        {
+          "Bloon": "Red",
+          "IsCamo": false,
+          "IsRegen": false,
+          "Duration": 30,
+          "Count": 30,
+          "StartTime": 0
+        }
+      ]
+    },
+    {
+      "Round": 2,
+      "Hint": "",
+      "Waves": [
+        {
+          "Bloon": "Green",
+          "IsCamo": false,
+          "IsRegen": false,
+          "Duration": 40,
+          "Count": 40,
+          "StartTime": 0
+        }
+      ]
+    },
+    {
+      "Round": 3,
+      "Hint": "",
+      "Waves": [
+        {
+          "Bloon": "Lead",
+          "IsCamo": false,
+          "IsRegen": false,
+          "Duration": 50,
+          "Count": 50,
+          "StartTime": 0
+        }
+      ]
+    },
+    {
+      "Round": 4,
+      "Hint": "",
+      "Waves": [
+        {
+          "Bloon": "Ceramic",
+          "IsCamo": false,
+          "IsRegen": false,
+          "Duration": 90,
+          "Count": 90,
+          "StartTime": 0
+        }
+      ]
+    },
+    {
+      "Round": 5,
+      "Hint": "",
+      "Waves": [
+        {
+          "Bloon": "BFB",
+          "IsCamo": false,
+          "IsRegen": false,
+          "Duration": 3,
+          "Count": 3,
+          "StartTime": 0
+        }
+      ]
+    }
+  ],
+  "nk_rank_required": 999
+}

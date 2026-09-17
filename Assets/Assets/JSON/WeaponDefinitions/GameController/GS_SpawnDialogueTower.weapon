@@ -1,0 +1,39 @@
+{	
+    "Type":             "GS_SpawnDialogueTower",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "dart.json",
+					"Position": [ 325, 250 ], 
+					"Scale": 0,
+					"Duration": 0.00001,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "MonkeyEngineerSentryTier4",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": true
+						}
+					]
+				}
+			]
+		}	
+	]
+}

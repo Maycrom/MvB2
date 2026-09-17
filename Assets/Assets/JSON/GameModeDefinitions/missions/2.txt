@@ -1,0 +1,44 @@
+{
+    "nk_description": "LOC_MIS_2_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "GlueGunner", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple"
+        ], 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 1000, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_2", 
+    "nk_track": "maze", 
+    "nk_id": "3", 
+    "nk_mode": 0
+}

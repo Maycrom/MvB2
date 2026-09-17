@@ -1,0 +1,32 @@
+{
+	"Setup"	: {
+		"Health" : 1
+	},
+
+	"Rules" : {
+		"TargetRound" : 1,
+        "BonusTokenRound"  :  99,
+		"PriceModifier" : 1,
+		"Reward" : {
+			"MonkeyMoneyMultiplier" : 1,
+			"XPMultiplier" : 1
+		},
+		"DisableHints" : true
+	},
+	
+	"_Rounds" : [
+		{
+			"Round" : 0,
+			"Hint" : "",
+			"Waves" : [
+			]
+		},
+		{
+			"Round" : 1,
+			"Hint" : "Medium.mode intro hint text",
+			"Waves" : [
+				{ "Bloon" : "Zebra", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 20, "Count" : 50 }
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "ID": "CandyBananaFarm",
+    "DisplayName": "Bomb Tower Skin",
+    "DisplayDescription": "The Bomb Tower and its upgrades get military grade hardware. Visual change only.",
+    "DisplayIcon": "bomb_tower_skin_store_icon.json",
+    "SmallIcon": "bomb_tower_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "HealthSkin",
+    "RequiresTower": "DartMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+    }
+}

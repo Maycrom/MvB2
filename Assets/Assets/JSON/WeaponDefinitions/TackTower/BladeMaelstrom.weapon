@@ -1,0 +1,118 @@
+{	
+    "Type":             	"BladeMaelstrom",    
+    "TargetRange":      	0,
+	"CooldownTime":     	0.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "bananas.json",
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "None",
+			"HasFixedAngle": true,
+			"NumPersists": 1,
+			"HasLimitedDuration" : true,
+			"LimitedDuration" : 2,
+			"SpreadAngle": 360,
+			"Movement": 
+			{
+				"Type": "Forward",
+				"CutOffDistance": 0.0000001,
+				"Speed": 0.0001
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"SpriteFile":      "bananas_ground.json",
+					"Duration":	10,
+					"MoneyRange": [ 25, 25 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 10,
+					"ClickOnly": true,
+					"AllowMagnetCollection":false,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 200,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.925
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "bananas.json",
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"HasFixedAngle": true,
+							"NumPersists": 1,
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 2,
+							"Movement": 
+							{
+								"Type": "Forward",
+								"CutOffDistance": 0.0000001,
+								"Speed": 0.0001,
+								"Direction": [1, -0.3]
+							},
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"SpriteFile": "bananas.json",
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"HasFixedAngle": true,
+									"NumPersists": 1,
+									"Movement": 
+									{
+										"Type": "Target",
+										"SeekAngle": 360,
+										"TurnSpeed": 999999,
+										"CutOffDistance": 0.001,
+										"TargetRange": 99999,
+										"Speed": 1
+									},
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"SpriteFile": "bananas.json",
+											"TerminateOnZeroPersists": true,
+											"CollisionType": "None",
+											"HasFixedAngle": true,
+											"NumPersists": 1,
+											"HasLimitedDuration" : true,
+											"LimitedDuration" : 2,
+											"Movement": 
+											{
+												"Type": "Forward",
+												"CutOffDistance": 3000,
+												"Speed": 1400,
+												"SpeedDecay": 0.96
+											}
+										}	
+									]
+								},	
+								{
+									"Type": "Effect",
+									"SpriteFile": "dart.json",
+									"Scale": 0,
+									"Audio": "ANGRY_SQUIRREL"
+								}
+							]
+						}	
+					]
+				}
+			]
+		}
+	]
+}

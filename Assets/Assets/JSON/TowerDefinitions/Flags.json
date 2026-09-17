@@ -1,0 +1,35 @@
+[
+	// GameControllers
+	"MMDropController",
+	"TonicController",
+	"DeflationController",
+	"FallingBananasController",
+	"CooldownController",
+	"TowerSlotController",
+	"MapController",
+	"GameController",
+	"Destroy",
+	"FakeCursor",
+	"TheLobotomizerTM",
+	"MMDropRateBoost",
+	"BadIdeaTB",
+	"BloonAbilityController",
+	"DialogueAutoSkip",
+	"BloonSpawnDisplay",
+	"TowerBlock",
+	"IceBloonFreeze",
+	"Debug",
+	"DwarfController",
+	
+	// Extra Stuff
+	"BananaClicker",
+	"Rick",
+	
+	// Lab Upgrades
+	"LAB_FarmGrowthSpeed",
+	"LAB_TowerHealth",
+	"LAB_BloonCripple",
+	"LAB_BountyHunt",
+	"LAB_TowerSlots",
+	"LAB_MonkeyTonic"
+]

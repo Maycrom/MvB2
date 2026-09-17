@@ -1,0 +1,12 @@
+{	
+    "Type":             "game_start",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+    "RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+	]
+}

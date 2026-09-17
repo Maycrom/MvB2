@@ -1,0 +1,127 @@
+{	
+    "Type":             "RS_1-1",    
+    "TargetRange":      5000,
+	"CooldownTime":     0.05,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+	"StartsOnCooldown": true,
+    "DisabledTasks": [1],
+    "Tasks" :
+    [
+		{
+			"Type" : "TimerFire", "TimeDelay" :  0,
+			"Tasks" :
+			[
+				{	
+					// Big Waves
+					"Type" : "TimerFire", "TimeDelay" :  0,
+					"Tasks" :
+					[
+						{
+							"Type" : "TimerFire", "TimeDelay" : 184.0,
+							"Tasks":
+							[
+								{
+									// Huge Wave Effect
+									"Type": "Effect", "SpriteFile": "huge_wave.json", "Position": [ 240, 160 ], "Scale": 1, "DrawLayer": "FullScreen", "Audio": "HUGE_WAVE"
+								},
+								{
+									// Drop Rate Boost
+									"Type": "Effect","Position": [ 0, 6000 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.1,
+									"Tasks":
+									[{ "Type" : "CreateTower", "TowerType" : "MMDropRateBoost", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 8, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false}]
+								}
+							]
+						}
+					]
+				},
+				{	
+					// Progress visuals and sound
+					"Type" : "TimerFire", "TimeDelay" :  0,
+					"Tasks" :
+					[
+						{
+							"Type": "Effect", "SpriteFile": "level_progress_1-1.json", "Position": [ 380, 310 ], "DrawLayer": "FullScreen", "Scale": 1
+						},
+						{
+							"Type" : "TimerFire", "TimeDelay" :  32,
+							"Tasks" :
+							[{"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 380, 310 ],"Scale": 0,"Audio": "FIRST"}]
+						}
+					]
+				},	
+				{
+					// Handles a dumb edge case
+					"Type" : "TowerModifier",
+					"Range" : 100,
+					"PriorityLevel" : 4,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"Modifier" : 
+					{
+						"EnabledSubtasks" :
+						[
+							[ 1, [ 40,11,0 ], true ]
+						]
+					}
+				}
+			]
+		},	
+		{
+			// 1-1 Deflation
+			"Type" : "TimerFire", "TimeDelay" :  1.2,
+			"Tasks" :
+			[
+				{
+					"Type":             "Collectable",
+					"SpriteFile":      "bananas_ground.json",
+					"Duration":	10,
+					"MoneyRange": [ 525, 525 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 10,
+					"ClickOnly": false,
+					"AllowMagnetCollection": true,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"SpeedDecay": 0.875
+					},
+					"Tasks":
+					[
+						{
+							"Type": "Effect",
+							"SpriteFile": "level_progress_tutorial.json",
+							"Position": [ 240, 75 ],
+							"Scale": 0,
+							"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type": "TextEffect",
+									"Text": "Deflation Budget: $600",
+									"Font": "oetztype_24_black_stroke",
+									"Colour": [ 0.369, 0.839, 0.0 ],
+									
+									"Fade": true,
+									"FadeTime": 0.4,
+									"FadeEase": true,
+									"FadeDelay": 4,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Direction": [0, -1],
+										"Speed": 1,
+										"CutOffDistance": 6
+									}
+								}
+							]
+						}
+					]	
+				}
+			]
+		}			
+	]
+}

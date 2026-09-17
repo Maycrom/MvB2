@@ -1,0 +1,69 @@
+{
+  "Setup": {
+    "Inventory": [
+      
+    ]
+  },
+  "Rules": {
+    "Reward": {
+      "MonkeyMoney": 0,
+ 	  "MonkeyMoneyMultiplier" : 1,
+	  "XP": 50000,
+      "XPMultiplier": 1,
+      "Tokens": 3
+    },
+    "LockedTowers": [
+      "DartMonkey",
+      "TackTower",
+      "SniperMonkey",
+      "BoomerangThrower",
+      "NinjaMonkey",
+      "BombTower",
+      "IceTower",
+      "GlueGunner",
+      "MonkeyBuccaneer",
+      "MonkeyAce",
+      "SuperMonkey",
+      "MonkeyApprentice",
+      "MonkeyVillage",
+      "BananaFarm",
+      "MortarTower",
+      "DartlingGun",
+      "SpikeFactory",
+      "HeliPilot",
+	  "MonkeyEngineer",
+	  "Bloonchipper",
+	  "MonkeySub",
+      "RoadSpikes",
+      "ExplodingPineapple",
+		"PortableLake",
+		"PortableLakePro",
+		"Pontoon",
+		"PontoonPro"
+    ],
+    "LockedUpgrades": [
+      
+    ],
+    "BloonsForcedCamo": [
+      
+    ],
+    "BlockedPremiumUpgrades": [
+      
+    ],
+    "BlockedSpecialties": [
+      
+    ],
+    "TargetRound": 50,
+    "MaxNumberOfTotalTowers": -1,
+    "MaxNumberOfEachTower": -1,
+    "TowerLifespan": -1,
+    "TowersAutoUpgrade": false
+  },
+  "nk_id": "51",
+  "nk_mode": 2,
+  "nk_track": "go_with_the_flow",
+  "nk_description": "LOC_MIS_special_agents_only_DESC",
+  "nk_title": "LOC_MIS_special_agents_only",
+  "nk_rank_required": 999,
+  "nk_is_new": false
+}

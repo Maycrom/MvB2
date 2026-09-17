@@ -1,0 +1,50 @@
+{ 
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -55.0, 20.0 ],
+         "Scale" : [ 0.75, 0.75 ],
+         "Shown" : true,
+         "sprite" : "soldier_NotTF2.json",
+         "type" : 2,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 60.0 ],
+         "Scale" : [ 0.75, 0.75 ],
+         "Shown" : true,
+         "sprite" : "speech_bubble_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "speech_bubble_sub.json",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 2.588541746139526,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      }
+   ]
+}

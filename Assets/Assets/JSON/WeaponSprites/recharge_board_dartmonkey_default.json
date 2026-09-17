@@ -1,0 +1,35 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0, -5.5 ],
+         "Scale" : [ 1.19, 1.19 ],
+         "Shown" : true,
+         "sprite" : "recharge_board_dartmonkey_default_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+    "customvariables" : [
+    ],
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "recharge_board",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

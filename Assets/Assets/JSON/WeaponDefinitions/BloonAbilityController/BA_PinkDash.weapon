@@ -1,0 +1,77 @@
+{	
+    "Type":             "BA_PinkDash",    
+    "TargetRange":      99999999.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"ForceTargetWeaponOrigin": true,
+	
+	"TargetingFilter":
+	{
+		"Include":
+		{
+			"BloonType": [
+				"Pink"
+			],
+			"StatusEffect": [ 
+				"Permafrost" 
+			]
+		}
+	},
+	
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"AcquireTarget": true,
+			"InitialOffset": -0,
+			"AngleIncrement": 0,
+			"FireCount": 100,
+
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+					"CollidesOnlyWithTarget" : true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.04,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1.0,
+						"CutOffDistance": 1
+					},
+					
+					"Tasks" :
+					[ 
+						{
+							"Type" : "StatusEffect",
+							"Status" : "Sabotage",
+							"NumPersists" : 1,
+							"SpeedScale" : 13,
+							"Duration" : 0.16	
+						},
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "Permafrost"
+						},
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "Glue"
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "dash.json",
+							"Scale": 1.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

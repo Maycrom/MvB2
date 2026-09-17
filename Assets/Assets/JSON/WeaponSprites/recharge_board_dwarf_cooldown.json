@@ -1,0 +1,79 @@
+{
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, -5.5 ],
+         "Scale" : [ 1.19, 1.19 ],
+         "Shown" : true,
+         "sprite" : "recharge_board_dwarf_cooldown_sub.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 36.0 ],
+         "Scale" : [ 0.16, 0.18 ],
+         "Shown" : true,
+         "sprite" : "recharge_bar_12s.json",
+         "type" : 2,
+         "uid" : 2
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "recharge_board",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "vine",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_arm_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_arm_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dart_monkey_body",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 12
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 3,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 4,
+         "stage" : [
+         ]
+      },
+	  {
+         "spriteuid" : 30,
+         "stage" : [
+         ]
+      }
+   ]
+}

@@ -1,0 +1,66 @@
+{	
+    "Type":             "GameStart",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"Position": [ 222, 220 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.001,
+			"Tasks":
+			[
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 600, 700 ],
+					"PriorityLevel": 3,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ReplacesPriorityLevel" : true,
+					"Duration": 0.015,
+					
+					"TargetingFilter":
+					{
+						"Exclude" :
+						{
+							"TowerType": [ "TestTower", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4", "WizardLord" ]
+						}
+					},
+					
+					"Modifier" : 
+					{
+						"PlacementRect": [ [10, 0], [10, 0] ],
+						"Display": "unplaceable.json"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"Position": [ 99999, 99999 ],
+			"SpriteFile": "speech_bubble.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "FakeCursor",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 999999999,
+					"HasParentTower" : true,
+					"UseParentTowerUpgradeLevel": false
+				},
+				{
+                    "Type": "ChangeSubtaskEnabled",
+                    "ToEnable": [ 2 ],
+                    "ToDisable": [ 1 ]
+                }
+			]
+		}	
+	]
+}

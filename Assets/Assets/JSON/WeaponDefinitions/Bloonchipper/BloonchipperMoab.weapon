@@ -1,0 +1,275 @@
+{	
+    "Type":             "BloonchipperMoab",    
+    "TargetRange":      120.0,
+	"CooldownTime":     0.66,
+	"FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"AnimatesTower" : false,
+    "DisabledTasks": [1,2,3,4,5,6],
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 1,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"WaitTimeRange": [ 0.1, 0.4 ],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 10,
+						"CutOffDistance": 0.00001,
+						"Direction": [ 0, -1 ]
+					},
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"SpriteFile":      "smoke_particle.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 40,
+							
+							"Movement":
+							{
+								"Type": "MotionCurve",
+								"Curves":
+								[
+									[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
+								],
+								"Speed": 10,
+								"AngleOffset" : -0.7853981634,
+								"TerminateAtEndOfCurve": true,
+								"ScaleCurvesByDirection": false
+							}
+						}
+					]
+				}
+			]
+		},	
+		// Ok this is actually peak stupid
+		{
+			"Type": "RandomFire",
+			"Range": 1,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"WaitTimeRange": [ 0.1, 0.4 ],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"SpreadAngle": 360,
+					"TerminateOnTowerRemoved": true,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 100,
+						"CutOffDistance": 15
+					},
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"GraphicName": "bomb_tower_muzzle_smoke_03",
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 0.066,
+							"DrawLayer": "UnderTowers",
+							"TerminateOnTowerRemoved": true,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 0,
+								"CutOffDistance": 1
+							}
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "dash.json",
+							"Scale": 0.0,
+							"UseDirection": true,
+							"DrawLayer": "UnderTowers"
+						}
+					]
+				},
+				{
+					"Type": "RandomFire",
+					"Range": 1,
+					"OnlyTargetPathLocations": false,
+					"FireFullRange": true,
+					"WaitTimeRange": [ 0.0, 0.5 ],
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							"TerminateOnTowerRemoved": true,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 100,
+								"CutOffDistance": 15
+							},
+							"Tasks":
+							[
+								{
+									"Type":             "Projectile",
+									"NumPersists":      1,
+									"GraphicName": "bomb_tower_muzzle_smoke_03",
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.066,
+									"DrawLayer": "UnderTowers",
+									"TerminateOnTowerRemoved": true,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0,
+										"CutOffDistance": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 2 ],
+					"ToDisable": [ 1 ]
+				}				
+			]
+		},
+		{
+			"Type": "ChangeSubtaskEnabled",
+			"ToEnable": [ 3 ],
+			"ToDisable": [ 2 ]
+		},
+		{
+			"Type": "RandomFire",
+			"Range": 1,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"WaitTimeRange": [ 0.1, 0.4 ],
+			"Tasks":
+			[
+				{
+					"Type":             "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"SpreadAngle": 360,
+					"TerminateOnTowerRemoved": true,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 100,
+						"CutOffDistance": 15
+					},
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"GraphicName": "bomb_tower_muzzle_smoke_03",
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"HasLimitedDuration" : true,
+							"LimitedDuration" : 0.066,
+							"DrawLayer": "UnderTowers",
+							"TerminateOnTowerRemoved": true,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 0,
+								"CutOffDistance": 1
+							}
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "dash.json",
+							"Scale": 0.0,
+							"UseDirection": true,
+							"DrawLayer": "UnderTowers"
+						}
+					]
+				},
+				{
+					"Type": "RandomFire",
+					"Range": 1,
+					"OnlyTargetPathLocations": false,
+					"FireFullRange": true,
+					"WaitTimeRange": [ 0.0, 0.5 ],
+					"Tasks":
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							"TerminateOnTowerRemoved": true,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 100,
+								"CutOffDistance": 15
+							},
+							"Tasks":
+							[
+								{
+									"Type":             "Projectile",
+									"NumPersists":      1,
+									"GraphicName": "bomb_tower_muzzle_smoke_03",
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 0.066,
+									"DrawLayer": "UnderTowers",
+									"TerminateOnTowerRemoved": true,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0,
+										"CutOffDistance": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "ChangeSubtaskEnabled",
+					"ToEnable": [ 4 ],
+					"ToDisable": [ 3 ]
+				}				
+			]
+		},
+		{
+			"Type": "ChangeSubtaskEnabled",
+			"ToEnable": [ 5 ],
+			"ToDisable": [ 4 ]
+		},
+		{
+			"Type": "ChangeSubtaskEnabled",
+			"ToEnable": [ 1 ],
+			"ToDisable": [ 5 ]
+		}
+	]
+}

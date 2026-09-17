@@ -1,0 +1,135 @@
+{	
+    "Type":             "SentryGun",    
+    "TargetRange":      99999999.0,
+	"CooldownTime":     10,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"StartsOnCooldown": true,
+    "TargetingFilter":
+	{
+		"Include":
+		{
+			"BloonType": [
+                "ZOMG"
+			]
+		}
+	},
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 240, 160 ],
+			"Scale": 0,
+			"Duration": 0.00001,
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      5,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"SpreadAngle": 360,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 800,
+						"CutOffDistance": 45
+					},
+					"Tasks" :
+					[ 
+						{
+							"Type": "Projectile",
+							"NumPersists":      5,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 800,
+								"CutOffDistance": 45
+							},
+							"Tasks" :
+							[ 
+								{
+									"Type": "Projectile",
+									"NumPersists":      5,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 800,
+										"CutOffDistance": 45
+									},
+									"Tasks" :
+									[ 
+										{
+											"Type": "Projectile",
+											"NumPersists":      5,
+											"TerminateOnZeroPersists": true,
+											"CollisionType": "None",
+											"SpreadAngle": 360,
+											
+											"Movement":
+											{
+												"Type": "Forward",
+												"Speed": 800,
+												"CutOffDistance": 45
+											},
+											"Tasks" :
+											[ 
+												{
+													"Type": "Effect",
+													"SpriteFile": "falling_bananas.json",
+													"Scale": 0.8,
+													"Duration": 0.5,
+													"Tasks":
+													[
+														{
+															"Type":             "Collectable",
+															"SpriteFile":      "banana_box.json",
+															"Duration":	10,
+															"MoneyRange": [ 25, 25 ],
+															"MoneyMultiplier": 1.0,
+															"CollectionRadius": 10,
+															"ClickOnly": true,
+															"AllowMagnetCollection":false,
+															
+															"Movement":
+															{
+																"Type": "Forward",
+																"Speed": 0,
+																"KeepOnScreen": true,
+																"SpeedDecay": 0.925
+															},
+															
+															"Tasks":
+															[
+																{
+																	"Type": "Effect",
+																	"SpriteFile": "banana_box_collect.json",
+																	"Scale": 1,
+																	"Audio": "ANGRY_SQUIRREL"
+																}
+															]
+														}
+													]
+												}	
+											]
+										}
+									]
+								}
+							]
+						}	
+					]
+				}
+			]
+		}	
+	]
+}

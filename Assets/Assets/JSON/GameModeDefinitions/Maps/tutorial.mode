@@ -1,0 +1,125 @@
+{
+	"Setup" : {
+		"Towers":
+		[
+			{ 
+				"Type": "GameController", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				// Needs to be spawned here, ability doesn't show up otherwise
+				"Type": "TonicController", 
+				"Position": [ 0, 4000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "DartMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BananaFarm", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BombTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "Bloonchipper", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "BoomerangThrower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "DartlingGun", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "GlueGunner", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "IceTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyApprentice", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyBuccaneer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyEngineer", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeySub", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MonkeyVillage", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "MortarTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "NinjaMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SniperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SpikeFactory", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "SuperMonkey", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			},
+			{ 
+				"Type": "TackTower", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 4 ] 
+			}
+		]
+	},
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 0,
+			"XP" : 10000,
+            "TokensEasy": 2,
+            "TokensMedium": 0,
+            "TokensHard": 1,
+			"TokensImpoppable": 2
+		},
+		"LockedTowers": [
+        ]
+	}
+}

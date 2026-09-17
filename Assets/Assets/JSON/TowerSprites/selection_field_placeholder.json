@@ -1,0 +1,39 @@
+{
+   "actors" : [
+	 {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 30.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "missing",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : 
+   [
+   ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "missing",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

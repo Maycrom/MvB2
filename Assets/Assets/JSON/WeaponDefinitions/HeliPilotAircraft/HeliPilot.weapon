@@ -1,0 +1,20 @@
+{	
+    "Type":             "HeliPilot",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+    "RequiresTargetToFire":	false,
+
+    "Tasks"	:
+    [
+		{
+			"Type" : "CreateTower",
+			"TowerType" : "WizardLord",
+			"TowerColour" : [ 255, 255, 255, 255 ],
+			"TowerLifetime" : 0.1,
+			"HasParentTower" : false,
+			"UseParentTowerUpgradeLevel": false
+		}
+	]
+}
+

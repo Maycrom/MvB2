@@ -1,0 +1,85 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 20,
+					"PriorityLevel": 5,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"TargetIsWeaponTaskOrigin": true,
+					"CanApplyToUserTower": true,
+					"Duration": 6,
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "TackTower" ]
+						}
+					},
+					"Modifier":
+					{
+						"Cooldown": [ 0.12, 0 ],
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0 ], false ],
+							[ 2, [ 1 ], true ]
+						]
+					}
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 0,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier",
+					"Range": 20,
+					"PriorityLevel": 5,
+					"ReplacesPriorityLevel": true,
+					"TerminateOnUserUpgrade": false,
+					"ApplyToUserTower": true,
+					"TargetIsWeaponTaskOrigin": true,
+					"CanApplyToUserTower": true,
+					"Duration": 5,
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "DartMonkey" ]
+						}
+					},
+					"Modifier":
+					{
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0 ], false ],
+							[ 2, [ 1 ], false ],
+							[ 2, [ 2 ], true ],
+							[ 2, [ 3 ], true ]
+						],
+						"Cooldown": [ 0.55, 0 ]
+					}
+				}
+			]
+		}	
+    ]
+}

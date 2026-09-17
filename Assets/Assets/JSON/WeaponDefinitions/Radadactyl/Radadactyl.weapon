@@ -1,0 +1,47 @@
+{	
+    "Type":             "Radadactyl",
+    "TargetRange":      81,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"DefaultSprite" : "rad_egg_hatch.json",
+	"RequiresTargetToFire" : false,
+   
+    "Tasks" :
+    [
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 1.9,
+			
+			"Tasks" : 
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 175.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

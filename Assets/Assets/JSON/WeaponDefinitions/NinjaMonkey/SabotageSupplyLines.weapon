@@ -1,0 +1,29 @@
+{	
+    "Type":             	"SabotageSupplyLines",    
+    "TargetRange":      	5,
+	"CooldownTime":     	1.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": -0,
+			"AngleIncrement": 0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "NinjaMonkey",
+					"TowerColour" : [ 255, 255, 255, 255 ],
+					"TowerLifetime" : 9999999,
+					"HasParentTower" : false,
+					"UseParentTowerUpgradeLevel": false
+				}
+			]
+		}	
+	]
+}

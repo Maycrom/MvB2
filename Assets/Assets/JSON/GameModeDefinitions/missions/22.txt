@@ -1,0 +1,35 @@
+{
+    "nk_description": "LOC_MIS_22_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "TargetRound": 100, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 150, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 3000, 
+        "Health": 400, 
+        "Inventory": [], 
+        "StartRound": 10
+    }, 
+    "nk_title": "LOC_MIS_22", 
+    "nk_track": "castle", 
+    "nk_rank_required": 40, 
+    "nk_id": "25", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

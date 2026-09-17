@@ -1,0 +1,157 @@
+{	
+    "Type":             "GlueGunner",    
+    "TargetRange":      1.0,
+	"CooldownTime":     99999.0,
+    "FireDelayTime":    3.0,
+	"RequiresTargetToFire"	: false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -0, 800 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.03,
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1.0,
+						"CutOffDistance": 1,
+						"Direction": [1, 0],
+						"KeepOnScreen": true
+					},
+					"TasksToProcessOnTerminate": [0],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 1,
+							"AimAtTarget" : false,
+							"Offsets" : [
+								[ -8, 100 ]
+							],
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"SpriteFile": "airstrike_aircraft.json",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "None",
+									
+									"Radius": 3,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 250.0,
+										"CutOffDistance": 1000,
+										"Direction": [1, 0]
+									}
+								},
+								{
+									"Type": "MultiFire",
+									"InitialOffset": 0,
+									"AngleIncrement": 0,
+									"ShotDelay": 0.22,
+									"FireCount": 30,
+									"AimAtTarget" : false,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 250.0,
+										"CutOffDistance": 1000,
+										"Direction": [1, 0]
+									},
+									
+									"Tasks" :
+									[
+										{
+											"Type": "Effect",
+											"SpriteFile": "airstrike_bomb.json",
+											"Scale": 1,
+											"Duration": 0.5,
+											"Tasks":
+											[
+												{
+													"Type": "MultiFire",
+													"InitialOffset": 0.0,
+													"AngleIncrement": 0.0,
+													"FireCount": 1,
+													"AimAtTarget" : false,
+													"Offsets" : [
+														[ 11, 0 ]
+													],
+													"Tasks":
+													[
+														{
+															"Type": "AreaOfEffect",
+															"Range": 60,
+															"MaxTargets": 20,
+															"Tasks" :
+															[
+																{
+																	"Type": "Damage",
+																	"DamageType": "Piercing",
+																	"Amount": 20
+																},
+																{
+																	"Type": "StatusEffect",
+																	"Status": "MultiLayerDamage"
+																}
+															]
+														},
+														{
+															"Type": "Effect",
+															"SpriteFile": "GroundZeroAbility.json",
+															"Scale": 0.2,
+															"Audio": "EXPLOSION"
+														}
+													]
+												}	
+											]	
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "black_smoke.json",
+			"Scale": 1
+		},
+		{
+			"Type" : "CreateTower",
+			"TowerType" : "TestTower",
+			"TowerColour" : [ 255, 255, 255, 255 ],
+			"TowerLifetime" : 0.1,
+			"HasParentTower" : false,
+			"UseParentTowerUpgradeLevel": false
+		}		
+	]
+}

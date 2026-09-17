@@ -1,0 +1,44 @@
+{	
+    "Type":             "LAB_BloonCripple",    
+    "TargetRange":      10000.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    4,
+	"TargetingFilter":
+	{
+		"Exclude":
+		{
+			"StatusEffect": [
+                "BeeSting"
+			]
+		}
+	},
+    "Tasks" :
+    [
+		{
+			"Type": "Damage",
+			"DamageType": "Piercing",
+			"Amount": 2
+		},
+		{
+			"Type" : "StatusEffect",
+			"Status" : "CrippleMOAB",
+			"NumPersists" : -1,
+			"Duration" : 0.6
+		},
+		{
+			// This is kinda yikes but thematically also kinda makes sense?
+			"Type" : "StatusEffect",
+			"Status" : "BeeSting",
+			"NumPersists" : -1,
+			"DamageRate" : 99999999,
+			"Duration" : 9999999
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "bloon_cripple.json",
+			"Audio": "BLOON_CRIPPLE",
+			"Scale": 1,
+			"Duration": 0.6
+		}
+    ]
+}

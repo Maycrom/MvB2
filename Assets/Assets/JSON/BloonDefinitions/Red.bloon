@@ -1,0 +1,27 @@
+{
+	"Type" : "Red",
+	"InitialHealth" : 6,
+	"SpriteFilesAtDamageLevels": [
+		[ "red_bloon1.json", 12 ],
+		[ "red_bloon2.json", 11 ],
+		[ "red_bloon3.json", 10 ],
+		[ "red_bloon4.json", 9 ],
+		[ "red_bloon5.json", 8 ],
+		[ "red_bloon6.json", 7 ],
+		[ "red_bloon7.json", 6 ],
+		[ "red_bloon8.json", 5 ],
+		[ "red_bloon9.json", 4 ],
+		[ "red_bloon10.json", 3 ],
+		[ "red_bloon11.json", 2 ],
+		[ "red_bloon12.json", 1 ],
+		[ "red_bloon1.json", 0 ]
+	],
+	"BaseSpeed" : 16,
+	"SpeedMultiplier" : 1,
+	"RBE" : 1,
+    "ChildBloons" : [],
+    "StatusImmunity" : ["Permafrost"],
+    "DamageImmunity" : ["Explosive"],
+	"Scale" : 0.8,
+    "Radius" : 10
+}

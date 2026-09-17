@@ -1,0 +1,51 @@
+{
+	"Rules" : {
+		"Reward" : {
+			"ModeXPMultiplier" : 1.0,
+  			"ModeMonkeyMoneyMultiplier" : 2.0,
+            "ModeTokensMultiplier" : 2.0
+		},
+    "DisableHints" : true,
+    "CashPerPopModifier" : 0.5,
+    "BloonLevelOffsets": [
+     1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      1
+    ],
+
+        "CashRoundModifiers" : [
+            {
+                "Round": 0,
+                "Mod": 1.0
+            },
+            {
+                "Round": 31,
+                "Mod": 0.5
+            },
+            {
+                "Round": 61,
+                "Mod": 0.2
+            },
+            {
+                "Round": 86,
+                "Mod": 0.1
+            },
+            {
+                "Round":101,
+                "Mod": 0.02
+            }
+        ]
+	}
+}

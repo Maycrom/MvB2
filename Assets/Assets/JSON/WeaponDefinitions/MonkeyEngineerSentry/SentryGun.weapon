@@ -1,0 +1,21 @@
+{	
+    "Type":             "SentryGun",    
+    "TargetRange":      70,
+	"CooldownTime":     1,
+    "FireDelayTime":    0.0,
+    "MaxShots" : 1,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+        {
+            "Type" : "ChangeTerrain",
+			"Area" : [ 100, 100 ],
+			"Mask" : [ ]
+        },
+		{
+            "Type" : "AddChildSprite",
+            "SpriteName": "engineer_sentry_tripod_compoundsprite.json"
+        }
+	]
+}

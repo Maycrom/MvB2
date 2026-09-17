@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FrameInformation name="monkey_lab" texw="1720" texh="940" type="png">
+    <Cell name="big_bloon_sabotage" x="1" y="353" w="506" h="276" ax="0" ay="0" aw="506" ah="276" />
+    <Cell name="faster_cooldown" x="1018" y="550" w="234" h="337" ax="0" ay="0" aw="234" ah="337" />
+    <Cell name="faster_firing" x="1" y="631" w="471" h="305" ax="0" ay="0" aw="471" ah="305" />
+    <Cell name="flask" x="1393" y="260" w="193" h="227" ax="0" ay="0" aw="193" ah="227" />
+    <Cell name="front_cables" x="1" y="1" w="544" h="350" ax="0" ay="0" aw="544" ah="350" />
+    <Cell name="front_desk" x="547" y="1" w="474" h="296" ax="0" ay="0" aw="474" ah="296" />
+    <Cell name="popping_power" x="547" y="299" w="469" h="274" ax="0" ay="0" aw="469" ah="274" />
+    <Cell name="sell_price" x="1023" y="1" w="368" h="289" ax="0" ay="0" aw="368" ah="289" />
+    <Cell name="starting_cash" x="1023" y="292" w="347" h="256" ax="0" ay="0" aw="347" ah="256" />
+    <Cell name="starting_lives" x="474" y="631" w="452" h="180" ax="0" ay="0" aw="452" ah="180" />
+    <Cell name="test_tubes" x="1393" y="1" w="325" h="257" ax="0" ay="0" aw="325" ah="257" />
+  </FrameInformation>
+</SpriteInformation>

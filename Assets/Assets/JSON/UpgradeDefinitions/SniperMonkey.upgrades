@@ -1,0 +1,53 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Full Metal Jacket"
+        },
+        
+        {
+            "Name" : "Point Five Oh"
+        },
+        
+        {
+            "Name" : "Deadly Precision"
+        },
+        
+        {
+            "Name" : "Cripple MOAB"
+        },
+        
+        {
+            "Name" : "Faster Firing"
+        },
+        
+        {
+            "Name" : "Night Vision Goggles"
+        },
+        
+        {
+            "Name" : "Semi Automatic Rifle"
+        },
+        
+        {
+            "Name" : "Supply Drop",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

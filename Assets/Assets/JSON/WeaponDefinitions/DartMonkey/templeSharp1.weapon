@@ -1,0 +1,297 @@
+{	
+    "Type":             "templeSharp1",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     1.2,
+    "FireDelayTime":    0.42,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+	"DisabledTasks": [2,3],
+	"RequiresTargetToFire":	false,
+  
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 175.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.50,
+			"Tasks":
+			[
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 0.0,
+					"FireCount": 0,
+					"AimAtTarget" : false,
+					"Offsets" : [
+						[ 4, -6 ]
+					],
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "dart.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							
+							"Radius": 3,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 175.0,
+								"CutOffDistance": 700,
+								"Direction": [1, 0]
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 1
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		// Monkey Tonic
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Offsets" : [
+				[ -4, -6 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 350.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 2
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 297.5,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 2
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"SpriteFile": "dart.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 245.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 2
+						}
+					]
+				}
+			]
+		},
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.50,
+			"Tasks":
+			[
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 0.0,
+					"FireCount": 0,
+					"AimAtTarget" : false,
+					"Offsets" : [
+						[ 4, -6 ]
+					],
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "dart.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							
+							"Radius": 3,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 350.0,
+								"CutOffDistance": 700,
+								"Direction": [1, 0]
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 2
+								}
+							]
+						},
+						{
+							"Type": "Projectile",
+							"SpriteFile": "dart.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							
+							"Radius": 3,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 297.5,
+								"CutOffDistance": 700,
+								"Direction": [1, 0]
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 2
+								}
+							]
+						},
+						{
+							"Type": "Projectile",
+							"SpriteFile": "dart.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							
+							"Radius": 3,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 245.0,
+								"CutOffDistance": 700,
+								"Direction": [1, 0]
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 2
+								}
+							]
+						}
+					]
+				}
+			]
+		}		
+    ]
+}

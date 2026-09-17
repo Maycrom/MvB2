@@ -1,0 +1,147 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 0.55, 0.55 ],
+         "Shown" : true,
+         "sprite" : "farm_pot",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 10.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 6.5, -13.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "banana_farm_tree_bananas",
+         "type" : 1,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -10.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -6.5, -13.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "banana_farm_tree_bananas",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 10.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 1.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "banana_tree_twin.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -10.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -1.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "banana_tree_twin.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "banana_tree_twin.json",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "banana_farm_tree_bananas",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "farm_pot",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 24,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 6.5, -13.0 ],
+               "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 6.5, -13.0 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 24.0
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 4,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -6.5, -13.0 ],
+               "Scale" : [ 0, 0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -6.5, -13.0 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 24.0
+            }
+         ]
+      }
+   ]
+}

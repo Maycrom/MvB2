@@ -1,0 +1,33 @@
+{	
+    "Type":             	"Bloonchipper",    
+    "TargetRange":      	120,
+	"CooldownTime":     	0.75,
+    "FireDelayTime":    	0.15,
+	
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile":      "sentry_nail.json",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 625.0,
+				"CutOffDistance": 120
+			},
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

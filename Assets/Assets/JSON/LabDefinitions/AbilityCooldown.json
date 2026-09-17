@@ -1,0 +1,128 @@
+{
+	"Name" : "LOC_LAB_MYSTERY",
+	"Description" : "LOC_LAB_DESC_Mystery",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_Mystery",
+    "Icon" : "unknown",
+	"LevelGateway" : [ 9999999, 1, 1, 1, 1, 1, 1, 1, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "1",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "2",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "4",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "7",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+				}
+			}
+		}
+	]
+}

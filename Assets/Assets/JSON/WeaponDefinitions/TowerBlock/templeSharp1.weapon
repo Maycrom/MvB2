@@ -1,0 +1,15 @@
+{	
+    "Type":             "templeSharp1",    
+    "TargetRange":      5000,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks" :
+    [
+		{ 
+		  "Type" : "TowerModifier", "Range" : 10, "PriorityLevel" : 8, "ApplyToUserTower": true, "ReplacesPriorityLevel" : true, "TerminateOnUserUpgrade" : false, "Duration": 5,
+		  "Modifier" : {"Display": "nothing.json"}
+		}
+	]
+}

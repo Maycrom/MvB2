@@ -1,0 +1,55 @@
+{ 
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "mvb_ice_monkey_sub.json",
+         "type" : 2,
+         "uid" : 1
+	  },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.5, -4.0 ],
+         "Scale" : [ 0.75, 0.75 ],
+         "Shown" : true,
+         "sprite" : "Blizzard.json",
+         "type" : 2,
+         "uid" : 2
+	  } 	  
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "mvb_ice_monkey",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "mvb_ice_monkey_eyes",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.5,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      }
+   ]
+}

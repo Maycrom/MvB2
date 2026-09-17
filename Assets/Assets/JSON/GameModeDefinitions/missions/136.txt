@@ -1,0 +1,40 @@
+{
+    "nk_description": "LOC_MIS_136_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 5, 
+        "MaxNumberOfEachTower": 1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 100, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 2200, 
+        "Inventory": [], 
+        "StartRound": 25
+    }, 
+    "nk_title": "LOC_MIS_136", 
+    "nk_track": "maze", 
+    "nk_rank_required": 0, 
+    "nk_id": "163", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

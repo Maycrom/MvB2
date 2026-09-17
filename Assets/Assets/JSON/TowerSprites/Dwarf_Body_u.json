@@ -1,0 +1,175 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+     {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 6, 1.0 ],
+         "Scale" : [ 0.85, 0.75 ],
+         "Shown" : true,
+         "sprite" : "dart_monkey_arm_03",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 0.85, 0.85 ],
+         "Shown" : true,
+         "sprite" : "dart_monkey_body",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -3.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.25, 0.5 ],
+         "Scale" : [ 0.85, 0.85 ],
+         "Shown" : true,
+         "sprite" : "dwarf_hat_u",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "dart_monkey_body",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "dwarf_hat_u",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "dart_monkey_arm_03",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "pickaxe2",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 2,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 3,
+         "stage" : [
+		    {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 6, 1.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -125.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -123.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.22
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -125.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.24
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -123.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.26
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -125.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.28
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -123.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.3
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -125.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 9, -2.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.32
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : -90.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 6, 1.0 ],
+               "Scale" : [ 0.85, 0.75 ],
+               "Shown" : true,
+               "Time" : 0.6
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+    "SFX": [
+        [ "CHEST", 0.5, [
+            "chest.wav"
+        ]],
+		[ "SCHWING", 0.5, [
+			"schwing.wav"
+		]],
+        [ "CHALLENGE_SPIN", 0.5, [
+            "challenge_spin.wav"
+        ]],
+        [ "CHALLENGE_OPEN", 0.5, [
+            "challenge_door_open.wav"
+        ]],
+        [ "CHALLENGE_SHUT", 0.5, [
+            "challenge_door_shut.wav"
+        ]],
+        [ "CHALLENGE_STOP", 0.5, [
+            "challenge_spin_stop.wav"
+        ]]
+    ]
+}

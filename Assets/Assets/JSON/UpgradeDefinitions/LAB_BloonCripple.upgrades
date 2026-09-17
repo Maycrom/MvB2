@@ -1,0 +1,214 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Level 1",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 2
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Level 2",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 3
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Level 3",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 3
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 1 ] ]
+                }
+            }
+        },
+        
+        {
+            "Name" : "Level 4",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 4
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 1 ] ]
+                }
+            }
+        },
+		
+		{
+            "Name" : "Level 5",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 5
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 1 ] ]
+                }
+            }
+        },
+		
+		{
+            "Name" : "Level 6",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 5
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 0, 1 ] ]
+                }
+            }
+        },
+		
+		{
+            "Name" : "Level 7",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 6
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 0, 1 ] ]
+                }
+            }
+        },
+		
+		{
+            "Name" : "Level 8",
+			"WeaponUpgrades" :
+			[
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Amount" : 8
+						}
+					]
+				}
+			],
+			"TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "FiringSequence" : [ [ 0, 0, 0, 1 ] ]
+                }
+            }
+        }
+    ]
+}

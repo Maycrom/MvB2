@@ -1,0 +1,88 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "trick_or_treat",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wateranimation.json",
+         "type" : 2,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 227.0, 63.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "haunted_swamp_tree_01",
+         "type" : 1,
+         "uid" : 17
+      }
+   ],
+   "customvariables" :[        
+   {
+      "VariableName" : "Layers",
+      "ValueType"    : 5,
+      "Value"        : 
+         [
+            17, 8
+         ]
+      }
+    ],
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "trick_or_treat",
+            "Texture" : "trick_or_treat"
+         },
+         {
+            "SpriteInfo" : "wateranimation.json",
+            "Texture" : "trick_or_treat"
+         },         
+         {
+            "SpriteInfo" : "haunted_swamp_tree_01",
+            "Texture" : "trick_or_treat"
+         }
+      ],
+      "StageLength" : 2.998263835906982,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },      
+      {
+         "spriteuid" : 17,
+         "stage" : null
+      }
+   ]
+}

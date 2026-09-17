@@ -1,0 +1,39 @@
+{
+   "actors" : [
+	 {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "selection_field_complete_dartmonkey_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : 
+   [
+   ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "pick_your_towers_field",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 9999,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

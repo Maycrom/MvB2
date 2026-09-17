@@ -1,0 +1,41 @@
+{	
+    "Type":             	"RNGManipulator",    
+    "TargetRange":      	0,
+	"CooldownTime":     	0.1,
+    "FireDelayTime":    	0.0,
+	"RequiresTargetToFire":	false,
+    // Ah perry de platipus you have found my RNGRandomizeintor
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			"NumPersists": 15,
+			"Radius": 10000000,
+			"Movement": 
+			{
+				"Type": "Forward",
+				"CutOffDistance": 0.0000001,
+				"Speed": 0.0001
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"NumPersists": -1,
+					"SpreadAngle": 360,
+					"Movement": 
+					{
+						"Type": "Forward",
+						"CutOffDistance": 0.0000001,
+						"Speed": 0.0001
+					}
+				}	
+			]
+		}
+	]
+}

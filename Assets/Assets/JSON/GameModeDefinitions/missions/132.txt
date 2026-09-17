@@ -1,0 +1,71 @@
+{
+    "nk_description": "LOC_MIS_132_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 55, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MortarTower", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 90, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            3, 
+            2, 
+            1, 
+            0, 
+            0, 
+            -1, 
+            -2, 
+            3, 
+            2, 
+            1, 
+            0,
+            0,
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 15000, 
+        "Inventory": [], 
+        "StartRound": 30
+    }, 
+    "nk_title": "LOC_MIS_132", 
+    "nk_track": "castle", 
+    "nk_rank_required": 0, 
+    "nk_id": "159", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

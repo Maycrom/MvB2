@@ -1,0 +1,22 @@
+{
+	"LabItems" : [
+		{
+			"Type" : "DoublePierce"
+		},
+		{
+			"Type" : "AttackSpeed"
+		},
+		{
+			"Type" : "StartingCash"
+		},
+		{
+			"Type" : "StartingLives"
+		},
+		{
+			"Type" : "SellAmount"
+		},
+		{
+			"Type" : "BigBloonSabotage"
+		}
+	]
+}

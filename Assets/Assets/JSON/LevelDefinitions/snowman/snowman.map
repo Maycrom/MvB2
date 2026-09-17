@@ -1,0 +1,13 @@
+{
+	"Music" : "jazz.mp3",
+	
+	"entryMarkers" : [
+        [ [ 230, 330 ], 270 ]
+	],
+	"reverseEntryMarkers" : [
+        [ [ 470, 63 ], 180 ]
+	],
+	"Effects" : [
+        "Snowfall"
+	]
+}

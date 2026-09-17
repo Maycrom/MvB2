@@ -1,0 +1,22 @@
+{
+	// May god forgive me for I have sinned
+	"Type" : "ZOMG",
+	"DrawLayer": "Air",
+	"InitialHealth" : 999999,
+	"SpriteFilesAtDamageLevels": [
+		[ "Zomg01.json", 3200 ],
+		[ "Zomg02.json", 2400 ],
+		[ "Zomg03.json", 1600 ],
+		[ "Zomg04.json", 800 ]
+	],
+	"BaseSpeed" : 0,
+	"SpeedMultiplier" : 1.0,
+	"RBE" : 0,
+    "ChildBloons" : [ ],
+    "StatusImmunity" : [ ],
+    "DamageImmunity" : [ ],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 50,
+    "HitAddon" : 25
+}

@@ -1,0 +1,167 @@
+{
+    "nk_description": "LOC_MIS_184_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "SuperMonkey", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "TackTower", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "NinjaMonkey", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "IceTower", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "GlueGunner", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyBuccaneer", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyAce", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyApprentice", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MonkeyVillage", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "BananaFarm", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "MortarTower", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "SpikeFactory", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }, 
+            {
+                "Type": "HeliPilot", 
+                "Upgrades": [
+                    3, 
+                    3
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 3, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 75, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Health": 33, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_184", 
+    "nk_track": "frozen_lake", 
+    "nk_rank_required": 0, 
+    "nk_id": "213", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

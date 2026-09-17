@@ -1,0 +1,23 @@
+{
+	"Modifiers" : [ 
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[ 0, 1 ]
+			]
+		}
+	],
+	"Music" : "jazz.mp3",
+	
+    "ipadEntryMarkers" : [
+		[ [ 430, 5 ], 125 ],
+		[ [ 154, 0 ], 60 ]
+	],
+	"entryMarkers" : [
+		[ [ 455, 0 ], 135 ],
+		[ [ 154, 0 ], 60 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 0, 303 ], -15 ]
+	]
+}

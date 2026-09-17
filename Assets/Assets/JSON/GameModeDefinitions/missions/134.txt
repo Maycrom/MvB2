@@ -1,0 +1,50 @@
+{
+    "nk_description": "LOC_MIS_134_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 62, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "SuperMonkey", 
+            "MonkeyApprentice", 
+            "MonkeyVillage", 
+            "BananaFarm", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": 2, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 55, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 17500, 
+        "Inventory": [], 
+        "StartRound": 50
+    }, 
+    "nk_title": "LOC_MIS_134", 
+    "nk_track": "lightning_scar", 
+    "nk_rank_required": 0, 
+    "nk_id": "161", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

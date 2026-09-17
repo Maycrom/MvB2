@@ -1,0 +1,49 @@
+{	
+    "Type":             "SkipButton",    
+    "TargetRange":      5000,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "dart.json",
+			"Position": [ 120, 175 ],
+			"DrawLayer": "FullScreen",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName": "drag_lock_no",
+					"Duration":	0.0334,
+					"MoneyRange": [ 0, 0 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 1,
+					"ClickOnly": true,
+					"AllowMagnetCollection":false,
+					"DrawLayer": "FullScreen",
+					"TerminateOnTowerRemoved": true,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.925
+					},
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 10,
+							"Amount" : 60
+						}
+					]
+				}		
+			]
+		}
+	]
+}

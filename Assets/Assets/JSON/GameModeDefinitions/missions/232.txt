@@ -1,0 +1,37 @@
+{
+    "nk_description": "LOC_MIS_232_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 70, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 7, 
+        "MaxNumberOfEachTower": 7, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 77, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Money": 2777, 
+        "Health": 77, 
+        "Inventory": [], 
+        "StartRound": 17
+    }, 
+    "nk_title": "LOC_MIS_232", 
+    "nk_track": "mount_magma", 
+    "nk_rank_required": 0, 
+    "nk_id": "266", 
+    "nk_mode": 1, 
+    "nk_is_new": true
+}

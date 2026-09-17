@@ -1,0 +1,139 @@
+{	
+    "Type":             "BombTower",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"MaxShots": 1,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "totemic_shield_shockwave.json",
+			"Scale": 0,
+			"Duration": 0.25,
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 4,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500,
+						"CutOffDistance": 100,
+						"Direction": [1,0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "CrippleMOAB"
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 5
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Slow",
+							"SpeedScale" : -10,
+							"Duration": 0.3,
+							"NumPersists" : -1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Sabotage",
+							"SpeedScale" : 1,
+							"Duration": 0.3,
+							"NumPersists" : -1
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 4,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500,
+						"CutOffDistance": 100,
+						"Direction": [-1,0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "CrippleMOAB"
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 5
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Slow",
+							"SpeedScale" : -10,
+							"Duration": 0.3,
+							"NumPersists" : -1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Sabotage",
+							"SpeedScale" : 1,
+							"Duration": 0.3,
+							"NumPersists" : -1
+						}
+					]
+				},
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Continual",
+					
+					"Radius": 8,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.1,
+						"CutOffDistance": 0.02
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "CrippleMOAB"
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "totemic_shield_shockwave.json",
+					"Scale": 1.5,
+					"DrawLayer": "UnderTowers"
+				}
+			]
+		}	
+	]
+}

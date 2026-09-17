@@ -1,0 +1,379 @@
+{
+  "Setup": {
+    "Health" : 200,
+    "Money": 2000,
+    "RoundFiles" : [
+        "special_missions/the_crucible.mode"
+    ]
+  },
+  "Rules": {
+    "TargetRound": 25,
+    "MoneyPerRound": 100,
+    "WaterToCrucible": true,
+	"CrucibleLimit": 1,
+	"CrucibleRangeCheck": 100,
+    "LockedTowers": [
+		"PortableLake",
+		"PortableLakePro",
+		"Pontoon",
+		"PontoonPro"
+    ]
+  },
+	"Rounds" : [
+	  {
+		"Round": 1,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5,
+			"Count": 10,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 2,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3,
+			"Count": 4,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 3,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.5,
+			"Count": 15,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 4,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 4.5,
+			"Count": 6,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 5,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 10,
+			"Count": 20,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 6,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6,
+			"Count": 8,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 7,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 12.5,
+			"Count": 25,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 8,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 7.5,
+			"Count": 10,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 9,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 15,
+			"Count": 30,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 10,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 9,
+			"Count": 12,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 11,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 5,
+			"Count": 10,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 12,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2,
+			"Count": 1,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 13,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 10,
+			"Count": 20,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 14,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3,
+			"Count": 2,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 15,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 15,
+			"Count": 30,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 16,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 4,
+			"Count": 3,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 17,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 20,
+			"Count": 40,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 18,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 5,
+			"Count": 4,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 19,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Rainbow",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 25,
+			"Count": 50,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 20,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "MOAB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 6,
+			"Count": 5,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 21,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 2,
+			"Count": 1,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 22,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 15,
+			"Count": 30,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 23,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 3,
+			"Count": 2,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 24,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "Ceramic",
+			"IsCamo": true,
+			"IsRegen": true,
+			"Duration": 22.5,
+			"Count": 45,
+			"StartTime": 0
+		  }
+		]
+	  },
+	  {
+		"Round": 25,
+		"Hint": "",
+		"Waves": [
+		  {
+			"Bloon": "BFB",
+			"IsCamo": false,
+			"IsRegen": false,
+			"Duration": 4,
+			"Count": 3,
+			"StartTime": 0
+		  }
+		]
+	  }
+    ],
+  "nk_mode": 1,
+  "nk_track": "the_crucible",
+  "nk_description": "LOC_MIS_the_crucible_DESC",
+  "nk_title": "LOC_THE_CRUCIBLE_EXCL",
+  "nk_rank_required": 999
+}

@@ -1,0 +1,127 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"DisabledTasks": [0,1,2],
+	"RequiresTargetToFire":	false,
+	
+	// Since you can't selectively target specific tower tiers in this game this is the next best thing I could think of.
+  
+    "Tasks"	:
+    [
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.3,
+            "Tasks" :
+            [
+				{
+					"Type": "MultiFire",
+					"InitialOffset": -24.0,
+					"AngleIncrement": 16.0,
+					"FireCount": 4,
+					"Tasks":
+					[
+						{
+							"Type":             "Collectable",
+							"SpriteFile":      "bananas_ground.json",
+							"Duration":	10,
+							"MoneyRange": [ 25, 25 ],
+							"MoneyMultiplier": 1.0,
+							"CollectionRadius": 10,
+							"ClickOnly": true,
+							"AllowMagnetCollection":false,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 150,
+								"KeepOnScreen": true,
+								"SpeedDecay": 0.95
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "bananas_collect.json",
+									"Scale": 1,
+									"Audio": "ANGRY_SQUIRREL"
+								}
+							]
+						}	
+					]
+				}
+			]
+		},	
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.3,
+            "Tasks" :
+            [
+				{
+					"Type": "MultiFire",
+					"InitialOffset": -56.0,
+					"AngleIncrement": 16.0,
+					"FireCount": 0,
+					"Tasks":
+					[
+						{
+							"Type":             "Collectable",
+							"SpriteFile":      "bananas_ground.json",
+							"Duration":	10,
+							"MoneyRange": [ 25, 25 ],
+							"MoneyMultiplier": 1.0,
+							"CollectionRadius": 10,
+							"ClickOnly": true,
+							"AllowMagnetCollection":false,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 150,
+								"KeepOnScreen": true,
+								"SpeedDecay": 0.95
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "bananas_collect.json",
+									"Scale": 1,
+									"Audio": "ANGRY_SQUIRREL"
+								}
+							]
+						}	
+					]
+				}
+			]
+		},	
+		{
+			"Type": "TowerModifier",
+			"Range": 10,
+			"PriorityLevel": 4,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+			"ReplacesPriorityLevel" : true,
+
+			"Duration": 1.5,
+			"NumPersists": 1,
+
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "BananaFarm" ]
+				}
+			},
+
+			"Modifier":
+			{
+				"Display": "banana_tree_tonic.json"
+			}
+		}	
+    ]
+}

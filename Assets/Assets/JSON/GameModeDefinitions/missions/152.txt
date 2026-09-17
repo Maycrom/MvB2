@@ -1,0 +1,82 @@
+{
+    "nk_description": "LOC_MIS_152_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "MoneyPerRound": 0, 
+        "TargetRound": 65, 
+        "LockedTowers": [
+            "DartMonkey", 
+            "TackTower", 
+            "SniperMonkey", 
+            "BoomerangThrower", 
+            "NinjaMonkey", 
+            "BombTower", 
+            "IceTower", 
+            "GlueGunner", 
+            "MonkeyBuccaneer", 
+            "MonkeyAce", 
+            "MonkeyApprentice", 
+            "BananaFarm", 
+            "MortarTower", 
+            "DartlingGun", 
+            "SpikeFactory", 
+            "HeliPilot", 
+            "MonkeyEngineer", 
+            "Bloonchipper", 
+            "MonkeySub", 
+            "RoadSpikes", 
+            "ExplodingPineapple", 
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    2, 
+                    3
+                ]
+            }
+        ], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": 6, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 100, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": [], 
+        "BloonLevelOffsets": [
+            4, 
+            3, 
+            2, 
+            1, 
+            0, 
+            3, 
+            2, 
+            1, 
+            1, 
+            1, 
+            2,
+            0,
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "Setup": {
+        "Money": 18000, 
+        "Inventory": [], 
+        "StartRound": 25
+    }, 
+    "nk_title": "LOC_MIS_152", 
+    "nk_track": "stream", 
+    "nk_rank_required": 0, 
+    "nk_id": "179", 
+    "nk_mode": 2, 
+    "nk_is_new": true
+}

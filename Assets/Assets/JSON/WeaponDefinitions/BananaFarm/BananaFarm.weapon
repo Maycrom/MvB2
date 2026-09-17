@@ -1,0 +1,151 @@
+{	
+    "Type":             "BananaFarm",    
+    "TargetRange":      1000,
+	"CooldownTime":     4.5,
+    "FireDelayTime":    0.0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"StartsOnCooldown": true,
+	"MaxShots": 1,
+    "Tasks" :
+    [
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0,
+			"DisabledTasks": [],
+            "Tasks" :
+            [
+				{
+					// This is dumb lol
+					"Type": "Projectile",
+					"SpriteFile": "banana_tree_pot.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": false,
+					"HasFixedAngle": true,
+					"DrawLayer": "UnderTowers",
+					"TerminateOnTowerRemoved": true,
+					
+					"CollisionType": "None",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0000001,
+						"CutOffDistance": 0.00000015,
+						"Direction": [0, 1]
+					}
+				},
+				{
+					"Type": "TowerModifier",
+					"Range": 10,
+					"PriorityLevel": 4,
+					"ApplyToUserTower": true,
+					"ModifyNewlySpawnedTowers": false,
+					"TerminateOnUserUpgrade": false,
+
+					"Duration": 1.5,
+					"NumPersists": 1,
+
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "BananaFarm" ]
+						}
+					},
+
+					"Modifier":
+					{
+						"Display": "banana_tree_a_first.json"
+					}
+				}
+			]
+		},	
+		{
+            "Type" : "TimerFire",
+            "TimeDelay" : 0.01,
+            "Tasks" :
+            [
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"HasFixedAngle": true,
+					"DrawLayer": "UnderTowers",
+					"TerminateOnTowerRemoved": true,
+					
+					"CollisionType": "None",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0000001,
+						"CutOffDistance": 0.00000015,
+						"Direction": [0, 1]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"HasFixedAngle": true,
+							
+							"CollisionType": "None",
+							"SpreadAngle": 150,
+							
+							"Radius": 3,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1,
+								"CutOffDistance": 0.0000006
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type":             "Collectable",
+									"SpriteFile":      "bananas_ground.json",
+									"Duration":	10,
+									"MoneyRange": [ 25, 25 ],
+									"MoneyMultiplier": 1.0,
+									"CollectionRadius": 10,
+									"ClickOnly": true,
+									"AllowMagnetCollection":false,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 150,
+										"KeepOnScreen": true,
+										"SpeedDecay": 0.875
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type": "Effect",
+											"SpriteFile": "bananas_collect.json",
+											"Scale": 1,
+											"Audio": "ANGRY_SQUIRREL"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type" : "EnableWeaponSlot",
+							"SlotIndex" : 3
+						}
+					]	
+				}
+			]
+		}		
+	]
+}

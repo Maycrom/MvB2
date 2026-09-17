@@ -1,0 +1,13 @@
+{
+	"Music" : "rock.mp3",
+	
+    "ipadEntryMarkers" : [
+		[ [ 68, 15 ], 90 ]
+	],
+	"entryMarkers" : [
+		[ [ 68, 0 ], 90 ]
+	],
+	"reverseEntryMarkers" : [
+		[ [ 480, 291 ], 180 ]
+	]
+}

@@ -1,0 +1,193 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     1,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 25,
+			"AimAtTarget" : false,
+			"Offsets" : [
+                [ 0, 4 ],
+                [ 0, 20 ],
+                [ 0, 36 ],
+                [ 0, 52 ],
+                [ 0, 68 ],
+                [ 0, 84 ],
+                [ 0, 100 ],
+				[ 0, 116 ],
+				[ 0, 132 ],
+				[ 0, 148 ],
+				[ 0, 164 ],
+				[ 0, 180 ],
+				[ 0, 196 ],
+				[ 0, 212 ],
+				[ 0, 228 ],
+				[ 0, 244 ],
+				[ 0, 260 ],
+				[ 0, 276 ],
+				[ 0, 292 ],
+				[ 0, 308 ],
+				[ 0, 324 ],
+				[ 0, 340 ],
+				[ 0, 356 ],
+				[ 0, 372 ],
+				[ 0, 388 ]
+            ],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					"SpriteFile": "totemic_shield_wind.json",
+					
+					"CollisionType": "Continual",
+					"TerminateOnTowerRemoved": true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 4,
+					
+					"Radius": 8,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1,
+						"Direction": [-1,0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "Slow",
+							"SpeedScale" : -15,
+							"Duration": 0.03,
+							"NumPersists" : -1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Sabotage",
+							"SpeedScale" : 1,
+							"Duration": 0.03,
+							"NumPersists" : -1
+						},
+						{
+							"Type": "RemoveStatusEffect",
+							"Status": "CrippleMOAB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 25,
+			"AimAtTarget" : false,
+			"Offsets" : [
+                [ 0, -8 ]
+            ],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Continual",
+					"TerminateOnTowerRemoved": true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 4,
+					
+					"Radius": 2,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1,
+						"Direction": [-1,0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type" : "StatusEffect",
+							"Status" : "CrippleMOAB",
+							"NumPersists" : -1,
+							"Duration" : 0.03333334
+						}
+					]
+				}
+			]
+		},	
+		{
+			"Type": "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Continual",
+			"TerminateOnTowerRemoved": true,
+			"HasLimitedDuration" : true,
+			"LimitedDuration" : 4,
+			
+			"Radius": 7,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0,
+				"CutOffDistance": 1,
+				"Direction": [-1,0]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Sabotage",
+					"SpeedScale" : 1,
+					"Duration": 0.033334,
+					"NumPersists" : -1
+				},
+				{
+					"Type": "RemoveStatusEffect",
+					"Status": "CrippleMOAB"
+				}
+			]
+		},
+		{
+			"Type": "TowerModifier",
+			"Range": 10,
+			"PriorityLevel": 4,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+			"ReplacesPriorityLevel" : true,
+
+			"Duration": 4,
+			"NumPersists": 1,
+
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "BombTower" ]
+				}
+			},
+
+			"Modifier":
+			{
+				"Display": "totemic_shield_tonic.json"
+			}
+		}	
+    ]
+}

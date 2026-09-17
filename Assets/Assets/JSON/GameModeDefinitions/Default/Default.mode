@@ -1,0 +1,204 @@
+{
+	"Setup"	: {
+		"Health" : 150,
+		"Money" : 75.0,
+		"StartRound" : 0,
+		"RoundFiles" : [
+			"Default/Default.rounds"
+		],
+		"Inventory" : [
+		]
+	},
+	
+	"Rules" : {
+		"CanEarnMoney" : true,
+		"CanSave" : false,
+		"PauseBetweenRounds" : true,
+		"AllowContinueOnGameOver" : false,
+        "AllowRetryOnGameOver" : true,
+		"TargetRound" : 75,
+		"RoundStep": 1.0,
+		"Reward" : {
+            "ModeXPMultiplier" : 1.0,
+			"MonkeyMoney" : 100,
+			"MonkeyMoneyMultiplier" : 1.0,
+            "ModeMonkeyMoneyMultiplier" : 1.0,
+            "ModeTokensMultiplier" : 1.0
+		},
+		"PriceModifier" : 1.0,
+        "SellPriceModifier" : 0.0,
+        "CashPerPopModifier" : 0.0,
+		"SpeedModifier" : 0.0,
+		"TowerLifespan" : -1,
+		"ConsumeMostExpensiveTowerRounds" : -1,
+		"MaxNumberOfEachTower" : -1,
+		"MaxNumberOfTotalTowers" : -1,
+		"LockedTowers" : [
+		],
+		"LockedUpgrades": [
+            {
+                "Type": "DartMonkey", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "BananaFarm", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "BombTower", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "Bloonchipper", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "BoomerangThrower", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "DartlingGun", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "GlueGunner", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "IceTower", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeyApprentice", 
+                "Upgrades": [
+                    2, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeyBuccaneer", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeyEngineer", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeySub", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MonkeyVillage", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "MortarTower", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "NinjaMonkey", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "SniperMonkey", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "SpikeFactory", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "SuperMonkey", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "Type": "TackTower", 
+                "Upgrades": [
+                    1, 
+                    0
+                ]
+            }
+        ], 
+		"BloonsForcedCamo" : [
+		],
+		"BlockedPremiumUpgrades" : [
+		],
+		"BlockedSpecialties" : [
+		],
+		"BlockedLabUpgrades" : [
+		],
+        "CashRoundModifiers" : [
+            {
+                "Round": 0,
+                "Mod": 0.0
+            },
+            {
+                "Round": 51,
+                "Mod": 0.0
+            },
+            {
+                "Round": 61,
+                "Mod": 0.0
+            },
+            {
+                "Round": 86,
+                "Mod": 0.0
+            },
+            {
+                "Round":101,
+                "Mod": 0.0
+            }
+        ]
+	}
+}

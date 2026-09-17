@@ -1,0 +1,114 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 6.0, 2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bomb_tower_wheel_grey",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -6.0, 2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bomb_tower_wheel_grey",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bomb_tower_01_grey",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bomb_tower_01_grey",
+         "type" : 1,
+         "uid" : 4
+      }
+   ],
+    "customvariables" : [
+     ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "bomb_tower_wheel_grey",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_01_grey",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_04",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_muzzle_smoke_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_muzzle_smoke_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_muzzle_smoke_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "bomb_tower_muzzle_smoke_04",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 99999,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : [
+         ]
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : [
+         ]
+      }
+   ]
+}

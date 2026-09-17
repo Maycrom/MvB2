@@ -1,0 +1,176 @@
+{
+    "Type":             "BoomerangThrower",    
+    "TargetRange":      50.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.6,
+	"AnimatesTower" : false,
+	"ForwardFiring" : true,
+	"MaxShots": 1,
+    "Tasks" :
+    [
+		{	
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.0,
+			"Tasks" :
+			[
+				{	
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.1,
+					"Tasks" :
+					[
+						{
+							"Type" : "TowerModifier",
+							"Range": 10,
+							"PriorityLevel": 4,
+							"TerminateOnUserUpgrade" : false,
+							"ReplacesPriorityLevel" : true,
+							"ApplyToUserTower": true,
+							"ModifyMovingTowers": false,
+							"Duration": 1,
+							
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "BoomerangThrower" ]
+								}
+							},
+							
+							"Modifier" : 
+							{
+								"Display": "nothing.json"
+							}
+						}
+					]
+				},	
+				{
+					"Type":             "Projectile",
+					"SpriteFile": "mvb_ice_monkey_awake.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.4,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"CutOffDistance": 1
+					}
+				}				
+			]
+		},
+		{	
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.5,
+			"Tasks" :
+			[
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 0.0,
+					"FireCount": 7,
+					"AimAtTarget" : false,
+					"Offsets" : [
+						[ 0, 0 ],
+						[ 0, -25 ],
+						[ 0, -50 ],
+						[ 0, -75 ],
+						[ 0, 25 ],
+						[ 0, 50 ],
+						[ 0, 75 ]
+					],
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "None",
+							
+							"Radius": 1,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1.0,
+								"CutOffDistance": 0.00001
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Effect",
+									"SpriteFile": "snow_falling.json",
+									"Scale": 0.7,
+									"LoopCount": 5
+								},
+								{	
+									"Type" : "TimerFire",
+									"TimeDelay" : 0.8,
+									"Tasks" :
+									[
+										{
+											"Type": "Effect",
+											"SpriteFile": "snow_falling.json",
+											"Scale": 0.8,
+											"LoopCount": 5
+										}
+									]
+								},	
+								{
+									"Type": "Projectile",
+									"NumPersists":      -1,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Continual",
+									
+									"Radius": 16,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 0.00001,
+										"CutOffDistance": 0.000155
+									},
+									"Tasks":
+									[
+										{
+											"Type": "StatusEffect",
+											"Status": "Glue",
+											"NumPersists" : -1,
+											"Duration" : 4,
+											"SpeedScale" : 0.5
+										}
+									]
+								}	
+							]
+						}
+					]
+				}
+			]
+		},
+		{	
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.4,
+			"Tasks" :
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "mvb_ice_monkey_smoke.json",
+					"Scale": 1,
+					"DrawLayer": "FullScreen"
+				}
+			]
+		},
+		{
+			"Type" : "CreateTower",
+			"TowerType" : "TestTower",
+			"TowerColour" : [ 255, 255, 255, 255 ],
+			"TowerLifetime" : 0.1,
+			"HasParentTower" : true,
+			"UseParentTowerUpgradeLevel": false
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{ 
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 99999 ],
+         "Shown" : true,
+         "sprite" : "supermonkey_laser_vision_projectile_single",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 10 ],
+         "Shown" : true,
+         "sprite" : "supermonkey_plasma_vision_projectile",
+         "type" : 1,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "supermonkey_sun_god_projectile",
+         "type" : 1,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "supermonkey_laser_vision_projectile_single",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "supermonkey_sun_god_projectile",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "supermonkey_plasma_vision_projectile",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 999999,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

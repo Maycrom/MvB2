@@ -1,0 +1,23 @@
+{
+	"error":0,
+	"count":1,
+	"hash":"not required",
+	"items":[
+        {
+            "title":"\n\n\n\n\n\n\n\nWelcome to MvB2!",
+            "content":"LOC_LOCAL_FEED_MVB2",
+            "link":"discord.bat",
+            "image":"newslocal_mvb2",
+            "id":-1,
+            "version":99999
+        },
+		{
+			 "title":"\n\n\n\n\n\n\n\n\n\nNeed some fast paced,\nhigh action gameplay?",
+			 "content":"LOC_LOCAL_FEED_MoreGames_DESC",
+			 "image":"newslocal_maymod",
+			 "link":"maymod.bat",
+			 "id":-2,
+			 "version":999999
+        }
+    ]
+}

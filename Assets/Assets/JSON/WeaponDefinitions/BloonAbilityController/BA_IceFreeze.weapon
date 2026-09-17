@@ -1,0 +1,124 @@
+{	
+    "Type":             "BA_IceFreeze",    
+    "TargetRange": 999999999,
+	"CooldownTime": 0,
+    "FireDelayTime": 0.0,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": true,
+    "TargetsIndependently": true,
+	"RotatesToTarget" : false,
+    "SelfTargetMode": "AnyInRange",
+	"ForceTargetWeaponOrigin": true,
+
+    "TargetingFilter":
+	{
+		"Include":
+		{
+			"StatusEffect": [ 
+				"Regen" 
+			],
+			"BloonType": [
+				"Blue"
+			]
+		},
+		"Exclude":
+		{
+			"StatusEffect": [ 
+				"Glue" 
+			]
+		}
+	},
+
+    "Tasks" : 
+	[
+		{
+			"Type": "MultiFire",
+			"AcquireTarget": true,
+			"InitialOffset": -0,
+			"AngleIncrement": 0,
+			"FireCount": 1,
+
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+					"CollidesOnlyWithTarget" : true,
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 0.04,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1.0,
+						"CutOffDistance": 1
+					},
+					
+					"Tasks" :
+					[ 
+						{
+							"Type": "StatusEffect",
+							"Status": "Glue",
+							"Duration": 5,
+							"SpeedScale": 1,
+							"IgnoreImmunity" : true
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "ice_bloon_freeze.json",
+							"Scale": 0.6
+						},
+						{
+							"Type": "TowerModifier",
+							"Range": 100,
+							"PriorityLevel": 15,
+							"ReplacesPriorityLevel" : true,
+							"TerminateOnUserUpgrade": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": false,
+							"ModifyNewlySpawnedTowers": false,
+							"Duration": 3.5,
+							"TargetingFilter":
+							{
+								"Exclude" :
+								{
+									"TowerType": [ "TestTower", "BoomerangThrower", "BombTower" ]
+								}
+							},	
+							"Modifier":
+							{
+								"Cooldown": [ 99, 0 ],
+								"FireDelay": [ 99, 0 ],
+								"TargetRange": [ 0, 0 ]
+							},
+							"Tasks":
+							[
+								{
+									"Type": "MultiFire",
+									"InitialOffset": -0,
+									"AngleIncrement": 0,
+									"FireCount": 1,
+									"Offsets": [[0,-1000000]],
+									"Tasks":
+									[
+										{
+											"Type" : "CreateTower",
+											"TowerType" : "IceBloonFreeze",
+											"TowerColour" : [ 255, 255, 255, 255 ],
+											"TowerLifetime" : 3.5,
+											"HasParentTower" : false,
+											"UseParentTowerUpgradeLevel": false
+										}	
+									]
+								}	
+							]
+						}	
+					]
+				}	
+			]
+		}	
+	]
+}

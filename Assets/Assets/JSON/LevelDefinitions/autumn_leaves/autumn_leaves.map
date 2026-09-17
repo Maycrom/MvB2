@@ -1,0 +1,10 @@
+{
+    "Music" : "jazz.mp3",
+    
+    "entryMarkers" : [
+        [ [ 241, 342 ],270 ]
+    ],
+    "reverseEntryMarkers" : [
+        [ [ 507, 272 ], 180 ]
+    ]
+}

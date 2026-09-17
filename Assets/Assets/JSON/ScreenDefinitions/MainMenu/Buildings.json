@@ -1,0 +1,72 @@
+{
+    "Buildings": [{
+            "Screen": "GameSelectionScreen",
+            "SpriteFile": "temple_building_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Temple",
+            "Type": "Compound",
+            "SubItems": [
+                 {
+                 "SpriteFile" : "postie.json",
+                 "Type" : "Postie",
+                 "Position" : [ 90, -10 ],
+                 "ButtonOffset" : [ 6, 86 ],
+                 "Radius" : 50
+                  }
+			]
+        },
+        {
+            "Screen": "SpecialAgentScreen",
+            "SpriteFile": "special_agents_building_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Agents",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "TowerInfoScreen",
+            "SpriteFile": "fountain_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Fountain",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "UpgradeShop",
+            "SpriteFile": "upgrades_building_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Upgrades",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "SpecialtiesScreen",
+            "SpriteFile": "for_sale_sign_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Specs",
+            "Type": "Specialty"
+        },
+        {
+            "Screen": "HallOfFameScreen",
+            "SpriteFile": "hall_of_fame_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Hall",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "MonkeyLabScreen",
+            "SpriteFile": "monkey_lab.json",
+            "Name": "LOC_MM_BUILDING_Lab",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "SettingsScreen",
+            "SpriteFile": "settings_building_compound.json",
+            "Name": "LOC_MM_BUILDING_Settings",
+            "Type": "Compound"
+        },
+        {
+            "Screen": "MoreGames",
+            "SpriteFile": "more_games_layout.json",
+            "Name": "LOC_MM_BUILDING_MoreGames",
+            "Type": "News"
+        },
+        {
+            "Screen": "Chest",
+            "SpriteFile": "money_chest_compoundsprite.json",
+            "Name": "LOC_MM_BUILDING_Chest",
+            "Type": "Chest"
+        }
+    ]
+}

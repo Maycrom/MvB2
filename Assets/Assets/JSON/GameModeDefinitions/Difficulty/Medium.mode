@@ -1,0 +1,49 @@
+{
+	"Setup"	: {
+		"Health" : 1,
+		"Towers":
+		[
+			{ 
+				"Type": "DeflationController", 
+				"Position": [ 0, 10000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "DialogueAutoSkip", 
+				"Position": [ -3000, 0 ], 
+				"Upgrades": [ 0, 0 ] 
+			}
+		]
+	},
+	
+	"Rules" : {
+		"TargetRound" : 1,
+        "BonusTokenRound"  :  99,
+		"PriceModifier" : 1.0,
+		"Reward" : {
+			"MonkeyMoneyMultiplier" : 1.25,
+			"XPMultiplier" : 0
+		},
+		"LockedTowers": 
+		[
+			"BananaFarm"
+		]
+	},
+	
+	"_Rounds" : [
+		{
+			"Round" : 0,
+			"Hint" : "Medium.mode intro hint text",
+			"Waves" : [
+			]
+		},
+		{
+			"Round" : 1,
+			"Hint" : "Medium.mode intro hint text",
+			"Waves" : [
+				{ "Bloon" : "Rainbow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 20, "Count" : 50 }
+			]
+		}
+	]
+}
+

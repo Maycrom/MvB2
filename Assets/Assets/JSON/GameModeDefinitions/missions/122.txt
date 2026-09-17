@@ -1,0 +1,51 @@
+{
+    "nk_description": "LOC_MIS_122_DESC", 
+    "Rules": {
+        "BlockedSpecialties": [], 
+        "BloonLevelOffsets": [
+            0, 
+            -1, 
+            -2, 
+            -3, 
+            1, 
+            1, 
+            1, 
+            1, 
+            1, 
+            1, 
+            2,
+            0,
+            1, 
+            1, 
+            1
+        ], 
+        "MoneyPerRound": 0, 
+        "LockedTowers": [
+            "WizardLord"
+        ], 
+        "LockedUpgrades": [], 
+        "BlockedLabUpgrades": [], 
+        "BloonsForcedCamo": [], 
+        "TowerLifespan": -1, 
+        "MaxNumberOfTotalTowers": -1, 
+        "MaxNumberOfEachTower": -1, 
+        "Reward": {
+            "XPMultiplier": 1, 
+            "MonkeyMoney": 50, 
+            "XP": 0, 
+            "MonkeyMoneyMultiplier": 1
+        }, 
+        "TowersAutoUpgrade": false, 
+        "BlockedPremiumUpgrades": []
+    }, 
+    "Setup": {
+        "Health": 65, 
+        "Inventory": []
+    }, 
+    "nk_title": "LOC_MIS_122", 
+    "nk_track": "monkey_lane", 
+    "nk_rank_required": 0, 
+    "nk_id": "148", 
+    "nk_mode": 0, 
+    "nk_is_new": true
+}

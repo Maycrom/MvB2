@@ -1,0 +1,139 @@
+{
+  "Setup": {
+    "Inventory": [      
+    ],
+	"RoundFiles" : [
+		"special_missions/no_escape.mode"
+	]
+  },
+  "Rules": {
+	"TargetRound" : 13,
+    "Reward": {
+      "MonkeyMoney": 500,
+	  "MonkeyMoneyMultiplier" : 1,
+		"XP" : 0,
+		"XPMultiplier" : 1.0,
+      "Tokens": 6
+    },
+    "LockedTowers": [
+		"PortableLake",
+		"PortableLakePro",
+		"Pontoon",
+		"PontoonPro"
+    ],
+    "LockedUpgrades": [
+    ],
+    "BloonsForcedCamo": [
+    ],
+    "BlockedPremiumUpgrades": [
+    ],
+    "BlockedSpecialties": [      
+    ],
+    "MaxNumberOfTotalTowers": -1,
+    "MaxNumberOfEachTower": -1,
+    "TowerLifespan": -1,
+    "TowersAutoUpgrade": false,
+	"LoseLivesGracePeriod": 30,
+	"LoseLivesTimer": 1,
+	"LoseLivesAmount": 1
+  },
+  "nk_mode": 1,
+  "nk_track": "no_escape",
+  "nk_description": "LOC_MIS_no_escape_DESC",
+  "nk_title": "LOC_MIS_no_escape",
+  "nk_rank_required": 999,
+  
+	"Rounds": [
+		{
+			"Round": 1,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Green", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 2,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Pink", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 3,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Black", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 4,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Lead", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 5,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Zebra", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 6,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Rainbow", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 7,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Ceramic", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 8,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Rainbow", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 200, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 9,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Ceramic", "IsCamo": true, "IsRegen": false, "Duration": 20, "Count": 100, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 10,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "Ceramic", "IsCamo": true, "IsRegen": false, "Duration": 20, "Count": 200, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 11,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "MOAB", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 50, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 12,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "BFB", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 25, "StartTime": 0 }
+			]
+		},		
+		{
+			"Round": 13,
+			"Hint": "",
+			"Waves": [
+				{ "Bloon": "ZOMG", "IsCamo": false, "IsRegen": false, "Duration": 20, "Count": 10, "StartTime": 0 }
+			]
+		}
+	]
+}

@@ -1,0 +1,249 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "airstrike_signal",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, -10.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "monkey_apprentice_red_staff_glow",
+         "type" : 1,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, -10.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "monkey_apprentice_blue_staff_glow",
+         "type" : 1,
+         "uid" : 3
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -6, -10.5 ],
+         "Scale" : [ 0.22, 0.15 ],
+         "Shown" : true,
+         "sprite" : "bloon_scrambler_sound_wave",
+         "type" : 1,
+         "uid" : 4
+      },
+	{
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 6, -10.5 ],
+         "Scale" : [ 0.22, 0.15 ],
+         "Shown" : true,
+         "sprite" : "bloon_scrambler_sound_wave",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "airstrike_signal",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "monkey_apprentice_red_staff_glow",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "monkey_apprentice_blue_staff_glow",
+            "Texture" : "InGame"
+         },
+		{
+            "SpriteInfo" : "bloon_scrambler_sound_wave",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.66,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.8,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.33
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.66
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.4,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.33
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -10.5 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.66
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 4,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -6, -10.5 ],
+               "Scale" : [ 0.22, 0.15 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			 {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -12, -10.5 ],
+               "Scale" : [ 0.22, 0.22 ],
+               "Shown" : true,
+               "Time" : 0.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -18, -10.5 ],
+               "Scale" : [ 0.1, 0.1 ],
+               "Shown" : true,
+               "Time" : 0.4
+            }
+         ]
+      },
+	{
+         "spriteuid" : 5,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 6, -10.5 ],
+               "Scale" : [ 0.22, 0.15 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			 {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 12, -10.5 ],
+               "Scale" : [ 0.22, 0.22 ],
+               "Shown" : true,
+               "Time" : 0.2
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 18, -10.5 ],
+               "Scale" : [ 0.1, 0.1 ],
+               "Shown" : true,
+               "Time" : 0.4
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,197 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "1-1",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "",
+                    "1": ""
+                }
+            },
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "1-2",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+		{
+            "Name" : "1-3",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 2 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "1-4",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 2 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 3 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+		{
+            "Name" : "1-5",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 3 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 4 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+		{
+            "Name" : "1-6",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 4 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 5 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        {
+            "Name" : "Super Range"
+        },
+        {
+            "Name" : "Epic Range"
+        },
+        {
+            "Name" : "Robo Monkey"
+        },
+        {
+            "Name" : "Technological Terror"
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+	"Name" : "LOC_LAB_TOWER_SLOT",
+	"Description" : "LOC_LAB_DESC_TowerSlot",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_TowerSlot",
+    "Icon" : "tower_slot",
+	"LevelGateway" : [ 0, 0, 0, 4, 24, 74, 199, 399, 99999999, 99999999, 99999999, 99999999, 99999999],
+    
+	"Upgrades" : [
+		{
+            "DisplayValueString" : "1",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "2",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "4",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 1, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 2, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 3, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "7",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 0 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 1 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 2 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 3 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Towers":
+					[
+						{ 
+							"Type": "LAB_TowerSlots", 
+							"Position": [ 0, 7000 ], 
+							"Upgrades": [ 4, 4 ] 
+						}
+					]
+				}
+			}
+		}
+	]
+}

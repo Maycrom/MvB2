@@ -1,0 +1,74 @@
+{	
+    "Type":             "RoundStart",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.01,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Effect",
+			"SpriteFile": "ready_set_place.json",
+			"Position": [ 240, 160 ],
+			"Scale": 1,
+			"DrawLayer": "FullScreen",
+			"Audio": "READY"
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 5000 ],
+					"Scale": 0,
+					"Duration": 1.8,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "FallingBananasController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 1, 8000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "CooldownController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

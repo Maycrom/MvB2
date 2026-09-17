@@ -1,0 +1,79 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+		"LAB_GrowthSpeed.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true
+	],
+    "Icon" : "monkey_engineer_sentry_avatar_red_small",
+    "PlacementH" : -50000.0,
+    "PlacementRadius" : 12.0,
+    "PlacementW" : -50000.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "LAB_FarmGrowthSpeed",
+    "Upgrades" : [
+        [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+        ],
+        [
+            "Level 5",
+            "Level 6",
+            "Level 7",
+            "Level 8"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "engineer_sentry_icon",
+            "engineer_fast_engineering_icon",
+            "engineer_foam_icon",
+            "engineer_trap_icon"
+        ],
+        [
+            "engineer_9inch_nails_icon",
+            "engineer_larger_service_area_icon",
+            "engineer_sprockets_icon",
+            "engineer_overclock_icon"
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small"
+        ],
+        [
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small"
+        ]
+    ],
+    "UseRadiusPlacement" : false,
+    "SpriteUpgradeDefinition" : "Test.json",
+	"PlacementFiringSequence" : [ 0 ]
+}

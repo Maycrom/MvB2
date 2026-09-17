@@ -1,0 +1,104 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Dart Master",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"FireCount" : 1
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 3, 0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"FireCount" : 1
+						}
+					]
+				},
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 0
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"FireCount" : 1
+						}
+					]
+				}
+            ]
+        },
+        
+        {
+            "Name" : "Enhanced Eyesight"
+        },
+        
+        {
+            "Name" : "Spike-O-Pult"
+        },
+        
+        {
+            "Name" : "Juggernaut"
+        },
+        
+        {
+            "Name" : "Sharp Shots"
+        },
+        
+        {
+            "Name" : "Razor Sharp Shots"
+        },
+    
+        {
+            "Name" : "Triple Darts"
+        },
+        
+        {
+            "Name" : "Super Monkey Fan Club",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

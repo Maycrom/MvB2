@@ -1,0 +1,12 @@
+{
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 0,
+			"XP" : 100000,
+            "TokensEasy": 5,
+            "TokensMedium": 6,
+            "TokensHard": 8,
+			"TokensImpoppable": 9
+		}
+	}
+}

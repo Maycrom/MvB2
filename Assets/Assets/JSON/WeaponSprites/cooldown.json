@@ -1,0 +1,46 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "stopwatch",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+    "customvariables" : [
+    ],
+    
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "stopwatch",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 10
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : [
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+         ]
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}

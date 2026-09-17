@@ -1,0 +1,128 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 0.0, -4.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "BD_red_bloon_sub.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 4.5, 4.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "BD_red_bloon_sub.json",
+         "type" : 2,
+         "uid" : 2
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ -4.5, 4.0 ],
+         "Scale" : [ 0, 0 ],
+         "Shown" : true,
+         "sprite" : "BD_red_bloon_sub.json",
+         "type" : 2,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "BD_red_bloon_sub.json",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 999999
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0.0, -4.0 ],
+               "Scale" : [ 0.0, 0.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0.0, -4.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 0.15
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 4.5, 4.0 ],
+               "Scale" : [ 0.0, 0.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 4.5, 4.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 0.15
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ -4.5, 4.0 ],
+               "Scale" : [ 0.0, 0.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ -4.5, 4.0 ],
+               "Scale" : [ 0.6, 0.6 ],
+               "Shown" : true,
+               "Time" : 0.15
+            }
+         ]
+      }
+   ]
+}

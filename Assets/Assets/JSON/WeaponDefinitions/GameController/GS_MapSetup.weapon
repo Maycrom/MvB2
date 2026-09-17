@@ -1,0 +1,121 @@
+{	
+    "Type":             "GS_MapSetup",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.1,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 4, 348 ], 
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							// Tonic cancellation dummy tower, yes this NEEDS to be a vanilla tower.
+							"Type" : "CreateTower",
+							"TowerType" : "MonkeyEngineerSentry",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 10000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "MapController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 0, 20000 ],
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "BloonAbilityController",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "level_progress_tutorial.json",
+					"Position": [ 25, 10000 ], 
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "BloonSpawnDisplay",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

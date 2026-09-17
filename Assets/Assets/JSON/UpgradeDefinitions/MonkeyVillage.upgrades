@@ -1,0 +1,46 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Monkey Beacon"
+        },
+        {
+            "Name" : "Jungle Drums"
+        },
+        {
+            "Name" : "Monkey Town"
+        },
+        {
+            "Name" : "Energy Beacon"
+        },
+        {
+            "Name" : "Monkey Fort"
+        },
+        {
+            "Name" : "Radar Scanner"
+        },
+        {
+            "Name" : "Monkey Intelligence Bureau"
+        },
+        {
+            "Name" : "MIB Call To Arms",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : "",
+					"2" : "",
+					"3" : "",
+					"4" : "",
+					"5" : "",
+					"6" : "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "10": ""
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "1-1",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "1-2",           
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "1-3",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "1-4",
+            "TowerUpgrade" :
+            {
+            }
+        },
+		
+		{
+            "Name" : "1-5",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"5" : "1-5Dialogue.weapon",
+					"3" : "1-5DialogueAdvance.weapon",
+					"10" : "1-5DialogueEvents.weapon",
+					"11" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-6",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"5" : "1-6Dialogue.weapon",
+					"3" : "1-6DialogueAdvance.weapon",
+					"10" : "1-6DialogueEvents.weapon",
+					"11" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-7",
+            "TowerUpgrade" :
+            {
+            }
+        },
+		
+		{
+            "Name" : "1-8",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"5" : "1-8Dialogue.weapon",
+					"3" : "1-8DialogueAdvance.weapon",
+					"10" : "1-8DialogueEvents.weapon",
+					"11" : ""
+                }
+            }
+        },
+        
+        {
+            "Name" : "9-inch nails",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "Larger Service Area",
+            "TowerUpgrade" :
+            {
+            }
+        },
+    
+        {
+            "Name" : "Sprockets"
+        },
+        
+        {
+            "Name" : "Overclock",
+			"TowerUpgrade" :
+            {
+            }
+        }
+    ]
+}

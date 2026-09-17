@@ -1,0 +1,17 @@
+{	
+    "Type":             "AvengerDisplayFix",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{
+			"Type" : "TowerModifier", // Attack Speed Boost
+			"Duration": 4, "Range": 10, "PriorityLevel": 9, "TerminateOnUserUpgrade" : false, "ReplacesPriorityLevel" : true, "ApplyToUserTower": true,
+			"TargetingFilter": { "Include" :{"TowerType": [ "MonkeyApprentice" ]}},
+			"Modifier" : { "Cooldown": [ 1, 0 ], "Cost": [ 0, 0 ] }
+		}
+    ]
+}
