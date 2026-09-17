@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal EnableDelayedExpansion
 ::  For transparency's sake, this script was AI generated.
 ::  Please keep in mind that no parts of the actual mod were made using AI.
 REM ============ Configuration ============
@@ -44,6 +44,40 @@ if not exist "%DEST_DIR%" (
     mkdir "%DEST_DIR%"
     if errorlevel 1 (
         echo [ERROR] Could not create destination folder.
+        exit /b 1
+    )
+)
+
+REM ---- Backup existing BTD5.jet before replacing ----
+if exist "%DESTINATION%" (
+    REM Derive BTD5 directory: DESTINATION is ...\BloonsTD5\Assets\BTD5.jet
+    set "DEST_DIR_NO_TRAIL=!DEST_DIR:~0,-1!"
+    for %%I in ("!DEST_DIR_NO_TRAIL!") do set "BTD5_DIR=%%~dpI"
+    set "BACKUP_DIR=!BTD5_DIR!Backups"
+
+    if not exist "!BACKUP_DIR!" (
+        echo Creating backup folder "!BACKUP_DIR!" ...
+        mkdir "!BACKUP_DIR!"
+        if errorlevel 1 (
+            echo [ERROR] Could not create backup folder.
+            exit /b 1
+        )
+    )
+
+    for %%F in ("%DESTINATION%") do (
+        set "DEST_NAME=%%~nF"
+        set "DEST_EXT=%%~xF"
+    )
+
+    set "BACKUP_DATE="
+    for /f "usebackq delims=" %%D in (`powershell -NoProfile -Command "(Get-Item -LiteralPath '%DESTINATION%').LastWriteTime.ToString('yyyy-MM-dd_HH-mm-ss')" 2^>nul`) do set "BACKUP_DATE=%%D"
+    if not defined BACKUP_DATE set "BACKUP_DATE=unknown-date"
+
+    set "BACKUP_FILE=!BACKUP_DIR!\!DEST_NAME!_!BACKUP_DATE!!DEST_EXT!"
+    echo Backing up old archive to "!BACKUP_FILE!" ...
+    move /Y "%DESTINATION%" "!BACKUP_FILE!" >nul
+    if errorlevel 1 (
+        echo [ERROR] Failed to back up existing archive. Aborting.
         exit /b 1
     )
 )
