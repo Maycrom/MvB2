@@ -1,1 +1,9 @@
 *.xwb filter=lfs diff=lfs merge=lfs -text
+*.json   linguist-language=JSON linguist-detectable=true
+*.tower  linguist-language=JSON linguist-detectable=true
+*.weapon linguist-language=JSON linguist-detectable=true
+*.upgrade linguist-language=JSON linguist-detectable=true
+*.bloon  linguist-language=JSON linguist-detectable=true
+*.mode   linguist-language=JSON linguist-detectable=true
+*.rounds linguist-language=JSON linguist-detectable=true
+*.bat linguist-detectable=false
