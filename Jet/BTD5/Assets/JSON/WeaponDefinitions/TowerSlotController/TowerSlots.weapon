@@ -1222,7 +1222,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 207, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}					
 					]
 				},
 				{
@@ -2487,7 +2501,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 237, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}						
 					]
 				},
 				{
@@ -3752,7 +3780,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 267, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}
 					]
 				},
 				{
@@ -5017,7 +5059,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 297, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}
 					]
 				},
 				{
@@ -6282,7 +6338,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 327, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}
 					]
 				},
 				{
@@ -7547,7 +7617,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 177, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}
 					]
 				},
 				{
@@ -8812,7 +8896,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 147, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}
 					]
 				},
 				{
@@ -10077,7 +10175,21 @@
 									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
-						}	
+						},
+						{
+							"Type": "Effect","SpriteFile": "level_progress_tutorial.json","Position": [ 117, 2500 ], "Scale": 0,"Duration": 0.01,
+							"Tasks":
+							[
+								{
+									"Type" : "CreateTower",
+									"TowerType" : "DwarfController",
+									"TowerColour" : [ 255, 255, 255, 255 ],
+									"TowerLifetime" : 999999999,
+									"HasParentTower" : false,
+									"UseParentTowerUpgradeLevel": false
+								}
+							]
+						}						
 					]
 				},
 				{

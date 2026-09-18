@@ -1,0 +1,54 @@
+{	
+    "Type":             "DwarfCheck2",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			// Check how many dwarves have fallen
+			"Type": "Effect",
+			"Position": [ -500000, 0 ],
+			"SpriteFile": "recharge_board_bananafarm_cooldown.json",
+			"Scale": 0,
+			"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type" : "TowerModifier",
+					"Range": 1000000, // very bad
+					"PriorityLevel": 1,
+					"TerminateOnUserUpgrade" : false,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": false,
+					"TargetIsWeaponTaskOrigin": true,
+					"Duration": 999999999,
+					"ModifyNewlySpawnedTowers": true,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "MonkeyEngineerSentry" ]
+						}
+					},
+					
+					"Modifier" : 
+					{
+					},
+					"Tasks":
+					[
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 2,
+							"Amount" : 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

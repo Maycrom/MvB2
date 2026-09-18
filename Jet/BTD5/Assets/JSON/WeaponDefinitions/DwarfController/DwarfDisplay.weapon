@@ -1,0 +1,181 @@
+{	
+    "Type":             "DwarfDisplay",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
+    "Tasks"	:
+	[
+		{
+			"Type": "MultiFire","InitialOffset": 0,"AngleIncrement": 0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2445, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{ "Type": "Effect", "SpriteFile": "avenger_boost.json", "Scale": 1, "Duration": 0.15, "DrawLayer": "FullScreen"}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "0%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "15%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "30%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "45%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "60%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "75%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "90%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "105%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "120%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "135%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "150%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "165%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "180%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "195%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "210%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "225%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "240%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "255%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "270%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "285%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "300%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "315%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "330%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "345%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "360%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "375%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "390%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "405%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "420%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "435%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,"Offsets" : [[ -2435, 0 ]],"DisabledTasks": [0],
+			"Tasks":[{"Type": "TextEffect", "Text": "450%", "Font": "oetztype_12_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ],"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.000001,"CutOffDistance": 0.00000015}}]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,
+			"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
+			"Tasks":[
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ]}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,"AimAtTarget" : false,
+			"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
+			"Tasks":[
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 15 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 16 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 19 ], "ToDisable": [ 18 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 20 ], "ToDisable": [ 19 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 21 ], "ToDisable": [ 20 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 22 ], "ToDisable": [ 21 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 23 ], "ToDisable": [ 22 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 24 ], "ToDisable": [ 23 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 25 ], "ToDisable": [ 24 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 26 ], "ToDisable": [ 25 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 27 ], "ToDisable": [ 26 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 28 ], "ToDisable": [ 27 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 29 ], "ToDisable": [ 28 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 30 ], "ToDisable": [ 29 ]},
+				{"Type": "ChangeSubtaskEnabled", "ToEnable": [ 31 ], "ToDisable": [ 30 ]}
+			]
+		}
+	]
+}

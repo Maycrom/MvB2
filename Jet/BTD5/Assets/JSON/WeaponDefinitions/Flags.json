@@ -7,6 +7,10 @@
 	"AvengerCounter",
 	"AvengerBoost",
 	"AvengerDisplayFix",
+	"DwarfDisplay",
+	"DwarfCheck",
+	"DwarfCheck2",
+	"DwarfDisplaySwitch",
 
 	// TestTower
 	"CooldownControllerTutorial",
