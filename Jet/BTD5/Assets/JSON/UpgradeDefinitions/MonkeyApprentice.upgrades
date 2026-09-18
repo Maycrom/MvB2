@@ -8,13 +8,13 @@
 				"Weapons" :
 				{
 					"5" : "AvengerCounter.weapon",
-					"6" : "AvengerBoost.weapon",
-					"7" : "AvengerDisplayFix.weapon"
-				},
-				"Replace" :
-				{
-					"PlacementFiringSequence" : [ 7 ]
-				}
+					"6" : "AvengerBoost.weapon"
+					//"7" : "AvengerDisplayFix.weapon"
+				}//,
+				//"Replace" :
+				//{
+				//	"PlacementFiringSequence" : [ 7 ]
+				//}
 			},
 			"WeaponUpgrades" :
             [
