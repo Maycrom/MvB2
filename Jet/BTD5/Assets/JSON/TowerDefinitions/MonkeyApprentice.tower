@@ -20,7 +20,7 @@
     "ActiveWeaponSlots": [
 		true
 	],
-    "Icon" : "apprentice_avatar_small",
+    "Icon" : "dart_monkey_avatar_small",
     "PlacementH" : 25.0,
     "PlacementRadius" : 0.0,
     "PlacementW" : 25.0,
@@ -57,7 +57,7 @@
     ],
     "UpgradeAvatars" : [
         [
-            "apprentice_avatar_intense_magic_small",
+            "dart_monkey_avatar_small",
             "apprentice_avatar_lightning_small",
             "apprentice_avatar_whirlwind_small",
             "apprentice_avatar_tornado_small"
@@ -72,7 +72,7 @@
     
     "UpgradeIcons" : [
         [
-            "apprentice_intense_magic_icon",
+            "avenger_boost",
             "engineer_overclock_icon",
             "apprentice_whirlwind_icon",
             "apprentice_tornado_icon"
