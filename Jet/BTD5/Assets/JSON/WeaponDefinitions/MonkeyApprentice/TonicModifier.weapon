@@ -11,356 +11,79 @@
     "Tasks"	:
     [
 		{
-			"Type": "MultiFire",
-			"InitialOffset": 0.0,
-			"AngleIncrement": 0.0,
-			"FireCount": 1,
-			"Tasks":
-			[
+			"Type" : "TowerModifier",
+			"Range": 1000,
+			"PriorityLevel": 7,
+			"TerminateOnUserUpgrade" : true,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"ModifyMovingTowers": false,
+			"Duration": 6,
+			
+			"TargetingFilter":
+			{
+				"Include" :
 				{
-					"Type" : "TimerFire",
-					"TimeDelay" : 2,
-					"Tasks" :
-					[
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 1,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -3 ]
-							],
-							"Tasks":
-							[
-								{
-									"Type": "Projectile",
-									"SpriteFile": "MonkeyApprenticeSummonPhoenixEffect.json",
-									"NumPersists":      1,
-									"TerminateOnZeroPersists": true,
-									
-									"CollisionType": "None",
-									
-									"Radius": 3,
-									
-									"Movement":
-									{
-										"Type": "MotionCurve",
-										"Curves": 
-										[
-											[ [20, 0], [70, -20], [140, 20], [210, 0] ],
-											[ [210, 0], [280, -20], [350, 20], [420, 0] ],
-											[ [420, 0], [490, -20], [560, 20], [630, 0] ]
-										],
-										"Speed": 90.0,
-										"TerminateAtEndOfCurve": true
-									}
-								}
-							]
-						},
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 1,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -20 ]
-							],
-							"Tasks":
-							[
-								{ 
-									"Type": "Effect", 
-									"SpriteFile": "ROFEffect.json", 
-									"Scale": 0.66 
-								}
-							]
-						}	
-					]
-				},	
-				{
-					"Type" : "TimerFire",
-					"TimeDelay" : 2,
-					"Tasks" :
-					[
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 250,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -3 ]
-							],
-							"ShotDelay": 0.1,
-							"Movement":
-							{
-								"Type": "MotionCurve",
-								"Curves": 
-								[
-									[ [20, 0], [70, -20], [140, 20], [210, 0] ],
-									[ [210, 0], [280, -20], [350, 20], [420, 0] ],
-									[ [420, 0], [490, -20], [560, 20], [630, 0] ]
-								],
-								"Speed": 90.0,
-								"TerminateAtEndOfCurve": true,
-								"AngleOffset" : 1.5708
-							},
-							"Tasks":
-							[
-								{
-									"Type": "Projectile",
-									"NumPersists":      1,
-									"TerminateOnZeroPersists": true,
-									
-									"CollisionType": "None",
-									"HasLimitedDuration": true,
-									"LimitedDuration":  0.01,							
-									"Radius": 3,
-									
-									"Movement": {
-										"Type": "Target",
-										"SeekAngle": 360,
-										"TurnSpeed": 9999999,
-										"CutOffDistance": 1,
-										"TargetRange": 180,
-										"Speed": 1
-									},
-									"TasksToProcessOnTerminate": [0],
-									"Tasks":
-									[
-										{
-											"Type":             "Projectile",
-											"SpriteFile":      "phoenix_attack.json",
-											"NumPersists":      6,
-											"LoopAnimation":    false,
-											
-											"TerminateOnZeroPersists": true,
-											"CollisionType": "Once",
-											"SpreadAngle": 45,
-											
-											"Movement": {
-												"Type": "Forward",
-												"CutOffDistance": 150,
-												"Speed": 200
-											},
-
-											"TasksToProcessOnCollision" : [ 0, 1 ],
-											"TasksToProcessOnTerminate" : [ 1 ],
-
-											"Tasks" :
-											[ 
-												{ "Type": "Damage", "DamageType": "Piercing", "Amount": 2 },
-												{ "Type": "Effect", "UseDirection": true, "SpriteFile": "apprentice_dragon_breath.json", "DrawLayer" : "UnderTowers", "Scale": 0.66 }
-											]
-										}
-									]
-								}	
-							]
-						}
-					]
-				},	
-				{
-					"Type" : "TowerModifier",
-					"Range": 10,
-					"PriorityLevel": 7,
-					"TerminateOnUserUpgrade" : true,
-					"ReplacesPriorityLevel" : true,
-					"ApplyToUserTower": true,
-					"ModifyMovingTowers": false,
-					"Duration": 2.63,
-					
-					"TargetingFilter":
-					{
-						"Include" :
-						{
-							"TowerType": [ "IceTower" ]
-						}
-					},
-					
-					"Modifier" : 
-					{	
-						"FireDelay": [99999,0],
-						"Display": "FireWizard_SummonPhoenix.json"
-					}
-				}			
-			]
-		},
-		{
-			"Type": "MultiFire",
-			"InitialOffset": 0.0,
-			"AngleIncrement": 0.0,
-			"FireCount": 0,
-			"Tasks":
-			[
-				{
-					"Type" : "TimerFire",
-					"TimeDelay" : 2,
-					"Tasks" :
-					[
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 1,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -3 ]
-							],
-							"Tasks":
-							[
-								{
-									"Type": "Projectile",
-									"SpriteFile": "MonkeyApprenticeSummonPhoenixEffect.json",
-									"NumPersists":      1,
-									"TerminateOnZeroPersists": true,
-									
-									"CollisionType": "None",
-									
-									"Radius": 3,
-									
-									"Movement":
-									{
-										"Type": "MotionCurve",
-										"Curves": 
-										[
-											[ [20, 0], [70, -20], [140, 20], [210, 0] ],
-											[ [210, 0], [280, -20], [350, 20], [420, 0] ],
-											[ [420, 0], [490, -20], [560, 20], [630, 0] ]
-										],
-										"Speed": 80.0,
-										"TerminateAtEndOfCurve": true
-									}
-								}
-							]
-						},
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 1,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -20 ]
-							],
-							"Tasks":
-							[
-								{ 
-									"Type": "Effect", 
-									"SpriteFile": "ROFEffect.json", 
-									"Scale": 0.66 
-								}
-							]
-						}	
-					]
-				},	
-				{
-					"Type" : "TimerFire",
-					"TimeDelay" : 2,
-					"Tasks" :
-					[
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 0.0,
-							"FireCount": 250,
-							"AimAtTarget" : false,
-							"Offsets" : [
-								[ 0, -3 ]
-							],
-							"ShotDelay": 0.1,
-							"Movement":
-							{
-								"Type": "MotionCurve",
-								"Curves": 
-								[
-									[ [20, 0], [70, -20], [140, 20], [210, 0] ],
-									[ [210, 0], [280, -20], [350, 20], [420, 0] ],
-									[ [420, 0], [490, -20], [560, 20], [630, 0] ]
-								],
-								"Speed": 80.0,
-								"TerminateAtEndOfCurve": true,
-								"AngleOffset" : 1.5708
-							},
-							"Tasks":
-							[
-								{
-									"Type": "Projectile",
-									"NumPersists":      1,
-									"TerminateOnZeroPersists": true,
-									
-									"CollisionType": "None",
-									"HasLimitedDuration": true,
-									"LimitedDuration":  0.01,							
-									"Radius": 3,
-									
-									"Movement": {
-										"Type": "Target",
-										"SeekAngle": 360,
-										"TurnSpeed": 9999999,
-										"CutOffDistance": 1,
-										"TargetRange": 180,
-										"Speed": 1
-									},
-									"TasksToProcessOnTerminate": [0],
-									"Tasks":
-									[
-										{
-											"Type":             "Projectile",
-											"SpriteFile":      "phoenix_attack.json",
-											"NumPersists":      6,
-											"LoopAnimation":    false,
-											
-											"TerminateOnZeroPersists": true,
-											"CollisionType": "Once",
-											"SpreadAngle": 45,
-											
-											"Movement": {
-												"Type": "Forward",
-												"CutOffDistance": 150,
-												"Speed": 200
-											},
-
-											"TasksToProcessOnCollision" : [ 0, 1 ],
-											"TasksToProcessOnTerminate" : [ 1 ],
-
-											"Tasks" :
-											[ 
-												{ "Type": "Damage", "DamageType": "Piercing", "Amount": 2 },
-												{ "Type": "Effect", "UseDirection": true, "SpriteFile": "apprentice_dragon_breath.json", "DrawLayer" : "UnderTowers", "Scale": 0.66 }
-											]
-										}
-									]
-								}	
-							]
-						}
-					]
-				},	
-				{
-					"Type" : "TowerModifier",
-					"Range": 10,
-					"PriorityLevel": 7,
-					"TerminateOnUserUpgrade" : true,
-					"ReplacesPriorityLevel" : true,
-					"ApplyToUserTower": true,
-					"ModifyMovingTowers": false,
-					"Duration": 5,
-					
-					"TargetingFilter":
-					{
-						"Include" :
-						{
-							"TowerType": [ "IceTower" ]
-						}
-					},
-					
-					"Modifier" : 
-					{
-						"FireDelay": [99999,0],
-						"Display": "FireWizard_SummonPhoenix_u.json"
-					}
+					"TowerType": [ "MonkeyApprentice" ]
 				}
+			},
+			
+			"Modifier" : 
+			{	
+				"EnabledSubtasks" :
+				[
+					[ 2, [ 0 ], false ],
+					[ 2, [ 1 ], true ]
+				]
+			},
+			"Tasks":
+			[
+				{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 60,
+					"Tasks" : 
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1000,
+								"CutOffDistance": 12
+							},
+							"Tasks":
+							[
+								{
+									"Type":             "Projectile",
+									"SpriteFile":      "DGParticle.json",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"SpinRate": 360,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 1.95,
+									
+									"Movement":
+									{
+										"Type": "MotionCurve",
+										"Curves":
+										[
+											[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
+										],
+										"Speed": 10,
+										"CutOffDistance": 20,
+										"AngleOffset" : -0.7853981634,
+										"TerminateAtEndOfCurve": true,
+										"ScaleCurvesByDirection": false
+									}
+								}
+							]
+						}
+					]
+				}	
 			]
-		}	
+		}				
     ]
 }

@@ -38,6 +38,15 @@
 						{
 							"Operation" : "Adjust",
 							"Amount": 2
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1,0,0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"Amount": 3
 						}
 					]
 				}

@@ -6,7 +6,7 @@
 	"RequiresTargetToFire"	: false,
 	"TotalAmmo":            1,
     "RemainingAmmo":        0,
-    
+    "DisabledTasks": [1],
     "Tasks" :
     [
 		{
@@ -39,6 +39,41 @@
 							"Type": "Damage",
 							"DamageType": "Piercing",
 							"Amount": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 12,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 50,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 5
 						}
 					]
 				}

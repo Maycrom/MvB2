@@ -1323,7 +1323,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_MonkeyAce_UPGRADE_DESC_B3" l="0">More darts = win.</T>
 	<T id="LOC_MonkeyAce_UPGRADE_DESC_B4" l="0">Ability: drops a devastating bomb that destroys all bloons and damages MOAB class.</T>
 
-	<T id="LOC_MonkeyApprentice_UPGRADE_DESC_A1" l="0">Deals 1 extra damage with each swing. For each Dwarf that has fallen this battle, gain +15% increased attack speed. (Max 450%)</T>
+	<T id="LOC_MonkeyApprentice_UPGRADE_DESC_A1" l="0">Deals 2 extra damage with each swing. For each Dwarf that has fallen this battle, gain +15% increased attack speed. (Max 450%)</T>
 	<T id="LOC_MonkeyApprentice_UPGRADE_DESC_A2" l="0">BUYING THIS DOES NOTHING.\n\nThe cost of this upgrade is an indicator for how much the attack speed is boosted by the Avenger upgrade.\n(e.g. $60 = 60% increased attack speed)</T>
 	<T id="LOC_MonkeyApprentice_UPGRADE_DESC_A3" l="0">Whirlwind blows bloons off the path away from the exit.</T>
 	<T id="LOC_MonkeyApprentice_UPGRADE_DESC_A4" l="0">Pops bloons and blows them faster, further and more often.</T>
