@@ -21,7 +21,7 @@
 					"TerminateOnUserUpgrade" : false,
 					"TargetIsWeaponTaskOrigin": true,
 					"ReplacesPriorityLevel" : true,
-					"Duration": 0.015,
+					"Duration": 0.04,
 					
 					"TargetingFilter":
 					{
