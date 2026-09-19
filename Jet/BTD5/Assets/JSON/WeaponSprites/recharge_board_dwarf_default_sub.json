@@ -68,7 +68,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1, 1 ],
          "Shown" : true,
-         "sprite" : "a",
+         "sprite" : "h",
          "type" : 1,
          "uid" : 31
       }
@@ -100,7 +100,7 @@
             "Texture" : "InGame"
          },
 		 {
-            "SpriteInfo" : "a",
+            "SpriteInfo" : "h",
             "Texture" : "InGame"
          }
       ],
