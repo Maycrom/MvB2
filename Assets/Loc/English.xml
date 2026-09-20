@@ -1260,7 +1260,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_BombTower_UPGRADE_DESC_B3" l="0">Inflicts x10 damage on MOAB class bloons.</T>
 	<T id="LOC_BombTower_UPGRADE_DESC_B4" l="0">Ability: deadly missile seeks the nearest MOAB and destroys it.</T>
 
-	<T id="LOC_BoomerangThrower_UPGRADE_DESC_A1" l="0">±200    ²¶-s     µ500    ³ ¶1\n\nThe Ice Monkey becomes a proper tower. Deals damage and slows all bloons in range every few seconds.\n</T>
+	<T id="LOC_BoomerangThrower_UPGRADE_DESC_A1" l="0">±\n200     ¼¼-s    ³³³³500     1\n\nThe Ice Monkey becomes a proper tower. Deals damage and slows all bloons in range every few seconds.\n</T>
 	<T id="LOC_BoomerangThrower_UPGRADE_DESC_A2" l="0">Throws sharper, faster, bigger glaives instead of boomerangs.</T>
 	<T id="LOC_BoomerangThrower_UPGRADE_DESC_A3" l="0">Glaives now automatically bounce from bloon to bloon.</T>
 	<T id="LOC_BoomerangThrower_UPGRADE_DESC_A4" l="0">Two permanent glaives orbit the tower.</T>
