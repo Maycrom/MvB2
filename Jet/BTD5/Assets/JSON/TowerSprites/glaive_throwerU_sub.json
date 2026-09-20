@@ -43,7 +43,7 @@
          "Flip" : 1,
          "Position" : [ 3.0, 2.0 ],
          "Scale" : [ 0.7, 0.7 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "glaive_lazyworkaround_red",
          "type" : 1,
          "uid" : 6
@@ -252,7 +252,7 @@
                "Flip" : 1,
                "Position" : [ 3.0, 2.0 ],
                "Scale" : [ 0.7, 0.7 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.0
             },
             {
@@ -262,7 +262,7 @@
                "Flip" : 1,
                "Position" : [ 3.0, 2.0 ],
                "Scale" : [ 0.7, 0.7 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.1
             },
             {
@@ -272,7 +272,7 @@
                "Flip" : 1,
                "Position" : [ 5, -2.0 ],
                "Scale" : [ 0.7, 0.7 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.35
             },
 			{
@@ -282,7 +282,7 @@
                "Flip" : 1,
                "Position" : [ 3, 2.0 ],
                "Scale" : [ 0.7, 0.7 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.5
             },
 			{
