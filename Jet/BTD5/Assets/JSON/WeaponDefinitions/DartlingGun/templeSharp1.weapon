@@ -39,32 +39,48 @@
 					"Tasks" :
 					[ 
 						{
-							"Type":             "Projectile",
-							"SpriteFile":      "glaive.json",
-							"NumPersists":      4,
-							"TerminateOnZeroPersists": true,
-							"CollisionType": "Once",
-							
-							"Movement": {
-								"Type": "Target",
-								"SeekAngle": 360,
-								"TurnSpeed": 99999999,
-								"CutOffDistance": 5000,
-								"TargetRange": 130,
-								"Speed": 250,
-								"TerminateOnNoTarget": true,
-								"TargetMode": "First"
-							},
-
-							"Tasks" :
-							[ 
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 1,
+							"AimAtTarget" : false,
+							"MarkIDForProjectiles": true,
+							"Tasks":
+							[
 								{
-									"Type": "Damage", 
-									"DamageType": "Piercing", 
-									"Amount": 2 
+									"Type":             "Projectile",
+									"SpriteFile":      "glaive.json",
+									"NumPersists":      4,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "Once",
+									
+									"Movement": {
+										"Type": "Target",
+										"SeekAngle": 360,
+										"TurnSpeed": 99999999,
+										"CutOffDistance": 5000,
+										"TargetRange": 125,
+										"Speed": 250,
+										"TerminateOnNoTarget": true,
+										"TargetMode": "First"
+									},
+
+									"Tasks" :
+									[ 
+										{
+											"Type": "Damage", 
+											"DamageType": "Piercing", 
+											"Amount": 2 
+										}
+									]
 								}
 							]
-						}
+						},
+						{
+							"Type": "Damage", 
+							"DamageType": "Piercing", 
+							"Amount": 2 
+						}						
 					]
 				}
 			]	
@@ -98,32 +114,48 @@
 					"Tasks" :
 					[ 
 						{
-							"Type":             "Projectile",
-							"SpriteFile":      "glaive.json",
-							"NumPersists":      8,
-							"TerminateOnZeroPersists": true,
-							"CollisionType": "Once",
-							
-							"Movement": {
-								"Type": "Target",
-								"SeekAngle": 360,
-								"TurnSpeed": 99999999,
-								"CutOffDistance": 5000,
-								"TargetRange": 270,
-								"Speed": 250,
-								"TerminateOnNoTarget": true,
-								"TargetMode": "First"
-							},
-
-							"Tasks" :
-							[ 
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 1,
+							"AimAtTarget" : false,
+							"MarkIDForProjectiles": true,
+							"Tasks":
+							[
 								{
-									"Type": "Damage", 
-									"DamageType": "Piercing", 
-									"Amount": 2 
+									"Type":             "Projectile",
+									"SpriteFile":      "glaive_red.json",
+									"NumPersists":      8,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "Once",
+									
+									"Movement": {
+										"Type": "Target",
+										"SeekAngle": 360,
+										"TurnSpeed": 99999999,
+										"CutOffDistance": 5000,
+										"TargetRange": 270,
+										"Speed": 250,
+										"TerminateOnNoTarget": true,
+										"TargetMode": "First"
+									},
+
+									"Tasks" :
+									[ 
+										{
+											"Type": "Damage", 
+											"DamageType": "Piercing", 
+											"Amount": 2 
+										}
+									]
 								}
 							]
-						}
+						},
+						{
+							"Type": "Damage", 
+							"DamageType": "Piercing", 
+							"Amount": 2 
+						}	
 					]
 				}
 			]	
@@ -157,32 +189,48 @@
 					"Tasks" :
 					[ 
 						{
-							"Type":             "Projectile",
-							"SpriteFile":      "glaive_red.json",
-							"NumPersists":      12,
-							"TerminateOnZeroPersists": true,
-							"CollisionType": "Once",
-							
-							"Movement": {
-								"Type": "Target",
-								"SeekAngle": 360,
-								"TurnSpeed": 99999999,
-								"CutOffDistance": 5000,
-								"TargetRange": 330,
-								"Speed": 250,
-								"TerminateOnNoTarget": true,
-								"TargetMode": "First"
-							},
-
-							"Tasks" :
-							[ 
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 1,
+							"AimAtTarget" : false,
+							"MarkIDForProjectiles": true,
+							"Tasks":
+							[
 								{
-									"Type": "Damage", 
-									"DamageType": "Piercing", 
-									"Amount": 2 
+									"Type":             "Projectile",
+									"SpriteFile":      "glaive_red.json",
+									"NumPersists":      12,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "Once",
+									
+									"Movement": {
+										"Type": "Target",
+										"SeekAngle": 360,
+										"TurnSpeed": 99999999,
+										"CutOffDistance": 5000,
+										"TargetRange": 330,
+										"Speed": 250,
+										"TerminateOnNoTarget": true,
+										"TargetMode": "First"
+									},
+
+									"Tasks" :
+									[ 
+										{
+											"Type": "Damage", 
+											"DamageType": "Piercing", 
+											"Amount": 2 
+										}
+									]
 								}
 							]
-						}
+						},
+						{
+							"Type": "Damage", 
+							"DamageType": "Piercing", 
+							"Amount": 2 
+						}						
 					]
 				}
 			]	
