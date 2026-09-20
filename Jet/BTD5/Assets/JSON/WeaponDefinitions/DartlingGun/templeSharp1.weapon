@@ -50,7 +50,7 @@
 								"SeekAngle": 360,
 								"TurnSpeed": 99999999,
 								"CutOffDistance": 5000,
-								"TargetRange": 135,
+								"TargetRange": 130,
 								"Speed": 250,
 								"TerminateOnNoTarget": true,
 								"TargetMode": "First"
@@ -100,7 +100,7 @@
 						{
 							"Type":             "Projectile",
 							"SpriteFile":      "glaive.json",
-							"NumPersists":      12,
+							"NumPersists":      8,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							
@@ -120,7 +120,7 @@
 								{
 									"Type": "Damage", 
 									"DamageType": "Piercing", 
-									"Amount": 3 
+									"Amount": 2 
 								}
 							]
 						}
@@ -159,7 +159,7 @@
 						{
 							"Type":             "Projectile",
 							"SpriteFile":      "glaive_red.json",
-							"NumPersists":      18,
+							"NumPersists":      12,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							
@@ -179,7 +179,7 @@
 								{
 									"Type": "Damage", 
 									"DamageType": "Piercing", 
-									"Amount": 3 
+									"Amount": 2 
 								}
 							]
 						}
