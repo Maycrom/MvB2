@@ -53,7 +53,7 @@
 								"TargetRange": 135,
 								"Speed": 250,
 								"TerminateOnNoTarget": true,
-								"TargetMode": "Close"
+								"TargetMode": "First"
 							},
 
 							"Tasks" :
@@ -112,7 +112,7 @@
 								"TargetRange": 270,
 								"Speed": 250,
 								"TerminateOnNoTarget": true,
-								"TargetMode": "Close"
+								"TargetMode": "First"
 							},
 
 							"Tasks" :
@@ -171,7 +171,7 @@
 								"TargetRange": 330,
 								"Speed": 250,
 								"TerminateOnNoTarget": true,
-								"TargetMode": "Close"
+								"TargetMode": "First"
 							},
 
 							"Tasks" :
