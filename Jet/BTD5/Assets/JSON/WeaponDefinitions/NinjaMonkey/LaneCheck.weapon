@@ -1,43 +1,32 @@
 {	
     "Type":             "LaneCheck",    
-    "TargetRange":      1000.0,
-	"CooldownTime":     0.5,
+    "TargetRange":      120.0,
+	"CooldownTime":     4.0,
     "FireDelayTime":    0.0,
 	"RequiresTargetToFire":	false,
     "Tasks"	:
     [
 		{
-			"Type": "MultiFire",
-			"InitialOffset": 0.0,
-			"AngleIncrement": 0.0,
-			"FireCount": 1,
+			"Type": "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			"Radius": 120,
+			"HasLimitedDuration" : true,
+			"LimitedDuration" : 0.03,
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0.0,
+				"CutOffDistance": 1
+			},
+			"DisabledTasks": [0],
 			"Tasks":
 			[
 				{
-					"Type": "Projectile",
-					"NumPersists":      1,
-					"TerminateOnZeroPersists": true,
-					
-					"CollisionType": "Once",
-					
-					"Radius": 12,
-					
-					"Movement":
-					{
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 50,
-						"Direction": [1, 0]
-					},
-					
-					"Tasks":
-					[
-						{
-							"Type" : "RestoreAmmo",
-							"SlotIndex" : 2,
-							"Amount" : 1
-						}
-					]
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 2,
+					"Amount" : 1
 				}
 			]
 		}		

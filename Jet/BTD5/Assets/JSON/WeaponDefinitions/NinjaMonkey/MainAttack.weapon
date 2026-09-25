@@ -2,7 +2,7 @@
     "Type":             "MainAttack",    
     "TargetRange":      0.0,
 	"CooldownTime":     0,
-    "FireDelayTime":    16,
+    "FireDelayTime":    18,
 	"RequiresTargetToFire"	: false,
     "Tasks" :
     [
