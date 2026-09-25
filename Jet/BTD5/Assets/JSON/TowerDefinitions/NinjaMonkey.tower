@@ -1,94 +1,91 @@
 {
+    "TypeName" : "NinjaMonkey",
     "AircraftList" : [
     ],
-    "BaseCost" : 500,
+    "BaseCost" : 0,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
-    "CanTargetCamo" : true,
-    "DefaultWeapons" : [
-        "SabotageSupplyLines.weapon",
-        "",
-        "",
-        "",
-        "ShadowDouble.weapon"
-    ],
-    
-    "ActiveWeaponSlots" :
+    "CanTargetCamo" : false,
+	"InitialAngle" : 90,
+	"AnimationWeaponSlotIndex" : 2,
+    "DefaultWeapons"	    :
     [
-        true,
-        true,
-        true,
-        true,
-        false
+        "TowerHealth.weapon",
+        "TowerIni.weapon",
+        "MainAttack.weapon",
+        "TonicModifier.weapon",
+        "LaneCheck.weapon"
     ],
-    
-    "Icon" : "ninja_avatar_small",
-    "PlacementH" : 0.0,
-    "PlacementRadius" : 8.0,
-    "PlacementW" : 0.0,
-    "RankToUnlock" : 1,
-    "RotatesToTarget" : true,
+    "ActiveWeaponSlots": [
+		true
+	],
+    "Icon" : "dart_monkey_avatar_small",
+    "PlacementH" : 25.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 25.0,
+    "RankToUnlock" : 0,
+    "RotatesToTarget" : false,
     "TargetIsWeaponOrigin" : false,
     "TargetingMode" : "First",
     "TargetsManually" : false,
-    "TypeName" : "NinjaMonkey",
+	"PlayAllAnimationsOnFire" : true,
+	"UseDefaultRangeCircle" : true,
     "Upgrades" : [
         [
-            "Ninja Discipline",
-            "Sharp Shurikens",
-            "Double Shot",
-            "Bloonjitsu"
+            "Intense Magic",
+            "Lightning Bolt",
+            "Summon Whirlwind",
+            "Tempest Tornado"
         ],
         [
-            "Seeking Shuriken",
-            "Distraction",
-            "Flash Bomb",
-            "Sabotage Supply Lines"
+            "Fireball",
+            "Monkey Sense",
+            "Dragon's Breath",
+            "Summon Phoenix"
         ]
     ],
 	"UpgradeGateway" :
 	[
-		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ],
 		[ { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 }, { "Rank" : 999, "XP" : 9999999999 } ]
 	],
     "UpgradePrices" : 
     [
-        [ 300, 350, 850, 2750 ],
-        [ 250, 350, 2750, 2800 ]
+        [ 300, 0, 2000, 8000 ],
+        [ 300, 300, 4200, 5000 ]
     ],
     "UpgradeAvatars" : [
         [
-            "ninja_avatar_discipline_small",
-            "ninja_avatar_sharp_shuriken_small",
-            "ninja_avatar_double_shot_small",
-            "ninja_avatar_bloonjitsu_small"
+            "dart_monkey_avatar_small",
+            "apprentice_avatar_lightning_small",
+            "apprentice_avatar_whirlwind_small",
+            "apprentice_avatar_tornado_small"
         ],
         [
-            "ninja_avatar_seeking_shuriken_small",
-            "ninja_avatar_distraction_small",
-            "ninja_avatar_flash_bomb_small",
-            "ninja_avatar_sabotage_small"
+            "apprentice_avatar_fireball_small",
+            "apprentice_avatar_sense_small",
+            "apprentice_avatar_dragon_breath_small",
+            "apprentice_avatar_phoenix_small"
         ]
     ],
     
     "UpgradeIcons" : [
         [
-            "ninja_discipline_icon",
-            "ninja_sharp_shurikens_icon",
-            "ninja_double_shot_icon",
-            "ninja_bloonjitsu_icon"
+            "avenger_boost",
+            "engineer_overclock_icon",
+            "apprentice_whirlwind_icon",
+            "apprentice_tornado_icon"
         ],
         [
-            "ninja_seeking_shuriken_icon",
-            "ninja_distraction_icon",
-            "ninja_flash_bomb_icon",
-            "ninja_sabotage_icon"
+            "apprentice_fireball_icon",
+            "apprentice_monkey_sense_icon",
+            "apprentice_dragon_breath_icon",
+            "apprentice_phoenix_icon"
         ]
-    ],
-        
-    "UseRadiusPlacement" : true,
-    "FiresWeaponsInSequence" : false,
-    "FiringSequence" : [ [ 0, 0, 0, 1 ] ],
-    "SpriteUpgradeDefinition" : "NinjaMonkey.json"
+    ],  
+      
+    "UseRadiusPlacement" : false,
+    "SpriteUpgradeDefinition" : "MonkeyApprentice.json",
+	"PlacementFiringSequence" : [ 1 ]
 }

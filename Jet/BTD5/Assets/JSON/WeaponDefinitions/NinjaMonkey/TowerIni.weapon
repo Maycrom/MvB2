@@ -1,0 +1,70 @@
+{	
+    "Type":             "TowerIni",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 6,
+			"TerminateOnUserUpgrade" : false,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"Duration": 99999999,
+			
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "MonkeyApprentice" ]
+				}
+			},
+			
+			"Modifier" : 
+			{
+				"BaseDisplay": "nothing.json",
+				"Cost": [ 0, 100 ]
+			}
+		},
+		{
+			"Type":             "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": true,
+			"TerminateOnTowerRemoved": true,
+			"CollisionType": "None",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 0.0,
+				"CutOffDistance": 1
+			},
+			"TasksToProcessOnTerminate" : [ 0 ],
+			"Tasks" :
+			[
+				{
+					"Type": "Effect", // Dummy tower to count for the avenger boost
+					"Position": [ -500000, 0 ],
+					"SpriteFile": "recharge_board_bananafarm_cooldown.json",
+					"Scale": 0,
+					"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type" : "CreateTower",
+							"TowerType" : "MonkeyEngineerSentry",
+							"TowerColour" : [ 255, 255, 255, 255 ],
+							"TowerLifetime" : 999999999,
+							"HasParentTower" : false,
+							"UseParentTowerUpgradeLevel": false
+						}
+					]
+				}
+			]
+		}	
+    ]
+}

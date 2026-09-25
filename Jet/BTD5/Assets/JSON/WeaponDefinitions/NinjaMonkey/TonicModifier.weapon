@@ -1,0 +1,89 @@
+{	
+    "Type":             "TonicModifier",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0,
+	"DisabledTasks": [0,1],
+	"RequiresTargetToFire":	false,
+	
+	// Since you can't selectively target specific tower tiers in this game this is the next best thing I could think of.
+  
+    "Tasks"	:
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range": 1000,
+			"PriorityLevel": 7,
+			"TerminateOnUserUpgrade" : true,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"ModifyMovingTowers": false,
+			"Duration": 6,
+			
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "MonkeyApprentice" ]
+				}
+			},
+			
+			"Modifier" : 
+			{	
+				"EnabledSubtasks" :
+				[
+					[ 2, [ 0 ], false ],
+					[ 2, [ 1 ], true ]
+				]
+			},
+			"Tasks":
+			[
+				{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 60,
+					"Tasks" : 
+					[
+						{
+							"Type":             "Projectile",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							"CollisionType": "None",
+							"SpreadAngle": 360,
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 1000,
+								"CutOffDistance": 12
+							},
+							"Tasks":
+							[
+								{
+									"Type":             "Projectile",
+									"SpriteFile":      "DGParticle.json",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"SpinRate": 360,
+									"HasLimitedDuration" : true,
+									"LimitedDuration" : 1.95,
+									
+									"Movement":
+									{
+										"Type": "MotionCurve",
+										"Curves":
+										[
+											[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
+										],
+										"Speed": 10,
+										"CutOffDistance": 20,
+										"AngleOffset" : -0.7853981634,
+										"TerminateAtEndOfCurve": true,
+										"ScaleCurvesByDirection": false
+									}
+								}
+							]
+						}
+					]
+				}	
+			]
+		}				
+    ]
+}

@@ -2,35 +2,28 @@
     "Upgrades":
     [
         {
-            "Name" : "Ninja Discipline"
+            "Name" : "Intense Magic"
         },
-        
         {
-            "Name" : "Sharp Shurikens"
+            "Name" : "Lightning Bolt"
         },
-        
         {
-            "Name" : "Double Shot"
+            "Name" : "Summon Whirlwind"
         },
-        
-         {
-            "Name" : "Bloonjitsu"
-        },
-        
         {
-            "Name" : "Seeking Shuriken"
+            "Name" : "Tempest Tornado"
         },
-        
         {
-            "Name" : "Distraction"
+            "Name" : "Fireball"
         },
-        
         {
-            "Name" : "Flash Bomb"
+            "Name" : "Monkey Sense"
         },
-        
         {
-            "Name" : "Sabotage Supply Lines",
+            "Name" : "Dragon's Breath"
+        },
+        {
+            "Name" : "Summon Phoenix",
 			"TowerUpgrade" :
             {
                 "Weapons" :
