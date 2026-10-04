@@ -6,5 +6,6 @@
 	"RockBloon",
 	"RockBloonPile",
 	"BombBloon",
-	"IceBloon"
+	"IceBloon",
+	"DebugBloon"
 ]
