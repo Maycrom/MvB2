@@ -35,18 +35,9 @@
 		[ 3, "2-6",             "LOC_MAP_2-6",              0,	10,	false,	false ],
 		[ 3, "2-7",             "LOC_MAP_2-7",              0,	10,	false,	false ],
 		[ 3, "2-8",             "LOC_MAP_2-8",              0,	10,	false,	false ],
-		[ 3, "testmap",             "LOC_MAP_1-8",              0,	0,	false,	false ],
+		[ 3, "debug_ice_bloon_test",             "LOC_MAP_1-8",              0,	0,	false,	false ]
 		
 		//Placeholders so the game doesn't crash, dont remove!!! 
-		[ 1, "workshop",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-        [ 1, "battle_knot",           "LOC_MAP_placeholder1",            999,  0,  false,  false ],
-		[ 1, "fireworks",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 1, "autumn_leaves",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 1, "z_factor",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 1, "3_times_around",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 1, "stream",             	"LOC_MAP_placeholder1",              	999,	0,	false,	false ],
-		[ 0, "campfire",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 0, "water_hazard",             "LOC_MAP_placeholder1",              999,	0,	false,	false ],
-		[ 0, "walk_in_the_park",             "LOC_MAP_placeholder1",              999,	0,	false,	false ]
+		//Placeholder maps / Debug maps, dont remove!!!
 	]
 }
