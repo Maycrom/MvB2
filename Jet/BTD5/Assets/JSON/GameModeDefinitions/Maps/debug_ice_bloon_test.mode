@@ -35,7 +35,8 @@
 		{
 			"Hint" : "Round 1",
 			"Waves" : [
-				{ "Bloon" : "IceBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 1, "Count" : 10 }
+				{ "Bloon" : "IceBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 3 },
+				{ "Bloon" : "DebugBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 0, "Count" : 4 }
 			]
 		},
 		
