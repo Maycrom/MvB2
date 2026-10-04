@@ -1,0 +1,49 @@
+{
+	"Setup" : {
+		"Towers":
+		[
+			{ 
+				"Type": "BloonAbilityController", 
+				"Position": [ 240, -1000 ], 
+				"Upgrades": [ 0, 0 ] 
+			}
+		],
+		"RoundFiles" : [
+			"Maps/debug_ice_bloon_test.mode"
+		]
+	},
+	
+	"Rules" : {
+		"TargetRound" : 999,
+		"Reward" : {
+			"MonkeyMoney": 0,
+			"XP" : 0,
+            "TokensEasy": 0,
+            "TokensMedium": 0,
+            "TokensHard": 0,
+			"TokensImpoppable": 0
+		}
+	},
+	
+	"Rounds" : [
+		{
+			"Hint" : "Round 0",
+			"Waves" : [
+			]
+		},
+		
+		{
+			"Hint" : "Round 1",
+			"Waves" : [
+				{ "Bloon" : "IceBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 1, "Count" : 10 }
+			]
+		},
+		
+		{
+			"Hint" : "Round 2",
+			"Waves" : [
+				{ "Bloon" : "TestBloon", "IsCamo" : true, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 1 }
+			]
+		}
+	]
+}

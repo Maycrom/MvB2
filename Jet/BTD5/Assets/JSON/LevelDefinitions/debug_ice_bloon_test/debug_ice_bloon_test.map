@@ -1,0 +1,16 @@
+{
+    "Modifiers" : [
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[5]
+			]
+		}
+    ],
+    "Music" : "lost_ocarina2.mp3",
+    
+    "entryMarkers" : [
+    ],
+    "reverseEntryMarkers" : [
+    ]
+}

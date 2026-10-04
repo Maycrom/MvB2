@@ -1,0 +1,110 @@
+{
+    "Nodes" : [
+		// Ice Bloons
+		{
+            "Points" : [
+                [75,170],
+				[75,170]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+				[75,170],
+				[75,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 5.0
+        },
+		{
+            "Points" : [
+				[75,170],
+				[80,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.0
+        },
+		
+		{
+            "Points" : [
+                [185,170],
+				[185,170]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+				[185,170],
+				[185,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 5.0
+        },
+		{
+            "Points" : [
+				[185,170],
+				[190,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.0
+        },
+		
+		{
+            "Points" : [
+                [300,170],
+				[300,170]
+            ],
+            "Flags" : 1
+        },
+		{
+            "Points" : [
+				[300,170],
+				[300,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 5.0
+        },
+		{
+            "Points" : [
+				[300,170],
+				[305,170]
+            ],
+            "Flags" : 18,
+			"SpeedMult": 0.0
+        }
+    ],
+    "Links" : [
+		{
+            "Start" : 0,
+            "End" : 1,
+            "Flags" : 5
+        },
+		{
+            "Start" : 1,
+            "End" : 2,
+            "Flags" : 5
+        },
+		
+		{
+            "Start" : 3,
+            "End" : 4,
+            "Flags" : 5
+        },
+		{
+            "Start" : 4,
+            "End" : 5,
+            "Flags" : 5
+        },
+		
+		{
+            "Start" : 6,
+            "End" : 7,
+            "Flags" : 5
+        },
+		{
+            "Start" : 7,
+            "End" : 8,
+            "Flags" : 5
+        }
+    ]
+}
