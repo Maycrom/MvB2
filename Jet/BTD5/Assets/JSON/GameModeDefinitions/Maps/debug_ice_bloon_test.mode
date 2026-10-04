@@ -10,7 +10,8 @@
 		],
 		"RoundFiles" : [
 			"Maps/debug_ice_bloon_test.mode"
-		]
+		],
+		"Money" : 999999.0,
 	},
 	
 	"Rules" : {
