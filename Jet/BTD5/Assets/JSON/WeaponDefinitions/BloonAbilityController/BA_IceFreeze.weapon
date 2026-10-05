@@ -75,12 +75,12 @@
 							"Type": "TowerModifier",
 							"Range": 100,
 							"PriorityLevel": 15,
-							"ReplacesPriorityLevel" : true,
+							"ReplacesPriorityLevel" : false,
 							"TerminateOnUserUpgrade": false,
 							"TargetIsWeaponTaskOrigin": true,
 							"ModifyMovingTowers": false,
 							"ModifyNewlySpawnedTowers": false,
-							"Duration": 3.5,
+							"Duration": 0.03,
 							"TargetingFilter":
 							{
 								"Exclude" :
@@ -90,33 +90,9 @@
 							},	
 							"Modifier":
 							{
-								"Cooldown": [ 99, 0 ],
-								"FireDelay": [ 99, 0 ],
-								"TargetRange": [ 0, 0 ],
-								"Display": "nothing.json"
-							},
-							"Tasks":
-							[
-								{
-									"Type": "MultiFire",
-									"InitialOffset": -0,
-									"AngleIncrement": 0,
-									"FireCount": 1,
-									"Offsets": [[0,-1000000]],
-									"Tasks":
-									[
-										{
-											"Type" : "CreateTower",
-											"TowerType" : "IceBloonFreeze",
-											"TowerColour" : [ 255, 255, 255, 255 ],
-											"TowerLifetime" : 3.5,
-											"HasParentTower" : false,
-											"UseParentTowerUpgradeLevel": false
-										}	
-									]
-								}	
-							]
-						}	
+								"ActiveWeapon": [ [ 5, true ] ]
+							}
+						}
 					]
 				}	
 			]

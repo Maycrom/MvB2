@@ -4,6 +4,7 @@
 	"MainAttack",
 	"TowerHealth",
 	"TowerIni",
+	"TowerStatusFrozen",
 	"AvengerCounter",
 	"AvengerBoost",
 	"AvengerDisplayFix",

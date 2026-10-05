@@ -1,0 +1,27 @@
+{	
+    "Type":             "TowerStatusFrozen",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"DisabledTasks": [],
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 10,
+			"PriorityLevel": 15,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade": false,
+			"ApplyToUserTower": true,
+			"Duration": 10,
+			"Modifier":
+			{
+				"Cooldown": [ 99, 0 ],
+				"FireDelay": [ 99, 0 ],
+				"TargetRange": [ 0, 0 ],
+				"Display": "frozen_tower.json"
+			}
+		}		
+	]
+}

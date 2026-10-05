@@ -1,4 +1,4 @@
-{ 
+{  // This subcompound is dumb
    "Alignment" : null,
    "Point" : null,
    "actors" : [
@@ -9,10 +9,10 @@
          "Colour" : 4294967295,
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 0, 0 ],
+         "Scale" : [ 1, 1 ],
          "Shown" : true,
-         "sprite" : "road_ice",
-         "type" : 1,
+         "sprite" : "frozen_tower_sub.json",
+         "type" : 2,
          "uid" : 1
       }
    ],
@@ -32,50 +32,6 @@
       {
          "spriteuid" : 1,
          "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 0.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 0, 0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.2, 1.20 ],
-               "Shown" : true,
-               "Time" : 0.125
-            },
-			{
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.2, 1.20 ],
-               "Shown" : true,
-               "Time" : 3
-            },
-			{
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.2, 1.20 ],
-               "Shown" : true,
-               "Time" : 3.5
-            }
          ]
       }
    ]
