@@ -14,16 +14,18 @@
 			"ReplacesPriorityLevel" : true,
 			"TerminateOnUserUpgrade": false,
 			"ApplyToUserTower": true,
-			"Duration": 4,
+			"Duration": 3.33,
 			"Modifier":
 			{
-				"Cooldown": [ 99, 0 ],
-				"FireDelay": [ 99, 0 ],
+				"Cooldown": [ 0, 0.1 ],
+				"FireDelay": [ 0, 0.1 ],
 				"TargetRange": [ 0, 0 ],
 				"Display": "frozen_tower.json",
 				"EnabledSubtasks" :
 				[
-					[ 5, [ 0 ], false ]
+					[ 5, [ 0 ], false ],
+					[ 2, [ 0 ], false ],
+					[ 4, [ 0 ], false ]
 				]
 			},
 			"Tasks":
@@ -36,7 +38,7 @@
 
 					"CollisionType": "None",
 					"HasLimitedDuration" : true,
-					"LimitedDuration" : 4,
+					"LimitedDuration" : 3.33,
 					
 					"Movement":
 					{
