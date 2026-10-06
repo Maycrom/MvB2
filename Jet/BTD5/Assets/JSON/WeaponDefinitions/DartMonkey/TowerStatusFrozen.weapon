@@ -20,7 +20,11 @@
 				"Cooldown": [ 99, 0 ],
 				"FireDelay": [ 99, 0 ],
 				"TargetRange": [ 0, 0 ],
-				"Display": "frozen_tower.json"
+				"Display": "frozen_tower.json",
+				"EnabledSubtasks" :
+				[
+					[ 5, [ 0 ], false ]
+				]
 			}
 		}		
 	]
