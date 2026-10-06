@@ -24,8 +24,6 @@
     "TargetIsWeaponOrigin"	: false,
 	"InitialAngle" : 90,
 
-    "ActiveWeaponSlots" : [ true, true, true ],
-
     "Upgrades" :
     [
     	[ "Focused Firing", "Faster Barrel Spin", "Laser Cannon", "Ray Of Doom" ],
