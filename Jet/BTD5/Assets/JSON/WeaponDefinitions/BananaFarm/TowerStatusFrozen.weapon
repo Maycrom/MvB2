@@ -17,8 +17,8 @@
 			"Duration": 8,
 			"Modifier":
 			{
-				"Cooldown": [ 0, 0 ],
-				"FireDelay": [ 0, 0 ],
+				"Cooldown": [ 0, 0.1 ],
+				"FireDelay": [ 0, 0.1 ],
 				"TargetRange": [ 0, 0 ],
 				"Display": "frozen_tower.json",
 				"EnabledSubtasks" :
