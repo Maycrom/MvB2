@@ -71,6 +71,8 @@
 							"SpriteFile": "ice_bloon_freeze.json",
 							"Scale": 0.6
 						},
+						// I'll be honest, this is pretty bad and not a great implementation. But I really don't feel like reordering all the towers weapons at the moment.
+						// Maybe fix this shit in the future
 						{
 							"Type": "TowerModifier",
 							"Range": 100,
@@ -83,14 +85,102 @@
 							"Duration": 0.03,
 							"TargetingFilter":
 							{
-								"Exclude" :
+								"Include" :
 								{
-									"TowerType": [ "TestTower", "BoomerangThrower", "BombTower" ]
+									"TowerType": [ "DartMonkey", "BananaFarm", "BoomerangThrower", "IceTower", "DartlingGun", "TackTower", "MonkeyApprentice" ]
 								}
 							},	
 							"Modifier":
 							{
 								"ActiveWeapon": [ [ 5, true ] ]
+							}
+						},
+						{
+							"Type": "TowerModifier",
+							"Range": 100,
+							"PriorityLevel": 14,
+							"ReplacesPriorityLevel" : false,
+							"TerminateOnUserUpgrade": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": false,
+							"ModifyNewlySpawnedTowers": false,
+							"Duration": 0.03,
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "GlueGunner" ]
+								}
+							},	
+							"Modifier":
+							{
+								"ActiveWeapon": [ [ 3, true ] ]
+							}
+						},
+						{
+							"Type": "TowerModifier",
+							"Range": 100,
+							"PriorityLevel": 14,
+							"ReplacesPriorityLevel" : false,
+							"TerminateOnUserUpgrade": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": false,
+							"ModifyNewlySpawnedTowers": false,
+							"Duration": 0.03,
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "GlueGunner" ]
+								}
+							},	
+							"Modifier":
+							{
+								"ActiveWeapon": [ [ 3, true ] ]
+							}
+						},
+						{
+							"Type": "TowerModifier",
+							"Range": 100,
+							"PriorityLevel": 14,
+							"ReplacesPriorityLevel" : false,
+							"TerminateOnUserUpgrade": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": false,
+							"ModifyNewlySpawnedTowers": false,
+							"Duration": 0.03,
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "BombTower" ]
+								}
+							},	
+							"Modifier":
+							{
+								"ActiveWeapon": [ [ 4, true ] ]
+							}
+						},
+						{
+							"Type": "TowerModifier",
+							"Range": 100,
+							"PriorityLevel": 14,
+							"ReplacesPriorityLevel" : false,
+							"TerminateOnUserUpgrade": false,
+							"TargetIsWeaponTaskOrigin": true,
+							"ModifyMovingTowers": false,
+							"ModifyNewlySpawnedTowers": false,
+							"Duration": 0.03,
+							"TargetingFilter":
+							{
+								"Include" :
+								{
+									"TowerType": [ "Bloonchipper" ]
+								}
+							},	
+							"Modifier":
+							{
+								"ActiveWeapon": [ [ 6, true ] ]
 							}
 						}
 					]

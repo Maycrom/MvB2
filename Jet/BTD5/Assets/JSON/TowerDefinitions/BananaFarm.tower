@@ -9,14 +9,17 @@
 		"templeWind2.weapon",
 		"BananaFarm.weapon", 
 		"templeSharp1.weapon",
-		"TonicModifier.weapon"
+		"TonicModifier.weapon",
+		"TowerStatusFrozen.weapon"
 	],
 	
 	"ActiveWeaponSlots" : [
 		true,
 		true,
 		true,
-		true
+		true,
+		true,
+		false
 	],
 	
     "TargetingMode"			: "None",

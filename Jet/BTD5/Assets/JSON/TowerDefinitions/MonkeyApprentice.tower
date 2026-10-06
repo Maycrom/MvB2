@@ -15,10 +15,16 @@
         "TowerIni.weapon",
         "MainAttack.weapon",
         "TonicModifier.weapon",
-        "LaneCheck.weapon"
+        "LaneCheck.weapon",
+        "TowerStatusFrozen.weapon"
     ],
     "ActiveWeaponSlots": [
-		true
+		true,
+		true,
+		true,
+		true,
+		true,
+		false
 	],
     "Icon" : "dart_monkey_avatar_small",
     "PlacementH" : 25.0,

@@ -32,7 +32,6 @@
 					"Type": "Projectile",
 					"NumPersists":      1,
 					"TerminateOnZeroPersists": true,
-					"SpriteFile": "frozen_tower.json",
 					"TerminateOnTowerRemoved": true,
 
 					"CollisionType": "None",

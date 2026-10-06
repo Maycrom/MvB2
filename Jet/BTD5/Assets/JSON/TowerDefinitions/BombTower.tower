@@ -8,7 +8,8 @@
         "templeWind1.weapon",
 		"templeWind2.weapon", 
 		"BombTower.weapon",
-		"TonicModifier.weapon"
+		"TonicModifier.weapon",
+		"TowerStatusFrozen.weapon"
     ],
     
     "ActiveWeaponSlots" :
@@ -16,6 +17,7 @@
         true,
         true,
         true,
+		false,
 		false
     ],
     

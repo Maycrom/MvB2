@@ -11,11 +11,14 @@
 		"templeWind2.weapon",
 		"templeSharp1.weapon",
 		"TonicModifier.weapon",
-		"templeSharp2.weapon"
+		"templeSharp2.weapon",
+		"TowerStatusFrozen.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,
 		true,
+		true,
+		false,
 		true,
 		false
 	],

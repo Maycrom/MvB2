@@ -9,14 +9,16 @@
     "DefaultWeapons" : [
 		"",
 		"templeWind2.weapon",
-		"GlueGunner.weapon"
+		"GlueGunner.weapon",
+		"TowerStatusFrozen.weapon"
     ],
     
     "ActiveWeaponSlots" :
     [
         true,
         true,
-        true
+        true,
+        false
     ],
     
     "Icon" : "monkey_ace_avatar_ground_zero_small",

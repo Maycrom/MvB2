@@ -1,0 +1,100 @@
+{	
+    "Type":             "TowerStatusFrozen",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+	"DisabledTasks": [],
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 10,
+			"PriorityLevel": 15,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade": false,
+			"ApplyToUserTower": true,
+			"Duration": 8,
+			"Modifier":
+			{
+				"Cooldown": [ 99, 0 ],
+				"FireDelay": [ 99, 0 ],
+				"TargetRange": [ 0, 0 ],
+				"Display": "frozen_tower.json",
+				"EnabledSubtasks" :
+				[
+					[ 6, [ 0 ], false ]
+				]
+			},
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"TerminateOnTowerRemoved": true,
+
+					"CollisionType": "None",
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 8,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0.0,
+						"CutOffDistance": 1
+					},
+					"TasksToProcessOnTerminate": [0],
+					"Tasks":
+					[
+						{  "Type" : "TimerFire", "TimeDelay" : 0.0, "InitialTime" : 0, "Loops" : true, "NumLoops" : 15,
+							"Tasks" : 
+							[
+								{
+									"Type":             "Projectile",
+									"NumPersists":      1,
+									"TerminateOnZeroPersists": true,
+									"CollisionType": "None",
+									"SpreadAngle": 360,
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 1000,
+										"CutOffDistance": 12
+									},
+									"Tasks":
+									[
+										{
+											"Type":             "Projectile",
+											"SpriteFile":      "Ice_Particle.json",
+											"NumPersists":      1,
+											"TerminateOnZeroPersists": true,
+											"CollisionType": "None",
+											"SpinRate": 360,
+											"HasLimitedDuration" : true,
+											"LimitedDuration" : 1.95,
+											
+											"Movement":
+											{
+												"Type": "MotionCurve",
+												"Curves":
+												[
+													[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
+												],
+												"Speed": 10,
+												"CutOffDistance": 20,
+												"AngleOffset" : -0.7853981634,
+												"TerminateAtEndOfCurve": true,
+												"ScaleCurvesByDirection": false
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]	
+		}		
+	]
+}
