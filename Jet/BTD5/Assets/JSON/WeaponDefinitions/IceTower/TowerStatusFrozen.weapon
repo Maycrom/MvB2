@@ -14,7 +14,7 @@
 			"ReplacesPriorityLevel" : true,
 			"TerminateOnUserUpgrade": false,
 			"ApplyToUserTower": true,
-			"Duration": 8,
+			"Duration": 4,
 			"Modifier":
 			{
 				"Cooldown": [ 99, 0 ],
@@ -36,7 +36,7 @@
 
 					"CollisionType": "None",
 					"HasLimitedDuration" : true,
-					"LimitedDuration" : 8,
+					"LimitedDuration" : 4,
 					
 					"Movement":
 					{
