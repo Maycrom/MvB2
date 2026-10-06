@@ -25,7 +25,7 @@
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 3.5,
+      "StageLength" : 100,
       "Version" : 1
    },
    "timelines" : [
