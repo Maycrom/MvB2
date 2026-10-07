@@ -1,9 +1,11 @@
 {	
     "Type":             "LaneCheck",    
     "TargetRange":      120.0,
-	"CooldownTime":     4.0,
-    "FireDelayTime":    0.0,
+	"CooldownTime":     3.0,
+    "FireDelayTime":    1.0,
 	"RequiresTargetToFire":	false,
+	"TotalAmmo":            4,
+    "RemainingAmmo":        4,
     "Tasks"	:
     [
 		{
@@ -11,7 +13,7 @@
 			"NumPersists":      -1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-			"Radius": 120,
+			"Radius": 250,
 			"HasLimitedDuration" : true,
 			"LimitedDuration" : 0.03,
 			"Movement":
@@ -20,15 +22,16 @@
 				"Speed": 0.0,
 				"CutOffDistance": 1
 			},
-			"DisabledTasks": [0],
+			"DisabledTasks": [],
 			"Tasks":
 			[
 				{
 					"Type" : "RestoreAmmo",
-					"SlotIndex" : 2,
+					"SlotIndex" : 6,
 					"Amount" : 1
 				}
 			]
-		}		
+		},
+		{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 1 }		
     ]
 }
