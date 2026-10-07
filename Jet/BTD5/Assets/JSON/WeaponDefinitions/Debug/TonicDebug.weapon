@@ -4,16 +4,17 @@
 	"CooldownTime":     0,
     "FireDelayTime":    0,
 	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
     
     "Tasks" :
     [
 		{
 			"Type" : "TowerModifier",
 			"Range" : 100,
-			"PriorityLevel" : 2,
+			"PriorityLevel" : 5,
 			"ReplacesPriorityLevel" : true,
 			"TerminateOnUserUpgrade" : false,
-			"Duration": 0.04,
+			"Duration": 999999999,
 			"Modifier" : 
 			{
 				"Cooldown" : [ 0.05, 0 ]
