@@ -1,0 +1,299 @@
+{
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0 ],
+         "Scale" : [ 0.7, 0.7 ],
+         "Shown" : true,
+         "sprite" : "constructor_base",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0 ],
+         "Scale" : [ 0.7, 0.7 ],
+         "Shown" : true,
+         "sprite" : "Constructor_sub.json",
+         "type" : 2,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "constructor_base",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 17.95,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 0.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 1.1
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7525, 0.7525 ],
+               "Shown" : true,
+               "Time" : 1.225
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 1.345
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 1.6
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 1.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 4.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 5.1
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7525, 0.7525 ],
+               "Shown" : true,
+               "Time" : 5.225
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 5.345
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 5.6
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 5.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 8.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 9.1
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7525, 0.7525 ],
+               "Shown" : true,
+               "Time" : 9.225
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 9.345
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 9.6
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 9.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 12.85
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 13.1
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7525, 0.7525 ],
+               "Shown" : true,
+               "Time" : 13.225
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.77, 0.77 ],
+               "Shown" : true,
+               "Time" : 13.345
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 13.6
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Flip" : 0,
+               "Position" : [ 0, 0 ],
+               "Scale" : [ 0.7, 0.7 ],
+               "Shown" : true,
+               "Time" : 13.85
+            }
+         ]
+      }
+   ]
+}

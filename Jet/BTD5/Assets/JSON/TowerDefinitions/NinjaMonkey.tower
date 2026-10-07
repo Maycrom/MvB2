@@ -7,7 +7,6 @@
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
-	"InitialAngle" : 90,
 	"AnimationWeaponSlotIndex" : 2,
     "DefaultWeapons"	    :
     [
@@ -89,6 +88,6 @@
     ],  
       
     "UseRadiusPlacement" : false,
-    "SpriteUpgradeDefinition" : "MonkeyApprentice.json",
+    "SpriteUpgradeDefinition" : "NinjaMonkey.json",
 	"PlacementFiringSequence" : [ 1 ]
 }
