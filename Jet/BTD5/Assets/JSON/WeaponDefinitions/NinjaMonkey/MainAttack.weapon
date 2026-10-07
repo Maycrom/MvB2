@@ -110,6 +110,21 @@
 					]
 				}
 			]	
+		},
+		{
+			// Prevent LaneCheck from desyncing (hopefully)
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 4,
+			"Amount" : 4
+		},
+		{
+			"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.5,
+			"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 4 ], false ],[ 6, [ 19,1 ], true ],[ 6, [ 19,0 ], false ]]}
+		},
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 6,
+			"Amount" : 1
 		}
 	]
 }
