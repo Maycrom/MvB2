@@ -13,7 +13,7 @@
 			{
 				"Type": "Forward",
 				"Speed": 0.0000001,
-				"CutOffDistance": 0.00000015,
+				"CutOffDistance": 0.000000015,
 				"Direction": [0, 1]
 			},
 			"Tasks":
@@ -29,7 +29,7 @@
 						// Seperate weapon decides which one to actually use depending on how many bloons have been hit during a cycle.
 						{
 							"Type":             "Collectable", "MoneyMultiplier": 1.0, "CollectionRadius": 10,
-							"SpriteFile":      "bananas_ground.json",
+							"SpriteFile":      "bananas_ground_tiny.json",
 							"Duration":	10,
 							"MoneyRange": [ 10, 10 ],
 							"ClickOnly": true,
@@ -49,7 +49,7 @@
 						},
 						{
 							"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
-							"SpriteFile":      "bananas_ground.json",
+							"SpriteFile":      "bananas_ground_small.json",
 							"Duration":	10,
 							"MoneyRange": [ 15, 15 ],
 							"ClickOnly": true,
@@ -69,7 +69,7 @@
 						},
 						{
 							"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
-							"SpriteFile":      "bananas_ground.json",
+							"SpriteFile":      "bananas_ground_medium.json",
 							"Duration":	10,
 							"MoneyRange": [ 20, 20 ],
 							"ClickOnly": true,
@@ -116,15 +116,6 @@
 			"Type" : "RestoreAmmo",
 			"SlotIndex" : 4,
 			"Amount" : 4
-		},
-		{
-			"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.5,
-			"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 4 ], false ],[ 6, [ 19,1 ], true ],[ 6, [ 19,0 ], false ]]}
-		},
-		{
-			"Type" : "RestoreAmmo",
-			"SlotIndex" : 6,
-			"Amount" : 1
-		}
+		}	
 	]
 }

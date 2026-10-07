@@ -6,6 +6,7 @@
 	"RequiresTargetToFire":	false,
 	"TotalAmmo":            4,
     "RemainingAmmo":        4,
+	"DisabledTasks": [3,4,5],
     "Tasks"	:
     [
 		{
@@ -13,7 +14,7 @@
 			"NumPersists":      -1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-			"Radius": 250,
+			"Radius": 110,
 			"HasLimitedDuration" : true,
 			"LimitedDuration" : 0.03,
 			"Movement":
@@ -32,6 +33,26 @@
 				}
 			]
 		},
-		{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 1 }		
+		{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 1 },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },		
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ] },		
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] },		
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 1.5,
+			"Tasks" : 
+			[	
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 5 ] },	
+				{
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.5,
+					"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 1,0 ], true ],[ 6, [ 1,1 ], true ],[ 6, [ 2,0 ], true ],[ 6, [ 2,1 ], true ],[ 6, [ 3,0 ], true ],[ 6, [ 3,1 ], true ],[ 6, [ 4 ], false ],[ 6, [ 5 ], false ],[ 6, [ 6 ], false ],[ 6, [ 7 ], false ],[ 6, [ 8 ], false ],[ 6, [ 9 ], false ],[ 6, [ 10 ], false ],[ 6, [ 11 ], false ],[ 6, [ 12 ], false ],[ 6, [ 13 ], false ],[ 6, [ 14 ], false ],[ 6, [ 15 ], false ],[ 6, [ 16 ], false ],[ 6, [ 17 ], false ],[ 6, [ 18 ], false ],[ 6, [ 19 ], false ]]}
+				},
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 6,
+					"Amount" : 1
+				}
+			]
+		}	
     ]
 }

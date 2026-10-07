@@ -32,7 +32,7 @@
     "TargetingMode" : "First",
     "TargetsManually" : false,
 	"PlayAllAnimationsOnFire" : true,
-	"UseDefaultRangeCircle" : true,
+	"UseDefaultRangeCircle" : false,
     "Upgrades" : [
         [
             "Intense Magic",
