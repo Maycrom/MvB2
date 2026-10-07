@@ -1,0 +1,43 @@
+{	
+    "Type":             "ConstructorVisual",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [1,2,3,4,5,6,7],
+    "Tasks"	:
+    [
+		{
+			// Level 1
+			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
+			"GraphicName": "bloonsday_targeting_sphere"
+		},
+		{
+			// Level 2
+			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
+			"GraphicName": "bloonsday_ball"
+		},
+		{
+			// Level 3
+			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
+			"GraphicName": "bloonsday_targeting_sphere_pro"
+		},
+		{
+			// Level 4
+			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
+			"GraphicName": "bloonsday_ball_pro"
+		},
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },	
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] },	
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },	
+		{
+			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
+			"Tasks": // Reset
+			[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3 ], "ToDisable": [ 99 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3 ], "ToDisable": [ 99 ] },	
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 1,2,3 ] }
+			]
+		}	
+    ]
+}
