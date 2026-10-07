@@ -46,7 +46,7 @@
 						"Speed": 0.0,
 						"CutOffDistance": 1
 					},
-					"TasksToProcessOnTerminate": [0],
+					"TasksToProcessOnTerminate": [0,1],
 					"Tasks":
 					[
 						{  "Type" : "TimerFire", "TimeDelay" : 0.0, "InitialTime" : 0, "Loops" : true, "NumLoops" : 15,
@@ -93,6 +93,20 @@
 									]
 								}
 							]
+						},
+						{
+							// This is fucking stupid
+							"Type": "TowerModifier",
+							"Range": 10,
+							"PriorityLevel": 15,
+							"ReplacesPriorityLevel" : true,
+							"TerminateOnUserUpgrade": false,
+							"ApplyToUserTower": true,
+							"Duration": 0.03,
+							"Modifier":
+							{
+								"Cooldown": [ 0, 0 ]
+							}
 						}	
 					]
 				}
