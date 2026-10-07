@@ -5,6 +5,8 @@
     "FireDelayTime":    0,
 	"CanFireWithNoTargetsAndRoundInProgress" : true,
 	"DisabledTasks": [],
+	// TODO: Fix phoenix not getting cancelled when frozen, tried fixing it but because of the way it's scripted its really hard to intervene in the weapon once it starts...
+	//       Might need a rewrite sometime
     "Tasks" :
     [
 		{
