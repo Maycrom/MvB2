@@ -6,13 +6,14 @@
 	"RequiresTargetToFire":	false,
 	"TotalAmmo":            25,
     "RemainingAmmo":        1,
-	"DisabledTasks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+	"DisabledTasks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
 	// Warning: this is dumb and shit but the others ways of doing this are somehow worse
     "Tasks"	:
     [
 		// (0) Flush
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
+			"DisabledTasks": [3],
 			"Tasks":
 			[
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 ], "ToDisable": [ 99 ] },	
@@ -41,7 +42,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 4.5,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,1 ], true ]]}
 				},
 				{
@@ -67,7 +68,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 4.5,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,2 ], true ]]}
 				},
 				{
@@ -93,7 +94,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 4.5,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,3 ], true ]]}
 				},
 				{
@@ -118,6 +119,7 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
+			"DisabledTasks": [1],
 			"Tasks":
 			[
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7,1 ], "ToDisable": [ 6 ] },
@@ -135,6 +137,7 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
+			"DisabledTasks": [1],
 			"Tasks":
 			[
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12,2 ], "ToDisable": [ 11,1 ] },
@@ -154,6 +157,7 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
+			"DisabledTasks": [1],
 			"Tasks":
 			[
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 18,2 ] },
