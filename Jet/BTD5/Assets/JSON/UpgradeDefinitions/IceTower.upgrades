@@ -3,6 +3,13 @@
     [
         {
             "Name" : "Enhanced Freeze",
+			"TowerUpgrade" :
+			{
+				"Weapons" :
+				{
+					"5" : ""
+				}
+			},
 			"WeaponUpgrades" :
             [	
 				{
