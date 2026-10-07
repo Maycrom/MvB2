@@ -12,6 +12,7 @@
 	"DwarfCheck",
 	"DwarfCheck2",
 	"DwarfDisplaySwitch",
+	"ConstructorLogic",
 
 	// TestTower
 	"CooldownControllerTutorial",
