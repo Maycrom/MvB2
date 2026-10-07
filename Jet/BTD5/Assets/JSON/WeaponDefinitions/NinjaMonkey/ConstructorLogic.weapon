@@ -41,7 +41,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 5,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,1 ], true ]]}
 				},
 				{
@@ -67,7 +67,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 5,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,2 ], true ]]}
 				},
 				{
@@ -93,7 +93,7 @@
 			"Tasks":
 			[
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 5,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 3,
 					"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0,0,0 ], false ],[ 2, [ 0,0,3 ], true ]]}
 				},
 				{
@@ -118,7 +118,15 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
-			"Tasks":[{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7,1 ], "ToDisable": [ 6 ] },{"Type": "TextEffect","Text": "2","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}}]
+			"Tasks":
+			[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7,1 ], "ToDisable": [ 6 ] },
+				{ "Type": "TextEffect","Text": "2","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
+				{
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 4 ], true ]]}
+				}
+			]
 		},
 		
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] },
@@ -127,7 +135,15 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
-			"Tasks":[{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12,2 ], "ToDisable": [ 11,1 ] },{"Type": "TextEffect","Text": "3","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}}]
+			"Tasks":
+			[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12,2 ], "ToDisable": [ 11,1 ] },
+				{ "Type": "TextEffect","Text": "3","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
+				{
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 5 ], true ]]}
+				}
+			]
 		},
 		
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ] },
@@ -138,7 +154,15 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
-			"Tasks":[{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 18,2 ] },{"Type": "TextEffect","Text": "4","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}}]
+			"Tasks":
+			[
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 18,2 ] },
+				{ "Type": "TextEffect","Text": "4","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
+				{
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 6 ], true ]]}
+				}
+			]
 		},
 		{
 			"Type": "TextEffect",

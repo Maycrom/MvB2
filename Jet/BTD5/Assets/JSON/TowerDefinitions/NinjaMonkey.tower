@@ -17,7 +17,8 @@
         "TonicModifier.weapon",
         "LaneCheck.weapon",
         "",
-        "ConstructorLogic.weapon"
+        "ConstructorLogic.weapon",
+        "ConstructorVisual.weapon"
     ],
     "ActiveWeaponSlots": [
 		true
