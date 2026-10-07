@@ -6,7 +6,7 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 1.0 ],
+         "Position" : [ 0.0, 1.5 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
          "sprite" : "FireWizard_Arm.json",
@@ -38,7 +38,7 @@
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 9999,
+      "StageLength" : 3.7,
       "Version" : 1
    },
    "timelines" : [
