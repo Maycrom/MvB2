@@ -2,7 +2,7 @@
     "Type":             "MainAttack",    
     "TargetRange":      0.0,
 	"CooldownTime":     0,
-    "FireDelayTime":    18,
+    "FireDelayTime":    18.1,
 	"RequiresTargetToFire"	: false,
     "Tasks" :
     [
@@ -119,7 +119,8 @@
 		},
 		{
 			"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
-			"Modifier" : {"EnabledSubtasks" :[[ 7, [ 7 ], true ]]}
+			"Modifier" : {
+			"EnabledSubtasks" :[[ 7, [ 7 ], true ]]}
 		}		
 	]
 }

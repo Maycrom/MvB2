@@ -2,7 +2,7 @@
     "Type":             "LaneCheck",    
     "TargetRange":      120.0,
 	"CooldownTime":     3.0,
-    "FireDelayTime":    1.0,
+    "FireDelayTime":    1.025,
 	"RequiresTargetToFire":	false,
 	"TotalAmmo":            4,
     "RemainingAmmo":        4,
@@ -39,19 +39,37 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] },		
 		{
 			"Type" : "TimerFire",
-			"TimeDelay" : 1.5,
+			"TimeDelay" : 0,
 			"Tasks" : 
 			[	
-				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 5 ] },	
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.1,
-					"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 1,0 ], true ],[ 6, [ 1,1 ], true ],[ 6, [ 2,0 ], true ],[ 6, [ 2,1 ], true ],[ 6, [ 3,0 ], true ],[ 6, [ 3,1 ], true ],[ 6, [ 4 ], false ],[ 6, [ 5 ], false ],[ 6, [ 6 ], false ],[ 6, [ 7 ], false ],[ 6, [ 8 ], false ],[ 6, [ 9 ], false ],[ 6, [ 10 ], false ],[ 6, [ 11 ], false ],[ 6, [ 12 ], false ],[ 6, [ 13 ], false ],[ 6, [ 14 ], false ],[ 6, [ 15 ], false ],[ 6, [ 16 ], false ],[ 6, [ 17 ], false ],[ 6, [ 18 ], false ],[ 6, [ 19 ], false ]]}
+					"Type" : "TimerFire",
+					"TimeDelay" : 1.5,
+					"Tasks" : 
+					[	
+						{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 5 ] },	
+						{
+							"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.1,
+							"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 1,0 ], true ],[ 6, [ 1,1 ], false ],[ 6, [ 2,0 ], true ],[ 6, [ 2,1 ], false ],[ 6, [ 3,0 ], true ],[ 6, [ 3,1 ], false ],[ 6, [ 4 ], false ],[ 6, [ 5 ], false ],[ 6, [ 6 ], false ],[ 6, [ 7 ], false ],[ 6, [ 8 ], false ],[ 6, [ 9 ], false ],[ 6, [ 10 ], false ],[ 6, [ 11 ], false ],[ 6, [ 12 ], false ],[ 6, [ 13 ], false ],[ 6, [ 14 ], false ],[ 6, [ 15 ], false ],[ 6, [ 16 ], false ],[ 6, [ 17 ], false ],[ 6, [ 18 ], false ],[ 6, [ 19 ], false ]]}
+						},
+						{
+							"Type" : "RestoreAmmo",
+							"SlotIndex" : 6,
+							"Amount" : 1
+						}
+					]
 				},
 				{
-					"Type" : "RestoreAmmo",
-					"SlotIndex" : 6,
-					"Amount" : 1
-				}
+					"Type" : "TimerFire",
+					"TimeDelay" : 2.9,
+					"Tasks" : 
+					[	
+						{
+							"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 1.8,
+							"Modifier" : {"EnabledSubtasks" :[[ 7, [ 0 ], false ],[ 7, [ 1 ], false ],[ 7, [ 2 ], false ],[ 7, [ 3 ], false ],[ 7, [ 4 ], false ],[ 7, [ 5 ], false ],[ 7, [ 6 ], false ]]}
+						}
+					]
+				}	
 			]
 		}	
     ]
