@@ -6,6 +6,16 @@
 				"Type": "BloonAbilityController", 
 				"Position": [ 240, -1000 ], 
 				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "TonicController", 
+				"Position": [ 0, 4000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
+				"Type": "Debug", 
+				"Position": [ 0, 4000 ], 
+				"Upgrades": [ 0, 0 ] 
 			}
 		],
 		"RoundFiles" : [
