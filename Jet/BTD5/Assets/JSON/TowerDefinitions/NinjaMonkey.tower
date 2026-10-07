@@ -15,7 +15,9 @@
         "TowerIni.weapon",
         "MainAttack.weapon",
         "TonicModifier.weapon",
-        "LaneCheck.weapon"
+        "LaneCheck.weapon",
+        "",
+        "ConstructorLogic.weapon"
     ],
     "ActiveWeaponSlots": [
 		true
