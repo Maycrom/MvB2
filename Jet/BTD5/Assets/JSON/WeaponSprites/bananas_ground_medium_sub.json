@@ -1,0 +1,77 @@
+{ 
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 1.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "blue_glow",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -10.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 1.8, -1 ],
+         "Scale" : [ 0.9, 0.9 ],
+         "Shown" : true,
+         "sprite" : "bananas_double",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "bananas_double",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "blue_glow",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 2,
+         "stage" : [
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 1.0 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 1800.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 1 ],
+               "Scale" : [ 1, 1 ],
+               "Shown" : true,
+               "Time" : 20
+            }
+         ]
+      }
+   ]
+}
