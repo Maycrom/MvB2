@@ -1,0 +1,71 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 0.3, 0.3 ],
+         "Shown" : true,
+         "sprite" : "constructor_energy",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "constructor_energy",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 1,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 0.02,
+         "stage" : [
+			{
+			   "Alignment" : [ 0, 0 ],
+               "Alpha" : 1,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0.0 ],
+               "Scale" : [ 0.3, 0.3 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+			{
+			   "Alignment" : [ 0, 0 ],
+               "Alpha" : 1,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0.0 ],
+               "Scale" : [ 0.575, 0.575 ],
+               "Shown" : true,
+               "Time" : 0.01
+            },
+			{
+			   "Alignment" : [ 0, 0 ],
+               "Alpha" : 1,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0, 0.0 ],
+               "Scale" : [ 0.3, 0.3 ],
+               "Shown" : false,
+               "Time" : 0.02
+            }
+         ]
+      }
+   ]
+}

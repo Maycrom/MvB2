@@ -8,25 +8,53 @@
     "Tasks"	:
     [
 		{
-			// Level 1
-			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
-			"GraphicName": "bloonsday_targeting_sphere"
-		},
+			"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 25,"CutOffDistance": 0.0000006},
+			"SpreadAngle": 360,
+			"Tasks":
+			[
+				{
+					// Level 1
+					"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.03,
+					"SpriteFile": "Constructor_Matter_1.json"
+				}
+			]
+		},	
 		{
-			// Level 2
-			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
-			"GraphicName": "bloonsday_ball"
-		},
+			"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 25,"CutOffDistance": 0.0000006},
+			"SpreadAngle": 360,
+			"Tasks":
+			[
+				{
+					// Level 2
+					"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.03,
+					"SpriteFile": "Constructor_Matter_2.json"
+				}
+			]
+		},	
 		{
-			// Level 3
-			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
-			"GraphicName": "bloonsday_targeting_sphere_pro"
-		},
+			"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 25,"CutOffDistance": 0.0000006},
+			"SpreadAngle": 360,
+			"Tasks":
+			[
+				{
+					// Level 3
+					"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.03,
+					"SpriteFile": "Constructor_Matter_3.json"
+				}
+			]
+		},	
 		{
-			// Level 4
-			"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.05,
-			"GraphicName": "bloonsday_ball_pro"
-		},
+			"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 25,"CutOffDistance": 0.0000006},
+			"SpreadAngle": 360,
+			"Tasks":
+			[
+				{
+					// Level 4
+					"Type": "Projectile","NumPersists":      -1,"TerminateOnZeroPersists": true,"CollisionType": "None","HasLimitedDuration" : true,"LimitedDuration" : 0.03,
+					"SpriteFile": "Constructor_Matter_4.json"
+				}
+			]
+		},	
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },	
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] },	
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },	
