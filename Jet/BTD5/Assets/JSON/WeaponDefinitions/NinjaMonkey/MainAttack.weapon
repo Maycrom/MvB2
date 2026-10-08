@@ -44,7 +44,7 @@
 							
 							"Tasks":
 							[
-								{	"Type": "Effect", "SpriteFile": "bananas_collect.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
+								{	"Type": "Effect", "SpriteFile": "bananas_collect_tiny.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
 							]
 						},
 						{
@@ -64,7 +64,7 @@
 							
 							"Tasks":
 							[
-								{	"Type": "Effect", "SpriteFile": "bananas_collect.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
+								{	"Type": "Effect", "SpriteFile": "bananas_collect_small.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
 							]
 						},
 						{
@@ -84,7 +84,7 @@
 							
 							"Tasks":
 							[
-								{	"Type": "Effect", "SpriteFile": "bananas_collect.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
+								{	"Type": "Effect", "SpriteFile": "bananas_collect_medium.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
 							]
 						},
 						{
