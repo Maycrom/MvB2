@@ -4349,7 +4349,7 @@ Have fun and stayed tuned for more awesome content coming your way soon!
 	<T id="LOC_LOCAL_FEED_OSX_MoreGames_DESC" l="0">Visit the App Store to check out all the latest Apps from the Ninja Kiwi team.\n\nClick 'GO' to jump to our App Store page.</T>
 	<T id="LOC_SETTINGS_DropLock_OSX" l="0">Click &amp; DropĒ</T>
 	<T id="LOC_TOWER_DESC_OSX_DartlingGun" l="0">±\n200²³³³12s²³³³³³350²³µ2µ\n\nThrows glaives in a straight line that bounce between bloons.\n</T>
-	<T id="LOC_TOWER_DESC_OSX_BananaFarm" l="0">±\n³³³³50²³³³³³³³³³³³³6s²³³³³³³³³³³³³³³350²³³³µ-µ\n\nGrows batches of bananas.\n</T>
+	<T id="LOC_TOWER_DESC_OSX_BananaFarm" l="0">±\n³³³³50²³³³³³³³³³³³³6s²³³³³³³³³³³³³³³350²³³³µ0µ\n\nGrows batches of bananas.\n</T>
     <T id="LOC_HOTKEY_LABEL" l="0">Hotkey: %s</T>		<!--@ "Hotkey: A" -->
     <T id="LOC_TIP_PresentMonkeySub_Desktop" l="0">Congratulations, you've popped enough Bloons to unwrap the mysterious parcel. Click on the present to uncover the gift inside!</T>
 	<T id="LOC_LOCAL_FEED_Update_20000_DESC_OSX" l="0">Play co-op with your friends!\n\nGrab your sharpest darts and jump into two-player cooperative Bloons TD 5. Featuring custom made maps for co-op chaos, BTD5 Co-op is a brand new challenge for you and your friends. Figure out the best way to work together with your shared money and lives to earn the new achievements and all the Awesome that goes with it.</T>
@@ -4386,7 +4386,7 @@ Have fun and stayed tuned for more awesome content coming your way soon!
 	<T id="LOC_TOWER_DESC_OSX_MonkeySub" l="0">Submarine tower that shoots homing darts. Has many powerful upgrades including the ability to submerge and become a support tower.</T>
 	<T id="LOC_TOWER_DESC_OSX_MonkeyVillage" l="0">Reduces cost of all towers and upgrades in radius by 10%.</T>
 	<T id="LOC_TOWER_DESC_OSX_MortarTower" l="0">Launches explosive mortar shells to a single targeted spot.</T>
-	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">Throws sharp shurikens rapidly and can see camo bloons.</T>
+	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">±\n³³³³25²³³³³³³³³³³³16s²³³³600³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³µ0µ\n\nCollects matter from nearby bloons and turns it into bananas. Banana value varies depending on the amount of matter collected.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwi" l="0">The Ninja Kiwi kicks so fast bloons are sent flying back.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwiPro" l="0">Pro Upgrade - Even quicker kicks that can pop lead too.</T>
 	<T id="LOC_TOWER_DESC_OSX_Pontoon" l="0">Place almost any land tower on water with the Pontoon! Deploy the pontoon on water, then place your land tower on top.</T>
