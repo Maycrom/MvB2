@@ -22,7 +22,7 @@
 					// Add some randomness after direction is decided (and no, you cant do these 2 steps in one projectile task for some fucking reason)
 					"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 1,"CutOffDistance": 0.0000006},
 					"SpreadAngle": 150,
-					"DisabledTasks": [1,2,3,4,5],
+					"DisabledTasks": [1,2,3],
 					"Tasks":
 					[
 						// Things get a little stupid here. Below is a collection of every single possible banana value the constructor can put out.

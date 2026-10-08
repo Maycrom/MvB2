@@ -69,6 +69,15 @@
 							"Modifier" : {"EnabledSubtasks" :[[ 7, [ 0 ], false ],[ 7, [ 1 ], false ],[ 7, [ 2 ], false ],[ 7, [ 3 ], false ],[ 7, [ 4 ], false ],[ 7, [ 5 ], false ],[ 7, [ 6 ], false ]]}
 						}
 					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 4.7,
+					"DisabledTasks": [0], // This looks kinda shit ngl
+					"Tasks" : 
+					[	
+						{	"Type": "Effect", "SpriteFile": "Constructor_Smoke.json", "Scale": 2	}
+					]
 				}	
 			]
 		}	

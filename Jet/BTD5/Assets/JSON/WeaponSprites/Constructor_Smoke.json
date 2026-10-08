@@ -1,0 +1,63 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Constructor_Smoke_sub.json",
+         "type" : 2,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 180.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Constructor_Smoke_sub.json",
+         "type" : 2,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "banana_farm_smoke_02",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "banana_farm_smoke_01",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "banana_farm_smoke_03",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "banana_farm_smoke_04",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.5,
+      "Version" : 1
+   },
+   "timelines" : [
+	  {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}
