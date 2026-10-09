@@ -5,85 +5,69 @@
     "FireDelayTime":    0,
 	"DisabledTasks": [0,1],
 	"RequiresTargetToFire":	false,
-	
-	// Since you can't selectively target specific tower tiers in this game this is the next best thing I could think of.
   
     "Tasks"	:
     [
 		{
 			"Type" : "TowerModifier",
-			"Range": 1000,
-			"PriorityLevel": 7,
+			"Range": 1,
+			"PriorityLevel": 8,
 			"TerminateOnUserUpgrade" : true,
 			"ReplacesPriorityLevel" : true,
 			"ApplyToUserTower": true,
 			"ModifyMovingTowers": false,
-			"Duration": 6,
+			"Duration": 8,
 			
 			"TargetingFilter":
 			{
 				"Include" :
 				{
-					"TowerType": [ "MonkeyApprentice" ]
+					"TowerType": [ "NinjaMonkey" ]
 				}
 			},
 			
 			"Modifier" : 
 			{	
+				"Display" : "Constructor_tonic.json",
+				"ActiveWeapon": [ [ 4, false], [6, false], [7, false] ],
 				"EnabledSubtasks" :
 				[
 					[ 2, [ 0 ], false ],
-					[ 2, [ 1 ], true ]
+					[ 2, [ 1 ], false ],
+					[ 2, [ 2 ], false ],
+					[ 2, [ 3 ], false ],
+					[ 2, [ 4 ], false ],
+					[ 2, [ 5 ], false ],
+					[ 2, [ 6 ], false ],
+					[ 2, [ 7 ], false ],
+					[ 2, [ 8 ], false ],
+					[ 2, [ 9 ], false ]
 				]
+			}
+		},
+		{
+			"Type" : "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 9,
+			"TerminateOnUserUpgrade" : true,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"ModifyMovingTowers": false,
+			"Duration": 0.03,
+			
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "NinjaMonkey" ]
+				}
 			},
-			"Tasks":
-			[
-				{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 60,
-					"Tasks" : 
-					[
-						{
-							"Type":             "Projectile",
-							"NumPersists":      1,
-							"TerminateOnZeroPersists": true,
-							"CollisionType": "None",
-							"SpreadAngle": 360,
-							"Movement":
-							{
-								"Type": "Forward",
-								"Speed": 1000,
-								"CutOffDistance": 12
-							},
-							"Tasks":
-							[
-								{
-									"Type":             "Projectile",
-									"SpriteFile":      "DGParticle.json",
-									"NumPersists":      1,
-									"TerminateOnZeroPersists": true,
-									"CollisionType": "None",
-									"SpinRate": 360,
-									"HasLimitedDuration" : true,
-									"LimitedDuration" : 1.95,
-									
-									"Movement":
-									{
-										"Type": "MotionCurve",
-										"Curves":
-										[
-											[ [0,0], [5.72,7.72], [9.32,19.08], [5.6,33.44] ]
-										],
-										"Speed": 10,
-										"CutOffDistance": 20,
-										"AngleOffset" : -0.7853981634,
-										"TerminateAtEndOfCurve": true,
-										"ScaleCurvesByDirection": false
-									}
-								}
-							]
-						}
-					]
-				}	
-			]
-		}				
+			
+			"Modifier" : 
+			{	
+				"Cooldown" : [ 0, 0 ],
+				"FireDelay" : [ 0, 0 ]
+			}
+		}		
     ]
 }
