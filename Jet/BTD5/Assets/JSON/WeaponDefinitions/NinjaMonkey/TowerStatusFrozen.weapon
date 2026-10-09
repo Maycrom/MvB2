@@ -1,6 +1,6 @@
 {	
     "Type":             "TowerStatusFrozen",    
-    "TargetRange":      100.0,
+    "TargetRange":      0.0,
 	"CooldownTime":     0,
     "FireDelayTime":    0,
 	"CanFireWithNoTargetsAndRoundInProgress" : true,
