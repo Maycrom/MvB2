@@ -1,6 +1,6 @@
 {	
     "Type":             "LaneCheck",    
-    "TargetRange":      120.0,
+    "TargetRange":      110.0,
 	"CooldownTime":     3.0,
     "FireDelayTime":    1.025,
 	"RequiresTargetToFire":	false,
@@ -14,7 +14,7 @@
 			"NumPersists":      -1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-			"Radius": 75,
+			"Radius": 65,
 			"HasLimitedDuration" : true,
 			"LimitedDuration" : 0.03,
 			"Movement":
@@ -80,6 +80,6 @@
 					]
 				}	
 			]
-		}	
+		}
     ]
 }
