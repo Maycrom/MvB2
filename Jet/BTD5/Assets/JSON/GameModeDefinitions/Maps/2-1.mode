@@ -136,7 +136,7 @@
 		{
 			"Hint" : "Round 1",
 			"Waves" : [
-				{ "Bloon" : "IceBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 10 }
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 3 }
 			]
 		},
 		

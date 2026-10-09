@@ -39,7 +39,7 @@
 	"RBE" : 0,
     "ChildBloons" : [],
 	"ApplyStatus" : [ ],
-    "StatusImmunity" : [],
+    "StatusImmunity" : ["Permafrost"],
     "DamageImmunity" : ["Explosive"],
 	"Scale" : 0.4,
     "Radius" : 10
