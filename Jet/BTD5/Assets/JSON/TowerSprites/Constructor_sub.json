@@ -372,10 +372,23 @@
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.25, 1.25 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "spike_factory_moab_shredr_04",
          "type" : 1,
          "uid" : 29
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.25, 1.25 ],
+         "Shown" : true,
+         "sprite" : "spike_factory_moab_shredr_05",
+         "type" : 1,
+         "uid" : 30
       }
    ],
    "customvariables" : null,
@@ -398,20 +411,24 @@
             "SpriteInfo" : "ufo_light_green",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_01",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_02",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_03",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_04",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "spike_factory_moab_shredr_05",
             "Texture" : "InGame"
          }
       ],
@@ -1852,7 +1869,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, 0.0 ],
                "Scale" : [ 1.25, 1.25 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.0
             },
             {
@@ -1887,6 +1904,55 @@
                "Scale" : [ 1.25, 1.25 ],
                "Shown" : true,
                "Time" : 17.9
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.25, 1.25 ],
+               "Shown" : false,
+               "Time" : 17.95
+            }
+         ]
+      },
+	  {
+         "spriteuid" : 30,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.25, 1.25 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.25, 1.25 ],
+               "Shown" : false,
+               "Time" : 16.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.25, 1.25 ],
+               "Shown" : true,
+               "Time" : 17.95
             }
          ]
       }
