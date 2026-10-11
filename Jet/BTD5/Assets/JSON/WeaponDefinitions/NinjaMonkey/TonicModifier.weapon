@@ -9,42 +9,65 @@
     "Tasks"	:
     [
 		{
-			"Type" : "TowerModifier",
-			"Range": 1,
-			"PriorityLevel": 8,
-			"TerminateOnUserUpgrade" : true,
-			"ReplacesPriorityLevel" : true,
-			"ApplyToUserTower": true,
-			"ModifyMovingTowers": false,
-			"Duration": 8,
-			
-			"TargetingFilter":
-			{
-				"Include" :
+			"Type" : "TimerFire",
+			"TimeDelay" : 0,
+			"Tasks" : 
+			[	
 				{
-					"TowerType": [ "NinjaMonkey" ]
+					"Type" : "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 8,
+					"TerminateOnUserUpgrade" : true,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 8,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "NinjaMonkey" ]
+						}
+					},
+					
+					"Modifier" : 
+					{	
+						"Display" : "Constructor_tonic.json",
+						"ActiveWeapon": [ [ 4, false], [6, false], [7, false] ],
+						"EnabledSubtasks" :
+						[
+							[ 2, [ 0 ], false ],
+							[ 2, [ 1 ], false ],
+							[ 2, [ 2 ], false ],
+							[ 2, [ 3 ], false ],
+							[ 2, [ 4 ], false ],
+							[ 2, [ 5 ], false ],
+							[ 2, [ 6 ], false ],
+							[ 2, [ 7 ], false ],
+							[ 2, [ 8 ], false ],
+							[ 2, [ 9 ], false ]
+						]
+					}
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 2.5,
+					"Tasks" : 
+					[	
+						{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 2, "LoopCount": 4 }
+					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 3.0,
+					"Tasks" : 
+					[	
+						{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 2, "LoopCount": 3 }
+					]
 				}
-			},
-			
-			"Modifier" : 
-			{	
-				"Display" : "Constructor_tonic.json",
-				"ActiveWeapon": [ [ 4, false], [6, false], [7, false] ],
-				"EnabledSubtasks" :
-				[
-					[ 2, [ 0 ], false ],
-					[ 2, [ 1 ], false ],
-					[ 2, [ 2 ], false ],
-					[ 2, [ 3 ], false ],
-					[ 2, [ 4 ], false ],
-					[ 2, [ 5 ], false ],
-					[ 2, [ 6 ], false ],
-					[ 2, [ 7 ], false ],
-					[ 2, [ 8 ], false ],
-					[ 2, [ 9 ], false ]
-				]
-			}
-		},
+			]
+		},	
 		{
 			"Type" : "TowerModifier",
 			"Range": 1,
@@ -68,6 +91,6 @@
 				"Cooldown" : [ 0, 0 ],
 				"FireDelay" : [ 0, 0 ]
 			}
-		}		
+		}	
     ]
 }
