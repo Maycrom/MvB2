@@ -65,32 +65,120 @@
 					[	
 						{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 2, "LoopCount": 3 }
 					]
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 8.0,
+					// Honestly the best way of having this tonic ability work without creating a shitton of broken animation is to just reset the tower state
+					// With the Fire Wizard and the Farm this was fairly easy but this thing has like 2 billion states to track so this might be a little ugly
+					// I pray that running this at the end just works fine
+					"Tasks" : 
+					[	
+						{
+							// Reset visual state
+							"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+							"Modifier" : {
+							"EnabledSubtasks" :[[ 7, [ 7 ], true ]],"ActiveWeapon": [ [ 4, false], [6, false], [2, false] ]}
+						},
+						{
+							// This *should* reset ConstructorLogic
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"Tasks" : 
+							[
+								{
+									"Type" : "TowerModifier","Range": 10,"PriorityLevel": 5,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+									"Modifier" : {"EnabledSubtasks" :[[ 6, [ 0 ], true ],[ 6, [ 4 ], false ],[ 6, [ 5 ], false ],[ 6, [ 6 ], false ],[ 6, [ 7 ], false ],[ 6, [ 8 ], false ],[ 6, [ 9 ], false ],[ 6, [ 10 ], false ],[ 6, [ 11 ], false ],[ 6, [ 12 ], false ],[ 6, [ 13 ], false ],[ 6, [ 14 ], false ],[ 6, [ 15 ], false ],[ 6, [ 16 ], false ],[ 6, [ 17 ], false ],[ 6, [ 18 ], false ],[ 6, [ 19 ], false ]],"ActiveWeapon": [ [ 4, false],[ 2, false] ]}
+								},
+								{
+									"Type" : "RestoreAmmo",
+									"SlotIndex" : 6,
+									"Amount" : 1
+								}
+							]
+						},
+						{
+							// This *should* reset LaneCheck
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"Tasks" : 
+							[
+								{
+									"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.15,
+									"Modifier" : {"EnabledSubtasks" :[[ 4, [ 6 ], true ],[ 4, [ 0 ], false ],[ 4, [ 1 ], false ],[ 4, [ 2 ], false ],[ 4, [ 3 ], false ],[ 4, [ 4 ], false ],[ 4, [ 5 ], false ]], "Cooldown": [0,0],"FireDelay": [0,0],"ActiveWeapon": [ [ 2, false] ]}
+								},
+								{
+									"Type" : "RestoreAmmo",
+									"SlotIndex" : 4,
+									"Amount" : 1
+								}
+							]
+						},
+						{
+							// This *should* run MainAttack once to reset the animation and give LaneCheck some ammo to use
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.15,
+							"Tasks" : 
+							[
+								{
+									"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+									"Modifier" : {"EnabledSubtasks" :[[ 2, [ 0 ], false ],[ 2, [ 1 ], false ],[ 2, [ 2 ], false ],[ 2, [ 3 ], false ],[ 2, [ 4 ], false ],[ 2, [ 5 ], false ],[ 2, [ 6 ], false ]], "Cooldown": [0,0],"FireDelay": [0,0], "ActiveWeapon": [ [ 4, false] ]}
+								},
+								{
+									"Type" : "RestoreAmmo",
+									"SlotIndex" : 4,
+									"Amount" : 4
+								}
+							]
+						},
+						{
+							// Stop desyncing you pile of crap
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.15,
+							"Tasks" : 
+							[
+								{
+									// This is dogshit cause it breaks ConstructorVisual
+									"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 1,
+									"Modifier" : { "FireDelay": [0,1] }
+								}
+							]
+						}						
+					]
 				}
 			]
 		},	
 		{
-			"Type" : "TowerModifier",
-			"Range": 1,
-			"PriorityLevel": 9,
-			"TerminateOnUserUpgrade" : true,
-			"ReplacesPriorityLevel" : true,
-			"ApplyToUserTower": true,
-			"ModifyMovingTowers": false,
-			"Duration": 0.03,
-			
-			"TargetingFilter":
-			{
-				"Include" :
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.03,
+			"Tasks" : 
+			[	
 				{
-					"TowerType": [ "NinjaMonkey" ]
-				}
-			},
-			
-			"Modifier" : 
-			{	
-				"Cooldown" : [ 0, 0 ],
-				"FireDelay" : [ 0, 0 ]
-			}
+					"Type" : "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 9,
+					"TerminateOnUserUpgrade" : true,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"ModifyMovingTowers": false,
+					"Duration": 0.03,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "NinjaMonkey" ]
+						}
+					},
+					
+					"Modifier" : 
+					{	
+						"Cooldown" : [ 0, 0 ],
+						"FireDelay" : [ 0, 0 ],
+						"EnabledSubtasks" :[[ 2, [ 0 ], false ],[ 2, [ 1 ], false ],[ 2, [ 2 ], false ],[ 2, [ 3 ], false ],[ 2, [ 4 ], false ],[ 2, [ 5 ], false ],[ 2, [ 6 ], false ]]
+					}
+				}	
+			]
 		}	
     ]
 }
