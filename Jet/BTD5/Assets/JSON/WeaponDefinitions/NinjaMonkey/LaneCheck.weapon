@@ -6,7 +6,7 @@
 	"RequiresTargetToFire":	false,
 	"TotalAmmo":            4,
     "RemainingAmmo":        4,
-	"DisabledTasks": [3,4,5],
+	"DisabledTasks": [3,4,5,6],
     "Tasks"	:
     [
 		{
@@ -80,6 +80,18 @@
 					]
 				}	
 			]
-		}
+		},
+		{
+			// Special reset task for tonic
+			"Type" : "TimerFire",
+			"TimeDelay" : 0,
+			"Tasks" : 
+			[	
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3,4,5,6 ], "ToDisable": [ 99 ] },	
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3,4,5,6 ], "ToDisable": [ 99 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3,4,5,6 ], "ToDisable": [ 99 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2 ], "ToDisable": [ 3,4,5,6 ] }
+			]
+		}	
     ]
 }
