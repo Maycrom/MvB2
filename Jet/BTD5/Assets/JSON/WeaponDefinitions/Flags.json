@@ -14,6 +14,8 @@
 	"DwarfDisplaySwitch",
 	"ConstructorLogic",
 	"ConstructorVisual",
+	"ConstructorTonicCounter",
+	"ConstructorTonicBananas",
 
 	// TestTower
 	"CooldownControllerTutorial",
