@@ -70,23 +70,23 @@
    "events" : null,
    "stageOptions" : {
       "SpriteInfo" : [
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_01",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_02",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_03",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_04",
             "Texture" : "InGame"
          },
-		{
+		 {
             "SpriteInfo" : "spike_factory_moab_shredr_05",
             "Texture" : "InGame"
          }

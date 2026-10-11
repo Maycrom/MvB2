@@ -164,7 +164,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.25, 1.25 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "spike_factory_moab_shredr_04",
          "type" : 1,
          "uid" : 29
