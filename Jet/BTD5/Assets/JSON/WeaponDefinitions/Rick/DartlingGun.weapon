@@ -12,7 +12,7 @@
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "dart_monkey_dart",
+			"SpriteFile":      "rick_dart.json",
 			"NumPersists":      2,
 			"TerminateOnZeroPersists": true,
 			
