@@ -82,7 +82,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -322,7 +322,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -557,7 +557,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -792,7 +792,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -1027,7 +1027,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -1262,7 +1262,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -1501,7 +1501,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -1740,7 +1740,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -1978,7 +1978,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
@@ -2217,7 +2217,7 @@
 									"Type": "Effect",
 									"SpriteFile": "overclocked_tower.json",
 									"Scale": 0.2,
-									"LoopCount": 0,
+									
 									"Audio": "TONIC",
 									"DrawLayer": "UnderTowers",
 									"AppliedToTower": false
