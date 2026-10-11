@@ -1,0 +1,34 @@
+{	
+    "Type":             "ConstructorTonicCounter",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            100,
+    "RemainingAmmo":        0,
+    "Tasks"	:
+    [
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ] },
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 0,
+			"Tasks" : 
+			[	
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 9 ] },
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 9,
+					"Amount" : 1
+				}
+			]
+		}	
+    ]
+}

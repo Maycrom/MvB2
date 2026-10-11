@@ -1,0 +1,39 @@
+{	
+    "Type":             "ConstructorTonicBananas",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.1,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            10,
+    "RemainingAmmo":        0,
+    "Tasks"	:
+    [
+		{
+			"Type": "Projectile","NumPersists":      1,"TerminateOnZeroPersists": true,"CollisionType": "None","Movement":{"Type": "Forward","Speed": 1,"CutOffDistance": 0.0000006},
+			"SpreadAngle": 360,
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
+					"SpriteFile":      "bananas_ground.json",
+					"Duration":	10,
+					"MoneyRange": [ 30, 30 ],
+					"ClickOnly": true,
+					"AllowMagnetCollection":false,
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 150,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.875
+					},
+					
+					"Tasks":
+					[
+						{	"Type": "Effect", "SpriteFile": "bananas_collect.json", "Scale": 1, "Audio": "ANGRY_SQUIRREL"	}
+					]
+				}
+			]
+		}	
+    ]
+}

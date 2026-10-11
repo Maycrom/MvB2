@@ -17,10 +17,21 @@
         "LaneCheck.weapon",
         "",
         "ConstructorLogic.weapon",
-        "ConstructorVisual.weapon"
+        "ConstructorVisual.weapon",
+        "ConstructorTonicCounter.weapon",
+        "ConstructorTonicBananas.weapon"
     ],
     "ActiveWeaponSlots": [
-		true
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		false
 	],
     "Icon" : "dart_monkey_avatar_small",
     "PlacementH" : 25.0,
