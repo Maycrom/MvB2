@@ -2,7 +2,75 @@
     "Upgrades":
     [
         {
-            "Name" : "Intense Magic"
+            "Name" : "Intense Magic",
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 3 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Modifier" : 
+							{	
+								"Display" : "Constructor_tonic_u.json",
+								"EnabledSubtasks" :
+								[
+									[ 2, [ 0 ], false ],
+									[ 2, [ 1 ], false ],
+									[ 2, [ 2 ], false ],
+									
+									[ 4, [ 0 ], false ],
+									[ 4, [ 1 ], false ],
+									[ 4, [ 2 ], false ],
+									[ 4, [ 3 ], false ],
+									[ 4, [ 4 ], false ],
+									[ 4, [ 5 ], false ],
+									[ 4, [ 6 ], true ],
+									
+									[ 6, [ 0 ], true ],
+									[ 6, [ 1 ], false ],
+									[ 6, [ 2 ], false ],
+									[ 6, [ 3 ], false ],
+									[ 6, [ 4 ], false ],
+									[ 6, [ 5 ], false ],
+									[ 6, [ 6 ], false ],
+									[ 6, [ 7 ], false ],
+									[ 6, [ 8 ], false ],
+									[ 6, [ 9 ], false ],
+									[ 6, [ 10 ], false ],
+									[ 6, [ 11 ], false ],
+									[ 6, [ 12 ], false ],
+									[ 6, [ 13 ], false ],
+									[ 6, [ 14 ], false ],
+									[ 6, [ 15 ], false ],
+									[ 6, [ 16 ], false ],
+									[ 6, [ 17 ], false ],
+									[ 6, [ 18 ], false ],
+									[ 6, [ 19 ], false ],
+									
+									[ 7, [ 0 ], false ],
+									[ 7, [ 1 ], false ],
+									[ 7, [ 2 ], false ],
+									[ 7, [ 3 ], false ],
+									[ 7, [ 4 ], false ],
+									[ 7, [ 5 ], false ],
+									[ 7, [ 6 ], false ],
+									[ 7, [ 7 ], true ],
+
+									[ 3, [ 0 ], false ],
+									[ 3, [ 1 ], false ]
+								]
+							}
+						}
+					]
+				}
+            ]
         },
         {
             "Name" : "Lightning Bolt"
