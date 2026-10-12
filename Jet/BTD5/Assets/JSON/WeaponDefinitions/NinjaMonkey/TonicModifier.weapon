@@ -92,7 +92,7 @@
 						{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 2, "LoopCount": 4 },
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,
@@ -124,7 +124,7 @@
 						{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 2, "LoopCount": 3 },
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,
@@ -155,7 +155,7 @@
 					[	
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,
@@ -186,7 +186,7 @@
 					[	
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,
@@ -217,7 +217,7 @@
 					[	
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,
@@ -248,7 +248,7 @@
 					[	
 						{
 							"Type": "Projectile",
-							"NumPersists":      15,
+							"NumPersists":      25,
 							"TerminateOnZeroPersists": true,
 							"CollisionType": "Once",
 							"Radius": 500,

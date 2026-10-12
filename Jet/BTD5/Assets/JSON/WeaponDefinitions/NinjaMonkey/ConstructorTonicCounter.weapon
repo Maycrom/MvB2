@@ -6,6 +6,7 @@
 	"RequiresTargetToFire":	false,
 	"TotalAmmo":            100,
     "RemainingAmmo":        0,
+	"DisabledTasks": [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 ],
     "Tasks"	:
     [
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ] },
@@ -17,12 +18,15 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] },
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ] },
 		{
 			"Type" : "TimerFire",
 			"TimeDelay" : 0,
 			"Tasks" : 
 			[	
-				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 9 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 12 ] },
 				{
 					"Type" : "RestoreAmmo",
 					"SlotIndex" : 9,
