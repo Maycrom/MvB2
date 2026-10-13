@@ -2400,6 +2400,244 @@
 							]
 						}					
 					]
+				},
+				{
+					"Type" : "TowerModifier",
+					"Area" : [ 800, 100 ],
+					"PriorityLevel": 3,
+					"ReplacesPriorityLevel" : true,
+					"TerminateOnUserUpgrade" : false,
+					"TargetIsWeaponTaskOrigin": true,
+					"ModifyMovingTowers": false,
+					"RequiresEmptyPriorityLevel" : true,
+					"Duration": 0.05,
+					
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "NinjaMonkey" ]
+						}
+					},	
+						
+					"Modifier" : 
+					{
+					},
+					// If the tower is present, fire the tasks below
+					"Tasks":
+					[
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+									"Modifier":
+									{
+										"Cost": [ 1000, 0 ],
+										"BaseDisplay": "tower_recharge_overlay_1.json"
+									}
+								},
+								{
+									"Type" : "TimerFire", 
+									"TimeDelay" : 2.285,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_2.json"
+											}
+										}
+									]
+								},	
+								{
+									"Type" : "TimerFire",
+									"TimeDelay" : 4.570,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_3.json"
+											}
+										}
+									]
+								},	
+								{
+									"Type" : "TimerFire",
+									"TimeDelay" : 6.855,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_4.json"
+											}
+										}
+									]
+								},	
+								{
+									"Type" : "TimerFire",
+									"TimeDelay" : 9.140,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_5.json"
+											}
+										}
+									]
+								},	
+								{
+									"Type" : "TimerFire",
+									"TimeDelay" : 11.425,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_6.json"
+											}
+										}
+									]
+								},	
+								{
+									"Type" : "TimerFire",
+									"TimeDelay" : 13.710,
+									"Tasks" :
+									[
+										{
+											"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 2.285, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+											"Modifier":
+											{
+												"Cost": [ 1000, 0 ],
+												"BaseDisplay": "tower_recharge_overlay_7.json"
+											}
+										}
+									]
+								}
+							]
+						},		
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 16,
+							"Tasks" :
+							[
+								{
+									"Type": "TowerModifier",
+									"Range": 2500,
+									"PriorityLevel": 3,
+									"ReplacesPriorityLevel": true,
+									"TerminateOnUserUpgrade": false,
+									"ApplyToUserTower": false,
+									"TargetIsWeaponTaskOrigin": true,
+									"ModifyMovingTowers": true,
+									"Duration": 0.05,
+									
+									"TargetingFilter":
+									{
+										"Include" : { "TowerType": [ "NinjaMonkey" ] }
+									},
+									
+									"Modifier":
+									{
+										"Cost": [ 1, 0 ],
+										"BaseDisplay": "nothing.json"
+									}
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "recharge_bar_12s.json",
+									"Scale": 0,
+									"Audio": "GAME_WIN"
+								}
+							]
+						},
+						{
+							"Type" : "TimerFire",
+							"TimeDelay" : 0.0,
+							"DisabledTasks": [0,1,2,3,4,5,6,7],
+							"Tasks": 
+							[	
+								{//0
+									"Type": "Effect",
+									"Position": [ 207, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},//1
+								{
+									"Type": "Effect",
+									"Position": [ 237, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//2
+									"Type": "Effect",
+									"Position": [ 267, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//3
+									"Type": "Effect",
+									"Position": [ 297, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},	
+								{//4
+									"Type": "Effect",
+									"Position": [ 327, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//5
+									"Type": "Effect",
+									"Position": [ 177, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//6
+									"Type": "Effect",
+									"Position": [ 147, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								},
+								{//7
+									"Type": "Effect",
+									"Position": [ 117, -33 ],
+									"SpriteFile": "recharge_board_constructor_cooldown.json",
+									"Scale": 1,
+									"DrawLayer": "FullScreen"
+								}
+							]
+						}					
+					]
 				}
 			]
 		}
