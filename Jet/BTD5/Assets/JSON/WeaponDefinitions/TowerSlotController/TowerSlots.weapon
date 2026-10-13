@@ -1579,7 +1579,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 207, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 207, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -1644,7 +1644,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 207, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 207, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -2858,7 +2858,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 237, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 237, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -4137,7 +4137,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 267, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 267, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -5416,7 +5416,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 297, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 297, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -6695,7 +6695,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 327, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 327, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -7974,7 +7974,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 177, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 177, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -9253,7 +9253,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 147, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 147, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
@@ -10532,7 +10532,7 @@
 						},
 						{
 							// Cooldown Display
-							"Type": "Effect", "Position": [ 117, -33 ], "SpriteFile": "recharge_board_placeholder.json", "Scale": 1
+							"Type": "Effect", "Position": [ 117, -33 ], "SpriteFile": "recharge_board_constructor_default.json", "Scale": 1
 						},
 						{
 							// Disable Task
