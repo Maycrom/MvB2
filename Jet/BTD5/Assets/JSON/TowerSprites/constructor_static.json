@@ -1,0 +1,146 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 4.0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "constructor_static",
+         "type" : 1,
+         "uid" : 1
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 13.25 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 10
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -13.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 11
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 13.5, 0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 12
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -13.4, 0 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 13
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 9.5, 9.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 14
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -9.5, 9.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 15
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -9.5, -9.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 16
+      },
+	  {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 9.5, -9.5 ],
+         "Scale" : [ 1, 1 ],
+         "Shown" : true,
+         "sprite" : "ufo_light_red",
+         "type" : 1,
+         "uid" : 17
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+		 {
+            "SpriteInfo" : "constructor_static",
+            "Texture" : "InGame"
+         },
+		 {
+            "SpriteInfo" : "ufo_light_red",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 6,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+         ]
+      }
+   ]
+}
