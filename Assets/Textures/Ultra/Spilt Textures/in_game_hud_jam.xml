@@ -254,7 +254,6 @@
     <Cell name="ninja_avatar_seeking_shuriken_small" x="457" y="1291" w="232" h="200" ax="0" ay="0" aw="232" ah="200" />
     <Cell name="ninja_avatar_sharp_shuriken_small" x="1451" y="1148" w="221" h="212" ax="0" ay="0" aw="221" ah="212" />
     <Cell name="ninja_avatar_small" x="2393" y="2" w="198" h="197" ax="0" ay="0" aw="198" ah="197" />
-    <Cell name="ninja_icon" x="3396" y="616" w="100" h="117" ax="0" ay="0" aw="100" ah="117" />
     <Cell name="ninja_icon_greyed" x="3397" y="1713" w="100" h="117" ax="0" ay="0" aw="100" ah="117" />
     <Cell name="ninja_kiwi_avatar_small" x="2310" y="2722" w="212" h="166" ax="6" ay="16" aw="224" ah="182" />
     <Cell name="ninja_kiwi_icon" x="3026" y="3370" w="101" h="91" ax="0" ay="14" aw="103" ah="110" />
