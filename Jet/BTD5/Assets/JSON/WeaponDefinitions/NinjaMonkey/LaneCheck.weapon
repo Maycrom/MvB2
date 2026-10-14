@@ -11,7 +11,7 @@
     [
 		{
 			"Type": "Projectile",
-			"NumPersists":      -1,
+			"NumPersists":      60,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
 			"Radius": 65,
@@ -30,6 +30,12 @@
 					"Type" : "RestoreAmmo",
 					"SlotIndex" : 6,
 					"Amount" : 1
+				},
+				{
+					"Type" : "StatusEffect",
+					"Status" : "",
+					"NumPersists" : -1,
+					"Duration" : 1
 				}
 			]
 		},
