@@ -5,9 +5,9 @@
     <Cell name="abilities_icon" x="2013" y="3192" w="154" h="150" ax="0" ay="0" aw="156" ah="150" />
     <Cell name="abilities_thumb_box" x="2429" y="2892" w="90" h="93" ax="0" ay="0" aw="90" ah="93" />
     <Cell name="abilities_thumb_box_red" x="3493" y="959" w="80" h="82" ax="4" ay="4" aw="88" ah="90" />
-    <Cell name="ability_cooldown" x="1124" y="3356" w="100" h="100" ax="0" ay="0" aw="100" ah="100" />
+    <Cell name="ability_cooldown" x="1026" y="3356" w="100" h="100" ax="0" ay="0" aw="100" ah="100" />
     <Cell name="absolute_zero_icon" x="3508" y="1606" w="80" h="78" ax="0" ay="0" aw="80" ah="78" />
-    <Cell name="add_agent_icon" x="1856" y="3336" w="107" h="106" ax="0" ay="0" aw="107" ah="106" />
+    <Cell name="add_agent_icon" x="3385" y="3336" w="107" h="106" ax="0" ay="0" aw="107" ah="106" />
     <Cell name="add_symbol_yellow" x="3227" y="816" w="50" h="50" ax="2" ay="999999" aw="0" ah="0" />
     <Cell name="agents_icon" x="3259" y="1432" w="138" h="144" ax="0" ay="0" aw="138" ah="144" />
     <Cell name="ally_button" x="2594" y="3187" w="314" h="85" ax="0" ay="0" aw="314" ah="85" />
@@ -23,8 +23,8 @@
     <Cell name="apprentice_avatar_small" x="3291" y="816" w="106" h="197" ax="0" ay="0" aw="106" ah="197" />
     <Cell name="apprentice_avatar_tornado_small" x="3062" y="3064" w="135" h="215" ax="0" ay="0" aw="135" ah="215" />
     <Cell name="apprentice_avatar_whirlwind_small" x="2" y="2473" w="189" h="198" ax="0" ay="0" aw="189" ah="198" />
-    <Cell name="apprentice_icon" x="3385" y="3336" w="101" h="105" ax="0" ay="0" aw="101" ah="105" />
-    <Cell name="apprentice_icon_greyed" x="808" y="3317" w="104" h="114" ax="0" ay="0" aw="104" ah="114" />
+    <Cell name="apprentice_icon" x="1964" y="3346" w="101" h="105" ax="0" ay="0" aw="101" ah="105" />
+    <Cell name="apprentice_icon_greyed" x="918" y="3317" w="104" h="114" ax="0" ay="0" aw="104" ah="114" />
     <Cell name="artillery_icon" x="2989" y="2739" w="72" h="69" ax="0" ay="0" aw="72" ah="69" />
     <Cell name="bads_icon" x="2516" y="3200" w="68" h="66" ax="0" ay="0" aw="68" ah="66" />
     <Cell name="banana_farm_avatar_bank_small" x="2880" y="1641" w="206" h="162" ax="0" ay="0" aw="206" ah="162" />
@@ -36,14 +36,14 @@
     <Cell name="banana_farm_avatar_republic_small" x="333" y="3199" w="199" h="111" ax="0" ay="0" aw="199" ah="111" />
     <Cell name="banana_farm_avatar_small" x="2198" y="648" w="183" h="221" ax="0" ay="0" aw="183" ah="221" />
     <Cell name="banana_farm_avatar_valuable_bananas_small" x="2" y="981" w="236" h="205" ax="0" ay="0" aw="236" ah="205" />
-    <Cell name="banana_farm_icon" x="3401" y="2742" w="92" h="114" ax="0" ay="0" aw="92" ah="114" />
-    <Cell name="banana_farm_icon_greyed" x="3401" y="2860" w="92" h="114" ax="0" ay="0" aw="92" ah="114" />
+    <Cell name="banana_farm_icon" x="3397" y="2083" w="92" h="114" ax="0" ay="0" aw="92" ah="114" />
+    <Cell name="banana_farm_icon_greyed" x="3401" y="2742" w="92" h="114" ax="0" ay="0" aw="92" ah="114" />
     <Cell name="beekeeper_avatar_small" x="2701" y="998" w="181" h="201" ax="0" ay="0" aw="181" ah="201" />
-    <Cell name="beekeeper_icon" x="603" y="3401" w="99" h="89" ax="0" ay="0" aw="99" ah="89" />
-    <Cell name="beekeeper_pro_ability_icon" x="103" y="3407" w="64" h="67" ax="0" ay="0" aw="64" ah="67" />
+    <Cell name="beekeeper_icon" x="609" y="3401" w="99" h="89" ax="0" ay="0" aw="99" ah="89" />
+    <Cell name="beekeeper_pro_ability_icon" x="105" y="3407" w="64" h="67" ax="0" ay="0" aw="64" ah="67" />
     <Cell name="beekeeper_pro_avatar_small" x="1992" y="678" w="202" h="204" ax="0" ay="0" aw="202" ah="204" />
-    <Cell name="beekeeper_pro_icon" x="1967" y="3346" w="103" h="102" ax="0" ay="0" aw="103" ah="102" />
-    <Cell name="blade_maelstrom_icon" x="3501" y="1769" w="79" h="78" ax="0" ay="0" aw="79" ah="78" />
+    <Cell name="beekeeper_pro_icon" x="502" y="3350" w="103" h="102" ax="0" ay="0" aw="103" ah="102" />
+    <Cell name="blade_maelstrom_icon" x="3485" y="1769" w="79" h="78" ax="0" ay="0" aw="79" ah="78" />
     <Cell name="bloonberry_avatar_small" x="1650" y="494" w="212" h="207" ax="0" ay="0" aw="212" ah="207" />
     <Cell name="bloonberry_icon" x="3493" y="775" w="82" h="85" ax="0" ay="0" aw="82" ah="85" />
     <Cell name="bloonberry_icon_small" x="3500" y="686" w="82" h="85" ax="0" ay="0" aw="82" ah="85" />
@@ -58,12 +58,12 @@
     <Cell name="bloonchipper_avatar_super_vac_small" x="1650" y="2171" w="214" h="187" ax="0" ay="0" aw="214" ah="187" />
     <Cell name="bloonchipper_avatar_super_wide_funnel_small" x="646" y="2376" w="199" h="193" ax="0" ay="0" aw="199" ah="193" />
     <Cell name="bloonchipper_avatar_triple_barrel_small" x="1868" y="2185" w="214" h="187" ax="0" ay="0" aw="214" ah="187" />
-    <Cell name="bloonchipper_icon" x="916" y="3317" w="103" h="115" ax="0" ay="0" aw="103" ah="115" />
+    <Cell name="bloonchipper_icon" x="2285" y="3329" w="103" h="115" ax="0" ay="0" aw="103" ah="115" />
     <Cell name="bloonchipper_icon_greyed" x="3372" y="1017" w="117" h="124" ax="0" ay="0" aw="117" ah="124" />
     <Cell name="bloonsday_avatar_small" x="2053" y="436" w="196" h="208" ax="0" ay="0" aw="196" ah="208" />
-    <Cell name="bloonsday_device_ability_icon" x="171" y="3407" w="66" h="63" ax="0" ay="0" aw="66" ah="63" />
-    <Cell name="bloonsday_device_pro_ability_icon" x="3490" y="3412" w="66" h="63" ax="0" ay="0" aw="66" ah="63" />
-    <Cell name="bloonsday_icon" x="3401" y="2978" w="96" h="107" ax="0" ay="0" aw="96" ah="107" />
+    <Cell name="bloonsday_device_ability_icon" x="173" y="3407" w="66" h="63" ax="0" ay="0" aw="66" ah="63" />
+    <Cell name="bloonsday_device_pro_ability_icon" x="3496" y="3412" w="66" h="63" ax="0" ay="0" aw="66" ah="63" />
+    <Cell name="bloonsday_icon" x="3401" y="2985" w="96" h="107" ax="0" ay="0" aw="96" ah="107" />
     <Cell name="bloonsday_pro_avatar_small" x="2" y="1445" w="241" h="188" ax="2" ay="0" aw="243" ah="188" />
     <Cell name="bloonsday_pro_icon" x="1863" y="2881" w="109" h="90" ax="0" ay="0" aw="109" ah="90" />
     <Cell name="bloon_type_toggle" x="3293" y="1713" w="89" h="67" ax="0" ay="0" aw="89" ah="67" />
@@ -77,7 +77,7 @@
     <Cell name="bomb_avatar_moab_mauler_small" x="2500" y="834" w="169" h="224" ax="0" ay="0" aw="169" ah="224" />
     <Cell name="bomb_avatar_small" x="2228" y="1532" w="208" h="191" ax="0" ay="0" aw="208" ah="191" />
     <Cell name="bomb_icon" x="2448" y="1833" w="116" h="97" ax="0" ay="0" aw="116" ah="97" />
-    <Cell name="bomb_icon_greyed" x="3407" y="2204" w="90" h="105" ax="0" ay="0" aw="90" ah="105" />
+    <Cell name="bomb_icon_greyed" x="3407" y="2201" w="90" h="105" ax="0" ay="0" aw="90" ah="105" />
     <Cell name="boomerang_avatar_bionic_boomer_small" x="2054" y="1767" w="199" h="204" ax="0" ay="0" aw="199" ah="204" />
     <Cell name="boomerang_avatar_glaive_lord_small" x="2" y="2301" w="233" h="168" ax="0" ay="0" aw="233" ah="168" />
     <Cell name="boomerang_avatar_glaive_riccochet_small" x="3077" y="1277" w="204" h="151" ax="0" ay="0" aw="204" ah="151" />
@@ -88,7 +88,7 @@
     <Cell name="boomerang_avatar_sonic_boom_small" x="3146" y="2463" w="140" h="213" ax="0" ay="0" aw="140" ah="213" />
     <Cell name="boomerang_avatar_turbo_charge_small" x="2919" y="2840" w="159" h="208" ax="0" ay="0" aw="159" ah="208" />
     <Cell name="boomerang_icon" x="1773" y="2623" w="105" h="104" ax="0" ay="0" aw="105" ah="104" />
-    <Cell name="boomerang_icon_greyed" x="3397" y="2094" w="99" h="106" ax="0" ay="0" aw="99" ah="106" />
+    <Cell name="boomerang_icon_greyed" x="3397" y="1973" w="99" h="106" ax="0" ay="0" aw="99" ah="106" />
     <Cell name="buccaneer_avatar_aircraft_carrier_small" x="2770" y="2" w="213" h="165" ax="0" ay="0" aw="213" ah="165" />
     <Cell name="buccaneer_avatar_cannon_ship_small" x="2273" y="1337" w="208" h="191" ax="0" ay="0" aw="208" ah="191" />
     <Cell name="buccaneer_avatar_crows_nest_small" x="2200" y="2" w="189" h="214" ax="0" ay="0" aw="189" ah="214" />
@@ -130,11 +130,11 @@
     <Cell name="dart_monkey_avatar_spikeopult_small" x="2500" y="1258" w="189" h="200" ax="0" ay="0" aw="189" ah="200" />
     <Cell name="dart_monkey_avatar_supermonkey_fanclub_small" x="956" y="1769" w="219" h="192" ax="0" ay="0" aw="219" ah="192" />
     <Cell name="dart_monkey_avatar_triple_shot_small" x="2049" y="1531" w="175" h="232" ax="0" ay="0" aw="175" ah="232" />
-    <Cell name="dart_monkey_icon" x="2" y="3354" w="97" h="106" ax="0" ay="0" aw="97" ah="106" />
-    <Cell name="dart_monkey_icon_greyed" x="1023" y="3356" w="97" h="106" ax="0" ay="0" aw="97" ah="106" />
+    <Cell name="dart_monkey_icon" x="3400" y="2875" w="97" h="106" ax="0" ay="0" aw="97" ah="106" />
+    <Cell name="dart_monkey_icon_greyed" x="2069" y="3346" w="97" h="106" ax="0" ay="0" aw="97" ah="106" />
     <Cell name="direction_arrow" x="3501" y="2190" w="68" h="82" ax="0" ay="0" aw="68" ah="82" />
     <Cell name="drag_lock_no" x="3500" y="2028" w="73" h="80" ax="2" ay="2" aw="77" ah="82" />
-    <Cell name="drag_lock_yes" x="2802" y="3375" w="94" h="97" ax="3" ay="2" aw="100" ah="99" />
+    <Cell name="drag_lock_yes" x="2797" y="3375" w="94" h="97" ax="3" ay="2" aw="100" ah="99" />
     <Cell name="engineer_avatar_9inch_nails_small" x="646" y="2170" w="161" h="200" ax="0" ay="0" aw="161" ah="200" />
     <Cell name="engineer_avatar_bloon_trap_small" x="3255" y="219" w="140" h="191" ax="0" ay="0" aw="140" ah="191" />
     <Cell name="engineer_avatar_fast_engineering_small" x="2897" y="1231" w="176" h="192" ax="0" ay="0" aw="176" ah="192" />
@@ -148,7 +148,7 @@
     <Cell name="engineer_icon_greyed" x="1581" y="952" w="87" h="132" ax="0" ay="0" aw="87" ah="132" />
     <Cell name="evil_temple_icon" x="3496" y="2522" w="70" h="76" ax="0" ay="0" aw="70" ah="76" />
     <Cell name="farmer_avatar_small" x="2187" y="220" w="195" h="207" ax="0" ay="1" aw="195" ah="208" />
-    <Cell name="farmer_icon" x="2168" y="3401" w="106" h="76" ax="0" ay="0" aw="106" ah="76" />
+    <Cell name="farmer_icon" x="2170" y="3401" w="106" h="76" ax="0" ay="0" aw="106" ah="76" />
     <Cell name="farmer_pro_avatar_small" x="540" y="2992" w="161" h="198" ax="0" ay="0" aw="161" ah="199" />
     <Cell name="farmer_pro_icon" x="3490" y="129" w="89" h="87" ax="0" ay="0" aw="89" ah="87" />
     <Cell name="ff_icon" x="3269" y="2742" w="128" h="129" ax="0" ay="0" aw="128" ah="129" />
@@ -170,9 +170,9 @@
     <Cell name="glue_gunner_icon_greyed" x="3401" y="1414" w="87" h="125" ax="0" ay="0" aw="87" ah="125" />
     <Cell name="glue_striker_icon" x="3495" y="1130" w="81" h="79" ax="0" ay="0" aw="81" ah="79" />
     <Cell name="green_arrow" x="3493" y="864" w="76" h="91" ax="0" ay="0" aw="76" ah="91" />
-    <Cell name="ground_zero_icon" x="3490" y="3342" w="66" h="66" ax="0" ay="0" aw="66" ah="66" />
-    <Cell name="helicopter_icon" x="1713" y="1387" w="102" h="118" ax="0" ay="0" aw="104" ah="118" />
-    <Cell name="helicopter_icon_greyed" x="2379" y="2420" w="102" h="118" ax="0" ay="0" aw="104" ah="118" />
+    <Cell name="ground_zero_icon" x="3496" y="3342" w="66" h="66" ax="0" ay="0" aw="66" ah="66" />
+    <Cell name="helicopter_icon" x="2379" y="2420" w="102" h="118" ax="0" ay="0" aw="104" ah="118" />
+    <Cell name="helicopter_icon_greyed" x="1713" y="1387" w="102" h="118" ax="0" ay="0" aw="104" ah="118" />
     <Cell name="heli_avatar_apache_small" x="1015" y="936" w="265" h="185" ax="0" ay="0" aw="265" ah="185" />
     <Cell name="heli_avatar_basic_small" x="1398" y="2137" w="248" h="163" ax="0" ay="0" aw="248" ah="163" />
     <Cell name="heli_avatar_bigger_jets_small" x="463" y="1121" w="285" h="166" ax="0" ay="0" aw="285" ah="166" />
@@ -182,7 +182,7 @@
     <Cell name="heli_avatar_longer_range_small" x="1451" y="1364" w="258" h="176" ax="0" ay="0" aw="258" ah="176" />
     <Cell name="heli_avatar_quad_darts_small" x="1926" y="1142" w="210" h="199" ax="0" ay="0" aw="210" ah="199" />
     <Cell name="heli_avatar_razor_rotors_small" x="832" y="667" w="238" h="228" ax="0" ay="0" aw="238" ah="228" />
-    <Cell name="hourglass" x="2285" y="3329" w="103" h="115" ax="3" ay="3" aw="108" ah="122" />
+    <Cell name="hourglass" x="2392" y="3329" w="103" h="115" ax="3" ay="3" aw="108" ah="122" />
     <Cell name="ice_avatar_absolute_zero_small" x="636" y="2573" w="164" h="224" ax="0" ay="0" aw="164" ah="224" />
     <Cell name="ice_avatar_arctic_wind_small" x="2637" y="2629" w="176" h="203" ax="0" ay="0" aw="176" ah="203" />
     <Cell name="ice_avatar_deep_freeze_small" x="205" y="2678" w="176" h="201" ax="0" ay="0" aw="176" ah="201" />
@@ -192,7 +192,7 @@
     <Cell name="ice_avatar_small" x="2989" y="2521" w="153" h="214" ax="0" ay="0" aw="153" ah="214" />
     <Cell name="ice_avatar_snap_freeze_small" x="3133" y="439" w="151" h="206" ax="0" ay="0" aw="151" ah="206" />
     <Cell name="ice_avatar_viral_frost_small" x="2740" y="2840" w="175" h="189" ax="0" ay="0" aw="175" ah="189" />
-    <Cell name="ice_icon" x="1228" y="3356" w="94" h="106" ax="0" ay="0" aw="94" ah="106" />
+    <Cell name="ice_icon" x="1130" y="3356" w="94" h="106" ax="0" ay="0" aw="94" ah="106" />
     <Cell name="ice_icon_greyed" x="3431" y="2" w="81" h="97" ax="0" ay="2" aw="81" ah="99" />
     <Cell name="info_button" x="148" y="2213" w="70" h="76" ax="0" ay="0" aw="70" ah="76" />
     <Cell name="info_icon" x="3501" y="2276" w="61" h="91" ax="1" ay="1" aw="64" ah="92" />
@@ -202,7 +202,7 @@
     <Cell name="lower_hud_bg_02" x="1046" y="262" w="274" h="256" ax="0" ay="0" aw="274" ah="256" />
     <Cell name="max_upgrades_unlock" x="1156" y="3169" w="270" h="104" ax="0" ay="0" aw="270" ah="104" />
     <Cell name="meerkat_avatar_small" x="3288" y="414" w="109" h="198" ax="0" ay="0" aw="109" ah="198" />
-    <Cell name="meerkat_icon" x="2705" y="3356" w="93" h="104" ax="0" ay="1" aw="93" ah="105" />
+    <Cell name="meerkat_icon" x="2606" y="3356" w="93" h="104" ax="0" ay="1" aw="93" ah="105" />
     <Cell name="meerkat_pro_avatar_small" x="385" y="2789" w="176" h="197" ax="0" ay="0" aw="177" ah="197" />
     <Cell name="meerkat_pro_icon" x="395" y="1789" w="89" h="108" ax="0" ay="0" aw="89" ah="108" />
     <Cell name="moab_assassin_icon" x="3492" y="1479" w="74" h="58" ax="0" ay="0" aw="74" ah="58" />
@@ -217,7 +217,7 @@
     <Cell name="monkeysub_avatar_submerge_support_small" x="849" y="2570" w="211" h="175" ax="0" ay="0" aw="211" ah="175" />
     <Cell name="monkeysub_avatar_twin_guns_small" x="2012" y="1975" w="197" h="206" ax="0" ay="0" aw="197" ah="206" />
     <Cell name="monkeysub_icon" x="1371" y="1366" w="73" h="120" ax="0" ay="0" aw="73" ah="120" />
-    <Cell name="monkeysub_icon_greyed" x="3422" y="2313" w="73" h="120" ax="0" ay="0" aw="73" ah="120" />
+    <Cell name="monkeysub_icon_greyed" x="3422" y="2310" w="73" h="120" ax="0" ay="0" aw="73" ah="120" />
     <Cell name="monkey_ace_avatar_ground_zero_small" x="395" y="1913" w="213" h="196" ax="0" ay="0" aw="213" ah="196" />
     <Cell name="monkey_ace_avatar_nmt_small" x="2448" y="1645" w="205" h="184" ax="0" ay="0" aw="205" ah="184" />
     <Cell name="monkey_ace_avatar_ods_small" x="2594" y="3033" w="233" h="136" ax="0" ay="0" aw="233" ah="136" />
@@ -246,7 +246,7 @@
     <Cell name="mortar_avatar_small" x="759" y="1100" w="223" h="214" ax="0" ay="0" aw="223" ah="214" />
     <Cell name="mortar_icon" x="3385" y="3210" w="110" h="122" ax="0" ay="1" aw="110" ah="123" />
     <Cell name="mortar_icon_greyed" x="3286" y="2875" w="110" h="122" ax="0" ay="1" aw="110" ah="123" />
-    <Cell name="new_tower_icon" x="388" y="3314" w="106" h="112" ax="0" ay="0" aw="106" ah="112" />
+    <Cell name="new_tower_icon" x="808" y="3317" w="106" h="112" ax="0" ay="0" aw="106" ah="112" />
     <Cell name="ninja_avatar_bloonjitsu_small" x="2886" y="1023" w="166" h="204" ax="0" ay="0" aw="166" ah="204" />
     <Cell name="ninja_avatar_discipline_small" x="3077" y="1071" w="153" h="202" ax="0" ay="0" aw="153" ah="202" />
     <Cell name="ninja_avatar_distraction_small" x="2" y="2860" w="197" h="167" ax="0" ay="0" aw="197" ah="167" />
@@ -256,7 +256,7 @@
     <Cell name="ninja_avatar_seeking_shuriken_small" x="457" y="1291" w="232" h="200" ax="0" ay="0" aw="232" ah="200" />
     <Cell name="ninja_avatar_sharp_shuriken_small" x="1451" y="1148" w="221" h="212" ax="0" ay="0" aw="221" ah="212" />
     <Cell name="ninja_avatar_small" x="2393" y="2" w="198" h="197" ax="0" ay="0" aw="198" ah="197" />
-    <Cell name="ninja_icon" x="3397" y="1713" w="100" h="117" ax="0" ay="0" aw="100" ah="117" />
+    <Cell name="ninja_icon" x="388" y="3314" w="110" h="110" ax="0" ay="0" aw="110" ah="110" />
     <Cell name="ninja_icon_greyed" x="3396" y="616" w="100" h="117" ax="0" ay="0" aw="100" ah="117" />
     <Cell name="ninja_kiwi_avatar_small" x="2310" y="2722" w="212" h="166" ax="6" ay="16" aw="224" ah="182" />
     <Cell name="ninja_kiwi_icon" x="3121" y="3370" w="101" h="91" ax="0" ay="14" aw="103" ah="110" />
@@ -267,8 +267,8 @@
     <Cell name="paused_text" x="768" y="536" w="531" h="127" ax="0" ay="0" aw="534" ah="132" />
     <Cell name="pause_icon" x="3293" y="1580" w="128" h="129" ax="0" ay="0" aw="128" ah="129" />
     <Cell name="phoenix_icon" x="3497" y="2677" w="72" h="71" ax="0" ay="0" aw="72" ah="71" />
-    <Cell name="pineapple_icon" x="3397" y="1964" w="84" h="126" ax="0" ay="0" aw="84" ah="126" />
-    <Cell name="pineapple_icon_greyed" x="3397" y="1834" w="84" h="126" ax="0" ay="0" aw="84" ah="126" />
+    <Cell name="pineapple_icon" x="3397" y="1843" w="84" h="126" ax="0" ay="0" aw="84" ah="126" />
+    <Cell name="pineapple_icon_greyed" x="3397" y="1713" w="84" h="126" ax="0" ay="0" aw="84" ah="126" />
     <Cell name="pirates_icon" x="1506" y="3421" w="63" h="61" ax="0" ay="0" aw="63" ah="61" />
     <Cell name="plain_blue_button" x="3290" y="2343" w="128" h="129" ax="0" ay="0" aw="128" ah="129" />
     <Cell name="plain_button" x="3296" y="2" w="131" h="137" ax="0" ay="0" aw="131" ah="137" />
@@ -282,16 +282,16 @@
     <Cell name="portable_icon" x="3499" y="2371" w="82" h="67" ax="0" ay="0" aw="82" ah="67" />
     <Cell name="portable_lake_avatar_small" x="3082" y="2909" w="200" h="151" ax="0" ay="0" aw="200" ah="152" />
     <Cell name="portable_lake_icon" x="3422" y="2442" w="82" h="67" ax="0" ay="0" aw="82" ah="67" />
-    <Cell name="portable_lake_pro_ability_icon" x="3497" y="2899" w="72" h="68" ax="0" ay="0" aw="72" ah="68" />
+    <Cell name="portable_lake_pro_ability_icon" x="3501" y="2899" w="72" h="68" ax="0" ay="0" aw="72" ah="68" />
     <Cell name="portable_lake_pro_avatar_small" x="2327" y="1061" w="169" h="234" ax="0" ay="0" aw="169" ah="234" />
-    <Cell name="portable_lake_pro_icon" x="2500" y="3356" w="94" h="105" ax="0" ay="0" aw="94" ah="105" />
-    <Cell name="preferred_monkey_icon" x="706" y="3401" w="91" h="87" ax="0" ay="0" aw="91" ah="87" />
+    <Cell name="portable_lake_pro_icon" x="1228" y="3356" w="94" h="105" ax="0" ay="0" aw="94" ah="105" />
+    <Cell name="preferred_monkey_icon" x="712" y="3401" w="91" h="87" ax="0" ay="0" aw="91" ah="87" />
     <Cell name="question_mark" x="3498" y="1377" w="65" h="98" ax="0" ay="0" aw="65" ah="98" />
     <Cell name="radadactyl_avatar_small" x="1992" y="2" w="204" h="204" ax="1" ay="1" aw="205" ah="205" />
-    <Cell name="radadactyl_icon" x="2900" y="3375" w="93" h="98" ax="0" ay="0" aw="93" ah="98" />
+    <Cell name="radadactyl_icon" x="2895" y="3375" w="93" h="98" ax="0" ay="0" aw="93" ah="98" />
     <Cell name="radadactyl_pro_avatar_small" x="1998" y="210" w="185" h="222" ax="0" ay="0" aw="185" ah="222" />
     <Cell name="radadactyl_pro_icon" x="3516" y="2" w="63" h="123" ax="0" ay="0" aw="63" ah="123" />
-    <Cell name="red_box" x="3500" y="2112" w="76" h="74" ax="0" ay="0" aw="76" ah="74" />
+    <Cell name="red_box" x="3493" y="2112" w="76" h="74" ax="0" ay="0" aw="76" ah="74" />
     <Cell name="sabotage_icon" x="3501" y="3119" w="69" h="68" ax="0" ay="0" aw="69" ah="68" />
     <Cell name="sandbox_bloon_button" x="3250" y="3210" w="131" h="137" ax="0" ay="0" aw="131" ah="137" />
     <Cell name="sandbox_camo" x="3401" y="737" w="88" h="131" ax="12" ay="18" aw="112" ah="152" />
@@ -303,7 +303,7 @@
     <Cell name="scroll_down_arrow" x="3401" y="544" w="130" h="59" ax="0" ay="0" aw="130" ah="59" />
     <Cell name="scroll_up_arrow" x="3425" y="1543" w="130" h="59" ax="0" ay="0" aw="130" ah="59" />
     <Cell name="sell_box" x="2516" y="3276" w="288" h="76" ax="0" ay="0" aw="288" ah="76" />
-    <Cell name="shadow_double_icon" x="3497" y="2826" w="71" h="69" ax="0" ay="0" aw="71" ah="69" />
+    <Cell name="shadow_double_icon" x="3501" y="2826" w="71" h="69" ax="0" ay="0" aw="71" ah="69" />
     <Cell name="side_hud_bg_01" x="768" y="262" w="274" h="270" ax="0" ay="0" aw="274" ah="270" />
     <Cell name="side_hud_bg_02" x="490" y="262" w="274" h="280" ax="0" ay="0" aw="274" ah="280" />
     <Cell name="side_hud_scroll" x="1324" y="262" w="274" h="248" ax="0" ay="0" aw="274" ah="248" />
@@ -327,13 +327,13 @@
     <Cell name="spike_factory_avatar_spike_balls_small" x="2" y="1789" w="183" h="229" ax="0" ay="0" aw="183" ah="229" />
     <Cell name="spike_factory_avatar_spike_storm_small" x="1866" y="441" w="183" h="233" ax="0" ay="0" aw="183" ah="233" />
     <Cell name="spike_factory_avatar_white_hot_small" x="2140" y="1112" w="183" h="221" ax="0" ay="0" aw="183" ah="221" />
-    <Cell name="spike_factory_icon" x="2392" y="3329" w="104" h="111" ax="1" ay="1" aw="106" ah="112" />
+    <Cell name="spike_factory_icon" x="1856" y="3336" w="104" h="111" ax="1" ay="1" aw="106" ah="112" />
     <Cell name="spike_factory_icon_greyed" x="1748" y="3336" w="104" h="111" ax="1" ay="1" aw="106" ah="112" />
     <Cell name="spike_storm_icon" x="3485" y="1851" w="80" h="77" ax="0" ay="0" aw="80" ah="77" />
     <Cell name="squirrel_avatar_small" x="223" y="2113" w="220" h="184" ax="0" ay="0" aw="220" ah="184" />
-    <Cell name="squirrel_icon" x="498" y="3350" w="101" h="104" ax="0" ay="0" aw="101" ah="104" />
+    <Cell name="squirrel_icon" x="3250" y="3351" w="101" h="104" ax="0" ay="0" aw="101" ah="104" />
     <Cell name="squirrel_pro_avatar_small" x="1824" y="1781" w="226" h="186" ax="0" ay="0" aw="226" ah="186" />
-    <Cell name="squirrel_pro_icon" x="2598" y="3356" w="103" h="94" ax="0" ay="0" aw="103" ah="94" />
+    <Cell name="squirrel_pro_icon" x="2499" y="3356" w="103" h="94" ax="0" ay="0" aw="103" ah="94" />
     <Cell name="star" x="3468" y="103" w="21" h="19" ax="0" ay="0" aw="21" ah="19" />
     <Cell name="supermonkey_avatar_epic_range_small" x="2125" y="2595" w="181" h="202" ax="0" ay="0" aw="181" ah="202" />
     <Cell name="supermonkey_avatar_laser_vision_small" x="2491" y="2367" w="186" h="202" ax="0" ay="0" aw="186" ah="202" />
@@ -350,7 +350,7 @@
     <Cell name="supermonkey_storm_avatar_small" x="963" y="2825" w="210" h="158" ax="0" ay="0" aw="210" ah="158" />
     <Cell name="supermonkey_storm_icon" x="690" y="3283" w="114" h="114" ax="0" ay="0" aw="114" ah="114" />
     <Cell name="supermonkey_storm_pro_avatar_small" x="2526" y="2836" w="210" h="158" ax="0" ay="0" aw="210" ah="158" />
-    <Cell name="supermonkey_storm_pro_icon" x="3401" y="3089" w="96" h="106" ax="0" ay="0" aw="96" ah="106" />
+    <Cell name="supermonkey_storm_pro_icon" x="3401" y="3096" w="96" h="106" ax="0" ay="0" aw="96" ah="106" />
     <Cell name="super_black_powder_icon" x="3501" y="3044" w="68" h="71" ax="0" ay="0" aw="68" ah="71" />
     <Cell name="super_vac_icon" x="3493" y="1045" w="80" h="81" ax="0" ay="0" aw="80" ah="81" />
     <Cell name="supply_drop_icon" x="1581" y="1088" w="66" h="54" ax="0" ay="0" aw="66" ah="54" />
@@ -365,8 +365,8 @@
     <Cell name="tack_shooter_avatar_small" x="2570" y="1833" w="189" h="196" ax="0" ay="0" aw="189" ah="196" />
     <Cell name="tack_shooter_avatar_sprayer_small" x="2" y="1190" w="204" h="228" ax="0" ay="0" aw="204" ah="228" />
     <Cell name="tack_shooter_avatar_super_range_small" x="3090" y="1632" w="199" h="154" ax="0" ay="0" aw="199" ah="154" />
-    <Cell name="tack_shooter_icon" x="2074" y="3346" w="90" h="105" ax="5" ay="0" aw="99" ah="104" />
-    <Cell name="tack_shooter_icon_greyed" x="3250" y="3351" w="99" h="104" ax="0" ay="0" aw="99" ah="104" />
+    <Cell name="tack_shooter_icon" x="2703" y="3356" w="90" h="105" ax="5" ay="0" aw="99" ah="104" />
+    <Cell name="tack_shooter_icon_greyed" x="2" y="3354" w="99" h="104" ax="0" ay="0" aw="99" ah="104" />
     <Cell name="target_box" x="804" y="2753" w="516" h="68" ax="3" ay="3" aw="522" ah="74" />
     <Cell name="target_box_selected" x="1116" y="3277" w="273" h="75" ax="0" ay="0" aw="273" ah="75" />
     <Cell name="tech_terror_icon" x="3498" y="1296" w="83" h="77" ax="0" ay="0" aw="83" ah="77" />
@@ -374,7 +374,7 @@
     <Cell name="totem_avatar" x="2895" y="2161" w="189" h="176" ax="0" ay="0" aw="189" ah="176" />
     <Cell name="totem_avatar_small" x="2019" y="2801" w="189" h="176" ax="0" ay="0" aw="189" ah="176" />
     <Cell name="tower_cost_box" x="1284" y="977" w="293" h="167" ax="2" ay="3" aw="298" ah="172" />
-    <Cell name="tower_locked" x="3485" y="1932" w="66" h="92" ax="0" ay="0" aw="67" ah="93" />
+    <Cell name="tower_locked" x="3500" y="1932" w="66" h="92" ax="0" ay="0" aw="67" ah="93" />
     <Cell name="tower_name_box" x="3056" y="932" w="231" h="135" ax="0" ay="0" aw="231" ah="135" />
     <Cell name="tower_name_upgrade_box" x="2" y="1695" w="485" h="90" ax="0" ay="0" aw="485" ah="90" />
     <Cell name="tower_profile_pic_box" x="1799" y="215" w="195" h="222" ax="0" ay="0" aw="196" ah="222" />
