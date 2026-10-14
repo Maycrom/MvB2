@@ -118,7 +118,7 @@
 			"Amount" : 4
 		},
 		{
-			"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+			"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
 			"Modifier" : {
 			"EnabledSubtasks" :[[ 7, [ 7 ], true ]]}
 		}		

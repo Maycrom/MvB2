@@ -124,7 +124,7 @@
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 6,1 ], "ToDisable": [ 5 ] },
 				{ "Type": "TextEffect","Text": "2","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
 					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 4 ], true ]]}
 				}
 			]
@@ -143,7 +143,7 @@
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12,2 ], "ToDisable": [ 11,1 ] },
 				{ "Type": "TextEffect","Text": "3","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
 					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 5 ], true ]]}
 				}
 			]
@@ -163,7 +163,7 @@
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 18,2 ] },
 				{ "Type": "TextEffect","Text": "4","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
 				{
-					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 6,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
+					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
 					"Modifier" : {"EnabledSubtasks" :[[ 7, [ 6 ], true ]]}
 				}
 			]
