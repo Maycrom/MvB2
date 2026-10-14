@@ -16,6 +16,8 @@
 	"ConstructorVisual",
 	"ConstructorTonicCounter",
 	"ConstructorTonicBananas",
+	"BombShooterProximityCheck",
+	"BombShooterAltFire",
 
 	// TestTower
 	"CooldownControllerTutorial",
