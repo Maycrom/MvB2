@@ -1186,7 +1186,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_UPGRADE_B3_MortarTower" l="0">Signal Flare</T>
 	<T id="LOC_UPGRADE_B4_MortarTower" l="0">Artillery Battery</T>
 
-	<T id="LOC_UPGRADE_A1_NinjaMonkey" l="0">Ninja Discipline</T>
+	<T id="LOC_UPGRADE_A1_NinjaMonkey" l="0">Matter Collector</T>
 	<T id="LOC_UPGRADE_A2_NinjaMonkey" l="0">Sharp Shurikens</T>
 	<T id="LOC_UPGRADE_A3_NinjaMonkey" l="0">Double Shot</T>
 	<T id="LOC_UPGRADE_A4_NinjaMonkey" l="0">Bloonjitsu</T>
@@ -1377,7 +1377,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_MortarTower_UPGRADE_DESC_B3" l="0">Camo Bloons popped by flares permanently lose their camo.</T>
 	<T id="LOC_MortarTower_UPGRADE_DESC_B4" l="0">Ability: immobilizes and bombards the entire screen for 5 seconds.</T>
 
-	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A1" l="0">Increases attack range and attack speed.</T>
+	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A1" l="0">Bloons are stunned for a short period of time, collection radius increased by 25%.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A2" l="0">Shurikens can pop 4 bloons each.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A3" l="0">Throws 2 shurikens at once.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A4" l="0">Throws 5 shurikens at once!</T>
