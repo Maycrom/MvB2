@@ -1,5 +1,5 @@
 {
-	"Type" : "White",
+	"Type" : "RedFlagBloon",
 	"InitialHealth" : 14,
 	"SpriteFilesAtDamageLevels": [
 		[ "red_flag_bloon1.json", 28 ],
@@ -32,8 +32,8 @@
 		[ "red_flag_bloon12.json", 1 ],
 		[ "red_flag_bloon13.json", 0 ]
 	],
-	"BaseSpeed" : 16,
-	"SpeedMultiplier" : 1.5,
+	"BaseSpeed" : 24,
+	"SpeedMultiplier" : 1.0,
 	"RBE" : 11,
     "ChildBloons" : [  ],
     "StatusImmunity" : [ "Permafrost" ],
