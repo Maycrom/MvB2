@@ -1,0 +1,200 @@
+{	
+    "Type":             "BombShooterAltFire",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     2.3,
+    "FireDelayTime":    0.20,
+	"TargetingArc" : 0.872664626,
+	"DisabledTasks": [1],
+	"StartsOnCooldown": true,
+	"SelfTargetMode": "Arc",
+	"ForwardFiring" : true,
+    "Tasks"	:
+    [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "BombProjectile.json",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"HasFixedAngle": true,
+			
+			"Radius": 3,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 175.0,
+				"CutOffDistance": 700,
+				"Direction": [1, 0]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 60,
+					"MaxTargets": 15,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 2
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.6
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : true,
+			"Offsets" : [
+				[ 0, -8 ]
+			],
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "BombProjectileRed.json",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					"HasFixedAngle": true,
+					
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 250.0,
+						"CutOffDistance": 700,
+						"Direction": [1, 0]
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 80,
+							"MaxTargets": 20,
+							"Tasks" :
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 4
+								},
+								{
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 2
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "Stun",
+									"Duration": 0.8
+								}
+							]
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion.json",
+							"Scale": 0.725
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 0.0,
+							"FireCount": 3,
+							"AimAtTarget" : false,
+							"Tasks":
+							[
+								{
+									"Type": "RandomFire",
+									"Range": 55,
+									"MinimumRange" : 30,
+									"OnlyTargetPathLocations": true,
+									"FireFullRange": false,
+									"TerminateOnZeroPersists": true,
+									"FollowTarget": false,
+									
+									"Tasks":
+									[
+										{
+											"Type": "Projectile",
+											"SpriteFile": "BombProjectileSmall.json",
+											"NumPersists":      1,
+											"TerminateOnZeroPersists": true,
+											
+											"CollisionType": "None",
+											
+											"Radius": 3,
+											
+											"Movement":
+											{
+												"Type": "MotionCurve",
+												"Curves": 
+												[
+													[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+												],
+												"Speed": 125.0,
+												"TerminateAtEndOfCurve": true
+											},
+											"TasksToProcessOnTerminate": [0,1],
+											"Tasks":
+											[
+												{
+													"Type": "AreaOfEffect",
+													"Range": 40,
+													"MaxTargets": 10,
+													"Tasks" :
+													[
+														{
+															"Type": "Damage",
+															"DamageType": "Piercing",
+															"Amount": 2
+														},
+														{
+															"Type": "Damage",
+															"DamageType": "Explosive",
+															"Amount": 1
+														},
+														{
+															"Type": "StatusEffect",
+															"Status": "Stun",
+															"Duration": 0.6
+														}
+													]
+												},
+												{
+													"Type": "Effect",
+													"SpriteFile": "Explosion.json",
+													"Scale": 0.4
+												}
+											]
+										}
+									]
+								}	
+							]
+						}	
+					]
+				}
+			]
+		}			
+    ]
+}

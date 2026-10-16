@@ -1,0 +1,57 @@
+{	
+    "Type":             "BombShooterProximityCheck",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+	"RequiresTargetToFire":	false,
+    "Tasks"	:
+    [
+		{
+			"Type": "Projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"HasFixedAngle": true,
+			
+			"CollisionType": "Once",
+			"HasLimitedDuration" : true, 
+			"LimitedDuration" : 0.0334,
+			
+			"Radius": 20,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0.0,
+				"CutOffDistance": 1,
+				"Direction": [1, 0]
+			},
+			"TasksToProcessOnCollision": [0],
+			"TasksToProcessOnTerminate": [1],
+			"Tasks":
+			[
+				{
+					"Type" : "TowerModifier",
+					"Range": 1,
+					"PriorityLevel": 7,
+					"TerminateOnUserUpgrade" : false,
+					"ReplacesPriorityLevel" : true,
+					"ApplyToUserTower": true,
+					"Duration": 3,
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"TowerType": [ "TackTower" ]
+						}
+					},
+					"Modifier" : 
+					{
+						"ActiveWeapon": [ [2, true], [4, true], [ 6, false ] ]
+					} 
+				}	
+			]
+		}			
+    ]
+}
