@@ -9,7 +9,7 @@
          "Colour" : 4294967295,
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1, 1 ],
+         "Scale" : [ 0.8, 0.8 ],
          "Shown" : false,
          "sprite" : "dart_monkey_dart",
          "type" : 1,
