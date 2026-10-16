@@ -6,13 +6,15 @@
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
+	"DrawWeaponsOnTop" : true,
     "DefaultWeapons" : [
         "templeWind1.weapon", // Slot 0 is reserved for Health/Bloon interaction. NEVER swap this out on any tower.
 		"templeWind2.weapon",
 		"templeSharp1.weapon",
 		"TonicModifier.weapon",
 		"templeSharp2.weapon",
-		"TowerStatusFrozen.weapon"
+		"TowerStatusFrozen.weapon",
+		"CannonAltFire.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,
@@ -49,14 +51,14 @@
             "Blade Maelstrom"
         ]
     ],
-	"UpgradeGateway" :
+	"UpgradeGateway" :	
 	[
-		[ { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 } ],
 		[ { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 }, { "Rank" : 999, "XP" : 9999999 } ]
 	],
     "UpgradePrices" : 
     [
-        [ 999, 300, 500, 2500 ],
+        [ 0, 300, 500, 2500 ],
         [ 999, 225, 680, 2700 ]
     ],
     "UpgradeAvatars" : 

@@ -1,0 +1,41 @@
+{	
+    "Type":             "CannonAltFire",    
+    "TargetRange":      175.0,
+	"CooldownTime":     0.28,
+    "FireDelayTime":    0.05,
+	"DefaultSprite" : "Cannon_Monkey_Turret.json",
+	"RequiresTargetToFire"	: true,
+    "TargetsIndependently": true,
+	"RotatesToTarget" : true,
+	"SelfTargetMode": "Arc",
+    "TargetingArc" : 2.0943987763061,
+    "Tasks"	:
+    [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "dart_cannon.json",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Radius": 3,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 300.0,
+				"CutOffDistance": 175
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1
+				}
+			]
+		}		
+    ]
+}
