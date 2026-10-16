@@ -26,7 +26,7 @@
          "type" : 1,
          "uid" : 4
       },
-	  {
+      {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
@@ -45,7 +45,7 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -25.0 ],
+         "Position" : [ 0.0, -34.5 ],
          "Scale" : [ 0.8, 0.9 ],
          "Shown" : false,
          "sprite" : "bomb_tower_muzzle_smoke_01",
@@ -58,7 +58,7 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -25.0 ],
+         "Position" : [ 0.0, -34.5 ],
          "Scale" : [ 0.8, 0.9 ],
          "Shown" : false,
          "sprite" : "bomb_tower_muzzle_smoke_02",
@@ -71,7 +71,7 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -25.0 ],
+         "Position" : [ 0.0, -34.5 ],
          "Scale" : [ 0.8, 0.9 ],
          "Shown" : false,
          "sprite" : "bomb_tower_muzzle_smoke_03",
@@ -84,7 +84,7 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -25.0 ],
+         "Position" : [ 0.0, -34.5 ],
          "Scale" : [ 0.8, 0.9 ],
          "Shown" : false,
          "sprite" : "bomb_tower_muzzle_smoke_04",
@@ -92,8 +92,8 @@
          "uid" : 14
       }
    ],
-    "customvariables" : [
-     ],
+   "customvariables" : [
+   ],
    "events" : null,
    "labels" : null,
    "stageOptions" : {
@@ -237,7 +237,7 @@
             }
          ]
       },
-	  {
+      {
          "spriteuid" : 6,
          "stage" : [
             {
@@ -284,7 +284,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -295,7 +295,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -306,7 +306,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : true,
                "Time" : 0.2051282078027725
@@ -317,7 +317,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.2564102709293366
@@ -333,7 +333,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -344,7 +344,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -355,7 +355,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : true,
                "Time" : 0.2564102709293366
@@ -366,7 +366,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.2993197143077850
@@ -382,7 +382,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -393,7 +393,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -404,7 +404,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : true,
                "Time" : 0.2993197143077850
@@ -415,7 +415,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.3537414968013763
@@ -431,7 +431,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -442,7 +442,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : false,
                "Time" : 0.0
@@ -453,7 +453,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -33.0 ],
+               "Position" : [ 0.0, -34.5 ],
                "Scale" : [ 0.8, 0.9 ],
                "Shown" : true,
                "Time" : 0.3537414968013763
