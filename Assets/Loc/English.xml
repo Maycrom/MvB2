@@ -1222,7 +1222,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_UPGRADE_B3_SuperMonkey" l="0">Robo Monkey</T>
 	<T id="LOC_UPGRADE_B4_SuperMonkey" l="0">Technological Terror</T>
 
-	<T id="LOC_UPGRADE_A1_TackTower" l="0">Faster Shooting</T>
+	<T id="LOC_UPGRADE_A1_TackTower" l="0">War Machine</T>
 	<T id="LOC_UPGRADE_A2_TackTower" l="0">Even Faster Shooting</T>
 	<T id="LOC_UPGRADE_A3_TackTower" l="0">Tack Sprayer</T>
 	<T id="LOC_UPGRADE_A4_TackTower" l="0">Ring Of Fire</T>
@@ -1413,7 +1413,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_SuperMonkey_UPGRADE_DESC_B3" l="0">Half Super Monkey, half killer robot of death.</T>
 	<T id="LOC_SuperMonkey_UPGRADE_DESC_B4" l="0">Ability: destroys all bloons within short radius of tower - completely and utterly.</T>
 
-	<T id="LOC_TackTower_UPGRADE_DESC_A1" l="0">Shoots tacks faster.</T>
+	<T id="LOC_TackTower_UPGRADE_DESC_A1" l="0">Transforms the Cannon into a powerful bloon popping tank. Adds a fast firing, short ranged dart gun that shoots at bloons infront of it in a °120 cone.</T>
 	<T id="LOC_TackTower_UPGRADE_DESC_A2" l="0">Shoots tacks even faster!</T>
 	<T id="LOC_TackTower_UPGRADE_DESC_A3" l="0">Sprays out 16 tacks per volley instead of the usual 8.</T>
 	<T id="LOC_TackTower_UPGRADE_DESC_A4" l="0">Shoots a deadly ring of flame instead of tacks.</T>
