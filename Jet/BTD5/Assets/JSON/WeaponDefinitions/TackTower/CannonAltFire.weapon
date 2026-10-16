@@ -1,6 +1,6 @@
 {	
     "Type":             "CannonAltFire",    
-    "TargetRange":      175.0,
+    "TargetRange":      135.0,
 	"CooldownTime":     0.28,
     "FireDelayTime":    0.05,
 	"DefaultSprite" : "Cannon_Monkey_Turret.json",
@@ -25,7 +25,7 @@
 			{
 				"Type": "Forward",
 				"Speed": 300.0,
-				"CutOffDistance": 175
+				"CutOffDistance": 135
 			},
 			
 			"Tasks":

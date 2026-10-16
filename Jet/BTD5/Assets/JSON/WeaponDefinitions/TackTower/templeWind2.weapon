@@ -27,7 +27,7 @@
 			"Modifier" : 
 			{
 				"BaseDisplay": "nothing.json",
-				"Cost": [ 0, 25 ]
+				"Cost": [ 0, 150 ]
 			}
 		}
     ]

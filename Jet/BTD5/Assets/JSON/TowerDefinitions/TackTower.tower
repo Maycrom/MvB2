@@ -13,8 +13,7 @@
 		"templeSharp1.weapon",
 		"TonicModifier.weapon",
 		"templeSharp2.weapon",
-		"TowerStatusFrozen.weapon",
-		"CannonAltFire.weapon"
+		"TowerStatusFrozen.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,
@@ -79,7 +78,7 @@
     
     "UpgradeIcons" : [
         [
-            "placeholder",
+            "war_machine",
             "tack_shooter_even_faster_firing_icon",
             "tack_shooter_sprayer_icon",
             "tack_shooter_rof_icon"

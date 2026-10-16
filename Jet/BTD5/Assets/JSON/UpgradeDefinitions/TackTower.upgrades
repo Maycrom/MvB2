@@ -2,7 +2,32 @@
     "Upgrades":
     [
         {
-            "Name" : "Faster Shooting"
+            "Name" : "Faster Shooting",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"6" : "CannonAltFire.weapon"
+                }
+            },
+			"WeaponUpgrades" :
+            [	
+				{
+					"SlotIndices": [ 2 ],
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0,0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"SpriteFile" : "BombProjectile_Cannon.json"
+						}
+					]
+				}
+            ]
         },
         
         {
