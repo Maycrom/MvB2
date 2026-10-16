@@ -136,7 +136,65 @@
 		{
 			"Hint" : "Round 1",
 			"Waves" : [
-				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 0, "Count" : 3 }
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 30, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 58, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 72, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 88, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 105, "Duration" : 1, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 105, "Duration" : 0, "Count" : 1 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 120, "Duration" : 1.5, "Count" : 4 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 130, "Duration" : 1.5, "Count" : 5 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 143, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 143, "Duration" : 1, "Count" : 1 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 150, "Duration" : 1, "Count" : 1 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 164, "Duration" : 1, "Count" : 8 },
+				
+				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 180, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 180, "Duration" : 2.5, "Count" : 10 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 180, "Duration" : 2.5, "Count" : 3 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 190, "Duration" : 0, "Count" : 4 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 206, "Duration" : 1.25, "Count" : 6 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 206, "Duration" : 1.25, "Count" : 2 },
+				
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 220, "Duration" : 1.5, "Count" : 1 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 220, "Duration" : 1.5, "Count" : 1 },
+				
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 233, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 233, "Duration" : 1, "Count" : 3 },
+				
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 250, "Duration" : 1.25, "Count" : 6 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 261, "Duration" : 2, "Count" : 12 },
+				
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 275, "Duration" : 1.5, "Count" : 3 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 290, "Duration" : 0.5, "Count" : 5 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 290, "Duration" : 1, "Count" : 3 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 290, "Duration" : 2, "Count" : 1 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 300, "Duration" : 1.5, "Count" : 14 },
+				
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 312, "Duration" : 1.75, "Count" : 3 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 312, "Duration" : 2, "Count" : 4 },
+				
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 328, "Duration" : 3, "Count" : 15 }
+				
+				{ "Bloon" : "BlueFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 2, "Count" : 7 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 2, "Count" : 6 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 2.8, "Count" : 4 }
 			]
 		},
 		
