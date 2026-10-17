@@ -19,6 +19,7 @@
 	"TowerBlock",
 	"Debug",
 	"DwarfController",
+	"CashController",
 	
 	// Extra Stuff
 	"BananaClicker",

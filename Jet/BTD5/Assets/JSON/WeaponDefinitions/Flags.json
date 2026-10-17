@@ -76,6 +76,12 @@
 	"BloonButton",
 	"BloonDisplay",
 	"TowerBlock",
+	"CashController_Counter1",
+	"CashController_Counter2",
+	"CashController_Counter3",
+	"CashController_Counter4",
+	"CashController_Tracker",
+	"CashController_Manager",
 	
 	// Bloon Abilities
 	"BA_PinkDash",
