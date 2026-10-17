@@ -1,0 +1,47 @@
+{	
+    "Type":             "GS_2-1",    
+    "TargetRange":      0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.01,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    "Tasks" :
+    [
+		{
+			// Location 39 1 1 *0-7              *Toggles the pop effect, enable on whichever slot has a bloon in it
+			// Location 40 *3-10 **0-1 ***0-19 	 *Represent each slot, 3 being slot 1
+			// 						 	 		 **This is kind of a weird one, due to a technical limitation the bloon sprites need to be split into 2 seperate tasks
+			//						       		   these are basically just 2 pages with different bloons on them, that's it.
+			// Page 1                            ***Which bloon to show
+			// 0 = Red Bloon  1 = Blue Bloon  2 = Green Bloon  3 = Yellow Bloon  4 = Pink Bloon
+			// 5 = Red Cluster 6 = Blue Cluster 7 = Green Cluster 8 = Yellow Cluster 9 = Pink Cluster
+			// Page 2
+			// - 
+			"Type" : "TowerModifier",
+			"Range" : 100,
+			"PriorityLevel" : 3,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+			"Modifier" : 
+			{
+				"EnabledSubtasks" :
+				[
+					// Pop effect
+					[ 1, [ 39,1,1,0 ], true ],
+					[ 1, [ 39,1,1,1 ], true ],
+					[ 1, [ 39,1,1,2 ], true ],
+					
+					// Pop effect RS
+					[ 1, [ 40,11,0,0 ], true ],
+					[ 1, [ 40,11,0,1 ], true ],
+					[ 1, [ 40,11,0,2 ], true ],
+					
+					// Bloon display
+					[ 1, [ 40,3,0,0 ], true ],
+					[ 1, [ 40,4,0,1 ], true ],
+					[ 1, [ 40,5,0,2 ], true ]
+				]
+			}
+		}			
+	]
+}

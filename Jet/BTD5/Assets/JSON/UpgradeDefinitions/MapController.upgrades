@@ -96,6 +96,78 @@
                 }
             }
         },
+		
+		{
+            "Name" : "1-A",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-B",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-C",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-D",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "1-E",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "",
+					"1" : ""
+                }
+            }
+        },
+		
+		{
+            "Name" : "2-1",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "RS_2-1.weapon",
+					"1" : "GS_2-1.weapon"
+                }
+            }
+        },
         
         {
             "Name" : "9-inch nails",

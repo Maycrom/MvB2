@@ -8,7 +8,7 @@
 			{ 
 				"Type": "GameController", 
 				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 7, 0 ] 
+				"Upgrades": [ 14, 0 ] 
 			},
 			{ 
 				// Needs to be spawned here, ability doesn't show up otherwise
@@ -189,7 +189,7 @@
 				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 312, "Duration" : 1.75, "Count" : 3 },
 				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 312, "Duration" : 2, "Count" : 4 },
 				
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 328, "Duration" : 3, "Count" : 15 }
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 328, "Duration" : 3, "Count" : 15 },
 				
 				{ "Bloon" : "BlueFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 0.5, "Count" : 1 },
 				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 340, "Duration" : 2, "Count" : 7 },

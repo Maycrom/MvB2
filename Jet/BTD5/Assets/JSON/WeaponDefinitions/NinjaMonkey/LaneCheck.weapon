@@ -1,6 +1,6 @@
 {	
     "Type":             "LaneCheck",    
-    "TargetRange":      110.0,
+    "TargetRange":      150.0,
 	"CooldownTime":     3.0,
     "FireDelayTime":    1.025,
 	"RequiresTargetToFire":	false,
@@ -14,7 +14,7 @@
 			"NumPersists":      60,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-			"Radius": 65,
+			"Radius": 90,
 			"HasLimitedDuration" : true,
 			"LimitedDuration" : 0.03,
 			"Movement":
@@ -33,13 +33,13 @@
 				},
 				{
 					"Type" : "StatusEffect",
-					"Status" : "",
+					"Status" : "Stun",
 					"NumPersists" : -1,
-					"Duration" : 1
+					"Duration" : 0.33
 				}
 			]
 		},
-		{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 1 },
+		{	"Type": "Effect", "SpriteFile": "constructor_collect.json", "Scale": 1.25 },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ] },		
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ] },		
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ] },		
