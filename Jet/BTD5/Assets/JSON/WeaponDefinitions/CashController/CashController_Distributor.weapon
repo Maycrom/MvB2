@@ -1,0 +1,93 @@
+{	
+    "Type":             "CashController_Distributor",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"DisabledTasks": [1,2,3,4,5,6,7,8,9],
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            9999,
+    "RemainingAmmo":        15,
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 1, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 2, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 3, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 4, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 5, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 6, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 7, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 8, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 9, "Amount" : 1	}
+			]
+		},
+		{
+			"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 1,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 9 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 10, "Amount" : 1	}
+			]
+		}	
+    ]
+}

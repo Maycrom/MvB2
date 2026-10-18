@@ -1,0 +1,502 @@
+{	
+    "Type":             "CashController_Stack8",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            1,
+    "RemainingAmmo":        0,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+	// Counts in steps of 5
+    "Tasks"	:
+    [
+		{
+			"Type": "Effect","Position": [ 280, 50 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 53 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 56 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 2 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 59 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 62 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 5 ], "ToDisable": [ 4 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 65 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 6 ], "ToDisable": [ 5 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 68 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 71 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 74 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 77 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 80 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 83 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 86 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 89 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 92 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 95 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 15 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 98 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 16 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 101 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 104 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 19 ], "ToDisable": [ 18 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 107 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 20 ], "ToDisable": [ 19 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 110 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 21 ], "ToDisable": [ 20 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 113 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 22 ], "ToDisable": [ 21 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 116 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 23 ], "ToDisable": [ 22 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 119 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 24 ], "ToDisable": [ 23 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 122 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 25 ], "ToDisable": [ 24 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 125 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 26 ], "ToDisable": [ 25 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 128 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 27 ], "ToDisable": [ 26 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 131 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 28 ], "ToDisable": [ 27 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 134 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 29 ], "ToDisable": [ 28 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 137 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 30 ], "ToDisable": [ 29 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 140 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 31 ], "ToDisable": [ 30 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 143 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 32 ], "ToDisable": [ 31 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 146 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 33 ], "ToDisable": [ 32 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 149 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 34 ], "ToDisable": [ 33 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 152 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 35 ], "ToDisable": [ 34 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 155 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 36 ], "ToDisable": [ 35 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 158 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 37 ], "ToDisable": [ 36 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 161 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 38 ], "ToDisable": [ 37 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 164 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 39 ], "ToDisable": [ 38 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 167 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 40 ], "ToDisable": [ 39 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 170 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 41 ], "ToDisable": [ 40 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 173 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 42 ], "ToDisable": [ 41 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 176 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 43 ], "ToDisable": [ 42 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 179 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 44 ], "ToDisable": [ 43 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 182 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 45 ], "ToDisable": [ 44 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 185 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 46 ], "ToDisable": [ 45 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 188 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 47 ], "ToDisable": [ 46 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 191 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 48 ], "ToDisable": [ 47 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 194 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 49 ], "ToDisable": [ 48 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 197 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 50 ], "ToDisable": [ 49 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 200 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 51 ], "ToDisable": [ 50 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 203 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 52 ], "ToDisable": [ 51 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 206 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 53 ], "ToDisable": [ 52 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 209 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 54 ], "ToDisable": [ 53 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 212 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 55 ], "ToDisable": [ 54 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 215 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 56 ], "ToDisable": [ 55 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 218 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 57 ], "ToDisable": [ 56 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 221 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 58 ], "ToDisable": [ 57 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 224 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 59 ], "ToDisable": [ 58 ]	}
+			]
+		},
+		{
+			"Type": "Effect","Position": [ 280, 227 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{ "Type" : "CreateTower", "TowerType" : "CashDummy", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 99999999, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false},
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 59 ]	}
+			]
+		}
+    ]
+}
