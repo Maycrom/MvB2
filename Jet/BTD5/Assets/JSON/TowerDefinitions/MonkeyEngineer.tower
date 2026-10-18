@@ -6,15 +6,10 @@
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
-        "SpawnTurret.weapon",
-        "NailGun.weapon",
-		"BloonTrap.weapon",
-		"",
-		"",
-		"SpawnTurretTier4.weapon"
+        "SpawnTurret.weapon"
     ],
 	"ActiveWeaponSlots": [
-		false,
+		true,
         true,
 		true,
 		true,
@@ -25,7 +20,7 @@
     "PlacementH" : 0.0,
     "PlacementRadius" : 10.0,
     "PlacementW" : 0.0,
-    "RankToUnlock" : 999,
+    "RankToUnlock" : 0,
     "RotatesToTarget" : true,
     "TargetIsWeaponOrigin" : false,
     "TargetingMode" : "First",

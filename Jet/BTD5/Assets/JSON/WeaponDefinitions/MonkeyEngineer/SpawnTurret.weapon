@@ -1,21 +1,20 @@
 {	
     "Type":             "SpawnTurret",    
     "TargetRange":      1.0,
-	"CooldownTime":     10.0,
+	"CooldownTime":     0.0,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
 
     "StartsOnCooldown" : true,
-
+	"MaxShots": 1000,
     "Tasks" :
     [
 		{
 			"Type": "RandomFire",
-			"Range": 130,
-            "MinimumRange" : 20,
+			"Range": 50,
 			"FireFullRange": false,
-			"OnlyTargetPlacementLocations": true,
-			"PlacementTowerType" : "MonkeyEngineerSentry",
+			"OnlyTargetPlacementLocations": false,
+			"PlacementTowerType" : "CashDummy",
             "TargetIsWeaponTaskOrigin" : true,
             
             "Tasks" :
@@ -32,23 +31,11 @@
                     [
                         {
                             "Type" : "CreateTower",
-                            "TowerType" : "MonkeyEngineerSentry",
+                            "TowerType" : "CashDummy",
                             "TowerColour" : [ 255, 255, 255, 255 ],
-                            "TowerLifetime" : 25,
+                            "TowerLifetime" : 9999,
                             "HasParentTower" : true,
-                            "UseParentTowerUpgradeLevel": true,
-                            
-                            "Tasks" :
-                            [
-                                {
-                                    "Type" : "Effect",
-                                    "SpriteFile": "engineer_sentry_destruct.json",
-                                    "Scale": 1.0,
-                                    "DrawLayer" : "UnderTowers",
-                                    "LoopForever" : false,
-                                    "Duration" : 0.4
-                                }
-                            ]
+                            "UseParentTowerUpgradeLevel": true
                         }
                     ]
                 }

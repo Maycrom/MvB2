@@ -1,14 +1,15 @@
 {	
     "Type":             "CashController_Manager",    
     "TargetRange":      0.0,
-	"CooldownTime":     0,
+	"CooldownTime":     0.5,
     "FireDelayTime":    0,
-	"DisabledTasks": [0,1],
+	"DisabledTasks": [1],
 	"RequiresTargetToFire":	false,
 
     "Tasks"	:
     [
 		{
+			// Process increase
 			"Type": "MultiFire",
 			"InitialOffset": 0.0,
 			"AngleIncrement": 0.0,
@@ -16,71 +17,20 @@
 			"Tasks":
 			[
 				{
-					"Type": "TowerModifier",
-					"Range": 20,
-					"PriorityLevel": 5,
-					"ReplacesPriorityLevel": true,
-					"TerminateOnUserUpgrade": false,
-					"ApplyToUserTower": true,
-					"TargetIsWeaponTaskOrigin": true,
-					"CanApplyToUserTower": true,
-					"Duration": 5,
-					"TargetingFilter":
-					{
-						"Include" :
-						{
-							"TowerType": [ "DartMonkey" ]
-						}
-					},
-					"Modifier":
-					{
-						"EnabledSubtasks" :
-						[
-							[ 2, [ 0 ], false ],
-							[ 2, [ 1 ], false ],
-							[ 2, [ 2 ], true ],
-							[ 2, [ 3 ], true ]
-						],
-						"Cooldown": [ 0.33, 0 ]
-					}
+					"Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ]
 				}
 			]
 		},
 		{
+			// Process decrease
 			"Type": "MultiFire",
 			"InitialOffset": 0.0,
 			"AngleIncrement": 0.0,
-			"FireCount": 0,
+			"FireCount": 1,
 			"Tasks":
 			[
 				{
-					"Type": "TowerModifier",
-					"Range": 20,
-					"PriorityLevel": 5,
-					"ReplacesPriorityLevel": true,
-					"TerminateOnUserUpgrade": false,
-					"ApplyToUserTower": true,
-					"TargetIsWeaponTaskOrigin": true,
-					"CanApplyToUserTower": true,
-					"Duration": 5,
-					"TargetingFilter":
-					{
-						"Include" :
-						{
-							"TowerType": [ "DartMonkey" ]
-						}
-					},
-					"Modifier":
-					{
-						"EnabledSubtasks" :
-						[
-							[ 2, [ 0 ], false ],
-							[ 2, [ 1 ], false ],
-							[ 2, [ 2 ], true ],
-							[ 2, [ 3 ], true ]
-						],
-						"Cooldown": [ 0.55, 0 ]
-					}
+					"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 1 ]
 				}
 			]
 		}	
