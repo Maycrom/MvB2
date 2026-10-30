@@ -4,7 +4,7 @@
 	"CooldownTime":     0,
     "FireDelayTime":    0,
 	"RequiresTargetToFire":	false,
-	"TotalAmmo":            1,
+	"TotalAmmo":            999,
     "RemainingAmmo":        0,
 	"DisabledTasks": 
 	[

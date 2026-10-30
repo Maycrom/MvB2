@@ -1,0 +1,126 @@
+{	
+    "Type":             "CashController_Cycle",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.33,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"StartsOnCooldown": true,
+	"DisabledTasks": 
+	[
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+		11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+		21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+		31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+		41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+		51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	],
+	// Only do one action at once to prevent this whole thing from stumbling over itself and desyncing
+    "Tasks"	:
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ]	},
+				{
+					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
+					"Duration": 0.33, "NumPersists": 1,
+					"Modifier":{ "ActiveWeapon" : [ [ 1, true ], [ 2, true ], [ 3, true ], [ 4, true ], [ 5, true ], [ 6, true ], [ 7, true ], [ 8, true ], [ 9, true ], [ 10, true ] ] }
+				},
+				{
+					"Type": "Effect","Position": [ 100, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "Inc Cycle",
+							"Font": "oetztype_20_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 1,
+								"CutOffDistance": 0.33
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ]	},
+				{
+					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
+					"Duration": 0.33, "NumPersists": 1,
+					"Modifier":{ "ActiveWeapon" : [ [ 12, true ] ] }
+				},
+				{
+					"Type": "Effect","Position": [ 100, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "Dec Cycle",
+							"Font": "oetztype_20_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 1,
+								"CutOffDistance": 0.33
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 2 ]	},
+				{
+					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
+					"Duration": 0.33, "NumPersists": 1,
+					"Modifier":{ "ActiveWeapon" : [ [ 13, true ] ] }
+				},
+				{
+					"Type": "Effect","Position": [ 100, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "Counting Cycle",
+							"Font": "oetztype_20_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 1,
+								"CutOffDistance": 0.33
+							}
+						}
+					]
+				}
+			]
+		}
+    ]
+}

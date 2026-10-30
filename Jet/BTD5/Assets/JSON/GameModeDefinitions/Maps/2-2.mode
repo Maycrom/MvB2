@@ -3,11 +3,12 @@
 		"RoundFiles" : [
 			"Maps/2-1.mode"
 		],
+		"Money" : 1.0,
 		"Towers":
 		[
 			{ 
 				"Type": "CashController", 
-				"Position": [ 120, 160 ], 
+				"Position": [ 50000000, 50000000 ], 
 				"Upgrades": [ 0, 0 ] 
 			}
 		]

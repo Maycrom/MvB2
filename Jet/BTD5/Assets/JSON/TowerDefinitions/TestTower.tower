@@ -1,8 +1,8 @@
 {
     "TypeName"				: "TestTower",
     "Icon"					: "supermonkey_avatar_small",
-    "BaseCost"				: 3500,
-    "RankToUnlock"			: 999,
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
     "DefaultWeapons"	    : [
 		"SuperMonkey.weapon",
 		"",

@@ -1,6 +1,6 @@
 {
     "AircraftList" : [ ],
-    "BaseCost" : 0,
+    "BaseCost" : 100,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,

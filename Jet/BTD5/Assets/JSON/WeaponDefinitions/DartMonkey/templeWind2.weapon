@@ -29,6 +29,19 @@
 				"BaseDisplay": "nothing.json",
 				"Cost": [ 0, 100 ]
 			}
+		},
+		{
+			"Type": "Effect","Position": [ 50000000, 50000000 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 4,
+					"Tasks":
+					[
+						{ "Type" : "CreateTower", "TowerType" : "MonkeyEngineerSentry", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 0.2, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false}
+					]
+				}	
+			]
 		}
     ]
 }

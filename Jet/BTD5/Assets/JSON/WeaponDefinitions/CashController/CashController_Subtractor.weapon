@@ -1,0 +1,34 @@
+{	
+    "Type":             "CashController_Subtractor",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"TotalAmmo":            999,
+    "RemainingAmmo":        0,
+    "Tasks"	:
+    [
+		{
+			"Type": "Effect","Position": [ 240, 60 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{
+					"Type": "TowerModifier", "Range": 250, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
+					"Duration": 0.01, "NumPersists": 5,
+					"TargetingFilter": {
+						"Exclude" : {
+							"TowerType": [ 
+								"TestTower"
+							]
+						}
+					},
+					"Modifier":{},
+					"Tasks":
+					[
+						{ "Type" : "CreateTower", "TowerType" : "TestTower", "TowerColour" : [ 255, 255, 255, 255 ], "TowerLifetime" : 0.1, "HasParentTower" : false, "UseParentTowerUpgradeLevel": false}
+					]	
+				}
+			]
+		}
+    ]
+}

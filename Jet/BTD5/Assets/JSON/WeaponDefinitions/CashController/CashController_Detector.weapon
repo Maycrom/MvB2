@@ -1,0 +1,83 @@
+{	
+    "Type":             "CashController_Detector",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+	"MaxShots": 1,
+    "Tasks"	:
+    [
+		{
+			"Type": "TowerModifier", "Area": [200,200], "PriorityLevel": 20, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false,
+			"Duration": 999999999,
+			"TargetingFilter": {
+				"Exclude" : {
+					"TowerType": [ 
+						"MonkeyEngineerSentry"
+					]
+				}
+			},
+			"Modifier":{},
+			"Tasks":
+			[
+				{ "Type" : "RestoreAmmo", "SlotIndex" : 0, "Amount" : 1	},
+				{
+					"Type": "Effect","Position": [ 240, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "Inc",
+							"Font": "oetztype_20_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 10,
+								"CutOffDistance": 40
+							}
+						}
+					]
+				}	
+			]
+		},
+		{
+			"Type": "TowerModifier", "Area": [200,200], "PriorityLevel": 21, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false,
+			"Duration": 9999999999,
+			"TargetingFilter": {
+				"Include" : {
+					"TowerType": [ 
+						"MonkeyEngineerSentry"
+					]
+				}
+			},
+			"Modifier":{},
+			"Tasks":
+			[
+				{ "Type" : "RestoreAmmo", "SlotIndex" : 12, "Amount" : 1	},
+				{
+					"Type": "Effect","Position": [ 240, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "Dec",
+							"Font": "oetztype_20_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 10,
+								"CutOffDistance": 40
+							}
+						}
+					]
+				}	
+			]
+		}
+    ]
+}

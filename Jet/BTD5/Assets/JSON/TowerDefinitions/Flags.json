@@ -21,6 +21,7 @@
 	"DwarfController",
 	"CashController",
 	"CashDummy",
+	"CashDummy2",
 	
 	// Extra Stuff
 	"BananaClicker",

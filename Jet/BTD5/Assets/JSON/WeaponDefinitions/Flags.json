@@ -87,6 +87,15 @@
 	"CashController_Stack9",
 	"CashController_Stack10",
 	"CashController_Distributor",
+	"CashController_Detector",
+	"CashController_Subtractor",
+	"CashController_Counter",
+	"CashController_Processor1",
+	"CashController_Processor2",
+	"CashController_Processor3",
+	"CashController_Processor4",
+	"CashController_Manager",
+	"CashController_Cycle",
 	
 	// Bloon Abilities
 	"BA_PinkDash",
