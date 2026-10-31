@@ -1,0 +1,1240 @@
+{	
+    "Type":             "CashController_Display",    
+    "TargetRange":      0.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"DisabledTasks": [0], // Show insufficient money by default
+	// Required slots are turned on via TowerSlots
+	// The 2nd set of tasks are enabled depending on the cash amount provided by Manager
+	// The 3rd set is also enabled in TowerSlots on a tower by tower basis
+    "Tasks"	:
+    [
+		{
+			// We got dolla
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"DisabledTasks": [0,1,2,3,4,5,6,7,8],
+			"Tasks":
+			[
+				{	
+					// leftmost slots -> rightmost
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 117, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 147, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 177, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 207, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 237, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 267, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 297, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 327, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1.0, 1.0, 1.0 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				}
+			]
+		},
+		{
+			// We broke :(
+			"Type": "MultiFire",
+			"InitialOffset": 0.0,
+			"AngleIncrement": 0.0,
+			"FireCount": 1,
+			"AimAtTarget" : false,
+			"DisabledTasks": [0,1,2,3,4,5,6,7,8],
+			"Tasks":
+			[
+				{	
+					// leftmost slots -> rightmost
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 117, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 147, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 177, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 207, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 237, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 267, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 297, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				},
+				{	
+					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 327, 90 ], "Scale": 0, "Duration": 0.00001,
+					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$0", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$25", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$50", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$75", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$100", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$125", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$150", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$175", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$200", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$225", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$250", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$275", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$300", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$325", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$350", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$375", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						},
+						{
+							"Type": "MultiFire", "DisabledTasks": [0], "InitialOffset": 0.0, "AngleIncrement": 0.0, "FireCount": 1, "AimAtTarget" : false, "Tasks":
+							["Type": "TextEffect", "Text": "$400", "Font": "oetztype_20_black_stroke", "Colour": [ 1, 210, 210 ], "Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 0.001,"CutOffDistance": 0.0001}]
+						}
+					]
+				}
+			]
+		}	
+    ]
+}

@@ -20,7 +20,13 @@
 		"CashController_Detector.weapon",
 		"CashController_Subtractor.weapon",
 		"CashController_Counter.weapon",
-		"CashController_Cycle.weapon"
+		"CashController_Cycle.weapon",
+		"CashController_Processor1.weapon",
+		"CashController_Processor2.weapon",
+		"CashController_Processor3.weapon",
+		"CashController_Processor4.weapon",
+		"CashController_Manager.weapon",
+		"CashController_Display.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,
@@ -36,7 +42,7 @@
 		false,
 		true,
 		false,
-		false,
+		true,
 		true
 	],
 	"FiresWeaponsInSequence": false,

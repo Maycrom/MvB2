@@ -96,6 +96,7 @@
 	"CashController_Processor4",
 	"CashController_Manager",
 	"CashController_Cycle",
+	"CashController_Display",
 	
 	// Bloon Abilities
 	"BA_PinkDash",

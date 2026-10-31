@@ -40,11 +40,18 @@
 			]
 		},
 		{
+			"Type": "Effect","Position": [ 245, 56 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+			"Tasks":
+			[
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 4 ], "ToDisable": [ 3 ]	}
+			]
+		},
+		{
 			"Type": "Effect","Position": [ 245, 59 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
 			"Tasks":
 			[
-				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 3 ]	},
-				{	"Type" : "RestoreAmmo", "SlotIndex" : 18, "Amount" : 1	}
+				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 4 ]	},
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 19, "Amount" : 1	}
 			]
 		}
     ]
