@@ -5,6 +5,9 @@ This is a massive passion project that I've been working on for the past few mon
 MvB2 attempts to bring Plants Vs Zombies style gameplay to Bloons TD5 with its own little twists.
 Content wise, it is currently still a little bit lacking but there are a few maps and towers to mess around with. There are a lot of hardcoded things in this game that I cannot change, some of these don't really work with the mod. I've tried my best to mark broken/incompatible content.
 
+# Requires
+- https://github.com/Maycrom/NKHook5
+
 # Downloads
 - **GameBanana**- https://gamebanana.com/mods/681668
 - **NexusMods** - https://www.nexusmods.com/bloonstd5/mods/36
