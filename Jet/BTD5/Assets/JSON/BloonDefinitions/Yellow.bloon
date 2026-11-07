@@ -24,7 +24,7 @@
 		[ "yellow_bloon4.json", 1 ],
 		[ "yellow_bloon5.json", 0 ]
 	],
-	"BaseSpeed" : 22,
+	"BaseSpeed" : 17.25,
 	"SpeedMultiplier" : 1,
 	"RBE" : 4,
     "ChildBloons" : [ "Green.bloon" ],
