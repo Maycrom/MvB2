@@ -1,7 +1,7 @@
 {	
     "Type":             "CashController_Cycle",    
     "TargetRange":      0.0,
-	"CooldownTime":     0.33,
+	"CooldownTime":     0.12,
     "FireDelayTime":    0,
 	"RequiresTargetToFire":	false,
 	"StartsOnCooldown": true,
@@ -30,7 +30,7 @@
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 1 ], "ToDisable": [ 0 ]	},
 				{
 					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.33, "NumPersists": 1,
+					"Duration": 0.12, "NumPersists": 1,
 					"Modifier":{ "ActiveWeapon" : [ [ 12, true ] ] }
 				},
 				{
@@ -65,7 +65,7 @@
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 2 ], "ToDisable": [ 1 ]	},
 				{
 					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 2, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.33, "NumPersists": 1,
+					"Duration": 0.12, "NumPersists": 1,
 					"Modifier":{ "ActiveWeapon" : [ [ 1, true ], [ 2, true ], [ 3, true ], [ 4, true ], [ 5, true ], [ 6, true ], [ 7, true ], [ 8, true ], [ 9, true ], [ 10, true ] ] }
 				},
 				{
@@ -98,8 +98,8 @@
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 0 ], "ToDisable": [ 2 ]	},
-				{	"Type" : "RestoreAmmo", "SlotIndex" : 13, "Amount" : 17	},
-				{  "Type" : "TimerFire", "TimeDelay" : 0.66, "InitialTime" : 0,
+				{	"Type" : "RestoreAmmo", "SlotIndex" : 13, "Amount" : 1	},
+				{  "Type" : "TimerFire", "TimeDelay" : 0.25, "InitialTime" : 0,
 					"Tasks" : 
 					[
 						{

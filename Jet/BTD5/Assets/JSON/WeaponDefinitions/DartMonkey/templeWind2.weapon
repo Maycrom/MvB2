@@ -5,6 +5,7 @@
     "FireDelayTime":    0.0,
 	"RequiresTargetToFire":	false,
 	"MaxShots": 1,
+	"DisabledTasks": [1],
     "Tasks"	:
     [
 		{

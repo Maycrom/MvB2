@@ -8,7 +8,6 @@
 		{ "Icon" : "sniper_icon", "FactoryName" : "SniperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "" },
 		{ "Icon" : "mortar_icon", "FactoryName" : "MortarTower", "ObjectType" : 0, "KeyboardShortcut" : "b" },
 	    { "Icon" : "spike_factory_icon", "FactoryName" : "SpikeFactory", "ObjectType" : 0, "KeyboardShortcut" : "m" },
-        { "Icon" : "engineer_icon", "FactoryName" : "MonkeyEngineer", "ObjectType" : 0, "KeyboardShortcut" : "l" },
-        { "Icon" : "engineer_icon", "FactoryName" : "TestTower", "ObjectType" : 0, "KeyboardShortcut" : "" }
+        { "Icon" : "engineer_icon", "FactoryName" : "MonkeyEngineer", "ObjectType" : 0, "KeyboardShortcut" : "l" }
 	]
 }

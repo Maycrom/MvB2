@@ -6,7 +6,6 @@
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
-        "SpawnTurret.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,

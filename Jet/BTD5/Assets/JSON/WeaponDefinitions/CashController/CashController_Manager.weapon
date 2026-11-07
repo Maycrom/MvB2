@@ -36,15 +36,39 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ]
-						]
-					}
-				}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 13,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ],[ 0,-480 ]],
+							"Tasks":
+							[
+								{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 14,
+									"Tasks" : 
+									[
+										{
+											"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 0.1,
+											"TargetingFilter":
+											{
+												"Exclude" :
+												{
+													"TowerType": [ 
+														"BoomerangThrower" 
+													]
+												}
+											},
+											"Modifier":{ 
+												"Display": "insufficient_cash.json"
+											}
+										}
+									]
+								}	
+							]
+						}	
+					]
+				}	
 			]
 		},
 		{
@@ -69,15 +93,39 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ],
-							[ 20, [ 0, 0, 1 ], true ],[ 20, [ 0, 1, 1 ], true ],[ 20, [ 0, 2, 1 ], true ],[ 20, [ 0, 3, 1 ], true ],[ 20, [ 0, 4, 1 ], true ],[ 20, [ 0, 5, 1 ], true ],[ 20, [ 0, 6, 1 ], true ],[ 20, [ 0, 7, 1 ], true ]
-						]
-					}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 14,
+									"Tasks" : 
+									[
+										{
+											"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 0.1,
+											"TargetingFilter":
+											{
+												"Exclude" :
+												{
+													"TowerType": [ 
+														"BoomerangThrower",
+														"NinjaMonkey" 
+													]
+												}
+											},
+											"Modifier":{ 
+												"Display": "insufficient_cash.json"
+											}
+										}
+									]
+								}		
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -103,16 +151,62 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ],
-							[ 20, [ 0, 0, 1 ], true ],[ 20, [ 0, 1, 1 ], true ],[ 20, [ 0, 2, 1 ], true ],[ 20, [ 0, 3, 1 ], true ],[ 20, [ 0, 4, 1 ], true ],[ 20, [ 0, 5, 1 ], true ],[ 20, [ 0, 6, 1 ], true ],[ 20, [ 0, 7, 1 ], true ],
-							[ 20, [ 0, 0, 2 ], true ],[ 20, [ 0, 1, 2 ], true ],[ 20, [ 0, 2, 2 ], true ],[ 20, [ 0, 3, 2 ], true ],[ 20, [ 0, 4, 2 ], true ],[ 20, [ 0, 5, 2 ], true ],[ 20, [ 0, 6, 2 ], true ],[ 20, [ 0, 7, 2 ], true ]
-						]
-					}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{  "Type" : "TimerFire", "TimeDelay" : 0.1, "InitialTime" : 0, "Loops" : true, "NumLoops" : 14,
+									"Tasks" : 
+									[
+										{
+											"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 0.1,
+											"TargetingFilter":
+											{
+												"Exclude" :
+												{
+													"TowerType": [ 
+														"BoomerangThrower",
+														"NinjaMonkey",
+														"Bloonchipper",
+														"MonkeyApprentice",
+														"BananaFarm" 
+													]
+												}
+											},
+											"Modifier":{ 
+												"Display": "insufficient_cash.json"
+											}
+										},
+										{
+											"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 0.1,
+											"TargetingFilter":
+											{
+												"Include" :
+												{
+													"TowerType": [ 
+														"BoomerangThrower",
+														"NinjaMonkey",
+														"Bloonchipper",
+														"MonkeyApprentice",
+														"BananaFarm" 
+													]
+												}
+											},
+											"Modifier":{ 
+												"Display": ""
+											}
+										}
+									]
+								}	
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -138,17 +232,44 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ],
-							[ 20, [ 0, 0, 1 ], true ],[ 20, [ 0, 1, 1 ], true ],[ 20, [ 0, 2, 1 ], true ],[ 20, [ 0, 3, 1 ], true ],[ 20, [ 0, 4, 1 ], true ],[ 20, [ 0, 5, 1 ], true ],[ 20, [ 0, 6, 1 ], true ],[ 20, [ 0, 7, 1 ], true ],
-							[ 20, [ 0, 0, 2 ], true ],[ 20, [ 0, 1, 2 ], true ],[ 20, [ 0, 2, 2 ], true ],[ 20, [ 0, 3, 2 ], true ],[ 20, [ 0, 4, 2 ], true ],[ 20, [ 0, 5, 2 ], true ],[ 20, [ 0, 6, 2 ], true ],[ 20, [ 0, 7, 2 ], true ],
-							[ 20, [ 0, 0, 3 ], true ],[ 20, [ 0, 1, 3 ], true ],[ 20, [ 0, 2, 3 ], true ],[ 20, [ 0, 3, 3 ], true ],[ 20, [ 0, 4, 3 ], true ],[ 20, [ 0, 5, 3 ], true ],[ 20, [ 0, 6, 3 ], true ],[ 20, [ 0, 7, 3 ], true ]
-						]
-					}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{  "Type" : "TimerFire", "TimeDelay" : 0.0, "InitialTime" : 0, "Loops" : true, "NumLoops" : 14,
+									"Tasks" : 
+									[
+										{
+											"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+											"Duration": 0.1,
+											"TargetingFilter":
+											{
+												"Exclude" :
+												{
+													"TowerType": [ 
+														"BoomerangThrower",
+														"NinjaMonkey",
+														"Bloonchipper",
+														"MonkeyApprentice",
+														"BananaFarm",
+														"BombTower",
+														"GlueGunner"
+													]
+												}
+											},
+											"Modifier":{ 
+												"Display": "insufficient_cash.json"
+											}
+										}
+									]
+								}	
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -174,18 +295,40 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ],
-							[ 20, [ 0, 0, 1 ], true ],[ 20, [ 0, 1, 1 ], true ],[ 20, [ 0, 2, 1 ], true ],[ 20, [ 0, 3, 1 ], true ],[ 20, [ 0, 4, 1 ], true ],[ 20, [ 0, 5, 1 ], true ],[ 20, [ 0, 6, 1 ], true ],[ 20, [ 0, 7, 1 ], true ],
-							[ 20, [ 0, 0, 2 ], true ],[ 20, [ 0, 1, 2 ], true ],[ 20, [ 0, 2, 2 ], true ],[ 20, [ 0, 3, 2 ], true ],[ 20, [ 0, 4, 2 ], true ],[ 20, [ 0, 5, 2 ], true ],[ 20, [ 0, 6, 2 ], true ],[ 20, [ 0, 7, 2 ], true ],
-							[ 20, [ 0, 0, 3 ], true ],[ 20, [ 0, 1, 3 ], true ],[ 20, [ 0, 2, 3 ], true ],[ 20, [ 0, 3, 3 ], true ],[ 20, [ 0, 4, 3 ], true ],[ 20, [ 0, 5, 3 ], true ],[ 20, [ 0, 6, 3 ], true ],[ 20, [ 0, 7, 3 ], true ],
-							[ 20, [ 0, 0, 4 ], true ],[ 20, [ 0, 1, 4 ], true ],[ 20, [ 0, 2, 4 ], true ],[ 20, [ 0, 3, 4 ], true ],[ 20, [ 0, 4, 4 ], true ],[ 20, [ 0, 5, 4 ], true ],[ 20, [ 0, 6, 4 ], true ],[ 20, [ 0, 7, 4 ], true ]
-						]
-					}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -211,19 +354,40 @@
 					]
 				},
 				{
-					"Type": "TowerModifier", "Range": 1, "PriorityLevel": 5, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": true, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": false,
-					"Duration": 0.6, "NumPersists": 1,
-					"Modifier":{ 
-						"EnabledSubtasks":
-						[
-							[ 20, [ 0, 0, 0 ], true ],[ 20, [ 0, 1, 0 ], true ],[ 20, [ 0, 2, 0 ], true ],[ 20, [ 0, 3, 0 ], true ],[ 20, [ 0, 4, 0 ], true ],[ 20, [ 0, 5, 0 ], true ],[ 20, [ 0, 6, 0 ], true ],[ 20, [ 0, 7, 0 ], true ],
-							[ 20, [ 0, 0, 1 ], true ],[ 20, [ 0, 1, 1 ], true ],[ 20, [ 0, 2, 1 ], true ],[ 20, [ 0, 3, 1 ], true ],[ 20, [ 0, 4, 1 ], true ],[ 20, [ 0, 5, 1 ], true ],[ 20, [ 0, 6, 1 ], true ],[ 20, [ 0, 7, 1 ], true ],
-							[ 20, [ 0, 0, 2 ], true ],[ 20, [ 0, 1, 2 ], true ],[ 20, [ 0, 2, 2 ], true ],[ 20, [ 0, 3, 2 ], true ],[ 20, [ 0, 4, 2 ], true ],[ 20, [ 0, 5, 2 ], true ],[ 20, [ 0, 6, 2 ], true ],[ 20, [ 0, 7, 2 ], true ],
-							[ 20, [ 0, 0, 3 ], true ],[ 20, [ 0, 1, 3 ], true ],[ 20, [ 0, 2, 3 ], true ],[ 20, [ 0, 3, 3 ], true ],[ 20, [ 0, 4, 3 ], true ],[ 20, [ 0, 5, 3 ], true ],[ 20, [ 0, 6, 3 ], true ],[ 20, [ 0, 7, 3 ], true ],
-							[ 20, [ 0, 0, 4 ], true ],[ 20, [ 0, 1, 4 ], true ],[ 20, [ 0, 2, 4 ], true ],[ 20, [ 0, 3, 4 ], true ],[ 20, [ 0, 4, 4 ], true ],[ 20, [ 0, 5, 4 ], true ],[ 20, [ 0, 6, 4 ], true ],[ 20, [ 0, 7, 4 ], true ],
-							[ 20, [ 0, 0, 5 ], true ],[ 20, [ 0, 1, 5 ], true ],[ 20, [ 0, 2, 5 ], true ],[ 20, [ 0, 3, 5 ], true ],[ 20, [ 0, 4, 5 ], true ],[ 20, [ 0, 5, 5 ], true ],[ 20, [ 0, 6, 5 ], true ],[ 20, [ 0, 7, 5 ], true ]
-						]
-					}
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -233,7 +397,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 7 ], "ToDisable": [ 6 ]	},
@@ -247,6 +411,42 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -256,7 +456,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ]	},
@@ -270,6 +470,42 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -279,7 +515,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ]	},
@@ -293,6 +529,43 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -302,7 +575,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ]	},
@@ -316,6 +589,43 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -325,7 +635,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ]	},
@@ -339,6 +649,44 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -348,7 +696,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ]	},
@@ -362,6 +710,44 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -371,7 +757,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ]	},
@@ -385,6 +771,45 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower",
+												"IceTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -394,7 +819,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ]	},
@@ -408,6 +833,45 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower",
+												"IceTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -417,7 +881,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{	"Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ]	},
@@ -431,6 +895,45 @@
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
 					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower",
+												"IceTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
@@ -440,7 +943,7 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [1],
+			"DisabledTasks": [1,2],
 			"Tasks":
 			[
 				{
@@ -452,6 +955,45 @@
 							"Text": "$375",
 							"Movement": {"Type": "Forward","Direction": [0, -1],"Speed": 1,"CutOffDistance": 1}
 						}
+					]
+				},
+				{
+					"Type": "Effect","Position": [ 0, 160 ],"SpriteFile": "speech_bubble.json","Scale": 0,"Duration": 0.01,
+					"Tasks":
+					[
+						{
+							"Type": "MultiFire","InitialOffset": 0.0,"AngleIncrement": 0.0,"FireCount": 12,"AimAtTarget" : false,
+							"Offsets" : [[ 0,0 ],[ 0,-40 ],[ 0,-80 ],[ 0,-120 ],[ 0,-160 ],[ 0,-200 ],[ 0,-240 ],[ 0,-280 ],[ 0,-320 ],[ 0,-360 ],[ 0,-400 ],[ 0,-440 ]],
+							"Tasks":
+							[
+								{
+									"Type": "TowerModifier", "Area": [40,320], "PriorityLevel": 10, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+									"Duration": 0.1,
+									"TargetingFilter":
+									{
+										"Exclude" :
+										{
+											"TowerType": [ 
+												"BoomerangThrower",
+												"NinjaMonkey",
+												"Bloonchipper",
+												"MonkeyApprentice",
+												"BananaFarm",
+												"BombTower",
+												"GlueGunner",
+												"DartMonkey",
+												"DartlingGun",
+												"TackTower",
+												"IceTower"
+											]
+										}
+									},
+									"Modifier":{ 
+										"Display": "insufficient_cash.json"
+									}
+								}
+							]
+						}	
 					]
 				}
 			]

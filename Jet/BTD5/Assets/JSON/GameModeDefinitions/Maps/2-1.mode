@@ -11,6 +11,11 @@
 				"Upgrades": [ 14, 0 ] 
 			},
 			{ 
+				"Type": "CashController", 
+				"Position": [ 50000000, 50000000 ], 
+				"Upgrades": [ 0, 0 ] 
+			},
+			{ 
 				// Needs to be spawned here, ability doesn't show up otherwise
 				"Type": "TonicController", 
 				"Position": [ 0, 4000 ], 
@@ -64,51 +69,6 @@
 			},
 			{ 
 				"Type": "MonkeyBuccaneer", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "MonkeyEngineer", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "MonkeySub", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "MonkeyVillage", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "MortarTower", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "NinjaMonkey", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "SniperMonkey", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "SpikeFactory", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "SuperMonkey", 
-				"Position": [ 240, -1000 ], 
-				"Upgrades": [ 0, 4 ] 
-			},
-			{ 
-				"Type": "TackTower", 
 				"Position": [ 240, -1000 ], 
 				"Upgrades": [ 0, 4 ] 
 			}

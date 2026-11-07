@@ -17,7 +17,6 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [0,1,2,3,4,5,6,7,8],
 			"Tasks":
 			[
 				{	
@@ -630,13 +629,11 @@
 			"AngleIncrement": 0.0,
 			"FireCount": 1,
 			"AimAtTarget" : false,
-			"DisabledTasks": [0,1,2,3,4,5,6,7,8],
 			"Tasks":
 			[
 				{	
 					// leftmost slots -> rightmost
 					"Type": "Effect", "SpriteFile": "dart.json", "Position": [ 117, 90 ], "Scale": 0, "Duration": 0.00001,
-					"DisabledTasks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],
 					"Tasks":
 					[
 						{

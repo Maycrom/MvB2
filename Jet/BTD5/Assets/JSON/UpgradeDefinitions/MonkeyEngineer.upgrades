@@ -2,23 +2,7 @@
     "Upgrades":
     [
         {
-            "Name" : "Sentry Gun",
-			"WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 1 ],
-					"Replace" : {
-						"CooldownTime" : 0
-					}
-				},
-				{
-					"SlotIndices" : [ 1 ],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [2,0],
-						"CooldownTime" : 1
-					}
-				}
-
-			]
+            "Name" : "Sentry Gun"
         },
         
         {

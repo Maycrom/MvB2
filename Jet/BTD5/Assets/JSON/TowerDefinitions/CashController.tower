@@ -25,8 +25,7 @@
 		"CashController_Processor2.weapon",
 		"CashController_Processor3.weapon",
 		"CashController_Processor4.weapon",
-		"CashController_Manager.weapon",
-		"CashController_Display.weapon"
+		"CashController_Manager.weapon"
     ],
 	"ActiveWeaponSlots": [
 		true,

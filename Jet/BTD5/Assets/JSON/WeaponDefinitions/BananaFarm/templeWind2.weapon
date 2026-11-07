@@ -29,6 +29,28 @@
 				"BaseDisplay": "nothing.json",
 				"Cost": [ 0, 125 ]
 			}
+		},
+		{
+			"Type" : "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 10,
+			"TerminateOnUserUpgrade" : false,
+			"ReplacesPriorityLevel" : true,
+			"ApplyToUserTower": true,
+			"Duration": 0.1,
+			
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "BananaFarm" ]
+				}
+			},
+			
+			"Modifier" : 
+			{
+				"Display": ""
+			}
 		}
     ]
 }

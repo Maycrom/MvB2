@@ -126,7 +126,7 @@
 										"KeepOnScreen": true,
 										"SpeedDecay": 0.875
 									},
-									
+									"DisabledTasks": [1],
 									"Tasks":
 									[
 										{

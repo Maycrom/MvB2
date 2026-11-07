@@ -30,9 +30,7 @@
     "TypeName" : "GameController",
     "Upgrades" : [
         [
-            "1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "1-7", "1-8", "1-A", "1-B", "1-C", "1-D", "1-E",
-			"2-1", "2-2", "2-3", "2-4", "2-5", "2-6", "2-7", "2-8", "2-A", "2-B", "2-C", "2-D", "2-E",
-			"3-1", "3-2", "3-3", "3-4", "3-5", "3-6", "3-7", "3-8", "3-A", "3-B", "3-C", "3-D", "3-E"
+            "1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "1-7", "1-8", "1-A", "1-B", "1-C", "1-D", "1-E", "2-1"
         ],
         [
             "9-inch nails",
@@ -43,7 +41,7 @@
     ],
 	"UpgradeGateway" :
 	[
-		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
 		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
 	],
     "UpgradePrices" : 
@@ -56,6 +54,16 @@
             "engineer_sentry_icon",
             "engineer_fast_engineering_icon",
             "engineer_foam_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
+            "engineer_trap_icon",
             "engineer_trap_icon"
         ],
         [
@@ -67,6 +75,16 @@
     ],
     "UpgradeAvatars" : [
         [
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
+            "monkey_engineer_sentry_avatar_red_small",
             "monkey_engineer_sentry_avatar_red_small",
             "monkey_engineer_sentry_avatar_red_small",
             "monkey_engineer_sentry_avatar_red_small",
