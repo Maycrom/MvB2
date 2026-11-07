@@ -31,7 +31,7 @@
 			[
 				{
 					"Type" : "RestoreAmmo",
-					"SlotIndex" : 4,
+					"SlotIndex" : 5,
 					"Amount" : 1
 				},
 				{
