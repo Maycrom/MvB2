@@ -16,7 +16,7 @@
 		[ "red_bloon12.json", 1 ],
 		[ "red_bloon1.json", 0 ]
 	],
-	"BaseSpeed" : 16,
+	"BaseSpeed" : 15,
 	"SpeedMultiplier" : 1,
 	"RBE" : 1,
     "ChildBloons" : [],
