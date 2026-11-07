@@ -1,7 +1,7 @@
 {	
     "Type":             "templeSharp2",    
     "TargetRange":      1000.0,
-	"CooldownTime":     2.5,
+	"CooldownTime":     2.75,
     "FireDelayTime":    0.0,
 	"RequiresTargetToFire":	false,
   

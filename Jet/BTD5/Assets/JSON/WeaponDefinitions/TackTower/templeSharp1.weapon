@@ -1,7 +1,7 @@
 {	
     "Type":             "templeSharp1",    
     "TargetRange":      1000.0,
-	"CooldownTime":     2.3,
+	"CooldownTime":     2.55,
     "FireDelayTime":    0.20,
 	"TotalAmmo":            1,
     "RemainingAmmo":        0,
