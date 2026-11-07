@@ -26,7 +26,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 1000.0,
-						"CutOffDistance": 57.5,
+						"CutOffDistance": 50,
 						"Direction": [1, 0]
 					},
 					
