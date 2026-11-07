@@ -384,67 +384,67 @@
 							[
 								{
 									"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-									"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+									"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 									"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_1.json" }
 								},
 								{
-									"Type" : "TimerFire", "TimeDelay" : 1.75,
+									"Type" : "TimerFire", "TimeDelay" : 4.285,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_2.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 3.5,
+									"Type" : "TimerFire", "TimeDelay" : 8.57,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_3.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 5.25,
+									"Type" : "TimerFire", "TimeDelay" : 12.855,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_4.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 7,
+									"Type" : "TimerFire", "TimeDelay" : 17.14,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_5.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 8.75,
+									"Type" : "TimerFire", "TimeDelay" : 21.425,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.8, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_6.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 10.5,
+									"Type" : "TimerFire", "TimeDelay" : 25.71,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 1.45, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
+										"Duration": 4.285, "TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] }},
 										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_7.json" }
 									}]
 								}
 							]
 						},	
 						{
-							"Type" : "TimerFire", "TimeDelay" : 12,
+							"Type" : "TimerFire", "TimeDelay" : 30,
 							"Tasks" :
 							[
 								{

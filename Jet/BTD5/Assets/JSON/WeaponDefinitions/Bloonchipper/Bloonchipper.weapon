@@ -1,7 +1,7 @@
 {	
     "Type":             	"Bloonchipper",    
-    "TargetRange":      	120,
-	"CooldownTime":     	0.75,
+    "TargetRange":      	125,
+	"CooldownTime":     	1.683,
     "FireDelayTime":    	0.15,
 	
     "Tasks" :
@@ -25,7 +25,7 @@
 				{ 
 					"Type": "Damage",
 					"DamageType": "Piercing",
-					"Amount": 1 
+					"Amount": 2 
 				}
 			]
 		}

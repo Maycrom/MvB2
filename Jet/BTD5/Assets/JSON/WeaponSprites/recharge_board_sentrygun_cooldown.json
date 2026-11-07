@@ -20,7 +20,7 @@
          "Position" : [ 0.0, 36.0 ],
          "Scale" : [ 0.16, 0.18 ],
          "Shown" : true,
-         "sprite" : "recharge_bar_12s.json",
+         "sprite" : "recharge_bar_30s.json",
          "type" : 2,
          "uid" : 2
       }
@@ -52,7 +52,7 @@
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 12
+      "StageLength" : 30
    },
    "timelines" : [
       {
