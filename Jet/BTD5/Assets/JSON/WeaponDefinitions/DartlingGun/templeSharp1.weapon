@@ -1,7 +1,7 @@
 {	
     "Type":             "templeSharp1",    
     "TargetRange":      1000.0,
-	"CooldownTime":     4.63,
+	"CooldownTime":     4.18,
     "FireDelayTime":    0.47,
     "TotalAmmo":            1,
     "RemainingAmmo":        0,
@@ -50,7 +50,7 @@
 								{
 									"Type":             "Projectile",
 									"SpriteFile":      "glaive.json",
-									"NumPersists":      4,
+									"NumPersists":      2,
 									"TerminateOnZeroPersists": true,
 									"CollisionType": "Once",
 									
