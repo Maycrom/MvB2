@@ -41,12 +41,12 @@
 						{
 							"Type": "Damage",
 							"DamageType": "Piercing",
-							"Amount": 5
+							"Amount": 6
 						},
 						{
 							"Type": "StatusEffect",
 							"Status": "Slow",
-							"SpeedScale" : -10,
+							"SpeedScale" : -11,
 							"Duration": 0.3,
 							"NumPersists" : -1
 						},
@@ -85,12 +85,12 @@
 						{
 							"Type": "Damage",
 							"DamageType": "Piercing",
-							"Amount": 5
+							"Amount": 6
 						},
 						{
 							"Type": "StatusEffect",
 							"Status": "Slow",
-							"SpeedScale" : -10,
+							"SpeedScale" : -11,
 							"Duration": 0.3,
 							"NumPersists" : -1
 						},
