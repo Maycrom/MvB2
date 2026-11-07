@@ -20,7 +20,7 @@
 		[ "blue_bloon_cluster11.json", 1 ],
 		[ "blue_bloon_cluster12.json", 0 ]
 	],
-	"BaseSpeed" : 18,
+	"BaseSpeed" : 15.75,
 	"SpeedMultiplier" : 1,
 	"RBE" : 1,
     "ChildBloons" : ["Blue.bloon","Blue.bloon","Blue.bloon"],
