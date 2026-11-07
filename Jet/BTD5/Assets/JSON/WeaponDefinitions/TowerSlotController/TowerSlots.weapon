@@ -1623,7 +1623,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -2902,7 +2902,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -4181,7 +4181,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -5460,7 +5460,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -6739,7 +6739,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -8018,7 +8018,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -9297,7 +9297,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	
@@ -10576,7 +10576,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-									"Modifier" :  { "Cost": [ 0, 25 ] }
+									"Modifier" :  { "Cost": [ 0, 0 ] }
 								}
 							]
 						}	

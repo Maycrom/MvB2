@@ -4386,7 +4386,7 @@ Have fun and stayed tuned for more awesome content coming your way soon!
 	<T id="LOC_TOWER_DESC_OSX_MonkeySub" l="0">Submarine tower that shoots homing darts. Has many powerful upgrades including the ability to submerge and become a support tower.</T>
 	<T id="LOC_TOWER_DESC_OSX_MonkeyVillage" l="0">Reduces cost of all towers and upgrades in radius by 10%.</T>
 	<T id="LOC_TOWER_DESC_OSX_MortarTower" l="0">Launches explosive mortar shells to a single targeted spot.</T>
-	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">±\n³³³³25²³³³³³³³³³³³30s²³³³600³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³µ0µ\n\nCollects matter from nearby bloons and turns it into bananas. Banana value varies depending on the amount of matter collected.</T>
+	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">±\n³³³³0²³³³³³³³³³³³30s²³³³600³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³µ0µ\n\nCollects matter from nearby bloons and turns it into bananas. Banana value varies depending on the amount of matter collected.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwi" l="0">The Ninja Kiwi kicks so fast bloons are sent flying back.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwiPro" l="0">Pro Upgrade - Even quicker kicks that can pop lead too.</T>
 	<T id="LOC_TOWER_DESC_OSX_Pontoon" l="0">Place almost any land tower on water with the Pontoon! Deploy the pontoon on water, then place your land tower on top.</T>
