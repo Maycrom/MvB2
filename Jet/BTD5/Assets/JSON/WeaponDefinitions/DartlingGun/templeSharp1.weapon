@@ -124,7 +124,7 @@
 							[
 								{
 									"Type":             "Projectile",
-									"SpriteFile":      "glaive_red.json",
+									"SpriteFile":      "glaive.json",
 									"NumPersists":      8,
 									"TerminateOnZeroPersists": true,
 									"CollisionType": "Once",

@@ -1014,7 +1014,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -2293,7 +2293,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -3572,7 +3572,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -4851,7 +4851,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -6130,7 +6130,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -7409,7 +7409,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -8688,7 +8688,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	
@@ -9967,7 +9967,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] } },
-									"Modifier" :  { "Cost": [ 0, 200 ] }
+									"Modifier" :  { "Cost": [ 0, 175 ] }
 								}
 							]
 						}	

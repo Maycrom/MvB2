@@ -750,7 +750,7 @@
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
 										"Duration": 0.9, "TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] }},
-										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_2.json" }
+										"Modifier":{ "Cost": [ 1000, 0 ],"BaseDisplay": "tower_recharge_overlay_2.json" }
 									}]
 								},	
 								{
@@ -786,7 +786,7 @@
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
 										"Duration": 0.9, "TargetingFilter": { "Include" : { "TowerType": [ "DartlingGun" ] }},
-										"Modifier":{ "Cost": [ 1000, 0 ], "BaseDisplay": "tower_recharge_overlay_6.json" }
+										"Modifier":{ "Cost": [ 1000, 0 ],"BaseDisplay": "tower_recharge_overlay_6.json" }
 									}]
 								},	
 								{
