@@ -1,7 +1,7 @@
 {	
     "Type":             "MainAttack",    
     "TargetRange":      0.0,
-	"CooldownTime":     0.4,
+	"CooldownTime":     0.487,
     "FireDelayTime":    0.47,
 	"RequiresTargetToFire"	: false,
 	"TotalAmmo":            1,
@@ -29,7 +29,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 1000.0,
-						"CutOffDistance": 50,
+						"CutOffDistance": 57.5,
 						"Direction": [1, 0]
 					},
 					
@@ -64,7 +64,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 1000.0,
-						"CutOffDistance": 50,
+						"CutOffDistance": 57.5,
 						"Direction": [1, 0]
 					},
 					
