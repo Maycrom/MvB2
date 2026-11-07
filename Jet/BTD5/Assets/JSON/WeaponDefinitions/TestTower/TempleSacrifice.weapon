@@ -1,6 +1,6 @@
 {	
     "Type":             "TempleSacrifice",    
-    "TargetRange":      2.5,
+    "TargetRange":      30,
 	"CooldownTime":     0.0,
     "FireDelayTime":    0.0,
     "RequiresTargetToFire":	false,
