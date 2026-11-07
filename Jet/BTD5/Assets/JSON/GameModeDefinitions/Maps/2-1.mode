@@ -11,11 +11,6 @@
 				"Upgrades": [ 14, 0 ] 
 			},
 			{ 
-				"Type": "CashController", 
-				"Position": [ 50000000, 50000000 ], 
-				"Upgrades": [ 0, 0 ] 
-			},
-			{ 
 				// Needs to be spawned here, ability doesn't show up otherwise
 				"Type": "TonicController", 
 				"Position": [ 0, 4000 ], 
