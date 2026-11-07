@@ -180,7 +180,7 @@
             {
                 "Weapons" :
                 {
-                    "2": "RS_SpawnFallingBananasController.weapon", // "RS_SpawnFallingBananasController.weapon"
+                    "2": "", // "RS_SpawnFallingBananasController.weapon"
 					"3": "RS_SpawnCooldownController.weapon", 		// "RS_SpawnCooldownController.weapon"
 					"4": "GS_SpawnMMDropController.weapon", 		// "GS_SpawnMMDropController.weapon"
 					"5": "", 										// "GS_SpawnDialogueTower.weapon"
