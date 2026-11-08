@@ -1,0 +1,31 @@
+{	
+    "Type":             "templeSharp1",    
+    "TargetRange":      0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire":	false,
+	"MaxShots": 1,
+    
+    "Tasks" :
+    [
+		{
+			"Type" : "TowerModifier",
+			"Range" : 1000,
+			"PriorityLevel" : 8,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+			"Duration": 99999999,
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "BananaFarm" ]
+				}
+			},
+			"Modifier" : 
+			{
+				"Cooldown" : [ 1, 3 ]
+			}
+		}
+	]
+}
