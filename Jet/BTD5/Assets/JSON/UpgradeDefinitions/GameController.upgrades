@@ -115,63 +115,23 @@
         },
 		
 		{
-            "Name" : "1-A",
-			"TowerUpgrade" :
-            {
-                "Weapons" :
-                {
-					"0" : "",
-					"1" : ""
-                }
-            }
+            "Name" : "1-A"
         },
 		
 		{
-            "Name" : "1-B",
-			"TowerUpgrade" :
-            {
-                "Weapons" :
-                {
-					"0" : "",
-					"1" : ""
-                }
-            }
+            "Name" : "1-B"
         },
 		
 		{
-            "Name" : "1-C",
-			"TowerUpgrade" :
-            {
-                "Weapons" :
-                {
-					"0" : "",
-					"1" : ""
-                }
-            }
+            "Name" : "1-C"
         },
 		
 		{
-            "Name" : "1-D",
-			"TowerUpgrade" :
-            {
-                "Weapons" :
-                {
-					"0" : "",
-					"1" : ""
-                }
-            }
+            "Name" : "1-D"
         },
 		
 		{
-            "Name" : "1-E",
-			"TowerUpgrade" :
-            {
-                "Weapons" :
-                {
-					"0" : "",
-					"1" : ""
-                }
-            }
+            "Name" : "1-E"
         },
 		
 		{

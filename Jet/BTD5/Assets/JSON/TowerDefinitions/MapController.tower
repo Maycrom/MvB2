@@ -37,7 +37,7 @@
     ],
 	"UpgradeGateway" :
 	[
-		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
 		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
 	],
     "UpgradePrices" : 
