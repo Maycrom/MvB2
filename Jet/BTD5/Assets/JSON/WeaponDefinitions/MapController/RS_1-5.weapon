@@ -293,7 +293,7 @@
 					[
 						{
 							"Type" : "CreateTower",
-							"TowerType" : "Destroy",
+							"TowerType" : "TestTower",
 							"TowerColour" : [ 255, 255, 255, 255 ],
 							"TowerLifetime" : 0.1,
 							"HasParentTower" : false,
