@@ -85,7 +85,7 @@
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 24,
+      "StageLength" : 32,
       "Version" : 1
    },
    "timelines" : [
@@ -113,6 +113,17 @@
                "Scale" : [ 1, 1 ],
                "Shown" : true,
                "Time" : 24.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 6.5, -13.0 ],
+               "Scale" : [ 1.1, 1.1 ],
+               "Shown" : true,
+               "Time" : 32.0
             }
          ]
       },
@@ -140,6 +151,17 @@
                "Scale" : [ 1, 1 ],
                "Shown" : true,
                "Time" : 24.0
+            },
+			{
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 6.5, -13.0 ],
+               "Scale" : [ 1.1, 1.1 ],
+               "Shown" : true,
+               "Time" : 32.0
             }
          ]
       }
