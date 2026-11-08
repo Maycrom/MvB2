@@ -22,7 +22,7 @@
     "TargetIsWeaponOrigin" : false,
     "TargetingMode" : "None",
     "TargetsManually" : false,
-    "TypeName" : "FarmDebuffTest",
+    "TypeName" : "FarmDebuff",
     "Upgrades" : [
         [
             "Sentry Gun",
