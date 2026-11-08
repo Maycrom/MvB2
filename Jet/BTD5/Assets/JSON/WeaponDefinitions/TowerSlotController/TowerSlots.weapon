@@ -819,7 +819,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -2098,7 +2098,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -3377,7 +3377,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -4656,7 +4656,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -5935,7 +5935,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -7214,7 +7214,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -8493,7 +8493,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
@@ -9772,7 +9772,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "Bloonchipper" ] } },
-									"Modifier" :  { "Cost": [ 0, 50 ] }
+									"Modifier" :  { "Cost": [ 0, 25 ] }
 								}
 							]
 						}	
