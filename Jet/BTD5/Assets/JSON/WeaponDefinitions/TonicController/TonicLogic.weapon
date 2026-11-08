@@ -1,7 +1,7 @@
 {	
     "Type":             "TonicLogic",    
     "TargetRange":      100.0,
-	"CooldownTime":     3,
+	"CooldownTime":     4,
     "FireDelayTime":    0.0,
  	"TargetsIndependently": true,
 	"SelfTargetMode": "None",
