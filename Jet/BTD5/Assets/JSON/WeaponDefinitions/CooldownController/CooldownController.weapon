@@ -1232,34 +1232,16 @@
 							[
 								{
 									"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-									"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+									"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
 									"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_1.json" }
 								},
-								{
-									"Type" : "TimerFire", "TimeDelay" : 4.285,
-									"Tasks" :
-									[{
-										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
-										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_2.json" }
-									}]
-								},	
 								{
 									"Type" : "TimerFire", "TimeDelay" : 8.57,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
-										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_3.json" }
-									}]
-								},	
-								{
-									"Type" : "TimerFire", "TimeDelay" : 12.855,
-									"Tasks" :
-									[{
-										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
-										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_4.json" }
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_2.json" }
 									}]
 								},	
 								{
@@ -1267,37 +1249,55 @@
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_3.json" }
+									}]
+								},	
+								{
+									"Type" : "TimerFire", "TimeDelay" : 25.71,
+									"Tasks" :
+									[{
+										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_4.json" }
+									}]
+								},	
+								{
+									"Type" : "TimerFire", "TimeDelay" : 34.28,
+									"Tasks" :
+									[{
+										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
 										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_5.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 21.425,
+									"Type" : "TimerFire", "TimeDelay" : 42.85,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
 										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_6.json" }
 									}]
 								},	
 								{
-									"Type" : "TimerFire", "TimeDelay" : 25.51,
+									"Type" : "TimerFire", "TimeDelay" : 51.42,
 									"Tasks" :
 									[{
 										"Type": "TowerModifier", "Range": 2500, "PriorityLevel": 3, "ReplacesPriorityLevel": true, "TerminateOnUserUpgrade": false, "ApplyToUserTower": false, "TargetIsWeaponTaskOrigin": true, "ModifyMovingTowers": true,
-										"Duration": 4.3, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
+										"Duration": 8.57, "TargetingFilter": { "Include" : { "TowerType": [ "NinjaMonkey" ] }},
 										"Modifier":{ "Cost": [ 1000, 9999999 ], "BaseDisplay": "tower_recharge_overlay_7.json" }
 									}]
 								}
 							]
-						},	
+						},		
 						{
-							"Type" : "TimerFire", "TimeDelay" : 30,
+							"Type" : "TimerFire", "TimeDelay" : 60,
 							"Tasks" :
 							[
 								{
 									"Type": "TowerModifier","Range": 2500,"PriorityLevel": 3,"ReplacesPriorityLevel": true,"TerminateOnUserUpgrade": false,"ApplyToUserTower": false,"TargetIsWeaponTaskOrigin": true,"ModifyMovingTowers": true,"Duration": 0.05,
-									"TargetingFilter":{ "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+									"TargetingFilter":{ "Include" : { "TowerType": [ "NinjaMonkey" ] } },
 									"Modifier":{ "Cost": [ 1, 0 ], "BaseDisplay": "nothing.json" }
 								},
 								{
