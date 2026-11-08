@@ -270,6 +270,7 @@
 					"SpriteFile": "speech_bubble.json",
 					"Scale": 0,
 					"Duration": 0.5,
+					"DisabledTasks": [0],
 					"Tasks":
 					[
 						{
