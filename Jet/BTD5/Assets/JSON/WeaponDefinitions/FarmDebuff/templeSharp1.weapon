@@ -24,8 +24,8 @@
 			},
 			"Modifier" : 
 			{
-				"FireDelay" : [ 1.40, 0 ]
+				"FireDelay" : [ 1.20, 0 ]
 			}
 		}
 	]
-}
+} 

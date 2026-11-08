@@ -53,7 +53,7 @@
 			[
 				{
 					"Type" : "CreateTower",
-					"TowerType" : "FarmDebuffTest",
+					"TowerType" : "FarmDebuff",
 					"TowerColour" : [ 255, 255, 255, 255 ],
 					"TowerLifetime" : 99999999999,
 					"HasParentTower" : false,
