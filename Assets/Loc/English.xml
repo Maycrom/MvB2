@@ -783,7 +783,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_TackTower_TOWER" l="0">Cannon</T>
 	<T id="LOC_SniperMonkey_TOWER" l="0">Sniper Monkey</T>
 	<T id="LOC_BoomerangThrower_TOWER" l="0">Ice Monkey</T>
-	<T id="LOC_NinjaMonkey_TOWER" l="0">Ninja Monkey</T>
+	<T id="LOC_NinjaMonkey_TOWER" l="0">Constructor MK2</T>
 	<T id="LOC_BombTower_TOWER" l="0">Totemic Shield</T>
 	<T id="LOC_IceTower_TOWER" l="0">Fire Wizard</T>
 	<T id="LOC_GlueGunner_TOWER" l="0">Airstrike</T>
@@ -843,7 +843,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
     <T id="LOC_TackTower_TOWER_PLURAL" l="0">Cannons</T>
     <T id="LOC_SniperMonkey_TOWER_PLURAL" l="0">Sniper Monkeys</T>
     <T id="LOC_BoomerangThrower_TOWER_PLURAL" l="0">Arctic Monkeys</T>
-    <T id="LOC_NinjaMonkey_TOWER_PLURAL" l="0">Ninja Monkeys</T>
+    <T id="LOC_NinjaMonkey_TOWER_PLURAL" l="0">Constructors</T>
     <T id="LOC_BombTower_TOWER_PLURAL" l="0">Totemic Shields</T>
     <T id="LOC_IceTower_TOWER_PLURAL" l="0">Fire Wizards</T>
     <T id="LOC_GlueGunner_TOWER_PLURAL" l="0">Airstrikes</T>
