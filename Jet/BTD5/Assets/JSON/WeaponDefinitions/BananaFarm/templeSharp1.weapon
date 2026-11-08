@@ -2,7 +2,7 @@
     "Type":             "templeSharp1",    
     "TargetRange":      9999999,
 	"CooldownTime":     0.0,
-    "FireDelayTime":    23.5,
+    "FireDelayTime":    24.0,
    	"RequiresTargetToFire"	: false,
 	"TargetingFilter":
 	{
