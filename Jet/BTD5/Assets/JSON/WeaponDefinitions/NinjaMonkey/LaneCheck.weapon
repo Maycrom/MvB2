@@ -11,7 +11,7 @@
     [
 		{
 			"Type": "Projectile",
-			"NumPersists":      60,
+			"NumPersists":      15,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
 			"Radius": 90,
@@ -33,7 +33,7 @@
 				},
 				{
 					"Type" : "StatusEffect",
-					"Status" : "Stun",
+					"Status" : "",
 					"NumPersists" : -1,
 					"Duration" : 0.33
 				}
