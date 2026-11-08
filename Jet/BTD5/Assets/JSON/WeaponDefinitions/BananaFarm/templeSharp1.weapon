@@ -4,7 +4,6 @@
 	"CooldownTime":     0.0,
     "FireDelayTime":    24.0,
    	"RequiresTargetToFire"	: false,
-	"StartsOnCooldown": true,
 
     "Tasks" :
     [
