@@ -20,7 +20,7 @@
 					"Tasks" :
 					[
 						{
-							"Type" : "TimerFire", "TimeDelay" : 177.0,
+							"Type" : "TimerFire", "TimeDelay" : 197.0,
 							"Tasks":
 							[
 								{
@@ -59,7 +59,7 @@
 					"Tasks" :
 					[
 						{
-							"Type": "Effect", "SpriteFile": "level_progress_1-8.json", "Position": [ 380, 310 ], "DrawLayer": "FullScreen", "Scale": 1
+							"Type": "Effect", "SpriteFile": "level_progress_2-1.json", "Position": [ 380, 310 ], "DrawLayer": "FullScreen", "Scale": 1
 						},
 						{
 							"Type" : "TimerFire", "TimeDelay" :  30,
