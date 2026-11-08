@@ -134,13 +134,12 @@
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 8 ], "ToDisable": [ 7 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 9 ], "ToDisable": [ 8 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 10 ], "ToDisable": [ 9 ] },
-		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11 ], "ToDisable": [ 10 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
 			"DisabledTasks": [1],
 			"Tasks":
 			[
-				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12,2 ], "ToDisable": [ 11,1 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 11,2 ], "ToDisable": [ 10,1 ] },
 				{ "Type": "TextEffect","Text": "3","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
 				{
 					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
@@ -149,18 +148,17 @@
 			]
 		},
 		
+		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 12 ], "ToDisable": [ 11 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 13 ], "ToDisable": [ 12 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 14 ], "ToDisable": [ 13 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 15 ], "ToDisable": [ 14 ] },
 		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 16 ], "ToDisable": [ 15 ] },
-		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 17 ], "ToDisable": [ 16 ] },
-		{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 18 ], "ToDisable": [ 17 ] },
 		{
 			"Type": "MultiFire","InitialOffset": -0,"AngleIncrement": 0,"FireCount": 1,
 			"DisabledTasks": [1],
 			"Tasks":
 			[
-				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 18,2 ] },
+				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 3 ], "ToDisable": [ 16,2 ] },
 				{ "Type": "TextEffect","Text": "4","Font": "oetztype_24_black_stroke","Colour": [ 1.0, 1.0, 1.0 ],"Movement":{"Type": "Forward","Direction": [0, -1],"Speed": 20,"CutOffDistance": 30}},
 				{
 					"Type" : "TowerModifier","Range": 10,"PriorityLevel": 7,"TerminateOnUserUpgrade" : false,"ReplacesPriorityLevel" : true,"ApplyToUserTower": true,"Duration": 0.03,
