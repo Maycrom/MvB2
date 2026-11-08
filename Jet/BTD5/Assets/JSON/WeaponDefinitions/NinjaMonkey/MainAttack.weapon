@@ -31,7 +31,7 @@
 							"Type":             "Collectable", "MoneyMultiplier": 1.0, "CollectionRadius": 10,
 							"SpriteFile":      "bananas_ground_tiny.json",
 							"Duration":	10,
-							"MoneyRange": [ 10, 10 ],
+							"MoneyRange": [ 15, 15 ],
 							"ClickOnly": true,
 							"AllowMagnetCollection":false,
 							"Movement":
@@ -51,7 +51,7 @@
 							"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
 							"SpriteFile":      "bananas_ground_small.json",
 							"Duration":	10,
-							"MoneyRange": [ 15, 15 ],
+							"MoneyRange": [ 20, 20 ],
 							"ClickOnly": true,
 							"AllowMagnetCollection":false,
 							"Movement":
@@ -71,7 +71,7 @@
 							"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
 							"SpriteFile":      "bananas_ground_medium.json",
 							"Duration":	10,
-							"MoneyRange": [ 20, 20 ],
+							"MoneyRange": [ 25, 25 ],
 							"ClickOnly": true,
 							"AllowMagnetCollection":false,
 							"Movement":
@@ -91,7 +91,7 @@
 							"Type":             "Collectable","MoneyMultiplier": 1.0,"CollectionRadius": 10,
 							"SpriteFile":      "bananas_ground.json",
 							"Duration":	10,
-							"MoneyRange": [ 25, 25 ],
+							"MoneyRange": [ 30, 30 ],
 							"ClickOnly": true,
 							"AllowMagnetCollection":false,
 							"Movement":
