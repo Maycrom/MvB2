@@ -24,7 +24,7 @@
 			},
 			"Modifier" : 
 			{
-				"Cooldown" : [ 1, 89 ]
+				"FireDelay" : [ 1.25, 0 ]
 			}
 		}
 	]
