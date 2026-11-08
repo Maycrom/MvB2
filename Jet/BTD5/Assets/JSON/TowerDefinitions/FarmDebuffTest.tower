@@ -77,5 +77,6 @@
     ],
     "UseRadiusPlacement" : false,
     "SpriteUpgradeDefinition" : "Nope.json",
-	"DontResetAnimation"    : true
+	"DontResetAnimation"    : true,
+	"PlacementFiringSequence" : [ 0 ]
 }

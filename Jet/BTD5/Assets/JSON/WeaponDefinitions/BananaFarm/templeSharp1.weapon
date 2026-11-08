@@ -4,15 +4,8 @@
 	"CooldownTime":     0.0,
     "FireDelayTime":    24.0,
    	"RequiresTargetToFire"	: false,
-	"TargetingFilter":
-	{
-		"Include":
-		{
-			"BloonType": [
-                "ZOMG"
-			]
-		}
-	},
+	"StartsOnCooldown": true,
+
     "Tasks" :
     [
 		{
