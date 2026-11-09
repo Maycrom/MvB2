@@ -1,6 +1,6 @@
 {
 	"Type" : "Blue",
-	"InitialHealth" : 8,
+	"InitialHealth" : 7,
 	"SpriteFilesAtDamageLevels": [
 		[ "blue_bloon1.json", 16 ],
 		[ "blue_bloon2.json", 15 ],
