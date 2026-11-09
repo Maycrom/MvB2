@@ -1,6 +1,6 @@
 {
 	"Type" : "RockBloonPile",
-	"InitialHealth" : 30,
+	"InitialHealth" : 20,
 	"SpriteFilesAtDamageLevels": [
 		[ "rock_pile.json", 30 ],
 		[ "rock_pile1.json", 29 ],
@@ -42,5 +42,5 @@
     "StatusImmunity" : ["Permafrost"],
     "DamageImmunity" : ["Explosive"],
 	"Scale" : 0.4,
-    "Radius" : 10
+    "Radius" : 8
 }
