@@ -30,6 +30,13 @@
 					]
 				},
 				{
+					"SlotIndices" : [ 2,4 ],
+					"Adjust" :
+					{
+						"CooldownTime": -0.29
+					}
+                },
+				{
 					"SlotIndices": [ 3 ],
 					"TaskUpgrade" :
 					[
