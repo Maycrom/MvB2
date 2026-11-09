@@ -1,6 +1,6 @@
 {
 	"Type" : "BlueCluster",
-	"InitialHealth" : 8,
+	"InitialHealth" : 7,
 	"SpriteFilesAtDamageLevels": [
 		[ "blue_bloon_cluster13.json", 16 ],
 		[ "blue_bloon_cluster14.json", 15 ],
