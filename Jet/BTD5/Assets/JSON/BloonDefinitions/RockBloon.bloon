@@ -1,6 +1,6 @@
 {
 	"Type" : "RockBloon",
-	"InitialHealth" : 20,
+	"InitialHealth" : 25,
 	"SpriteFilesAtDamageLevels": [
 		[ "rock_bloon.json", 30 ],
 		[ "rock_bloon1.json", 29 ],

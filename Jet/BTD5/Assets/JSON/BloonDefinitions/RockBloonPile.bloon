@@ -1,6 +1,6 @@
 {
 	"Type" : "RockBloonPile",
-	"InitialHealth" : 20,
+	"InitialHealth" : 25,
 	"SpriteFilesAtDamageLevels": [
 		[ "rock_pile.json", 30 ],
 		[ "rock_pile1.json", 29 ],
