@@ -1,7 +1,7 @@
 {	
     "Type":             "MainAttack",    
     "TargetRange":      0.0,
-	"CooldownTime":     0.63,
+	"CooldownTime":     0.74,
     "FireDelayTime":    0.47,
 	"RequiresTargetToFire"	: false,
 	"TotalAmmo":            1,
