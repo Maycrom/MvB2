@@ -1219,7 +1219,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -2498,7 +2498,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -3777,7 +3777,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -5056,7 +5056,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -6335,7 +6335,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -7614,7 +7614,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -8893,7 +8893,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
@@ -10172,7 +10172,7 @@
 								{
 									"Type" : "TowerModifier", "Area" : [ 1000, 600 ], "PriorityLevel": 2, "TerminateOnUserUpgrade" : false, "TargetIsWeaponTaskOrigin": true, "ReplacesPriorityLevel" : true, "ModifyMovingTowers": true, "Duration": 0.06,
 									"TargetingFilter": { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
-									"Modifier" :  { "Cost": [ 0, 75 ] }
+									"Modifier" :  { "Cost": [ 0, 50 ] }
 								}
 							]
 						},
