@@ -108,21 +108,21 @@
 				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 157, "Duration" : 1, "Count" : 1 },
 				
 				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 172, "Duration" : 1, "Count" : 1 },
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 172, "Duration" : 1, "Count" : 3 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 172, "Duration" : 1, "Count" : 2 },
 				
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 1, "Count" : 2 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 188, "Duration" : 1, "Count" : 3 },
 				
-				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" :  204, "Duration" : 1, "Count" : 1 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" :  204, "Duration" : 1, "Count" : 2 },
 				
 				{ "Bloon" : "RedFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 220, "Duration" : 0.5, "Count" : 1 },
 				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 220, "Duration" : 2.5, "Count" : 3 },
 				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 220, "Duration" : 2.5, "Count" : 7 },
 				
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 237, "Duration" : 1, "Count" : 7 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 237, "Duration" : 1, "Count" : 8 },
 				
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 250, "Duration" : 1.25, "Count" : 8 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 250, "Duration" : 1.25, "Count" : 9 },
 				
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 265, "Duration" : 1.5, "Count" : 1 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 265, "Duration" : 1.5, "Count" : 2 },
 				
 				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 280, "Duration" : 1, "Count" : 5 },
 				
@@ -130,28 +130,28 @@
 				
 				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 303, "Duration" : 2, "Count" : 12 },
 				
-				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 320, "Duration" : 1.5, "Count" : 3 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 320, "Duration" : 1.5, "Count" : 4 },
 				
-				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 330, "Duration" : 0.5, "Count" : 1 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 330, "Duration" : 0.5, "Count" : 2 },
 				
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 342, "Duration" : 1.5, "Count" : 3 },
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 342, "Duration" : 1.5, "Count" : 8 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 342, "Duration" : 1.5, "Count" : 5 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 342, "Duration" : 1.5, "Count" : 11 },
 				
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 360, "Duration" : 1.75, "Count" : 6 },
-				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 360, "Duration" : 2, "Count" : 3 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 360, "Duration" : 1.75, "Count" : 1 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 360, "Duration" : 2, "Count" : 7 },
 				
-				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 376, "Duration" : 3, "Count" : 4 },
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 376, "Duration" : 3, "Count" : 3 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 376, "Duration" : 3, "Count" : 3 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 376, "Duration" : 3, "Count" : 4 },
 				
-				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 2 },
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 2 },
-				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 1 },
+				{ "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 1 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 4 },
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 390, "Duration" : 3, "Count" : 2 },
 				
 				{ "Bloon" : "BlueFlagBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 405, "Duration" : 0.5, "Count" : 1 },
-				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 402, "Duration" : 2, "Count" : 3 },
-				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 408, "Duration" : 3, "Count" : 5 },
-				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 409, "Duration" : 3, "Count" : 4 },
-				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 407, "Duration" : 3, "Count" : 7 }
+				{ "Bloon" : "RockBloon", "IsCamo" : false, "IsRegen" : false, "StartTime" : 402, "Duration" : 1, "Count" : 6 },
+				{ "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 408, "Duration" : 1.5, "Count" : 5 },
+				{ "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 408, "Duration" : 1.5, "Count" : 6 },
+				{ "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 408, "Duration" : 1.5, "Count" : 7 }
 			]
 		},
 		
