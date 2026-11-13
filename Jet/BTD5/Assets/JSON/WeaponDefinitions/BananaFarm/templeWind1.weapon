@@ -55,7 +55,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -461,7 +461,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -874,7 +874,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -1296,7 +1296,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -1727,7 +1727,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -2167,7 +2167,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -2616,7 +2616,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -3073,7 +3073,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",
@@ -3539,7 +3539,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			"DrawLayer": "FullScreen",
 			
 			"CollisionType": "Continual",

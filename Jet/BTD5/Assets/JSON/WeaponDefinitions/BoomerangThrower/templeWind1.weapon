@@ -55,7 +55,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -234,7 +234,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -416,7 +416,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -601,7 +601,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -789,7 +789,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -980,7 +980,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -1175,7 +1175,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -1373,7 +1373,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
@@ -1574,7 +1574,7 @@
 			"TerminateOnZeroPersists": true,
 			"Radius": 7,
 			"TerminateOnTowerRemoved": true,
-			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage" ],
+			"IgnoreStatusEffect" : [ "Permafrost", "Sabotage", "Stun" ],
 			
 			"CollisionType": "Continual",
 			"HasFixedAngle": true,
