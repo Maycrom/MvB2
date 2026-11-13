@@ -30,12 +30,6 @@
 					"Type" : "RestoreAmmo",
 					"SlotIndex" : 6,
 					"Amount" : 1
-				},
-				{
-					"Type" : "StatusEffect",
-					"Status" : "",
-					"NumPersists" : -1,
-					"Duration" : 0.33
 				}
 			]
 		},
@@ -98,6 +92,31 @@
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2,3,4,5,6 ], "ToDisable": [ 99 ] },
 				{ "Type": "ChangeSubtaskEnabled", "ToEnable": [ 0,1,2 ], "ToDisable": [ 3,4,5,6 ] }
 			]
-		}	
+		},
+		{
+			"Type": "Projectile",
+			"NumPersists":      100,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			"Radius": 105,
+			"HasLimitedDuration" : true,
+			"LimitedDuration" : 0.03,
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 0.0,
+				"CutOffDistance": 1
+			},
+			"DisabledTasks": [],
+			"Tasks":
+			[
+				{
+					"Type" : "StatusEffect",
+					"Status" : "Stun",
+					"NumPersists" : -1,
+					"Duration" : 0.15
+				}
+			]
+		}
     ]
 }

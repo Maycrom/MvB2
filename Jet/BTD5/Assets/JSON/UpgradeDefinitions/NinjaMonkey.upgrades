@@ -76,12 +76,12 @@
 					[
 						{
 							"Operation" : "SelectByLocation",
-							"Location" :    [ 0, 1 ]
+							"Location" :    [ 7, 1 ]
 						},
 						
 						{
 							"Operation" : "Replace",
-							"Status" : "Stun"
+							"Duration" : 0.3
 						}
 					]
 				},

@@ -1377,7 +1377,7 @@ Any Monkey Money bundles purchased from the store will also be doubled.</T>
 	<T id="LOC_MortarTower_UPGRADE_DESC_B3" l="0">Camo Bloons popped by flares permanently lose their camo.</T>
 	<T id="LOC_MortarTower_UPGRADE_DESC_B4" l="0">Ability: immobilizes and bombards the entire screen for 5 seconds.</T>
 
-	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A1" l="0">Bloons are stunned for a short period of time, collection radius increased by 25%.</T>
+	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A1" l="0">Stuns for longer and range is increased significantly.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A2" l="0">Shurikens can pop 4 bloons each.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A3" l="0">Throws 2 shurikens at once.</T>
 	<T id="LOC_NinjaMonkey_UPGRADE_DESC_A4" l="0">Throws 5 shurikens at once!</T>
@@ -4386,7 +4386,7 @@ Have fun and stayed tuned for more awesome content coming your way soon!
 	<T id="LOC_TOWER_DESC_OSX_MonkeySub" l="0">Submarine tower that shoots homing darts. Has many powerful upgrades including the ability to submerge and become a support tower.</T>
 	<T id="LOC_TOWER_DESC_OSX_MonkeyVillage" l="0">Reduces cost of all towers and upgrades in radius by 10%.</T>
 	<T id="LOC_TOWER_DESC_OSX_MortarTower" l="0">Launches explosive mortar shells to a single targeted spot.</T>
-	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">±\n³³³³0²³³³³³³³³³³³30s²³³³600³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³µ0µ\n\nCollects matter from nearby bloons and turns it into bananas. Banana value varies depending on the amount of matter collected.</T>
+	<T id="LOC_TOWER_DESC_OSX_NinjaMonkey" l="0">±\n³³³³0²³³³³³³³³³³³60s²³³³600³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³µ0µ\n\nCollects matter from nearby bloons and turns it into bananas. Banana value varies depending on the amount of matter collected. Hit bloons are briefly stunned.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwi" l="0">The Ninja Kiwi kicks so fast bloons are sent flying back.</T>
 	<T id="LOC_TOWER_DESC_OSX_NinjaKiwiPro" l="0">Pro Upgrade - Even quicker kicks that can pop lead too.</T>
 	<T id="LOC_TOWER_DESC_OSX_Pontoon" l="0">Place almost any land tower on water with the Pontoon! Deploy the pontoon on water, then place your land tower on top.</T>
