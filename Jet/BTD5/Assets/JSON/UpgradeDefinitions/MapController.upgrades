@@ -168,6 +168,18 @@
                 }
             }
         },
+		
+		{
+            "Name" : "2-2",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+					"0" : "RS_2-2.weapon",
+					"1" : "GS_2-2.weapon"
+                }
+            }
+        },
         
         {
             "Name" : "9-inch nails",
